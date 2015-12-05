@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="camp_type_src camp_type_dest relation">
+ <cell camp_type_dest="1" camp_type_src="1" relation="4"/>
+ <cell camp_type_dest="2" camp_type_src="1" relation="1"/>
+ <cell camp_type_dest="3" camp_type_src="1" relation="3"/>
+ <cell camp_type_dest="1" camp_type_src="2" relation="1"/>
+ <cell camp_type_dest="1" camp_type_src="3" relation="3"/>
+ <cell camp_type_dest="2" camp_type_src="2" relation="2"/>
+ <cell camp_type_dest="3" camp_type_src="2" relation="3"/>
+ <cell camp_type_dest="2" camp_type_src="3" relation="3"/>
+ <cell camp_type_dest="3" camp_type_src="3" relation="2"/>
+ <cell camp_type_dest="4" camp_type_src="4" relation="2"/>
+ <cell camp_type_dest="5" camp_type_src="4" relation="1"/>
+ <cell camp_type_dest="4" camp_type_src="5" relation="1"/>
+ <cell camp_type_dest="5" camp_type_src="5" relation="2"/>
+ <cell camp_type_dest="6" camp_type_src="6" relation="2"/>
+ <cell camp_type_dest="7" camp_type_src="6" relation="2"/>
+ <cell camp_type_dest="8" camp_type_src="6" relation="1"/>
+ <cell camp_type_dest="9" camp_type_src="6" relation="1"/>
+ <cell camp_type_dest="6" camp_type_src="7" relation="1"/>
+ <cell camp_type_dest="6" camp_type_src="8" relation="1"/>
+ <cell camp_type_dest="6" camp_type_src="9" relation="1"/>
+ <cell camp_type_dest="7" camp_type_src="7" relation="2"/>
+ <cell camp_type_dest="8" camp_type_src="7" relation="1"/>
+ <cell camp_type_dest="9" camp_type_src="7" relation="1"/>
+ <cell camp_type_dest="7" camp_type_src="8" relation="1"/>
+ <cell camp_type_dest="7" camp_type_src="9" relation="1"/>
+ <cell camp_type_dest="8" camp_type_src="8" relation="2"/>
+ <cell camp_type_dest="9" camp_type_src="8" relation="2"/>
+ <cell camp_type_dest="8" camp_type_src="9" relation="2"/>
+ <cell camp_type_dest="9" camp_type_src="9" relation="2"/>
+</data>

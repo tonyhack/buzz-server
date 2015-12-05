@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="string_id name desc">
+ <cell desc="好友%s拜访了您" name="家园拜访" string_id="HOMELAND_VISIT"/>
+ <cell desc="您通过祈福领取了%s，获得%s*%s" name="祈福堂祈福" string_id="CHURCH_PRAY"/>
+ <cell desc="%s为神树浇了一次水，神树浇水进度+1" name="好友帮助浇水" string_id="TREE_ASSIST_WATER"/>
+ <cell desc="%s对神树进行了一次抢收，神树损失%s礼券" name="好友抢收" string_id="TREE_STEAL"/>
+ <cell desc="您派遣了英灵%s对%s进行了支援，军团贡献+%s" name="军团据点支援" string_id="STRONGHOLD_SUPPORT"/>
+ <cell desc="%s派遣了英灵%s对您进行了支援" name="军团据点被支援" string_id="STRONGHOLD_SUPPORTED"/>
+ <cell desc="%s对你进行了一次失败的掠夺" name="攻防战防守成功" string_id="BATTLE_DEFENCE_SUCCESS"/>
+ <cell desc="%s成功掠夺了你，金矿损失金币%s" name="攻防战防守失败" string_id="BATTLE_DEFENCE_FAILED"/>
+ <cell desc="您成功掠夺了%s的家园，获得大胜，收获金币%s" name="攻防战进攻成功" string_id="BATTLE_ATTACK_SUCCESS"/>
+ <cell desc="您对%s家园的掠夺失败了" name="攻防战进攻失败" string_id="BATTLE_ATTACK_FAILED"/>
+</data>

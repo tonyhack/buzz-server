@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UFT-8" ?>
+<config>
+
+  <!--
+      tcp_connection: TCP连接定义.
+      +-buffer: 连接缓冲区定义
+      | +-unit_size: 缓冲区单元大小，建议定义为协议的最大长度，可由测试结果导向.
+      | +-init_size: 缓冲区初始大小，建议定义为协议最大长度的倍数，可由测试结果导向.
+      +-bound_queue: 定义，这里使用在连接的线程安全cache中，主要用来缓冲非本线程发送的数据.
+      +-size: 这里为这个cache的大小，这个cache是不可扩展的环形缓冲队列.
+  -->
+  <tcp_connection>
+    <buffer unit_size="20480" init_size="20480"/>
+    <bound_queue size="40960"/>
+  </tcp_connection>
+
+  <!--
+      connector: 连接器定义.
+      +-retry_msec: 重连间隔时间(单位为毫秒).
+  -->
+  <connector retry_msec="5000">
+  </connector>
+
+  <!--
+      timing_wheel: 时间轮定义.
+      +-tick_msec: 时间轮的单位时间(单位为毫秒)，建议在2.6.22内核之前不要过小(可能是不小于30毫秒).
+  -->
+  <timing_wheel tick_msec="50">
+  </timing_wheel>
+
+</config>

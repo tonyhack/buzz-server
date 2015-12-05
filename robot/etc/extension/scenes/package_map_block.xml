@@ -1,0 +1,7 @@
+<package name="" verstion="">
+	<descript></descript>
+	<map id="1001" resouce="extension/scenes/1001-map.xml"/>
+	<map id="1002" resouce="extension/scenes/1002-map.xml"/>
+	<map id="1003" resouce="extension/scenes/1003-map.xml"/>
+	<map id="1004" resouce="extension/scenes/1004-map.xml"/>
+</package>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="pray_times spend_contribution">
+ <cell pray_times="1" spend_contribution="1"/>
+ <cell pray_times="2" spend_contribution="2"/>
+ <cell pray_times="3" spend_contribution="3"/>
+ <cell pray_times="4" spend_contribution="4"/>
+ <cell pray_times="5" spend_contribution="5"/>
+ <cell pray_times="6" spend_contribution="6"/>
+ <cell pray_times="7" spend_contribution="7"/>
+ <cell pray_times="8" spend_contribution="8"/>
+ <cell pray_times="9" spend_contribution="9"/>
+ <cell pray_times="10" spend_contribution="10"/>
+</data>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="vocation physique strength intelligence agile spirit">
+ <cell agile="100" intelligence="50" physique="200" spirit="50" strength="200" vocation="0"/>
+ <cell agile="200" intelligence="100" physique="100" spirit="100" strength="100" vocation="1"/>
+ <cell agile="100" intelligence="200" physique="100" spirit="150" strength="50" vocation="2"/>
+</data>

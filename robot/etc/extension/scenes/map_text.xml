@@ -1,0 +1,36 @@
+<package name="map_text" version="1">
+<descript></descript>
+<map id="1000" resource="extension/scenes/map_1000.xml"/>
+<map id="1001" resource="extension/scenes/map_1001.xml"/>
+<map id="1002" resource="extension/scenes/map_1002.xml"/>
+<map id="1003" resource="extension/scenes/map_1003.xml"/>
+<map id="1004" resource="extension/scenes/map_1004.xml"/>
+<map id="1005" resource="extension/scenes/map_1005.xml"/>
+<map id="1006" resource="extension/scenes/map_1006.xml"/>
+<map id="1007" resource="extension/scenes/map_1007.xml"/>
+<map id="1008" resource="extension/scenes/map_1008.xml"/>
+<map id="1009" resource="extension/scenes/map_1009.xml"/>
+<map id="1010" resource="extension/scenes/map_1010.xml"/>
+<map id="1011" resource="extension/scenes/map_1011.xml"/>
+<map id="1012" resource="extension/scenes/map_1012.xml"/>
+<map id="1013" resource="extension/scenes/map_1013.xml"/>
+<map id="1014" resource="extension/scenes/map_1014.xml"/>
+<map id="1015" resource="extension/scenes/map_1015.xml"/>
+<map id="2001" resource="extension/scenes/map_2001.xml"/>
+<map id="2002" resource="extension/scenes/map_2002.xml"/>
+<map id="2003" resource="extension/scenes/map_2003.xml"/>
+<map id="2004" resource="extension/scenes/map_2004.xml"/>
+<map id="2005" resource="extension/scenes/map_2005.xml"/>
+<map id="2006" resource="extension/scenes/map_2006.xml"/>
+<map id="2007" resource="extension/scenes/map_2007.xml"/>
+<map id="2008" resource="extension/scenes/map_2008.xml"/>
+<map id="2009" resource="extension/scenes/map_2009.xml"/>
+<map id="2010" resource="extension/scenes/map_2010.xml"/>
+<map id="2011" resource="extension/scenes/map_2011.xml"/>
+<map id="2012" resource="extension/scenes/map_2012.xml"/>
+<map id="2013" resource="extension/scenes/map_2013.xml"/>
+<map id="2014" resource="extension/scenes/map_2014.xml"/>
+<map id="2018" resource="extension/scenes/map_2018.xml"/>
+<map id="2099" resource="extension/scenes/map_2099.xml"/>
+<map id="2100" resource="extension/scenes/map_2100.xml"/>
+</package>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="mail_type context_max expiry_time">
+ <cell context_max="500" expiry_time="120" mail_type="1"/>
+ <cell context_max="500" expiry_time="120" mail_type="2"/>
+ <cell context_max="500" expiry_time="120" mail_type="3"/>
+</data>

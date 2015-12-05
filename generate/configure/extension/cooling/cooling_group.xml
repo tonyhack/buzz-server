@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="id time">
+ <cell id="0" time="0"/>
+ <cell id="1" time="300"/>
+ <cell id="2" time="500"/>
+ <cell id="3" time="500"/>
+ <cell id="4" time="1000"/>
+ <cell id="5" time="500"/>
+</data>

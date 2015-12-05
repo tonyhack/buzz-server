@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<configure>
+
+  <condition_pool initial_number="5000" extend_number="50"/>
+  <task_pool initial_number="5000" extend_number="50"/>
+
+  <task file="extension/task/task.xml" actor_task_number="20"/>
+  <kill_collect file="extension/task/kill_collect.xml"/>
+
+  <circle_condition file="extension/task/circle_condition.xml"/>
+  <circle file="extension/task/task_circle.xml"/>
+  <trip file="extension/task/task_chance.xml"/>
+  <layer file="extension/task/task_layer.xml"/>
+  <summon_npc file="extension/task/summon.xml"/>
+  <task_daily file="extension/task/exploit.xml"/>
+  <task_playing file="extension/task/task_playing.xml"/>
+  <exploit_award file="extension/task/exploit_award.xml"/>
+  <exploit_attr file="extension/task/exploit_attr.xml"/>
+  <task_transport file="extension/task/task_transport.xml"/>
+
+</configure>
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="id major_element_name major_element_desc minor_element_name minor_element_desc attr_bonus_id spend_war_soul">
+ <cell attr_bonus_id="30101" id="0101" major_element_desc="灵元素" major_element_name="灵" minor_element_desc="灵元素1" minor_element_name="灵元素1" spend_war_soul="400"/>
+ <cell attr_bonus_id="30102" id="0102" major_element_desc="灵元素" major_element_name="灵" minor_element_desc="灵元素2" minor_element_name="灵元素2" spend_war_soul="550"/>
+ <cell attr_bonus_id="30103" id="0103" major_element_desc="灵元素" major_element_name="灵" minor_element_desc="灵元素3" minor_element_name="灵元素3" spend_war_soul="720"/>
+ <cell attr_bonus_id="30104" id="0104" major_element_desc="灵元素" major_element_name="灵" minor_element_desc="灵元素4" minor_element_name="灵元素4" spend_war_soul="910"/>
+ <cell attr_bonus_id="30105" id="0105" major_element_desc="灵元素" major_element_name="灵" minor_element_desc="灵元素5" minor_element_name="灵元素5" spend_war_soul="1120"/>
+ <cell attr_bonus_id="30106" id="0106" major_element_desc="灵元素" major_element_name="灵" minor_element_desc="灵元素6" minor_element_name="灵元素6" spend_war_soul="1350"/>
+ <cell attr_bonus_id="30107" id="0107" major_element_desc="灵元素" major_element_name="灵" minor_element_desc="灵元素7" minor_element_name="灵元素7" spend_war_soul="1600"/>
+ <cell attr_bonus_id="30201" id="0201" major_element_desc="风元素" major_element_name="风" minor_element_desc="风元素1" minor_element_name="风元素1" spend_war_soul="850"/>
+ <cell attr_bonus_id="30202" id="0202" major_element_desc="风元素" major_element_name="风" minor_element_desc="风元素2" minor_element_name="风元素2" spend_war_soul="1116"/>
+ <cell attr_bonus_id="30203" id="0203" major_element_desc="风元素" major_element_name="风" minor_element_desc="风元素3" minor_element_name="风元素3" spend_war_soul="1406"/>
+ <cell attr_bonus_id="30204" id="0204" major_element_desc="风元素" major_element_name="风" minor_element_desc="风元素4" minor_element_name="风元素4" spend_war_soul="1720"/>
+ <cell attr_bonus_id="30205" id="0205" major_element_desc="风元素" major_element_name="风" minor_element_desc="风元素5" minor_element_name="风元素5" spend_war_soul="2058"/>
+ <cell attr_bonus_id="30206" id="0206" major_element_desc="风元素" major_element_name="风" minor_element_desc="风元素6" minor_element_name="风元素6" spend_war_soul="2420"/>
+ <cell attr_bonus_id="30207" id="0207" major_element_desc="风元素" major_element_name="风" minor_element_desc="风元素7" minor_element_name="风元素7" spend_war_soul="2806"/>
+ <cell attr_bonus_id="30301" id="0301" major_element_desc="火元素" major_element_name="火" minor_element_desc="火元素1" minor_element_name="火元素1" spend_war_soul="1440"/>
+ <cell attr_bonus_id="30302" id="0302" major_element_desc="火元素" major_element_name="火" minor_element_desc="火元素2" minor_element_name="火元素2" spend_war_soul="1850"/>
+ <cell attr_bonus_id="30303" id="0303" major_element_desc="火元素" major_element_name="火" minor_element_desc="火元素3" minor_element_name="火元素3" spend_war_soul="2288"/>
+ <cell attr_bonus_id="30304" id="0304" major_element_desc="火元素" major_element_name="火" minor_element_desc="火元素4" minor_element_name="火元素4" spend_war_soul="2754"/>
+ <cell attr_bonus_id="30305" id="0305" major_element_desc="火元素" major_element_name="火" minor_element_desc="火元素5" minor_element_name="火元素5" spend_war_soul="3248"/>
+ <cell attr_bonus_id="30306" id="0306" major_element_desc="火元素" major_element_name="火" minor_element_desc="火元素6" minor_element_name="火元素6" spend_war_soul="3770"/>
+ <cell attr_bonus_id="30307" id="0307" major_element_desc="火元素" major_element_name="火" minor_element_desc="火元素7" minor_element_name="火元素7" spend_war_soul="4320"/>
+ <cell attr_bonus_id="30401" id="0401" major_element_desc="地元素" major_element_name="地" minor_element_desc="地元素1" minor_element_name="地元素1" spend_war_soul="2170"/>
+ <cell attr_bonus_id="30402" id="0402" major_element_desc="地元素" major_element_name="地" minor_element_desc="地元素2" minor_element_name="地元素2" spend_war_soul="2752"/>
+ <cell attr_bonus_id="30403" id="0403" major_element_desc="地元素" major_element_name="地" minor_element_desc="地元素3" minor_element_name="地元素3" spend_war_soul="3366"/>
+ <cell attr_bonus_id="30404" id="0404" major_element_desc="地元素" major_element_name="地" minor_element_desc="地元素4" minor_element_name="地元素4" spend_war_soul="4012"/>
+ <cell attr_bonus_id="30405" id="0405" major_element_desc="地元素" major_element_name="地" minor_element_desc="地元素5" minor_element_name="地元素5" spend_war_soul="4690"/>
+ <cell attr_bonus_id="30406" id="0406" major_element_desc="地元素" major_element_name="地" minor_element_desc="地元素6" minor_element_name="地元素6" spend_war_soul="5400"/>
+ <cell attr_bonus_id="30407" id="0407" major_element_desc="地元素" major_element_name="地" minor_element_desc="地元素7" minor_element_name="地元素7" spend_war_soul="6142"/>
+ <cell attr_bonus_id="30501" id="0501" major_element_desc="水元素" major_element_name="水" minor_element_desc="水元素1" minor_element_name="水元素1" spend_war_soul="3040"/>
+ <cell attr_bonus_id="30502" id="0502" major_element_desc="水元素" major_element_name="水" minor_element_desc="水元素2" minor_element_name="水元素2" spend_war_soul="3822"/>
+ <cell attr_bonus_id="30503" id="0503" major_element_desc="水元素" major_element_name="水" minor_element_desc="水元素3" minor_element_name="水元素3" spend_war_soul="4640"/>
+ <cell attr_bonus_id="30504" id="0504" major_element_desc="水元素" major_element_name="水" minor_element_desc="水元素4" minor_element_name="水元素4" spend_war_soul="5494"/>
+ <cell attr_bonus_id="30505" id="0505" major_element_desc="水元素" major_element_name="水" minor_element_desc="水元素5" minor_element_name="水元素5" spend_war_soul="6384"/>
+ <cell attr_bonus_id="30506" id="0506" major_element_desc="水元素" major_element_name="水" minor_element_desc="水元素6" minor_element_name="水元素6" spend_war_soul="7310"/>
+ <cell attr_bonus_id="30507" id="0507" major_element_desc="水元素" major_element_name="水" minor_element_desc="水元素7" minor_element_name="水元素7" spend_war_soul="8272"/>
+ <cell attr_bonus_id="30601" id="0601" major_element_desc="冥元素" major_element_name="冥" minor_element_desc="冥元素1" minor_element_name="冥元素1" spend_war_soul="4050"/>
+ <cell attr_bonus_id="30602" id="0602" major_element_desc="冥元素" major_element_name="冥" minor_element_desc="冥元素2" minor_element_name="冥元素2" spend_war_soul="5060"/>
+ <cell attr_bonus_id="30603" id="0603" major_element_desc="冥元素" major_element_name="冥" minor_element_desc="冥元素3" minor_element_name="冥元素3" spend_war_soul="6110"/>
+ <cell attr_bonus_id="30604" id="0604" major_element_desc="冥元素" major_element_name="冥" minor_element_desc="冥元素4" minor_element_name="冥元素4" spend_war_soul="7200"/>
+ <cell attr_bonus_id="30605" id="0605" major_element_desc="冥元素" major_element_name="冥" minor_element_desc="冥元素5" minor_element_name="冥元素5" spend_war_soul="8330"/>
+ <cell attr_bonus_id="30606" id="0606" major_element_desc="冥元素" major_element_name="冥" minor_element_desc="冥元素6" minor_element_name="冥元素6" spend_war_soul="9500"/>
+ <cell attr_bonus_id="30607" id="0607" major_element_desc="冥元素" major_element_name="冥" minor_element_desc="冥元素7" minor_element_name="冥元素7" spend_war_soul="10710"/>
+</data>

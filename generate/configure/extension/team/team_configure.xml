@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<configure>
+
+  <team_pool initial_number="5000" extend_number="50"/>
+
+  <team file="extension/team/team.xml"/>
+
+</configure>
+

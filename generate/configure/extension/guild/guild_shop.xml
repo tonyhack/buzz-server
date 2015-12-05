@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="level spend_gold">
+ <cell level="1" spend_gold="1"/>
+ <cell level="2" spend_gold="1"/>
+ <cell level="3" spend_gold="1"/>
+ <cell level="4" spend_gold="1"/>
+ <cell level="5" spend_gold="1"/>
+ <cell level="6" spend_gold="1"/>
+</data>

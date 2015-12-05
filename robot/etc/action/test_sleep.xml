@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<action>
+    <while><cond><true/></cond>
+        <sleep ms="2000"/>
+    </while>
+</action>
+

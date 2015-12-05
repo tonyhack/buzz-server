@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configure>
+
+  <skill file="extension/skills/skill.xml"/>
+  <hurt file="extension/skills/hurt.xml"/>
+  <camp file="extension/skills/camp.xml"/>
+
+  <role_pool initial_number="1500" extend_number="50"/>
+  <skill_pool initial_number="4500" extend_number="50"/>
+
+</configure>
+

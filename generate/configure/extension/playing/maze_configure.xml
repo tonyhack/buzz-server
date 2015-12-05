@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configure>
+
+  <maze_grid file="extension/playing/maze_grid.xml"/>
+  <maze_grid_bonus file="extension/playing/maze_grid_bonus.xml"/>
+
+</configure>
+

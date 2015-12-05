@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="viplevel reward1 reward2 reward3 reward4 reward5 reward6">
+ <cell reward1="2:1:10000:1" reward2="2:4:5000:1" reward3="2:3:5:1" reward4="1:113103002:1:1" reward5="1:144305001:2:1" reward6="1:144202001:1:1" viplevel="1"/>
+ <cell reward1="2:1:20000:1" reward2="2:4:5000:1" reward3="2:3:10:1" reward4="1:113103002:2:1" reward5="1:144305001:3:1" reward6="1:144202001:2:1" viplevel="2"/>
+ <cell reward1="2:1:50000:1" reward2="2:4:10000:1" reward3="2:3:15:1" reward4="1:113103003:2:1" reward5="1:144305001:5:1" reward6="1:144202001:3:1" viplevel="3"/>
+</data>

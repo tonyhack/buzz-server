@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="id buff_id required_light_attribute required_dark_attribute required_holy_attribute">
+ <cell buff_id="6001" id="1" required_dark_attribute="0" required_holy_attribute="0" required_light_attribute="0"/>
+ <cell buff_id="6002" id="3" required_dark_attribute="0" required_holy_attribute="0" required_light_attribute="1"/>
+ <cell buff_id="6003" id="4" required_dark_attribute="1" required_holy_attribute="0" required_light_attribute="0"/>
+ <cell buff_id="6004" id="5" required_dark_attribute="0" required_holy_attribute="1" required_light_attribute="0"/>
+ <cell buff_id="6005" id="6" required_dark_attribute="1" required_holy_attribute="1" required_light_attribute="1"/>
+ <cell buff_id="6006" id="7" required_dark_attribute="2" required_holy_attribute="0" required_light_attribute="2"/>
+ <cell buff_id="6007" id="8" required_dark_attribute="0" required_holy_attribute="2" required_light_attribute="2"/>
+ <cell buff_id="6008" id="9" required_dark_attribute="2" required_holy_attribute="2" required_light_attribute="0"/>
+ <cell buff_id="6009" id="10" required_dark_attribute="0" required_holy_attribute="0" required_light_attribute="5"/>
+ <cell buff_id="6010" id="11" required_dark_attribute="5" required_holy_attribute="0" required_light_attribute="0"/>
+ <cell buff_id="6011" id="12" required_dark_attribute="0" required_holy_attribute="5" required_light_attribute="0"/>
+ <cell buff_id="6012" id="13" required_dark_attribute="4" required_holy_attribute="0" required_light_attribute="4"/>
+ <cell buff_id="6013" id="14" required_dark_attribute="0" required_holy_attribute="4" required_light_attribute="4"/>
+ <cell buff_id="6014" id="15" required_dark_attribute="4" required_holy_attribute="4" required_light_attribute="0"/>
+ <cell buff_id="6015" id="16" required_dark_attribute="3" required_holy_attribute="3" required_light_attribute="3"/>
+ <cell buff_id="6016" id="17" required_dark_attribute="0" required_holy_attribute="0" required_light_attribute="10"/>
+ <cell buff_id="6017" id="18" required_dark_attribute="10" required_holy_attribute="0" required_light_attribute="0"/>
+ <cell buff_id="6018" id="19" required_dark_attribute="0" required_holy_attribute="10" required_light_attribute="0"/>
+</data>

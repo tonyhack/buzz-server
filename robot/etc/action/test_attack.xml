@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<action>
+    <while><cond><true/></cond>
+        <if><not_cond><in_area x="7" y="56" width="30" height="20"/></not_cond>
+        <then>
+            <move x="32" y="60"/>
+        </then>
+        </if>
+        <gm command="add_hp 100000"/>
+        <attack_monster id="21001"/>
+        <sleep ms="100"/>
+    </while>
+</action>
+

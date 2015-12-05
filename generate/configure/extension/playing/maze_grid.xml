@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="id name desc number">
+ <cell desc="天使奖励格子" id="2" name="天使奖励格子" number="2"/>
+ <cell desc="恶魔惩罚格子" id="3" name="恶魔惩罚格子" number="2"/>
+ <cell desc="神秘宝箱格子" id="4" name="神秘宝箱格子" number="3"/>
+</data>

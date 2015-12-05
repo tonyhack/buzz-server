@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UFT-8" ?>
+<config>
+  <thread number="2"/>
+
+  <!-- max_message_size:最大消息长度, kick_timerout：判定为死连接的无响应时间（毫秒）
+      buffer unit_size:消息缓冲区单位长度, init_size：消息缓冲区初始化长度
+      ring_queue size：环形缓冲区(boundless)大小, unit_size：环形缓冲区动态缓冲长度
+  -->
+  <tcp_connection kick_timeout="1000">
+    <buffer unit_size="128" init_size="10240"/>
+    <bound_queue size="10240"/>
+  </tcp_connection>
+
+  <!-- connector retry_msec:连接器失去连接后，重连间隔时间
+  -->
+  <connector retry_msec="5000">
+  </connector>
+
+  <!-- timing_wheel tick_msec:时间轮的心跳时间(毫秒级别)
+  -->
+  <timing_wheel tick_msec="50">
+  </timing_wheel>
+</config>

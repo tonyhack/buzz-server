@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="playing_template_id group_id depend awards">
+ <cell awards="144311001:1+144311002:1" depend="0" group_id="1" playing_template_id="201"/>
+ <cell awards="144311001:1+144311002:1" depend="201" group_id="1" playing_template_id="202"/>
+ <cell awards="144311001:1+144311002:1" depend="202" group_id="1" playing_template_id="203"/>
+ <cell awards="144311001:1+144311002:1" depend="203" group_id="1" playing_template_id="204"/>
+ <cell awards="144311001:1+144311002:1" depend="0" group_id="2" playing_template_id="205"/>
+ <cell awards="144311001:1+144311002:1" depend="205" group_id="2" playing_template_id="206"/>
+ <cell awards="144311001:1+144311002:1" depend="206" group_id="2" playing_template_id="207"/>
+ <cell awards="144311001:1+144311002:1" depend="207" group_id="2" playing_template_id="208"/>
+ <cell awards="144311001:1+144311002:1" depend="0" group_id="3" playing_template_id="209"/>
+ <cell awards="144311001:1+144311002:1" depend="209" group_id="3" playing_template_id="210"/>
+ <cell awards="144311001:1+144311002:1" depend="210" group_id="3" playing_template_id="211"/>
+ <cell awards="144311001:1+144311002:1" depend="211" group_id="3" playing_template_id="212"/>
+ <cell awards="144311001:1+144311002:1" depend="0" group_id="4" playing_template_id="213"/>
+ <cell awards="144311001:1+144311002:1" depend="213" group_id="4" playing_template_id="214"/>
+ <cell awards="144311001:1+144311002:1" depend="214" group_id="4" playing_template_id="215"/>
+ <cell awards="144311001:1+144311002:1" depend="215" group_id="4" playing_template_id="216"/>
+ <cell awards="144311001:1+144311002:1" depend="0" group_id="5" playing_template_id="217"/>
+ <cell awards="144311001:1+144311002:1" depend="217" group_id="5" playing_template_id="218"/>
+ <cell awards="144311001:1+144311002:1" depend="218" group_id="5" playing_template_id="219"/>
+ <cell awards="144311001:1+144311002:1" depend="219" group_id="5" playing_template_id="220"/>
+ <cell awards="144311001:1+144311002:1" depend="0" group_id="6" playing_template_id="221"/>
+ <cell awards="144311001:1+144311002:1" depend="221" group_id="6" playing_template_id="222"/>
+ <cell awards="144311001:1+144311002:1" depend="222" group_id="6" playing_template_id="223"/>
+ <cell awards="144311001:1+144311002:1" depend="223" group_id="6" playing_template_id="224"/>
+</data>

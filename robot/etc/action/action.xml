@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <action id="1" file="action/rand_move.xml"/>
+    <action id="2" file="action/attack_monster_1001_1.xml"/>
+    <action id="1001" file="action/test_sleep.xml"/>
+    <action id="1002" file="action/test_move.xml"/>
+    <action id="1003" file="action/test_gm.xml"/>
+    <action id="1004" file="action/test_approach.xml"/>
+    <action id="1005" file="action/test_attack.xml"/>
+</config>
+

@@ -1,0 +1,1710 @@
+
+#add_subdirectory(request/meta)
+#add_subdirectory(extension/python/meta)
+#add_subdirectory(extension/scene/test)
+
+set(GAME_SERVER_SOURCES
+    according_level_configure.cc
+    actor_attribute_update.cc
+    actor_extension_event_handler.cc
+    actor_message_handler.cc
+    configure.cc
+    day_pass.cc
+    extension_load_event_handler.cc
+    extension_manager.cc
+    fight_score_calculator.cc
+    game_actor.cc
+    game_actor_manager.cc
+    game_actor_pool.cc
+    game_entity.cc
+    game_npc.cc
+    game_npc_pool.cc
+    game_npc_manager.cc
+    game_object.cc
+    game_role.cc
+    game_server.cc
+    game_terminal.cc
+    load_attr_convert_configure.cc
+    load_attr_fight_score_configure.cc
+    load_camp_configure.cc
+    load_functionality_configure.cc
+    load_drop_configure.cc
+    load_vocation_growth_configure.cc
+    login_session_event_handler.cc
+    main.cc
+    npc_configure.cc
+    role_attribute_update.cc
+    vip_alter_event_handler.cc
+    spirit_event_handler.cc
+    session_channel.cc
+    session_message_handler.cc
+    storage_actor_login_response.cc
+    storage_actor_save_response.cc
+    storage_response.cc
+    task_event_handler.cc)
+
+
+set(GAME_SERVER_INCLUDES
+    according_level_configure.h
+    actor_attribute_update.h
+    actor_extension_event_handler.h
+    actor_message_handler.h
+    configure.h
+    day_pass.h
+    extension_load_event_handler.h
+    extension_manager.h
+    fight_score_calculator.h
+    game_actor.h
+    game_actor_manager.h
+    game_actor_pool.h
+    game_entity.h
+    game_npc.h
+    game_npc_manager.h
+    game_npc_pool.h
+    game_object.h
+    game_role.h
+    game_server.h
+    game_terminal.h
+    global_time_tick.h
+    load_attr_convert_configure.h
+    load_attr_fight_score_configure.h
+    load_camp_configure.h
+    load_functionality_configure.h
+    load_drop_configure.h
+    load_vocation_growth_configure.h
+    load_progress.h
+    login_session_event_handler.h
+    npc_configure.h
+    role_attribute_update.h
+    vip_alter_event_handler.h
+    spirit_event_handler.h
+    session_channel.h
+    session_message_handler.h
+    storage_actor_login_response.h
+    storage_actor_save_response.h
+    storage_response.h
+    task_event_handler.h)
+
+
+set(GAME_EVENT_SOURCES
+    event/game_ai_event_constants.cpp
+    event/game_ai_event_types.cpp
+    event/game_actor_event_constants.cpp
+    event/game_actor_event_types.cpp
+    event/game_attr_event_types.cpp
+    event/game_attr_event_constants.cpp
+    event/game_bar_event_constants.cpp
+    event/game_bar_event_types.cpp
+    event/game_buff_event_constants.cpp
+    event/game_buff_event_types.cpp
+    event/game_event_constants.cpp
+    event/game_event_types.cpp
+    event/game_npc_event_constants.cpp
+    event/game_npc_event_types.cpp
+    event/game_playing_event_constants.cpp
+    event/game_playing_event_types.cpp
+    event/game_role_event_constants.cpp
+    event/game_role_event_types.cpp
+    event/game_scene_event_constants.cpp
+    event/game_scene_event_types.cpp
+    event/game_social_event_constants.cpp
+    event/game_social_event_types.cpp
+    event/game_skill_event_constants.cpp
+    event/game_skill_event_types.cpp
+    event/game_system_event_constants.cpp
+    event/game_system_event_types.cpp
+    event/game_task_event_types.cpp
+    event/game_task_event_constants.cpp)
+
+set(GAME_EVENT_INCLUDES
+    event/game_ai_event_constants.h
+    event/game_ai_event_types.h
+    event/game_actor_event_constants.h
+    event/game_actor_event_types.h
+    event/game_attr_event_types.h
+    event/game_attr_event_constants.h
+    event/game_bar_event_types.h
+    event/game_bar_event_constants.h
+    event/game_event_constants.h
+    event/game_event_types.h
+    event/game_npc_event_constants.h
+    event/game_npc_event_types.h
+    event/game_playing_event_constants.h
+    event/game_playing_event_types.h
+    event/game_role_event_constants.h
+    event/game_role_event_types.h
+    event/game_scene_event_constants.h
+    event/game_scene_event_types.h
+    event/game_skill_event_constants.h
+    event/game_skill_event_types.h
+    event/game_system_event_constants.h
+    event/game_system_event_types.h
+    event/game_task_event_types.h
+    event/game_task_event_constants.h)
+
+
+
+set(GAME_REQUEST_SOURCES
+    request/game_ai_request_constants.cpp
+    request/game_ai_request_types.cpp
+    request/game_attr_request_constants.cpp
+    request/game_attr_request_types.cpp
+    request/game_bar_request_types.cpp
+    request/game_bar_request_constants.cpp
+    request/game_buff_request_constants.cpp
+    request/game_buff_request_types.cpp
+    request/game_cooling_request_constants.cpp
+    request/game_cooling_request_types.cpp
+    request/game_effect_request_constants.cpp
+    request/game_effect_request_types.cpp
+    request/game_guild_request_constants.cpp
+    request/game_guild_request_types.cpp
+    request/game_item_request_constants.cpp
+    request/game_item_request_types.cpp
+    request/game_mail_request_constants.cpp
+    request/game_mail_request_types.cpp
+    request/game_playing_request_constants.cpp
+    request/game_playing_request_types.cpp
+    request/game_request_constants.cpp
+    request/game_request_types.cpp
+    request/game_scene_request_constants.cpp
+    request/game_scene_request_types.cpp
+    request/game_skill_request_constants.cpp
+    request/game_skill_request_types.cpp
+    request/game_soul_request_constants.cpp
+    request/game_soul_request_types.cpp
+    request/game_task_request_constants.cpp
+    request/game_task_request_types.cpp
+    request/game_team_request_constants.cpp
+    request/game_team_request_types.cpp
+    request/game_transport_request_constants.cpp
+    request/game_transport_request_types.cpp
+    request/game_welfare_request_constants.cpp
+    request/game_welfare_request_types.cpp)
+
+
+set(GAME_REQUEST_INCLUDES
+    request/game_ai_request_constants.h
+    request/game_ai_request_types.h
+    request/game_attr_request_constants.h
+    request/game_attr_request_types.h
+    request/game_bar_request_types.h
+    request/game_bar_request_constants.h
+    request/game_buff_request_constants.h
+    request/game_buff_request_types.h
+    request/game_cooling_request_constants.h
+    request/game_cooling_request_types.h
+    request/game_effect_request_constants.h
+    request/game_effect_request_types.h
+    request/game_guild_request_constants.h
+    request/game_guild_request_types.h
+    request/game_item_request_constants.h
+    request/game_item_request_types.h
+    request/game_mail_request_constants.h
+    request/game_mail_request_types.h
+    request/game_playing_request_constants.h
+    request/game_playing_request_types.h
+    request/game_request_constants.h
+    request/game_request_types.h
+    request/game_scene_request_constants.h
+    request/game_scene_request_types.h
+    request/game_skill_request_constants.h
+    request/game_skill_request_types.h
+    request/game_soul_request_constants.h
+    request/game_soul_request_types.h
+    request/game_task_request_constants.h
+    request/game_task_request_types.h
+    request/game_team_request_constants.h
+    request/game_team_request_types.h
+    request/game_transport_request_constants.h
+    request/game_transport_request_types.h
+    request/game_welfare_request_constants.h
+    request/game_welfare_request_types.h)
+
+
+set(GAME_EXTENSION_AI_SOURCES
+    extension/ai/action_node.cc
+    extension/ai/activity_range_condition.cc
+    extension/ai/activity_range_condition_allocator.cc
+    extension/ai/add_buff_action.cc
+    extension/ai/add_buff_action_allocator.cc
+    extension/ai/ai_controller.cc
+    extension/ai/ai_extension.cc
+    extension/ai/ai_actor.cc
+    extension/ai/ai_actor_pool.cc
+    extension/ai/ai_actor_manager.cc
+    extension/ai/ai_event_handler.cc
+    extension/ai/behaviour_node.cc
+    extension/ai/behaviour_node_factory.cc
+    extension/ai/behaviour_tree.cc
+    extension/ai/behaviour_tree_manager.cc
+    extension/ai/black_board.cc
+    extension/ai/black_board_manager.cc
+    extension/ai/black_board_pool.cc
+    extension/ai/change_attr_action.cc
+    extension/ai/change_attr_action_allocator.cc
+    extension/ai/check_attack_distance_condition.cc
+    extension/ai/check_attack_distance_condition_allocator.cc
+    extension/ai/check_attr_condition.cc
+    extension/ai/check_attr_condition_allocator.cc
+    extension/ai/check_birth_place_condition.cc
+    extension/ai/check_birth_place_condition_allocator.cc
+    extension/ai/check_back_state_condition.cc
+    extension/ai/check_back_state_condition_allocator.cc
+    extension/ai/check_distance_condition.cc
+    extension/ai/check_distance_condition_allocator.cc
+    extension/ai/check_interval_seconds_condition.cc
+    extension/ai/check_interval_seconds_condition_allocator.cc
+    extension/ai/check_threat_condition.cc
+    extension/ai/check_threat_condition_allocator.cc
+    extension/ai/check_var_condition.cc
+    extension/ai/check_var_condition_allocator.cc
+    extension/ai/choose_target_action.cc
+    extension/ai/choose_target_action_allocator.cc
+    extension/ai/clear_target_action.cc
+    extension/ai/clear_target_action_allocator.cc
+    extension/ai/condition_node.cc
+    extension/ai/decision_allocator.cc
+    extension/ai/delete_me_action.cc
+    extension/ai/delete_me_action_allocator.cc
+    extension/ai/facade_request.cc
+    extension/ai/go_back_action.cc
+    extension/ai/go_back_action_allocator.cc
+    extension/ai/log_action.cc
+    extension/ai/log_action_allocator.cc
+    extension/ai/move_target_action.cc
+    extension/ai/move_target_action_allocator.cc
+    extension/ai/npc_create_destory_event_handler.cc
+    extension/ai/random_move_action.cc
+    extension/ai/random_move_action_allocator.cc
+    extension/ai/request_ai_handler.cc
+    extension/ai/request_add_threat.cc
+    extension/ai/remove_target_action.cc
+    extension/ai/remove_target_action_allocator.cc
+    extension/ai/reset_interval_seconds_action.cc
+    extension/ai/reset_interval_seconds_action_allocator.cc
+    extension/ai/role_basic_status_change_handler.cc
+    extension/ai/role_coming_leaving_event_handler.cc
+    extension/ai/search_target_action.cc
+    extension/ai/search_target_action_allocator.cc
+    extension/ai/selector_decision_allocator.cc
+    extension/ai/selector_decision_node.cc
+    extension/ai/sequence_decision_allocator.cc
+    extension/ai/sequence_decision_node.cc
+    extension/ai/set_back_state_action.cc
+    extension/ai/set_back_state_action_allocator.cc
+    extension/ai/set_var_action.cc
+    extension/ai/set_var_action_allocator.cc
+    extension/ai/simple_move_target_action.cc
+    extension/ai/simple_move_target_action_allocator.cc
+    extension/ai/simple_use_skill_action.cc
+    extension/ai/simple_use_skill_action_allocator.cc
+    extension/ai/summon_npc_action.cc
+    extension/ai/summon_npc_action_allocator.cc
+    extension/ai/target_exist_condition.cc
+    extension/ai/target_exist_condition_allocator.cc
+    extension/ai/threat.cc
+    extension/ai/variables.cc)
+
+set(GAME_EXTENSION_AI_INCLUDES
+    extension/ai/action_allocator.h
+    extension/ai/action_node.h
+    extension/ai/activity_range_condition.h
+    extension/ai/activity_range_condition_allocator.h
+    extension/ai/add_buff_action.h
+    extension/ai/add_buff_action_allocator.h
+    extension/ai/ai_controller.h
+    extension/ai/ai_extension.h
+    extension/ai/ai_actor.h
+    extension/ai/ai_actor_pool.h
+    extension/ai/ai_actor_manager.h
+    extension/ai/ai_event_handler.h
+    extension/ai/ai_types.h
+    extension/ai/allocator_template.h
+    extension/ai/behaviour_factory.h
+    extension/ai/behaviour_node_factory.h
+    extension/ai/behaviour_node.h
+    extension/ai/behaviour_tree.h
+    extension/ai/behaviour_tree_manager.h
+    extension/ai/black_board.h
+    extension/ai/black_board_manager.h
+    extension/ai/black_board_pool.h
+    extension/ai/change_attr_action.h
+    extension/ai/change_attr_action_allocator.h
+    extension/ai/check_attack_distance_condition.h
+    extension/ai/check_attack_distance_condition_allocator.h
+    extension/ai/check_attr_condition.h
+    extension/ai/check_attr_condition_allocator.h
+    extension/ai/check_birth_place_condition.h
+    extension/ai/check_birth_place_condition_allocator.h
+    extension/ai/check_back_state_condition.h
+    extension/ai/check_back_state_condition_allocator.h
+    extension/ai/check_distance_condition.h
+    extension/ai/check_distance_condition_allocator.h
+    extension/ai/check_interval_seconds_condition.h
+    extension/ai/check_interval_seconds_condition_allocator.h
+    extension/ai/check_threat_condition.h
+    extension/ai/check_threat_condition_allocator.h
+    extension/ai/check_var_condition.h
+    extension/ai/check_var_condition_allocator.h
+    extension/ai/choose_target_action.h
+    extension/ai/choose_target_action_allocator.h
+    extension/ai/clear_target_action.h
+    extension/ai/clear_target_action_allocator.h
+    extension/ai/condition_allocator.h
+    extension/ai/condition_node.h
+    extension/ai/decision_allocator.h
+    extension/ai/delete_me_action.h
+    extension/ai/delete_me_action_allocator.h
+    extension/ai/facade_request.h
+    extension/ai/go_back_action.h
+    extension/ai/go_back_action_allocator.h
+    extension/ai/log_action.h
+    extension/ai/log_action_allocator.h
+    extension/ai/move_target_action.h
+    extension/ai/move_target_action_allocator.h
+    extension/ai/npc_create_destory_event_handler.h
+    extension/ai/random_move_action.h
+    extension/ai/random_move_action_allocator.h
+    extension/ai/request_ai_handler.h
+    extension/ai/request_add_threat.h
+    extension/ai/remove_target_action.h
+    extension/ai/remove_target_action_allocator.h
+    extension/ai/reset_interval_seconds_action.h
+    extension/ai/reset_interval_seconds_action_allocator.h
+    extension/ai/role_basic_status_change_handler.h
+    extension/ai/role_coming_leaving_event_handler.h
+    extension/ai/search_target_action.h
+    extension/ai/search_target_action_allocator.h
+    extension/ai/selector_decision_allocator.h
+    extension/ai/selector_decision_node.h
+    extension/ai/sequence_decision_allocator.h
+    extension/ai/sequence_decision_node.h
+    extension/ai/set_back_state_action.h
+    extension/ai/set_back_state_action_allocator.h
+    extension/ai/set_var_action.h
+    extension/ai/set_var_action_allocator.h
+    extension/ai/simple_move_target_action.h
+    extension/ai/simple_move_target_action_allocator.h
+    extension/ai/simple_use_skill_action.h
+    extension/ai/simple_use_skill_action_allocator.h
+    extension/ai/summon_npc_action.h
+    extension/ai/summon_npc_action_allocator.h
+    extension/ai/target_exist_condition.h
+    extension/ai/target_exist_condition_allocator.h
+    extension/ai/threat.h
+    extension/ai/variables.h)
+
+
+
+set(GAME_EXTENSION_SCENE_SOURCES
+    extension/scene/actor_attacked_event_handler.cc
+    extension/scene/actor_load_finish_event_handler.cc
+    extension/scene/actor_login_event_handler.cc
+    extension/scene/actor_logout_event_handler.cc
+    extension/scene/actor_message_handler.cc
+    extension/scene/actor_move_event_handler.cc
+    extension/scene/bar_finish_event_handler.cc
+    extension/scene/configure.cc
+    extension/scene/entity_builder.cc
+    extension/scene/entity_enumerator.cc
+    extension/scene/facade_request.cc
+    extension/scene/fighting_status_event_handler.cc
+    extension/scene/grid.cc
+    extension/scene/grid_map.cc
+    extension/scene/jump_configure.cc
+    extension/scene/load_consecutive_kill_configure.cc
+    extension/scene/load_gather_configure.cc
+    extension/scene/login_session_event_handler.cc
+    extension/scene/load_world_jump_configure.cc
+    extension/scene/npc_builder.cc
+    extension/scene/npc_create_event_handler.cc
+    extension/scene/ownership_all.cc
+    extension/scene/ownership_camp_compete.cc
+    extension/scene/ownership_camp_each.cc
+    extension/scene/ownership_damage.cc
+    extension/scene/ownership_kill.cc
+    extension/scene/world_jump_message_handler.cc
+    extension/scene/request_actor_broadcast.cc
+    extension/scene/request_clear_all_npc.cc
+    extension/scene/request_clear_npc.cc
+    extension/scene/request_get_around_actors.cc
+    extension/scene/request_role_move.cc
+    extension/scene/request_router.cc
+    extension/scene/request_select_targets.cc
+    extension/scene/request_scene_create_map.cc
+    extension/scene/request_scene_forbid_drop_item.cc
+    extension/scene/request_scene_get_npcs.cc
+    extension/scene/request_scene_issafe.cc
+    extension/scene/request_scene_jump.cc
+    extension/scene/request_scene_daynightinfo.cc
+    extension/scene/request_scene_pk_check.cc   
+    extension/scene/request_scene_pkinfo.cc   
+    extension/scene/request_scene_relocation.cc
+    extension/scene/request_scene_revive.cc
+    extension/scene/request_summon_npc.cc
+    extension/scene/role_basic_status_change_handler.cc
+    extension/scene/role_killed_event_handler.cc
+    extension/scene/scene.cc
+    extension/scene/scene_actor.cc
+    extension/scene/scene_actor_pool.cc
+    extension/scene/scene_builder.cc
+    extension/scene/scene_daynight.cc  
+    extension/scene/scene_extension.cc
+    extension/scene/scene_item.cc
+    extension/scene/scene_item_manager.cc
+    extension/scene/scene_item_pool.cc
+    extension/scene/scene_manager.cc
+    extension/scene/scene_npc.cc
+    extension/scene/scene_npc_manager.cc
+    extension/scene/scene_npc_pool.cc
+    extension/scene/scene_pool.cc
+    extension/scene/screen.cc
+    extension/scene/session_message_handler.cc
+    extension/scene/skill_event_handler.cc
+    extension/scene/zazen_actor.cc)
+
+set(GAME_EXTENSION_SCENE_INCLUDES
+    extension/scene/actor_attacked_event_handler.h
+    extension/scene/actor_load_finish_event_handler.h
+    extension/scene/actor_login_event_handler.h
+    extension/scene/actor_logout_event_handler.h
+    extension/scene/actor_message_handler.h
+    extension/scene/actor_move_event_handler.h
+    extension/scene/bar_finish_event_handler.h
+    extension/scene/block_type.h
+    extension/scene/configure.h
+    extension/scene/constant.h
+    extension/scene/entity_builder.h
+    extension/scene/entity_enumerator.h
+    extension/scene/facade_request.h
+    extension/scene/fighting_status_event_handler.h
+    extension/scene/grid.h
+    extension/scene/grid_map.h
+    extension/scene/jump_configure.h
+    extension/scene/load_consecutive_kill_configure.h
+    extension/scene/load_gather_configure.h
+    extension/scene/login_session_event_handler.h
+    extension/scene/load_world_jump_configure.h
+    extension/scene/npc_builder.h
+    extension/scene/npc_create_event_handler.h
+    extension/scene/ownership.h
+    extension/scene/ownership_all.h
+    extension/scene/ownership_camp_compete.h
+    extension/scene/ownership_camp_each.h
+    extension/scene/ownership_damage.h
+    extension/scene/ownership_kill.h
+    extension/scene/world_jump_message_handler.h
+    extension/scene/request_actor_broadcast.h
+    extension/scene/request_clear_all_npc.h
+    extension/scene/request_clear_npc.h
+    extension/scene/request_get_around_actors.h
+    extension/scene/request_role_move.h
+    extension/scene/request_router.h
+    extension/scene/request_select_targets.h
+    extension/scene/request_scene_create_map.h
+    extension/scene/request_scene_forbid_drop_item.h
+    extension/scene/request_scene_get_npcs.h
+    extension/scene/request_scene_issafe.h
+    extension/scene/request_scene_jump.h
+    extension/scene/request_scene_daynightinfo.h
+    extension/scene/request_scene_pk_check.h
+    extension/scene/request_scene_pkinfo.h  
+    extension/scene/request_scene_relocation.h
+    extension/scene/request_scene_revive.h
+    extension/scene/request_summon_npc.h
+    extension/scene/role_basic_status_change_handler.h
+    extension/scene/role_killed_event_handler.h
+    extension/scene/scene.h
+    extension/scene/scene_actor.h
+    extension/scene/scene_actor_pool.h
+    extension/scene/scene_builder.h
+    extension/scene/scene_daynight.h
+    extension/scene/scene_extension.h
+    extension/scene/scene_item.h
+    extension/scene/scene_item_manager.h
+    extension/scene/scene_item_pool.h
+    extension/scene/scene_manager.h
+    extension/scene/scene_npc.h
+    extension/scene/scene_npc_manager.h
+    extension/scene/scene_npc_pool.h
+    extension/scene/scene_pool.h
+    extension/scene/screen.h
+    extension/scene/session_message_handler.h
+    extension/scene/skill_event_handler.h
+    extension/scene/zazen_actor.h)
+
+
+
+set(GAME_EXTENSION_SKILL_SOURCES
+    extension/skill/actor_login_event_handler.cc
+    extension/skill/actor_logout_event_handler.cc
+    extension/skill/basic_status_change_event_handler.cc
+    extension/skill/change_location_event_handler.cc
+    extension/skill/configure.cc
+    extension/skill/damage_calculation.cc
+    extension/skill/facade_request.cc
+    extension/skill/fighting_status.cc
+    extension/skill/npc_create_event_handler.cc
+    extension/skill/request_global_buff.cc
+    extension/skill/request_set_fighting_status.cc
+    extension/skill/request_skill_alter.cc
+    extension/skill/request_skill_hurt.cc
+    extension/skill/request_stand_skill.cc
+    extension/skill/request_temp_skill.cc
+    extension/skill/request_use_skill.cc
+    extension/skill/role_common_status_event_handler.cc
+    extension/skill/scene_role_create_event_handler.cc
+    extension/skill/skill_boot_status.cc
+    extension/skill/skill.cc
+    extension/skill/skill_extension.cc
+    extension/skill/skill_finish_status.cc
+    extension/skill/skill_idle_status.cc
+    extension/skill/skill_launch_status.cc
+    extension/skill/skill_message_handler.cc
+    extension/skill/skill_pool.cc
+    extension/skill/skill_role.cc
+    extension/skill/skill_role_manager.cc
+    extension/skill/skill_role_pool.cc
+    extension/skill/skill_status.cc
+    extension/skill/threat_event_handler.cc)
+
+set(GAME_EXTENSION_SKILL_INCLUDES
+    extension/skill/actor_login_event_handler.h
+    extension/skill/actor_logout_event_handler.h
+    extension/skill/basic_status_change_event_handler.h
+    extension/skill/change_location_event_handler.h
+    extension/skill/configure.h
+    extension/skill/damage_calculation.h
+    extension/skill/facade_request.h
+    extension/skill/fighting_status.h
+    extension/skill/npc_create_event_handler.h
+    extension/skill/request_global_buff.h
+    extension/skill/request_set_fighting_status.h
+    extension/skill/request_skill_alter.h
+    extension/skill/request_skill_hurt.h
+    extension/skill/request_stand_skill.h
+    extension/skill/request_temp_skill.h
+    extension/skill/request_use_skill.h
+    extension/skill/role_common_status_event_handler.h
+    extension/skill/scene_role_create_event_handler.h
+    extension/skill/skill_boot_status.h
+    extension/skill/skill_configure.h
+    extension/skill/skill_extension.h
+    extension/skill/skill_finish_status.h
+    extension/skill/skill.h
+    extension/skill/skill_idle_status.h
+    extension/skill/skill_launch_status.h
+    extension/skill/skill_message_handler.h
+    extension/skill/skill_pool.h
+    extension/skill/skill_role.h
+    extension/skill/skill_role_manager.h
+    extension/skill/skill_role_pool.h
+    extension/skill/skill_status.h
+    extension/skill/skill_types.h
+    extension/skill/threat_event_handler.h)
+
+
+
+set(GAME_EXTENSION_COOLING_SOURCES
+    extension/cooling/actor_login_event_handler.cc
+    extension/cooling/actor_logout_event_handler.cc
+    extension/cooling/actor_save_event_handler.cc
+    extension/cooling/configure.cc
+    extension/cooling/cooling.cc
+    extension/cooling/cooling_extension.cc
+    extension/cooling/cooling_group.cc
+    extension/cooling/cooling_group_pool.cc
+    extension/cooling/cooling_pool.cc
+    extension/cooling/cooling_role.cc
+    extension/cooling/cooling_role_manager.cc
+    extension/cooling/cooling_role_pool.cc
+    extension/cooling/npc_create_event_handler.cc
+    extension/cooling/request_check_in_cooling.cc
+    extension/cooling/request_start_cooling.cc
+    extension/cooling/storage_cooling_login_response.cc
+    extension/cooling/storage_cooling_save_response.cc)
+
+set(GAME_EXTENSION_COOLING_INCLUDES
+    extension/cooling/actor_login_event_handler.h
+    extension/cooling/actor_logout_event_handler.h
+    extension/cooling/actor_save_event_handler.h
+    extension/cooling/configure.h
+    extension/cooling/cooling_extension.h
+    extension/cooling/cooling_group.h
+    extension/cooling/cooling_group_pool.h
+    extension/cooling/cooling.h
+    extension/cooling/cooling_pool.h
+    extension/cooling/cooling_role.h
+    extension/cooling/cooling_role_manager.h
+    extension/cooling/cooling_role_pool.h
+    extension/cooling/npc_create_event_handler.h
+    extension/cooling/request_check_in_cooling.h
+    extension/cooling/request_start_cooling.h
+    extension/cooling/storage_cooling_login_response.h
+    extension/cooling/storage_cooling_save_response.h)
+
+
+
+set(GAME_EXTENSION_ITEM_SOURCES
+    extension/item/actor_daily_clean_event_handler.cc
+    extension/item/actor_functionality_enable_event_handler.cc
+    extension/item/actor_logout_event_handler.cc
+    extension/item/actor_save_event_handler.cc
+    extension/item/change_vocation_event_handler.cc
+    extension/item/change_vip_event_handler.cc
+    extension/item/configure.cc
+    extension/item/container_message_handler.cc
+    extension/item/equipment.cc
+    extension/item/equipment_container.cc
+    extension/item/equip_message_handler.cc
+    extension/item/extension_load_event_handler.cc
+    extension/item/facade_request.cc
+    extension/item/fighting_status_event_handler.cc
+    extension/item/gem_container.cc
+    extension/item/gem_message_handler.cc
+    extension/item/mall_message_handler.cc
+    extension/item/item.cc
+    extension/item/item_actor.cc
+    extension/item/item_actor_manager.cc
+    extension/item/item_actor_pool.cc
+    extension/item/item_builder.cc
+    extension/item/item_extension.cc
+    extension/item/item_compose_message_handler.cc
+    extension/item/item_container.cc
+    extension/item/item_manager.cc
+    extension/item/item_pool.cc
+    extension/item/load_equip_refine_configure.cc
+    extension/item/load_equipment_configure.cc
+    extension/item/load_gem_configure.cc
+    extension/item/load_hunt_treasure_configure.cc
+    extension/item/load_intensify_configure.cc
+    extension/item/load_item_compose_configure.cc
+    extension/item/load_material_configure.cc
+    extension/item/load_medicine_configure.cc
+    extension/item/load_mall_configure.cc
+    extension/item/load_vip_gifts_configure.cc
+    extension/item/load_random_attribute.cc
+    extension/item/load_shop_configure.cc
+    extension/item/load_suit_configure.cc
+    extension/item/load_treasure_spend_configure.cc
+    extension/item/material.cc
+    extension/item/medicine.cc
+    extension/item/packet_container.cc
+    extension/item/pvp_status_event_handler.cc
+    extension/item/vip_gifts_message_handler.cc
+    extension/item/request_add_item.cc
+    extension/item/request_get_packet_item_number.cc
+    extension/item/request_get_packet_item_template.cc
+    extension/item/request_item_handler.cc
+    extension/item/request_remove_item.cc
+    extension/item/scene_role_create_event_handler.cc
+    extension/item/session_message_handler.cc
+    extension/item/shop_buyback_container.cc
+    extension/item/shop_message_handler.cc
+    extension/item/storage_container.cc
+    extension/item/storage_gem_login_response.cc
+    extension/item/storage_item_actor_login_response.cc
+    extension/item/storage_item_login_response.cc
+    extension/item/treasure_container.cc
+    extension/item/treasure_message_handler.cc)
+
+set(GAME_EXTENSION_ITEM_INCLUDES
+    extension/item/actor_daily_clean_event_handler.h
+    extension/item/actor_functionality_enable_event_handler.h
+    extension/item/actor_logout_event_handler.h
+    extension/item/actor_save_event_handler.h
+    extension/item/change_vocation_event_handler.h
+    extension/item/change_vip_event_handler.h
+    extension/item/configure.h
+    extension/item/container_message_handler.h
+    extension/item/equipment.h
+    extension/item/equipment_container.h
+    extension/item/equip_message_handler.h
+    extension/item/extension_load_event_handler.h
+    extension/item/facade_request.h
+    extension/item/fighting_status_event_handler.h
+    extension/item/gem_container.h
+    extension/item/gem_message_handler.h
+    extension/item/mall_message_handler.h
+    extension/item/item_actor.h
+    extension/item/item_actor_manager.h
+    extension/item/item_actor_pool.h
+    extension/item/item_builder.h
+    extension/item/item_compose_message_handler.h
+    extension/item/item_configure.h
+    extension/item/item_container.h
+    extension/item/item_extension.h
+    extension/item/item.h
+    extension/item/item_manager.h
+    extension/item/item_pool.h
+    extension/item/load_equip_refine_configure.h
+    extension/item/load_equipment_configure.h
+    extension/item/load_gem_configure.h
+    extension/item/load_hunt_treasure_configure.h
+    extension/item/load_intensify_configure.h
+    extension/item/load_item_compose_configure.h
+    extension/item/load_material_configure.h
+    extension/item/load_medicine_configure.h
+    extension/item/load_mall_configure.h
+    extension/item/load_vip_gifts_configure.h
+    extension/item/load_random_attribute.h
+    extension/item/load_shop_configure.h
+    extension/item/load_suit_configure.h
+    extension/item/load_treasure_spend_configure.h
+    extension/item/material.h
+    extension/item/medicine.h
+    extension/item/packet_container.h
+    extension/item/pvp_status_event_handler.h
+    extension/item/vip_gifts_message_handler.h
+    extension/item/request_add_item.h
+    extension/item/request_get_packet_item_number.h
+    extension/item/request_get_packet_item_template.h
+    extension/item/request_item_handler.h
+    extension/item/request_remove_item.h
+    extension/item/scene_role_create_event_handler.h
+    extension/item/session_message_handler.h
+    extension/item/shop_buyback_container.h
+    extension/item/shop_message_handler.h
+    extension/item/storage_container.h
+    extension/item/storage_gem_login_response.h
+    extension/item/storage_item_actor_login_response.cc
+    extension/item/storage_item_login_response.h
+    extension/item/treasure_container.h
+    extension/item/treasure_message_handler.h)
+
+
+set(GAME_EXTENSION_GM_SOURCES
+    extension/gm/gm_extension.cc
+    extension/gm/gm_message_handler.cc)
+
+set(GAME_EXTENSION_GM_INCLUDES
+    extension/gm/gm_extension.h
+    extension/gm/gm_message_handler.h)
+
+
+
+set(GAME_EXTENSION_EFFECT_SOURCES
+    extension/effect/actor_logout_event_handler.cc
+    extension/effect/attribute_effect.cc
+    extension/effect/clearing_effect.cc
+    extension/effect/configure.cc
+    extension/effect/effect.cc
+    extension/effect/effect_extension.cc
+    extension/effect/effect_pool.cc
+    extension/effect/effect_role.cc
+    extension/effect/effect_role_manager.cc
+    extension/effect/effect_role_pool.cc
+    extension/effect/effect_type.cc
+    extension/effect/extension_load_event_handler.cc
+    extension/effect/npc_create_event_handler.cc
+    extension/effect/request_effect_end.cc          
+    extension/effect/request_effect_start.cc
+    extension/effect/skill_effect.cc
+    extension/effect/status_effect.cc)
+
+set(GAME_EXTENSION_EFFECT_INCLUDES
+    extension/effect/actor_logout_event_handler.h
+    extension/effect/attribute_effect.h
+    extension/effect/clearing_effect.h
+    extension/effect/configure.h
+    extension/effect/creator_key.h
+    extension/effect/effect_extension.h
+    extension/effect/effect.h
+    extension/effect/effect_pool.h
+    extension/effect/effect_role.h
+    extension/effect/effect_role_manager.h
+    extension/effect/effect_role_pool.h
+    extension/effect/effect_type.h
+    extension/effect/extension_load_event_handler.cc
+    extension/effect/npc_create_event_handler.h
+    extension/effect/request_effect_end.h
+    extension/effect/request_effect_start.h
+    extension/effect/skill_effect.h
+    extension/effect/status_effect.h)
+
+set(GAME_EXTENSION_TEST_SOURCES
+    extension/test/event_handler.cc
+    extension/test/test_extension.cc)
+
+set(GAME_EXTENSION_TEST_INCLUDES
+    extension/test/event_handler.h
+    extension/test/test_extension.h)
+
+set(GAME_EXTENSION_BUFF_SOURCES
+    extension/buff/actor_login_event_handler.cc
+    extension/buff/actor_logout_event_handler.cc
+    extension/buff/actor_save_event_handler.cc
+    extension/buff/attack_condition.cc
+    extension/buff/attribute_change_event_handler.cc
+    extension/buff/buff.cc
+    extension/buff/buff_condition.cc
+    extension/buff/buff_event_handler.cc
+    extension/buff/buff_extension.cc
+    extension/buff/buff_pool.cc
+    extension/buff/buff_role.cc
+    extension/buff/buff_role_manager.cc
+    extension/buff/buff_role_pool.cc
+    extension/buff/condition.cc
+    extension/buff/condition_pool.cc
+    extension/buff/configure.cc
+    extension/buff/extension_load_event_handler.cc
+    extension/buff/facade_request.cc
+    extension/buff/hp_condition.cc
+    extension/buff/mp_condition.cc
+    extension/buff/npc_create_event_handler.cc
+    extension/buff/request_buff_handler.cc          
+    extension/buff/role_basic_status_change_handler.cc
+    extension/buff/scene_role_create_event_handler.cc
+    extension/buff/skill_condition.cc
+    extension/buff/skill_event_handler.cc
+    extension/buff/status_condition.cc
+    extension/buff/storage_buff_login_response.cc
+    extension/buff/storage_buff_save_response.cc)
+
+set(GAME_EXTENSION_BUFF_INCLUDES
+    extension/buff/actor_login_event_handler.h
+    extension/buff/actor_logout_event_handler.h
+    extension/buff/actor_save_event_handler.h
+    extension/buff/attack_condition.h
+    extension/buff/attribute_change_event_handler.h
+    extension/buff/buff_constants.h
+    extension/buff/buff_extension.h
+    extension/buff/buff.h
+    extension/buff/buff_condition.h
+    extension/buff/buff_event_handler.h
+    extension/buff/buff_pool.h
+    extension/buff/buff_role.h
+    extension/buff/buff_role_manager.h
+    extension/buff/buff_role_pool.h
+    extension/buff/condition.h
+    extension/buff/condition_pool.h
+    extension/buff/configure.h
+    extension/buff/extension_load_event_handler.h
+    extension/buff/facade_request.h
+    extension/buff/hp_condition.h
+    extension/buff/mp_condition.h
+    extension/buff/npc_create_event_handler.h
+    extension/buff/request_buff_handler.h
+    extension/buff/role_basic_status_change_handler.h
+    extension/buff/scene_role_create_event_handler.h
+    extension/buff/skill_condition.h
+    extension/buff/skill_event_handler.h
+    extension/buff/status_condition.h
+    extension/buff/storage_buff_login_response.h
+    extension/buff/storage_buff_save_response.h)
+
+
+
+set(GAME_EXTENSION_PYTHON_SOURCES
+    extension/python/actor_login_event_handler.cc
+    extension/python/actor_logout_event_handler.cc
+    extension/python/communicator_proxy.cc
+    extension/python/function_proxy.cc
+    extension/python/npc_create_destory_event_handler.cc
+    extension/python/python_actor.cc
+    extension/python/python_actor_manager.cc
+    extension/python/python_actor_pool.cc
+    extension/python/python_engine.cc
+    extension/python/python_entity_manager.cc
+    extension/python/python_extension.cc
+    extension/python/python_npc.cc
+    extension/python/python_npc_pool.cc
+    extension/python/python_npc_manager.cc
+    extension/python/python_variable_constants.cpp
+    extension/python/python_variable_types.cpp
+    extension/python/request_proxy.cc
+    extension/python/timer_proxy.cc)
+
+set(GAME_EXTENSION_PYTHON_INCLUDES
+    extension/python/actor_login_event_handler.h
+    extension/python/actor_logout_event_handler.h
+    extension/python/communicator_proxy.h
+    extension/python/function_proxy.h
+    extension/python/log_proxy.h
+    extension/python/npc_create_destory_event_handler.h
+    extension/python/python_actor.h
+    extension/python/python_actor_manager.h
+    extension/python/python_actor_pool.h
+    extension/python/python_engine.h
+    extension/python/python_entity_manager.h
+    extension/python/python_extension.h
+    extension/python/python_npc.h
+    extension/python/python_npc_manager.h
+    extension/python/python_npc_pool.h
+    extension/python/python_variable_constants.h
+    extension/python/python_variable_types.h
+    extension/python/request_proxy.h
+    extension/python/timer_proxy.h)
+
+
+
+set(GAME_EXTENSION_SOUL_SOURCES
+    extension/soul/actor_attr_event_handler.cc
+    extension/soul/actor_daily_clean_event_handler.cc
+    extension/soul/actor_functionality_enable_event_handler.cc
+    extension/soul/actor_logout_event_handler.cc
+    extension/soul/actor_save_event_handler.cc
+    extension/soul/attr_event_handler.cc
+    extension/soul/configure.cc
+    extension/soul/extension_load_event_handler.cc
+    extension/soul/facade_request.cc
+    extension/soul/fighting_status_event_handler.cc
+    extension/soul/load_soul_configure.cc
+    extension/soul/load_soul_level_configure.cc
+    extension/soul/load_soul_skill_level_configure.cc
+    extension/soul/load_soul_step_configure.cc
+    extension/soul/request_soul_operate.cc
+    extension/soul/role_killed_event_handler.cc
+    extension/soul/soul.cc
+    extension/soul/soul_actor.cc
+    extension/soul/soul_actor_manager.cc
+    extension/soul/soul_actor_pool.cc
+    extension/soul/soul_altar_actor.cc
+    extension/soul/soul_altar_message_handler.cc
+    extension/soul/soul_energy.cc
+    extension/soul/soul_energy_status.cc
+    extension/soul/soul_extension.cc
+    extension/soul/soul_message_handler.cc
+    extension/soul/soul_pool.cc
+    extension/soul/soul_setting.cc
+    extension/soul/storage_soul_login_response.cc
+    extension/soul/storage_soul_actor_login_response.cc)
+
+set(GAME_EXTENSION_SOUL_INCLUDES
+    extension/soul/actor_attr_event_handler.h
+    extension/soul/actor_daily_clean_event_handler.h
+    extension/soul/actor_functionality_enable_event_handler.h
+    extension/soul/actor_logout_event_handler.h
+    extension/soul/actor_save_event_handler.h
+    extension/soul/attr_event_handler.h
+    extension/soul/configure.h
+    extension/soul/extension_load_event_handler.h
+    extension/soul/extension_load_event_handler.h
+    extension/soul/facade_request.h
+    extension/soul/fighting_status_event_handler.h
+    extension/soul/load_soul_configure.h
+    extension/soul/load_soul_level_configure.h
+    extension/soul/load_soul_skill_level_configure.h
+    extension/soul/load_soul_step_configure.h
+    extension/soul/request_soul_operate.h
+    extension/soul/role_killed_event_handler.h
+    extension/soul/soul.h
+    extension/soul/soul_actor.h
+    extension/soul/soul_actor_manager.h
+    extension/soul/soul_actor_pool.h
+    extension/soul/soul_altar_actor.h
+    extension/soul/soul_altar_message_handler.h
+    extension/soul/soul_energy.h
+    extension/soul/soul_energy_status.h
+    extension/soul/soul_configure.h
+    extension/soul/soul_extension.h
+    extension/soul/soul_message_handler.h
+    extension/soul/soul_pool.h
+    extension/soul/soul_setting.h
+    extension/soul/soul_types.h
+    extension/soul/storage_soul_login_response.h
+    extension/soul/storage_soul_actor_login_response.h)
+
+
+
+set(GAME_EXTENSION_TASK_SOURCES
+    extension/task/actor_daily_clean_event_handler.cc
+    extension/task/actor_extension_event_handler.cc
+    extension/task/actor_logout_event_handler.cc
+    extension/task/actor_save_event_handler.cc
+    extension/task/actor_attr_event_handler.cc
+    extension/task/attr_event_handler.cc
+    extension/task/change_vip_event_handler.cc
+    extension/task/condition.cc
+    extension/task/condition_pool.cc
+    extension/task/configure.cc
+    extension/task/collect_item_condition.cc
+    extension/task/constellation_up.cc
+    extension/task/divine_gem_condition.cc
+    extension/task/finish_task_type_condition.cc
+    extension/task/facade_request.cc
+    extension/task/functionality_event_handler.cc
+    extension/task/get_vip_condition.cc
+    extension/task/gather_condition.cc
+    extension/task/get_resource_condition.cc
+    extension/task/item_event_handler.cc
+    extension/task/inlay_equip_condition.cc
+    extension/task/kill_actor_condition.cc
+    extension/task/kill_mob_type_condition.cc
+    extension/task/kill_mob_level_condition.cc
+    extension/task/kill_mob_condition.cc
+    extension/task/kill_mob_collect_condition.cc
+    extension/task/load_exploit_attr_configure.cc
+    extension/task/load_kill_collect_configure.cc
+    extension/task/load_circle_condition_configure.cc
+    extension/task/load_layer_configure.cc
+    extension/task/load_summon_npc_configure.cc
+    extension/task/load_task_circle_configure.cc
+    extension/task/load_task_configure.cc
+    extension/task/load_task_daily_configure.cc
+    extension/task/load_task_exploit_award_configure.cc
+    extension/task/load_task_playing.cc
+    extension/task/load_task_transport_configure.cc
+    extension/task/load_trip_configure.cc
+    extension/task/level_up_condition.cc 
+    extension/task/pass_playing_condition.cc
+    extension/task/playing_event_handler.cc
+    extension/task/rob_event_handler.cc
+    extension/task/rob_condition.cc
+    extension/task/role_killed_event_handler.cc
+    extension/task/refine_equip_condition.cc
+    extension/task/request_task_handler.cc
+    extension/task/request_task_max_layer.cc
+    extension/task/spirit_feed_condition.cc
+    extension/task/scene_event_handler.cc
+    extension/task/spend_resource_condition.cc
+    extension/task/soul_event_handler.cc
+    extension/task/soul_appear_condition.cc
+    extension/task/soul_appear_event_handler.cc
+    extension/task/soul_equip_condition.cc
+    extension/task/soul_feed_condition.cc
+    extension/task/storage_task_login_response.cc
+    extension/task/strength_equip_condition.cc
+    extension/task/summon_npc_condition.cc
+    extension/task/summon_npc_manager.cc
+    extension/task/watering_condition.cc
+    extension/task/task_homeland_event_handle.cc
+    extension/task/task_circle_message_handler.cc
+    extension/task/task_builder.cc
+    extension/task/task_daily.cc
+    extension/task/task_daily_message_handler.cc
+    extension/task/task_actor_manager.cc
+    extension/task/task_actor_pool.cc
+    extension/task/task_circle.cc
+    extension/task/task_transport.cc
+    extension/task/task_trip.cc
+    extension/task/task_trip_message_handler.cc
+    extension/task/task.cc
+    extension/task/talk_npc_condition.cc
+    extension/task/talk_npc_event_handler.cc
+    extension/task/task_actor.cc
+    extension/task/task_extension.cc
+    extension/task/task_message_handler.cc
+    extension/task/task_pool.cc
+    extension/task/transport_condition.cc
+    extension/task/transport_event_handler.cc
+    extension/task/task_transport_message_handler.cc
+    extension/task/wear_equip_condition.cc
+    extension/task/use_item_condition.cc)
+
+
+set(GAME_EXTENSION_TASK_INCLUDES
+    extension/task/actor_daily_clean_event_handler.h
+    extension/task/actor_extension_event_handler.h
+    extension/task/actor_logout_event_handler.h
+    extension/task/actor_save_event_handler.h
+    extension/task/actor_attr_event_handler.h
+    extension/task/attr_event_handler.h
+    extension/task/change_vip_event_handler.h
+    extension/task/condition.h
+    extension/task/condition_pool.h
+    extension/task/configure.h
+    extension/task/collect_item_condition.h
+    extension/task/constellation_up.h
+    extension/task/divine_gem_condition.h
+    extension/task/finish_task_type_condition.h
+    extension/task/facade_request.h
+    extension/task/functionality_event_handler.h
+    extension/task/get_vip_condition.h
+    extension/task/gather_condition.h
+    extension/task/get_resource_condition.h
+    extension/task/item_event_handler.h
+    extension/task/inlay_equip_condition.h
+    extension/task/kill_actor_condition.h
+    extension/task/kill_mob_type_condition.h
+    extension/task/kill_mob_level_condition.h
+    extension/task/kill_mob_condition.h
+    extension/task/kill_mob_collect_condition.h
+    extension/task/load_circle_condition_configure.h
+    extension/task/load_exploit_attr_configure.h
+    extension/task/load_kill_collect_configure.h
+    extension/task/load_layer_configure.h
+    extension/task/load_summon_npc_configure.h
+    extension/task/load_trip_configure.h
+    extension/task/load_task_circle_configure.h
+    extension/task/load_task_configure.h
+    extension/task/load_task_exploit_award_configure.h
+    extension/task/load_task_daily_configure.h
+    extension/task/load_task_playing.h
+    extension/task/load_task_transport_configure.h
+    extension/task/level_up_condition.h 
+    extension/task/pass_playing_condition.h
+    extension/task/playing_event_handler.h
+    extension/task/rob_event_handler.h
+    extension/task/rob_condition.h
+    extension/task/role_killed_event_handler.h
+    extension/task/refine_equip_condition.h
+    extension/task/request_task_handler.h
+    extension/task/request_task_max_layer.h
+    extension/task/spirit_feed_condition.h
+    extension/task/scene_event_handler.h
+    extension/task/spend_resource_condition.h
+    extension/task/soul_appear_condition.h
+    extension/task/soul_appear_event_handler.h
+    extension/task/soul_equip_condition.h
+    extension/task/soul_event_handler.h
+    extension/task/soul_feed_condition.h
+    extension/task/storage_task_login_response.h
+    extension/task/strength_equip_condition.h
+    extension/task/summon_npc_condition.h
+    extension/task/summon_npc_manager.h
+    extension/task/talk_npc_condition.h
+    extension/task/talk_npc_event_handler.h
+    extension/task/task.h
+    extension/task/task_actor_manager.h
+    extension/task/task_actor_pool.h
+    extension/task/task_actor.h
+    extension/task/task_builder.h
+    extension/task/task_circle.h
+    extension/task/task_circle_message_handler.h
+    extension/task/task_daily.h
+    extension/task/task_daily_message_handler.h
+    extension/task/task_extension.h
+    extension/task/task_homeland_event_handle.h
+    extension/task/task_trip.h
+    extension/task/task_message_handler.h
+    extension/task/task_pool.h
+    extension/task/task_transport.h
+    extension/task/task_trip_message_handler.h
+    extension/task/transport_condition.h
+    extension/task/transport_event_handler.h
+    extension/task/task_transport_message_handler.h
+    extension/task/watering_condition.h
+    extension/task/wear_equip_condition.h
+    extension/task/use_item_condition.h)
+
+
+
+set(GAME_EXTENSION_ATTR_SOURCES
+    extension/attr/actor_compare_event_handler.cc
+    extension/attr/actor_daily_clean_event_handler.cc
+    extension/attr/actor_functionality_enable_event_handler.cc
+    extension/attr/actor_levelup_event_handler.cc
+    extension/attr/actor_logout_event_handler.cc
+    extension/attr/actor_vocation_event_handler.cc
+    extension/attr/actor_save_event_handler.cc
+    extension/attr/attr_actor.cc
+    extension/attr/attr_actor_manager.cc
+    extension/attr/attr_actor_pool.cc
+    extension/attr/attr_extension.cc
+    extension/attr/bar_finish_event_handler.cc
+    extension/attr/configure.cc
+    extension/attr/element_actor.cc
+    extension/attr/element_message_handler.cc
+    extension/attr/extension_load_event_handler.cc
+    extension/attr/facade_request.cc
+    extension/attr/legendary_weapon_actor.cc
+    extension/attr/legendary_weapon_message_handler.cc
+    extension/attr/load_attr_bonus_configure.cc
+    extension/attr/load_element_configure.cc
+    extension/attr/load_legendary_weapon_configure.cc
+    extension/attr/load_noble_configure.cc
+    extension/attr/load_spirit_configure.cc
+    extension/attr/load_sword_configure.cc
+    extension/attr/load_rune_configure.cc
+    extension/attr/noble_actor.cc
+    extension/attr/noble_message_handler.cc
+    extension/attr/noble_request_handler.cc
+    extension/attr/rune_actor.cc
+    extension/attr/rune_message_handler.cc
+    extension/attr/scene_role_create_event_handler.cc
+    extension/attr/spirit_actor.cc
+    extension/attr/spirit_message_handler.cc
+    extension/attr/spirit_request_handler.cc
+    extension/attr/storage_attr_actor_login_response.cc
+    extension/attr/storage_spirit_facade_login_response.cc
+    extension/attr/sword_actor.cc
+    extension/attr/sword_message_handler.cc
+    extension/attr/sword_request_handler.cc)
+
+set(GAME_EXTENSION_ATTR_INCLUDES
+    extension/attr/actor_compare_event_handler.h
+    extension/attr/actor_daily_clean_event_handler.h
+    extension/attr/actor_functionality_enable_event_handler.h
+    extension/attr/actor_levelup_event_handler.h
+    extension/attr/actor_logout_event_handler.h
+    extension/attr/actor_vocation_event_handler.h
+    extension/attr/actor_save_event_handler.h
+    extension/attr/attr_actor.h
+    extension/attr/attr_actor_manager.h
+    extension/attr/attr_actor_pool.h
+    extension/attr/attr_configure.h
+    extension/attr/attr_extension.h
+    extension/attr/bar_finish_event_handler.h
+    extension/attr/configure.h
+    extension/attr/element_actor.h
+    extension/attr/element_message_handler.h
+    extension/attr/extension_load_event_handler.cc
+    extension/attr/facade_request.h
+    extension/attr/legendary_weapon_actor.h
+    extension/attr/legendary_weapon_message_handler.h
+    extension/attr/load_attr_bonus_configure.h
+    extension/attr/load_element_configure.h
+    extension/attr/load_legendary_weapon_configure.h
+    extension/attr/load_noble_configure.h
+    extension/attr/load_spirit_configure.h
+    extension/attr/load_sword_configure.h
+    extension/attr/load_rune_configure.h
+    extension/attr/noble_actor.h
+    extension/attr/noble_message_handler.h
+    extension/attr/noble_request_handler.h
+    extension/attr/rune_actor.h
+    extension/attr/rune_message_handler.h
+    extension/attr/scene_role_create_event_handler.h
+    extension/attr/spirit_actor.h
+    extension/attr/spirit_message_handler.h
+    extension/attr/spirit_request_handler.h
+    extension/attr/storage_attr_actor_login_response.h
+    extension/attr/storage_spirit_facade_login_response.h
+    extension/attr/sword_actor.h
+    extension/attr/sword_message_handler.h
+    extension/attr/sword_request_handler.h)
+
+set(GAME_EXTENSION_CHAT_SOURCES
+    extension/chat/actor_login_event_handler.cc
+    extension/chat/actor_logout_event_handler.cc
+    extension/chat/chat_actor.cc
+    extension/chat/chat_actor_manager.cc
+    extension/chat/chat_actor_pool.cc
+    extension/chat/chat_extension.cc
+    extension/chat/chat_message_handler.cc
+    extension/chat/configure.cc
+    extension/chat/facade_request.cc
+    extension/chat/load_chat_channel_configure.cc)
+
+set(GAME_EXTENSION_CHAT_INCLUDES
+    extension/chat/actor_login_event_handler.h
+    extension/chat/actor_logout_event_handler.h
+    extension/chat/chat_actor.h
+    extension/chat/chat_actor_manager.h
+    extension/chat/chat_actor_pool.h
+    extension/chat/chat_configure.h
+    extension/chat/chat_extension.cc
+    extension/chat/chat_extension.h
+    extension/chat/chat_message_handler.h
+    extension/chat/configure.h
+    extension/chat/facade_request.h
+    extension/chat/load_chat_channel_configure.h)
+
+set(GAME_EXTENSION_MAIL_SOURCES
+    extension/mail/mail_actor.cc
+    extension/mail/mail_actor_manager.cc
+    extension/mail/mail_actor_pool.cc
+    extension/mail/mail.cc
+    extension/mail/configure.cc
+    extension/mail/mail_database_response.cc
+    extension/mail/mail_event_handler.cc
+    extension/mail/mail_extension.cc
+    extension/mail/mail_message_handler.cc
+    extension/mail/session_message_handler.cc
+    extension/mail/mail_pool.cc
+    extension/mail/mail_request.cc)
+
+set(GAME_EXTENSION_MAIL_INCULDES
+    extension/mail/mail_actor.h
+    extension/mail/mail_actor_manager.h
+    extension/mail/mail_actor_pool.h
+    extension/mail/mail.h
+    extension/mail/configure.h
+    extension/mail/mail_database_response.h
+    extension/mail/mail_event_handler.h
+    extension/mail/mail_extension.h
+    extension/mail/mail_message_handler.h
+    extension/mail/session_message_handler.h
+    extension/mail/mail_pool.h
+    extension/mail/mail_request.h)
+
+
+set(GAME_EXTENSION_SOCIAL_SOURCES
+    extension/social/actor_logout_event_handler.cc
+    extension/social/extension_load_event_handler.cc
+    extension/social/facade_request.cc
+    extension/social/session_homeland_message_handler.cc
+    extension/social/social_actor.cc
+    extension/social/social_actor_manager.cc
+    extension/social/social_actor_pool.cc
+    extension/social/social_extension.cc
+    extension/social/soul_add_event_handler.cc
+    extension/social/soul_upgrade_event_handler.cc)
+
+set(GAME_EXTENSION_SOCIAL_INCLUDES
+    extension/social/actor_logout_event_handler.h
+    extension/social/extension_load_event_handler.h
+    extension/social/facade_request.h
+    extension/social/session_homeland_message_handler.h
+    extension/social/social_actor.h
+    extension/social/social_actor_manager.h
+    extension/social/social_actor_pool.h
+    extension/social/social_extension.h
+    extension/social/soul_add_event_handler.h
+    extension/social/soul_upgrade_event_handler.h)
+
+
+set(GAME_EXTENSION_TEAM_SOURCES
+    extension/team/actor_change_attribute_event_handler.cc
+    extension/team/actor_login_event_handler.cc
+    extension/team/actor_logout_event_handler.cc
+    extension/team/scene_jump_map_event_handler.cc
+    extension/team/scene_role_create_event_handler.cc
+    extension/team/session_message_handler.cc
+    extension/team/team_actor.cc
+    extension/team/team_actor_manager.cc
+    extension/team/team_actor_pool.cc
+    extension/team/team_extension.cc
+    extension/team/team_request_handler.cc)
+
+set(GAME_EXTENSION_TEAM_INCLUDES
+    extension/team/actor_change_attribute_event_handler.h
+    extension/team/actor_login_event_handler.h
+    extension/team/actor_logout_event_handler.h
+    extension/team/scene_jump_map_event_handler.h
+    extension/team/scene_role_create_event_handler.h
+    extension/team/session_message_handler.h
+    extension/team/team_actor.h
+    extension/team/team_actor_manager.h
+    extension/team/team_actor_pool.h
+    extension/team/team_extension.h
+    extension/team/team_request_handler.h)
+
+set(GAME_EXTENSION_GUILD_SOURCES
+    extension/guild/actor_logout_event_handler.cc
+    extension/guild/extension_load_event_handler.cc
+    extension/guild/facade_request.cc
+    extension/guild/guild.cc
+    extension/guild/guild_actor.cc
+    extension/guild/guild_actor_manager.cc
+    extension/guild/guild_actor_pool.cc
+    extension/guild/guild_extension.cc
+    extension/guild/guild_manager.cc
+    extension/guild/guild_message_handler.cc
+    extension/guild/guild_pool.cc
+    extension/guild/guild_request_handler.cc
+    extension/guild/login_session_event_handler.cc
+    extension/guild/scene_role_create_event_handler.cc
+    extension/guild/session_guild_message_handler.cc)
+
+set(GAME_EXTENSION_GUILD_INCLUDES
+    extension/guild/actor_logout_event_handler.h
+    extension/guild/extension_load_event_handler.h
+    extension/guild/facade_request.h
+    extension/guild/guild.h
+    extension/guild/guild_actor.h
+    extension/guild/guild_actor_manager.h
+    extension/guild/guild_actor_pool.h
+    extension/guild/guild_extension.h
+    extension/guild/guild_manager.h
+    extension/guild/guild_message_handler.h
+    extension/guild/guild_pool.h
+    extension/guild/guild_request_handler.h
+    extension/guild/login_session_event_handler.h
+    extension/guild/scene_role_create_event_handler.h
+    extension/guild/session_guild_message_handler.h)
+
+
+set(GAME_EXTENSION_PLAYING_SOURCES
+    extension/playing/actor_daily_clean_event_handler.cc
+    extension/playing/actor_functionality_enable_event_handler.cc
+    extension/playing/actor_load_finish_event_handler.cc
+    extension/playing/actor_login_event_handler.cc
+    extension/playing/actor_logout_event_handler.cc
+    extension/playing/actor_save_event_handler.cc
+    extension/playing/actor_vip_change_event_handler.cc
+    extension/playing/actor_weekly_clean_event_handler.cc
+    extension/playing/facade_request.cc
+    extension/playing/jump_scene_event_handler.cc
+    extension/playing/login_session_event_handler.cc
+    extension/playing/maze_actor.cc
+    extension/playing/maze_map_manager.cc
+    extension/playing/maze_message_handler.cc
+    extension/playing/playing.cc
+    extension/playing/playing_actor.cc
+    extension/playing/playing_actor_manager.cc
+    extension/playing/playing_actor_pool.cc
+    extension/playing/playing_builder.cc
+    extension/playing/playing_destory_checker.cc
+    extension/playing/playing_extension.cc
+    extension/playing/playing_manager.cc
+    extension/playing/playing_message_handler.cc
+    extension/playing/playing_page.cc
+    extension/playing/playing_page_pool.cc
+    extension/playing/playing_pool.cc
+    extension/playing/request_playing_handler.cc
+    extension/playing/session_maze_message_handler.cc
+    extension/playing/session_message_handler.cc
+    extension/playing/storage_playing_actor_login_response.cc)
+
+set(GAME_EXTENSION_PLAYING_INCLUDES
+    extension/playing/actor_daily_clean_event_handler.h
+    extension/playing/actor_functionality_enable_event_handler.h
+    extension/playing/actor_load_finish_event_handler.h
+    extension/playing/actor_login_event_handler.h
+    extension/playing/actor_logout_event_handler.h
+    extension/playing/actor_save_event_handler.h
+    extension/playing/actor_vip_change_event_handler.h
+    extension/playing/actor_weekly_clean_event_handler.h
+    extension/playing/facade_request.h
+    extension/playing/jump_scene_event_handler.h
+    extension/playing/login_session_event_handler.h
+    extension/playing/maze_actor.h
+    extension/playing/maze_map_manager.h
+    extension/playing/maze_message_handler.h
+    extension/playing/playing.h
+    extension/playing/playing_actor.h
+    extension/playing/playing_actor_manager.h
+    extension/playing/playing_actor_pool.h
+    extension/playing/playing_builder.h
+    extension/playing/playing_destory_checker.h
+    extension/playing/playing_extension.h
+    extension/playing/playing_manager.h
+    extension/playing/playing_message_handler.h
+    extension/playing/playing_page.h
+    extension/playing/playing_page_pool.h
+    extension/playing/playing_pool.h
+    extension/playing/request_playing_handler.h
+    extension/playing/session_maze_message_handler.h
+    extension/playing/session_message_handler.h
+    extension/playing/storage_playing_actor_login_response.h)
+
+
+set(GAME_EXTENSION_BAR_SOURCES
+    extension/bar/actor_die_event_handler.cc
+    extension/bar/actor_login_event_handler.cc
+    extension/bar/actor_logout_event_handler.cc
+    extension/bar/actor_attacked_event_handler.cc
+    extension/bar/actor_move_event_handler.cc
+    extension/bar/actor_use_item_event_handler.cc
+    extension/bar/actor_use_skill_event_handler.cc
+    extension/bar/bar_actor_manager.cc
+    extension/bar/bar_actor_pool.cc
+    extension/bar/bar_extension.cc
+    extension/bar/bar_message_handler.cc
+    extension/bar/configure.cc
+    extension/bar/request_bar_handler.cc)
+
+
+set(GAME_EXTENSION_BAR_INCLUDES
+    extension/bar/actor_die_event_handler.h
+    extension/bar/actor_login_event_handler.h
+    extension/bar/actor_logout_event_handler.h
+    extension/bar/actor_attacked_event_handler.h
+    extension/bar/actor_move_event_handler.h
+    extension/bar/actor_use_item_event_handler.h
+    extension/bar/actor_use_skill_event_handler.h
+    extension/bar/bar_actor_manager.h
+    extension/bar/bar_actor.h
+    extension/bar/bar_actor_pool.h
+    extension/bar/bar_extension.h
+    extension/bar/bar_message_handler.h
+    extension/bar/configure.h
+    extension/bar/request_bar_handler.h)
+
+
+set(GAME_EXTENSION_AUCTION_SOURCES
+    extension/auction/actor_login_event_handler.cc
+    extension/auction/actor_logout_event_handler.cc
+    extension/auction/auction_actor.cc
+    extension/auction/auction_actor_manager.cc
+    extension/auction/auction_actor_pool.cc
+    extension/auction/auction_extension.cc
+    extension/auction/facade_request.cc
+    extension/auction/session_auction_message_handler.cc)
+
+set(GAME_EXTENSION_AUCTION_INCLUDES
+    extension/auction/actor_login_event_handler.h
+    extension/auction/actor_logout_event_handler.h
+    extension/auction/auction_actor.h
+    extension/auction/auction_actor_manager.h
+    extension/auction/auction_actor_pool.h
+    extension/auction/auction_extension.h
+    extension/auction/facade_request.h
+    extension/auction/session_auction_message_handler.h)
+
+
+set(GAME_EXTENSION_WELFARE_SOURCES
+    extension/welfare/achieve_actor.cc
+    extension/welfare/achieve_imp_event.cc
+    extension/welfare/actor_event_handler.cc
+    extension/welfare/actor_extension_event_handler.cc
+    extension/welfare/actor_daily_clean_event_handler.cc
+    extension/welfare/actor_logout_event_handler.cc
+    extension/welfare/actor_message_handler.cc
+    extension/welfare/attr_event_handler.cc
+    extension/welfare/checkins_actor.cc
+    extension/welfare/condition.cc
+    extension/welfare/condition_pool.cc
+    extension/welfare/configure.cc
+    extension/welfare/facede_request.cc
+    extension/welfare/item_event_handler.cc
+    extension/welfare/load_checkins_configure.cc
+    extension/welfare/load_daily_checkins_configure.cc
+    extension/welfare/load_online_configure.cc
+    extension/welfare/load_task_configure.cc
+    extension/welfare/request_handler.cc
+    extension/welfare/role_die_event_handler.cc
+    extension/welfare/scene_event_handler.cc
+    extension/welfare/skill_event_handler.cc
+    extension/welfare/soul_event_handler.cc
+    extension/welfare/storage_login_response.cc
+    extension/welfare/task.cc
+    extension/welfare/task_pool.cc
+    extension/welfare/welfare_actor.cc
+    extension/welfare/welfare_actor_manager.cc
+    extension/welfare/welfare_actor_pool.cc
+    extension/welfare/welfare_extension.cc)
+
+
+set(GAME_EXTENSION_WELFARE_INCLUDES
+    extension/welfare/achieve_actor.h
+    extension/welfare/achieve_imp_event.h
+    extension/welfare/actor_event_handler.h
+    extension/welfare/actor_extension_event_handler.h
+    extension/welfare/actor_daily_clean_event_handler.h
+    extension/welfare/actor_logout_event_handler.h
+    extension/welfare/actor_message_handler.h
+    extension/welfare/attr_event_handler.h
+    extension/welfare/checkins_actor.h
+    extension/welfare/condition.h
+    extension/welfare/condition_pool.h
+    extension/welfare/configure.h
+    extension/welfare/facede_request.h
+    extension/welfare/item_event_handler.h
+    extension/welfare/load_checkins_configure.h
+    extension/welfare/load_daily_checkins_configure.h
+    extension/welfare/load_online_configure.h
+    extension/welfare/load_task_configure.h
+    extension/welfare/request_handler.h
+    extension/welfare/role_die_event_handler.h
+    extension/welfare/scene_event_handler.h
+    extension/welfare/skill_event_handler.h
+    extension/welfare/soul_event_handler.h
+    extension/welfare/storage_login_response.h
+    extension/welfare/task.h
+    extension/welfare/task_pool.h
+    extension/welfare/welfare_actor.h
+    extension/welfare/welfare_actor_manager.h
+    extension/welfare/welfare_actor_pool.h
+    extension/welfare/welfare_extension.h)
+
+
+set(GAME_EXTENSION_TRANSPORT_SOURCES
+    extension/transport/facade_request.cc
+    extension/transport/request_transport_handler.cc
+    extension/transport/transport_actor.cc
+    extension/transport/transport_actor_manager.cc
+    extension/transport/transport_actor_pool.cc
+    extension/transport/transport_destory_checker.cc
+    extension/transport/transport_event_handler.cc
+    extension/transport/transport_extension.cc
+    extension/transport/transport_npc.cc
+    extension/transport/transport_npc_manager.cc
+    extension/transport/transport_npc_pool.cc)
+
+
+set(GAME_EXTENSION_TRANSPORT_INCLUDES
+    extension/transport/facade_request.h
+    extension/transport/request_transport_handler.h
+    extension/transport/transport_actor.h
+    extension/transport/transport_actor_manager.h
+    extension/transport/transport_actor_pool.h
+    extension/transport/transport_destory_checker.h
+    extension/transport/transport_event_handler.h
+    extension/transport/transport_extension.h
+    extension/transport/transport_npc.h
+    extension/transport/transport_npc_manager.h
+    extension/transport/transport_npc_pool.h)
+
+
+if(UNIX)
+
+  set(ALL_FILES
+      ${GLOBAL_SOURCES}
+      ${GAME_SERVER_SOURCES} ${GAME_PROTOCOL_SOURCES}
+      ${GAME_EVENT_SOURCES} ${GAME_REQUEST_SOURCES}
+      ${DATABASE_CLIENT_SOURCE} ${DATABASE_PROTOCOL_SOURCES}
+      ${SCHEDULE_CLIENT_SOURCES} ${SCHEDULE_PROTOCOL_SOURCES}
+      ${SESSION_CLIENT_SOURCES} ${SESSION_PROTOCOL_SOURCES}
+      ${GATEWAY_PROTOCOL_SOURCES} ${ENTITY_SOURCES}
+      ${GAME_EXTENSION_AI_SOURCES}
+      ${GAME_EXTENSION_SCENE_SOURCES}
+      ${GAME_EXTENSION_SKILL_SOURCES}
+      ${GAME_EXTENSION_COOLING_SOURCES}
+      ${GAME_EXTENSION_ITEM_SOURCES}
+      ${GAME_EXTENSION_GM_SOURCES}
+      ${GAME_EXTENSION_EFFECT_SOURCES}
+      ${GAME_EXTENSION_TEST_SOURCES}
+      ${GAME_EXTENSION_BUFF_SOURCES}
+      ${GAME_EXTENSION_PYTHON_SOURCES}
+      ${GAME_EXTENSION_SOUL_SOURCES}
+      ${GAME_EXTENSION_TASK_SOURCES}
+      ${GAME_EXTENSION_ATTR_SOURCES}
+      ${GAME_EXTENSION_CHAT_SOURCES}
+      ${GAME_EXTENSION_MAIL_SOURCES}
+      ${GAME_EXTENSION_SOCIAL_SOURCES}
+      ${GAME_EXTENSION_TEAM_SOURCES}
+      ${GAME_EXTENSION_GUILD_SOURCES}
+      ${GAME_EXTENSION_PLAYING_SOURCES}
+      ${GAME_EXTENSION_BAR_SOURCES}
+      ${GAME_EXTENSION_AUCTION_SOURCES}
+      ${GAME_EXTENSION_WELFARE_SOURCES}
+      ${GAME_EXTENSION_TRANSPORT_SOURCES})
+
+elseif(MSVC)
+
+  set(ALL_FILES
+      ${DATABASE_CLIENT_SOURCE} ${DATABASE_PROTOCOL_SOURCES}
+      ${SCHEDULE_CLIENT_SOURCES} ${SCHEDULE_PROTOCOL_SOURCES}
+      ${SESSION_CLIENT_SOURCES} ${SESSION_PROTOCOL_SOURCES}
+      ${GATEWAY_PROTOCOL_SOURCES}
+      ${ENTITY_SOURCES}
+      ${GLOBAL_SOURCES}
+      ${GAME_PROTOCOL_SOURCES}
+      ${GAME_EVENT_SOURCES}
+      ${GAME_REQUEST_SOURCES}
+      ${GAME_SERVER_INCLUDES} ${GAME_SERVER_SOURCES}
+      ${GAME_EXTENSION_AI_INCLUDES} ${GAME_EXTENSION_AI_SOURCES}
+      ${GAME_EXTENSION_SCENE_INCLUDES} ${GAME_EXTENSION_SCENE_SOURCES}
+      ${GAME_EXTENSION_SKILL_INCLUDES} ${GAME_EXTENSION_SKILL_SOURCES}
+      ${GAME_EXTENSION_COOLING_INCLUDES} ${GAME_EXTENSION_COOLING_SOURCES}
+      ${GAME_EXTENSION_ITEM_INCLUDES} ${GAME_EXTENSION_ITEM_SOURCES}
+      ${GAME_EXTENSION_GM_INCLUDES} ${GAME_EXTENSION_GM_SOURCES}
+      ${GAME_EXTENSION_EFFECT_INCLUDES} ${GAME_EXTENSION_EFFECT_SOURCES}
+      ${GAME_EXTENSION_TEST_INCLUDES} ${GAME_EXTENSION_TEST_SOURCES}
+      ${GAME_EXTENSION_BUFF_INCLUDES} ${GAME_EXTENSION_BUFF_SOURCES}
+      ${GAME_EXTENSION_PYTHON_INCLUDES} ${GAME_EXTENSION_PYTHON_SOURCES}
+      ${GAME_EXTENSION_SOUL_INCLUDES} ${GAME_EXTENSION_SOUL_SOURCES}
+      ${GAME_EXTENSION_TASK_INCLUDES} ${GAME_EXTENSION_TASK_SOURCES}
+      ${GAME_EXTENSION_ATTR_INCLUDES} ${GAME_EXTENSION_ATTR_SOURCES}
+      ${GAME_EXTENSION_CHAT_INCLUDES} ${GAME_EXTENSION_CHAT_SOURCES}
+      ${GAME_EXTENSION_MAIL_INCULDES} ${GAME_EXTENSION_MAIL_SOURCES}
+      ${GAME_EXTENSION_SOCIAL_INCLUDES} ${GAME_EXTENSION_SOCIAL_SOURCES}
+      ${GAME_EXTENSION_TEAM_INCLUDES} ${GAME_EXTENSION_TEAM_SOURCES}
+      ${GAME_EXTENSION_GUILD_INCLUDES} ${GAME_EXTENSION_GUILD_SOURCES}
+      ${GAME_EXTENSION_PLAYING_INCLUDES} ${GAME_EXTENSION_PLAYING_SOURCES}
+      ${GAME_EXTENSION_BAR_INCLUDES} ${GAME_EXTENSION_BAR_SOURCES}
+      ${GAME_EXTENSION_AUCTION_INCLUDES} ${GAME_EXTENSION_AUCTION_SOURCES}
+      ${GAME_EXTENSION_WELFARE_INCLUDES} ${GAME_EXTENSION_WELFARE_SOURCES}
+      ${GAME_EXTENSION_TRANSPORT_INCLUDES} ${GAME_EXTENSION_TRANSPORT_SOURCES})
+
+source_group_by_dir(ALL_FILES)
+
+endif()
+
+
+if(COMMAND cmake_policy)
+  cmake_policy(SET CMP0003 NEW)
+endif(COMMAND cmake_policy)
+
+FILE(MAKE_DIRECTORY ${EXECUTABLE_OUTPUT_PATH}/game_server)
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin/game_server)
+
+add_executable(game_server ${ALL_FILES})
+
+target_link_libraries(game_server coresh_static pthread rt thrift python2.7 boost_signals boost_python)
+
+add_dependencies(game_server run coresh_static)

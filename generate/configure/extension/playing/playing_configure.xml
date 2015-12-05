@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<configure>
+
+  <playing_pool initial_number="100" extend_number="5"/>
+
+  <playing file="extension/playing/playing.xml"/>
+  <daily_pass file="extension/playing/playing_daily_pass.xml"/>
+
+</configure>
+

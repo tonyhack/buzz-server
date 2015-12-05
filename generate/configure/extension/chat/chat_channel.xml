@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="string_id name desc cooling max_char spend_item_id spend_item_count color">
+ <cell color="#ffde00" cooling="1" desc="世界" max_char="1024" name="世界" spend_item_count="0" spend_item_id="0" string_id="WORLD"/>
+ <cell color="#faf5e8" cooling="1" desc="普通" max_char="1024" name="普通" spend_item_count="0" spend_item_id="0" string_id="SCENE"/>
+ <cell color="#00ff30" cooling="0" desc="公会" max_char="1024" name="军团" spend_item_count="0" spend_item_id="0" string_id="GUILD"/>
+ <cell color="#00ccff" cooling="0" desc="组队" max_char="1024" name="组队" spend_item_count="0" spend_item_id="0" string_id="TEAM"/>
+ <cell color="#b400ff" cooling="0" desc="私聊" max_char="1024" name="私聊" spend_item_count="0" spend_item_id="0" string_id="WHISPER"/>
+ <cell color="#ff780b" cooling="0" desc="喇叭" max_char="1024" name="喇叭" spend_item_count="1" spend_item_id="144202001" string_id="WORLD_VIP"/>
+ <cell color="#ff0000" cooling="0" desc="系统" max_char="1024" name="系统" spend_item_count="0" spend_item_id="0" string_id="SYSTEM"/>
+</data>

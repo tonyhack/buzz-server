@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="id type param1 param2 param3 remarks">
+ <cell id="2000" param1="0" param2="2000" param3="100" remarks="测试调用--当前等级[消耗类属性]" type="0"/>
+ <cell id="2002" param1="0" param2="2002" param3="100" remarks="测试调用--当前血量值[消耗类属性]" type="0"/>
+ <cell id="2004" param1="0" param2="2004" param3="100" remarks="测试调用--当前魔法值[消耗类属性]" type="0"/>
+ <cell id="3012" param1="0" param2="3012" param3="30000" remarks="//当前能量值[消耗类属性]" type="0"/>
+ <cell id="4000" param1="1" param2="4000" param3="1000" remarks="//最大血量加成值" type="0"/>
+ <cell id="4001" param1="1" param2="4001" param3="1000" remarks="//最大血量加成值(外)" type="0"/>
+ <cell id="4002" param1="1" param2="4002" param3="1000" remarks="//最大血量加成比(万分之)" type="0"/>
+ <cell id="4003" param1="1" param2="4003" param3="1000" remarks="//最大魔法加成值" type="0"/>
+ <cell id="4004" param1="1" param2="4004" param3="1000" remarks="//最大魔法加成值(外)" type="0"/>
+ <cell id="4005" param1="1" param2="4005" param3="1000" remarks="//最大魔法加成比(万分之)" type="0"/>
+ <cell id="4006" param1="1" param2="4006" param3="100" remarks="//移动速度加成值" type="0"/>
+ <cell id="4007" param1="1" param2="4007" param3="100" remarks="//移动速度加成值(外)" type="0"/>
+ <cell id="4008" param1="1" param2="4008" param3="5000" remarks="//移动速度加成比(万分之)" type="0"/>
+ <cell id="4009" param1="1" param2="4009" param3="1000" remarks="//体质加成值" type="0"/>
+ <cell id="4010" param1="1" param2="4010" param3="1000" remarks="//体质加成值(外)" type="0"/>
+ <cell id="4011" param1="1" param2="4011" param3="1000" remarks="//体质加成比(万分之)" type="0"/>
+ <cell id="4012" param1="1" param2="4012" param3="1000" remarks="//力量加成值" type="0"/>
+ <cell id="4013" param1="1" param2="4013" param3="1000" remarks="//力量加成值(外)" type="0"/>
+ <cell id="4014" param1="1" param2="4014" param3="1000" remarks="//力量加成比(万分之)" type="0"/>
+ <cell id="4015" param1="1" param2="4015" param3="1000" remarks="//智力加成值" type="0"/>
+ <cell id="4016" param1="1" param2="4016" param3="1000" remarks="//智力加成值(外)" type="0"/>
+ <cell id="4017" param1="1" param2="4017" param3="1000" remarks="//智力加成比(万分之)" type="0"/>
+ <cell id="4018" param1="1" param2="4018" param3="1000" remarks="//敏捷加成值" type="0"/>
+ <cell id="4019" param1="1" param2="4019" param3="1000" remarks="//敏捷加成值(外)" type="0"/>
+ <cell id="4020" param1="1" param2="4020" param3="1000" remarks="//敏捷加成比(万分之)" type="0"/>
+ <cell id="4021" param1="1" param2="4021" param3="1000" remarks="//精神加成值" type="0"/>
+ <cell id="4022" param1="1" param2="4022" param3="1000" remarks="//精神加成值(外)" type="0"/>
+ <cell id="4023" param1="1" param2="4023" param3="1000" remarks="//精神加成比(万分之)" type="0"/>
+ <cell id="4024" param1="1" param2="4024" param3="1000" remarks="//物理攻击加成值" type="0"/>
+ <cell id="4025" param1="1" param2="4025" param3="1000" remarks="//物理攻击加成值(外)" type="0"/>
+ <cell id="4026" param1="1" param2="4026" param3="1000" remarks="//物理攻击加成比(万分之)" type="0"/>
+ <cell id="4027" param1="1" param2="4027" param3="1000" remarks="//物理防御加成值" type="0"/>
+ <cell id="4028" param1="1" param2="4028" param3="1000" remarks="//物理防御加成值(外)" type="0"/>
+ <cell id="4029" param1="1" param2="4029" param3="1000" remarks="//物理防御加成比(万分之)" type="0"/>
+ <cell id="4030" param1="1" param2="4030" param3="1000" remarks="//魔法攻击加成值" type="0"/>
+ <cell id="4031" param1="1" param2="4031" param3="1000" remarks="//魔法攻击加成值(外)" type="0"/>
+ <cell id="4032" param1="1" param2="4032" param3="1000" remarks="//魔法攻击加成比(万分之)" type="0"/>
+ <cell id="4033" param1="1" param2="4033" param3="1000" remarks="//魔法防御加成值" type="0"/>
+ <cell id="4034" param1="1" param2="4034" param3="1000" remarks="//魔法防御加成值(外)" type="0"/>
+ <cell id="4035" param1="1" param2="4035" param3="1000" remarks="//魔法防御加成比(万分之)" type="0"/>
+ <cell id="4036" param1="1" param2="4036" param3="1000" remarks="//闪避等级加成值" type="0"/>
+ <cell id="4037" param1="1" param2="4037" param3="1000" remarks="//闪避等级加成值(外)" type="0"/>
+ <cell id="4038" param1="1" param2="4038" param3="1000" remarks="//闪避等级加成比(万分之)" type="0"/>
+ <cell id="4039" param1="1" param2="4039" param3="1000" remarks="//闪避率加成值(万分之)" type="0"/>
+ <cell id="4040" param1="1" param2="4040" param3="1000" remarks="//暴击等级加成值" type="0"/>
+ <cell id="4041" param1="1" param2="4041" param3="1000" remarks="//暴击等级加成值(外)" type="0"/>
+ <cell id="4042" param1="1" param2="4042" param3="1000" remarks="//暴击等级加成比(万分之)" type="0"/>
+ <cell id="4043" param1="1" param2="4043" param3="1000" remarks="//暴击率加成值(万分之)" type="0"/>
+ <cell id="4044" param1="1" param2="4044" param3="2000" remarks="//暴击效果加成值(万分之)" type="0"/>
+ <cell id="4045" param1="1" param2="4045" param3="1000" remarks="//会心等级加成值" type="0"/>
+ <cell id="4046" param1="1" param2="4046" param3="1000" remarks="//会心等级加成值(外)" type="0"/>
+ <cell id="4047" param1="1" param2="4047" param3="1000" remarks="//会心等级加成比(万分之)" type="0"/>
+ <cell id="4048" param1="1" param2="4048" param3="1000" remarks="//会心率加成值(万分之)" type="0"/>
+ <cell id="4049" param1="1" param2="4049" param3="1000" remarks="//物伤累计减免率(万分之)" type="0"/>
+ <cell id="4050" param1="1" param2="4050" param3="1000" remarks="//法伤累计减免率(万分之)" type="0"/>
+ <cell id="4051" param1="1" param2="4051" param3="1000" remarks="//伤害累计减免率(万分之)" type="0"/>
+ <cell id="4052" param1="1" param2="4052" param3="1000" remarks="//伤害浮动比加成值(万分之)" type="0"/>
+ <cell id="4053" param1="1" param2="4053" param3="1000" remarks="//治疗加成比(万分之)" type="0"/>
+ <cell id="4054" param1="1" param2="4054" param3="10000" remarks="//最大能量加成值" type="0"/>
+ <cell id="4055" param1="1" param2="4055" param3="20000" remarks="//最大能量二级加成值" type="0"/>
+ <cell id="4056" param1="1" param2="4056" param3="10000" remarks="//最大能量加成比(万分之)" type="0"/>
+ <cell id="4057" param1="1" param2="4057" param3="500" remarks="（2）能量恢复加成值" type="0"/>
+ <cell id="4058" param1="1" param2="4058" param3="500" remarks="（3）能量恢复二级加成值" type="0"/>
+ <cell id="4059" param1="1" param2="4059" param3="5000" remarks="（4）能量恢复加成比(万分之)" type="0"/>
+ <cell id="6000" param1="0" param2="6000" param3="1000" remarks="测试调用--当前经验[消耗类属性]" type="0"/>
+ <cell id="6001" param1="0" param2="6001" param3="1000" remarks="测试调用--灵气[消耗类属性]" type="0"/>
+ <cell id="6002" param1="0" param2="6002" param3="1000" remarks="测试调用--金币[消耗类属性]" type="0"/>
+ <cell id="6003" param1="0" param2="6003" param3="1000" remarks="测试调用--非绑币[消耗类属性]" type="0"/>
+ <cell id="6004" param1="0" param2="6004" param3="1000" remarks="测试调用--绑定币[消耗类属性]" type="0"/>
+ <cell id="6005" param1="0" param2="6005" param3="1000" remarks="测试调用--荣誉[消耗类属性]" type="0"/>
+ <cell id="6006" param1="0" param2="6006" param3="1000" remarks="测试调用--战魂(神威)[消耗类属性]" type="0"/>
+ <cell id="80011" param1="1" param2="4051" param3="1500" remarks="坐骑形态-伤害减免15%" type="0"/>
+ <cell id="80021" param1="1" param2="4043" param3="500" remarks="翅膀形态-暴击率增加5%" type="0"/>
+ <cell id="900021" param1="1" param2="4002" param3="200" remarks="2人组队效果加成-生命百分比" type="0"/>
+ <cell id="900031" param1="1" param2="4002" param3="300" remarks="3人组队效果加成-生命百分比" type="0"/>
+ <cell id="900041" param1="1" param2="4002" param3="400" remarks="4人组队效果加成-生命百分比" type="0"/>
+ <cell id="900051" param1="1" param2="4002" param3="500" remarks="5人组队效果加成-生命百分比" type="0"/>
+ <cell id="60011" param1="1" param2="4001" param3="10" remarks="军团BUFF1-生命值" type="0"/>
+ <cell id="60021" param1="1" param2="4001" param3="20" remarks="军团BUFF2-生命值" type="0"/>
+ <cell id="60031" param1="1" param2="4001" param3="30" remarks="军团BUFF3-生命值" type="0"/>
+ <cell id="60041" param1="1" param2="4001" param3="40" remarks="军团BUFF4-生命值" type="0"/>
+ <cell id="60051" param1="1" param2="4001" param3="50" remarks="军团BUFF5-生命值" type="0"/>
+ <cell id="60061" param1="1" param2="4001" param3="60" remarks="军团BUFF6-生命值" type="0"/>
+ <cell id="60071" param1="1" param2="4001" param3="70" remarks="军团BUFF7-生命值" type="0"/>
+ <cell id="60081" param1="1" param2="4001" param3="80" remarks="军团BUFF8-生命值" type="0"/>
+ <cell id="60091" param1="1" param2="4001" param3="90" remarks="军团BUFF9-生命值" type="0"/>
+ <cell id="60101" param1="1" param2="4001" param3="100" remarks="军团BUFF10-生命值" type="0"/>
+ <cell id="60111" param1="1" param2="4001" param3="110" remarks="军团BUFF11-生命值" type="0"/>
+ <cell id="60121" param1="1" param2="4001" param3="120" remarks="军团BUFF12-生命值" type="0"/>
+ <cell id="60131" param1="1" param2="4001" param3="130" remarks="军团BUFF13-生命值" type="0"/>
+ <cell id="60141" param1="1" param2="4001" param3="140" remarks="军团BUFF14-生命值" type="0"/>
+ <cell id="60151" param1="1" param2="4001" param3="150" remarks="军团BUFF15-生命值" type="0"/>
+ <cell id="60161" param1="1" param2="4001" param3="160" remarks="军团BUFF16-生命值" type="0"/>
+ <cell id="60171" param1="1" param2="4001" param3="170" remarks="军团BUFF17-生命值" type="0"/>
+ <cell id="60181" param1="1" param2="4001" param3="180" remarks="军团BUFF18-生命值" type="0"/>
+ <cell id="90001" param1="1" param2="4002" param3="-200" remarks="PK惩罚-生命上限降2%" type="0"/>
+ <cell id="90002" param1="1" param2="4026" param3="-200" remarks="PK惩罚-物攻降2%" type="0"/>
+ <cell id="90003" param1="1" param2="4032" param3="-200" remarks="PK惩罚-法攻降2%" type="0"/>
+ <cell id="90004" param1="1" param2="4029" param3="-200" remarks="PK惩罚-物防降2%" type="0"/>
+ <cell id="90005" param1="1" param2="4035" param3="-200" remarks="PK惩罚-法防降2%" type="0"/>
+ <cell id="90011" param1="1" param2="5" param3="0" remarks="PK保护BUFF" type="1"/>
+ <cell id="90000001" param1="0" param2="0" param3="1" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="90000002" param1="0" param2="1" param3="1" remarks="1 施法距离加成值" type="3"/>
+ <cell id="90000003" param1="0" param2="2" param3="1" remarks="2 吟唱时间加成值" type="3"/>
+ <cell id="90000004" param1="0" param2="3" param3="1" remarks="3 AOE个数加成值" type="3"/>
+ <cell id="90000005" param1="0" param2="4" param3="1" remarks="4 AOE半径加成值" type="3"/>
+ <cell id="90000006" param1="0" param2="5" param3="10" remarks="5 HP消耗加成值" type="3"/>
+ <cell id="90000007" param1="0" param2="6" param3="5000" remarks="6 HP消耗加成比(万分之)" type="3"/>
+ <cell id="90000008" param1="0" param2="7" param3="10" remarks="7 MP消耗加成值" type="3"/>
+ <cell id="90000009" param1="0" param2="8" param3="5000" remarks="8 MP消耗加成比(万分之)" type="3"/>
+ <cell id="90000010" param1="0" param2="9" param3="1000" remarks="9 伤害加成值" type="3"/>
+ <cell id="90000011" param1="0" param2="10" param3="5000" remarks="10伤害加成比(万分之)" type="3"/>
+ <cell id="400000001" param1="20" param2="0" param3="0" remarks="驱散幻化BUFF" type="2"/>
+ <cell id="9030045" param1="30045" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9030044" param1="30044" param2="1" param3="3" remarks="1 施法距离加成值" type="3"/>
+ <cell id="9030043" param1="30043" param2="2" param3="2" remarks="2 吟唱时间加成值" type="3"/>
+ <cell id="9030042" param1="30042" param2="7" param3="-2" remarks="7 MP消耗加成值" type="3"/>
+ <cell id="9030041" param1="30041" param2="4" param3="2" remarks="4 AOE半径加成值" type="3"/>
+ <cell id="9030040" param1="30040" param2="7" param3="-2" remarks="7 MP消耗加成值" type="3"/>
+ <cell id="9030039" param1="30039" param2="3" param3="2" remarks="3 AOE个数加成值" type="3"/>
+ <cell id="9030038" param1="30038" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9030037" param1="30037" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010036" param1="10036" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010035" param1="10035" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010034" param1="10034" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010033" param1="10033" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010032" param1="10032" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010031" param1="10031" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010030" param1="10030" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010029" param1="10029" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010028" param1="10028" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010027" param1="10027" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010026" param1="10026" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010025" param1="10025" param2="9" param3="1000" remarks="9 伤害加成值" type="3"/>
+ <cell id="9010024" param1="10024" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010023" param1="10023" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010022" param1="10022" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010021" param1="10021" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010020" param1="10020" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010019" param1="10019" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010018" param1="10018" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010017" param1="10017" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010016" param1="10016" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010015" param1="10015" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010014" param1="10014" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010013" param1="10013" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010012" param1="10012" param2="10" param3="5000" remarks="10伤害加成比(万分之)" type="3"/>
+ <cell id="9010011" param1="10011" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010010" param1="10010" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010009" param1="10009" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010008" param1="10008" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010007" param1="10007" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010006" param1="10006" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010005" param1="10005" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010004" param1="10004" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010003" param1="10003" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010002" param1="10002" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="9010001" param1="10001" param2="0" param3="-2000" remarks="0 冷却时间加成值" type="3"/>
+ <cell id="2004511" param1="1" param2="1" param3="0" remarks="幻化波塞冬-改变幻化状态" type="1"/>
+ <cell id="2004411" param1="1" param2="1" param3="0" remarks="幻化哈迪斯-改变幻化状态" type="1"/>
+ <cell id="2004311" param1="1" param2="1" param3="0" remarks="幻化阿耳忒弥斯-改变幻化状态" type="1"/>
+ <cell id="2004211" param1="1" param2="1" param3="0" remarks="幻化阿瑞斯-改变幻化状态" type="1"/>
+ <cell id="2004111" param1="1" param2="1" param3="0" remarks="幻化索尔-改变幻化状态" type="1"/>
+ <cell id="2004011" param1="1" param2="1" param3="0" remarks="幻化阿佛洛狄德-改变幻化状态" type="1"/>
+ <cell id="2003911" param1="1" param2="1" param3="0" remarks="幻化弗蕾亚-改变幻化状态" type="1"/>
+ <cell id="2003811" param1="1" param2="1" param3="0" remarks="幻化霍尔德尔-改变幻化状态" type="1"/>
+ <cell id="2003711" param1="1" param2="1" param3="0" remarks="幻化巴尔德尔-改变幻化状态" type="1"/>
+ <cell id="9000001" param1="1" param2="0" param3="0" remarks="驱散BUFF，组ID为1" type="2"/>
+ <cell id="9000111" param1="1" param2="2" param3="0" remarks="BOSS技能-眩晕" type="1"/>
+ <cell id="9000112" param1="1" param2="3" param3="0" remarks="BOSS技能-眩晕" type="1"/>
+ <cell id="9000113" param1="1" param2="4" param3="0" remarks="BOSS技能-眩晕" type="1"/>
+ <cell id="9010111" param1="1" param2="4043" param3="10000" remarks="BOSS BUFF-暴击率增加100%" type="0"/>
+ <cell id="9020111" param1="1" param2="3" param3="0" remarks="boss技能-沉默" type="1"/>
+ <cell id="9000311" param1="1" param2="2" param3="0" remarks="BOSS技能-眩晕" type="1"/>
+ <cell id="9000312" param1="1" param2="3" param3="0" remarks="BOSS技能-眩晕" type="1"/>
+ <cell id="9000313" param1="1" param2="4" param3="0" remarks="BOSS技能-眩晕" type="1"/>
+ <cell id="9010311" param1="1" param2="4002" param3="-3000" remarks="boss技能-减少生命上限" type="0"/>
+ <cell id="9004011" param1="1" param2="4026" param3="500" remarks="阿瑞斯-物理攻击增加5%" type="0"/>
+ <cell id="9004021" param1="1" param2="4008" param3="3000" remarks="阿瑞斯-移动速度增加30%" type="0"/>
+ <cell id="9004022" param1="1" param2="4039" param3="3000" remarks="阿瑞斯-闪避率增加30%" type="0"/>
+ <cell id="9000511" param1="1" param2="4029" param3="-2000" remarks="霍尔德尔-破甲20%" type="0"/>
+ <cell id="9000521" param1="1" param2="4043" param3="10000" remarks="霍尔德尔-暴击100%" type="0"/>
+ <cell id="30045011" param1="1" param2="4008" param3="-5000" remarks="黑潮-减速" type="0"/>
+ <cell id="30044011" param1="1" param2="2" param3="0" remarks="冥域邀函-束缚" type="1"/>
+ <cell id="30042011" param1="1" param2="4002" param3="-800" remarks="神嚎屠戮-减生命上限" type="0"/>
+ <cell id="30041011" param1="1" param2="2" param3="0" remarks="碎地狂雷-眩晕-禁移动" type="1"/>
+ <cell id="30041012" param1="1" param2="3" param3="0" remarks="碎地狂雷-眩晕-禁技能" type="1"/>
+ <cell id="30041013" param1="1" param2="4" param3="0" remarks="碎地狂雷-眩晕-禁物品" type="1"/>
+ <cell id="30040011" param1="1" param2="3" param3="0" remarks="沉默" type="1"/>
+ <cell id="30039011" param1="1" param2="4008" param3="-5000" remarks="风暴箭雨-减速" type="0"/>
+ <cell id="30038011" param1="1" param2="4029" param3="-3000" remarks="阴孤螺旋箭-破物防" type="0"/>
+ <cell id="30037011" param1="1" param2="2" param3="0" remarks="圣光天罚-晕迷" type="1"/>
+ <cell id="30037012" param1="1" param2="3" param3="0" remarks="圣光天罚-晕迷" type="1"/>
+ <cell id="30037013" param1="1" param2="4" param3="0" remarks="圣光天罚-晕迷" type="1"/>
+ <cell id="10036011" param1="1" param2="4026" param3="1000" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036021" param1="1" param2="4026" param3="1050" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036031" param1="1" param2="4026" param3="1100" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036041" param1="1" param2="4026" param3="1150" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036051" param1="1" param2="4026" param3="1200" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036061" param1="1" param2="4026" param3="1250" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036071" param1="1" param2="4026" param3="1300" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036081" param1="1" param2="4026" param3="1350" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036091" param1="1" param2="4026" param3="1400" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036101" param1="1" param2="4026" param3="1450" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036111" param1="1" param2="4026" param3="1500" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036121" param1="1" param2="4026" param3="1550" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036131" param1="1" param2="4026" param3="1600" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036141" param1="1" param2="4026" param3="1650" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036151" param1="1" param2="4026" param3="1700" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036161" param1="1" param2="4026" param3="1750" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036171" param1="1" param2="4026" param3="1800" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036181" param1="1" param2="4026" param3="1850" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036191" param1="1" param2="4026" param3="1900" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036201" param1="1" param2="4026" param3="1950" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036211" param1="1" param2="4026" param3="2000" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036221" param1="1" param2="4026" param3="2050" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036231" param1="1" param2="4026" param3="2100" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036241" param1="1" param2="4026" param3="2150" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036251" param1="1" param2="4026" param3="2200" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036261" param1="1" param2="4026" param3="2250" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036271" param1="1" param2="4026" param3="2300" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036281" param1="1" param2="4026" param3="2350" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036291" param1="1" param2="4026" param3="2400" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036301" param1="1" param2="4026" param3="2450" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036311" param1="1" param2="4026" param3="2500" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036321" param1="1" param2="4026" param3="2550" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036331" param1="1" param2="4026" param3="2600" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036341" param1="1" param2="4026" param3="2650" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036351" param1="1" param2="4026" param3="2700" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036361" param1="1" param2="4026" param3="2750" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036371" param1="1" param2="4026" param3="2800" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036381" param1="1" param2="4026" param3="2850" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036391" param1="1" param2="4026" param3="2900" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036401" param1="1" param2="4026" param3="2950" remarks="生死无界-攻击提高" type="0"/>
+ <cell id="10036012" param1="1" param2="4051" param3="2950" remarks="生死无界-受伤害提高" type="0"/>
+ <cell id="10036013" param1="13" param2="0" param3="0" remarks="生死无界-免疫眩晕" type="2"/>
+ <cell id="10035011" param1="1" param2="2" param3="0" remarks="黄泉梦魇-晕迷" type="1"/>
+ <cell id="10035012" param1="1" param2="3" param3="0" remarks="黄泉梦魇-晕迷" type="1"/>
+ <cell id="10035013" param1="1" param2="4" param3="0" remarks="黄泉梦魇-晕迷" type="1"/>
+ <cell id="10034011" param1="1" param2="4050" param3="20000" remarks="创造守护-魔伤减免" type="0"/>
+ <cell id="10033011" param1="1" param2="4051" param3="-1000" remarks="碎裂心痕-受伤害提高" type="0"/>
+ <cell id="10031011" param1="1" param2="3" param3="0" remarks="沉默" type="1"/>
+ <cell id="10029011" param1="1" param2="4026" param3="-1000" remarks="减物攻" type="0"/>
+ <cell id="10028011" param1="1" param2="4039" param3="1500" remarks="增加闪避率" type="0"/>
+ <cell id="10028021" param1="1" param2="4039" param3="1550" remarks="增加闪避率" type="0"/>
+ <cell id="10028031" param1="1" param2="4039" param3="1600" remarks="增加闪避率" type="0"/>
+ <cell id="10028041" param1="1" param2="4039" param3="1650" remarks="增加闪避率" type="0"/>
+ <cell id="10028051" param1="1" param2="4039" param3="1700" remarks="增加闪避率" type="0"/>
+ <cell id="10028061" param1="1" param2="4039" param3="1750" remarks="增加闪避率" type="0"/>
+ <cell id="10028071" param1="1" param2="4039" param3="1800" remarks="增加闪避率" type="0"/>
+ <cell id="10028081" param1="1" param2="4039" param3="1850" remarks="增加闪避率" type="0"/>
+ <cell id="10028091" param1="1" param2="4039" param3="1900" remarks="增加闪避率" type="0"/>
+ <cell id="10028101" param1="1" param2="4039" param3="1950" remarks="增加闪避率" type="0"/>
+ <cell id="10028111" param1="1" param2="4039" param3="2000" remarks="增加闪避率" type="0"/>
+ <cell id="10028121" param1="1" param2="4039" param3="2050" remarks="增加闪避率" type="0"/>
+ <cell id="10028131" param1="1" param2="4039" param3="2100" remarks="增加闪避率" type="0"/>
+ <cell id="10028141" param1="1" param2="4039" param3="2150" remarks="增加闪避率" type="0"/>
+ <cell id="10028151" param1="1" param2="4039" param3="2200" remarks="增加闪避率" type="0"/>
+ <cell id="10028161" param1="1" param2="4039" param3="2250" remarks="增加闪避率" type="0"/>
+ <cell id="10028171" param1="1" param2="4039" param3="2300" remarks="增加闪避率" type="0"/>
+ <cell id="10028181" param1="1" param2="4039" param3="2350" remarks="增加闪避率" type="0"/>
+ <cell id="10028191" param1="1" param2="4039" param3="2400" remarks="增加闪避率" type="0"/>
+ <cell id="10028201" param1="1" param2="4039" param3="2450" remarks="增加闪避率" type="0"/>
+ <cell id="10028211" param1="1" param2="4039" param3="2500" remarks="增加闪避率" type="0"/>
+ <cell id="10028221" param1="1" param2="4039" param3="2550" remarks="增加闪避率" type="0"/>
+ <cell id="10028231" param1="1" param2="4039" param3="2600" remarks="增加闪避率" type="0"/>
+ <cell id="10028241" param1="1" param2="4039" param3="2650" remarks="增加闪避率" type="0"/>
+ <cell id="10028251" param1="1" param2="4039" param3="2700" remarks="增加闪避率" type="0"/>
+ <cell id="10028261" param1="1" param2="4039" param3="2750" remarks="增加闪避率" type="0"/>
+ <cell id="10028271" param1="1" param2="4039" param3="2800" remarks="增加闪避率" type="0"/>
+ <cell id="10028281" param1="1" param2="4039" param3="2850" remarks="增加闪避率" type="0"/>
+ <cell id="10028291" param1="1" param2="4039" param3="2900" remarks="增加闪避率" type="0"/>
+ <cell id="10028301" param1="1" param2="4039" param3="2950" remarks="增加闪避率" type="0"/>
+ <cell id="10028311" param1="1" param2="4039" param3="3000" remarks="增加闪避率" type="0"/>
+ <cell id="10028321" param1="1" param2="4039" param3="3050" remarks="增加闪避率" type="0"/>
+ <cell id="10028331" param1="1" param2="4039" param3="3100" remarks="增加闪避率" type="0"/>
+ <cell id="10028341" param1="1" param2="4039" param3="3150" remarks="增加闪避率" type="0"/>
+ <cell id="10028351" param1="1" param2="4039" param3="3200" remarks="增加闪避率" type="0"/>
+ <cell id="10028361" param1="1" param2="4039" param3="3250" remarks="增加闪避率" type="0"/>
+ <cell id="10028371" param1="1" param2="4039" param3="3300" remarks="增加闪避率" type="0"/>
+ <cell id="10028381" param1="1" param2="4039" param3="3350" remarks="增加闪避率" type="0"/>
+ <cell id="10028391" param1="1" param2="4039" param3="3400" remarks="增加闪避率" type="0"/>
+ <cell id="10028401" param1="1" param2="4039" param3="3450" remarks="增加闪避率" type="0"/>
+ <cell id="10028012" param1="10" param2="0" param3="0" remarks="驱散组ID为10的BUFF" type="2"/>
+ <cell id="1002601" param1="1" param2="4051" param3="20000" remarks="时空穿梭-伪无敌" type="0"/>
+ <cell id="1002602" param1="1" param2="2" param3="0" remarks="时空穿梭-禁移动" type="1"/>
+ <cell id="1002603" param1="1" param2="3" param3="0" remarks="时空穿梭-禁技能" type="1"/>
+ <cell id="10025011" param1="1" param2="2" param3="0" remarks="木缚箭-禁移动" type="1"/>
+ <cell id="10024011" param1="1" param2="4049" param3="20000" remarks="物伤减免" type="0"/>
+ <cell id="10023011" param1="1" param2="4051" param3="4000" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023021" param1="1" param2="4051" param3="4100" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023031" param1="1" param2="4051" param3="4200" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023041" param1="1" param2="4051" param3="4300" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023051" param1="1" param2="4051" param3="4400" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023061" param1="1" param2="4051" param3="4500" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023071" param1="1" param2="4051" param3="4600" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023081" param1="1" param2="4051" param3="4700" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023091" param1="1" param2="4051" param3="4800" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023101" param1="1" param2="4051" param3="4900" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023111" param1="1" param2="4051" param3="5000" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023121" param1="1" param2="4051" param3="5100" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023131" param1="1" param2="4051" param3="5200" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023141" param1="1" param2="4051" param3="5300" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023151" param1="1" param2="4051" param3="5400" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023161" param1="1" param2="4051" param3="5500" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023171" param1="1" param2="4051" param3="5600" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023181" param1="1" param2="4051" param3="5700" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023191" param1="1" param2="4051" param3="5800" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023201" param1="1" param2="4051" param3="5900" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023211" param1="1" param2="4051" param3="6000" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023221" param1="1" param2="4051" param3="6100" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023231" param1="1" param2="4051" param3="6200" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023241" param1="1" param2="4051" param3="6300" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023251" param1="1" param2="4051" param3="6400" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023261" param1="1" param2="4051" param3="6500" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023271" param1="1" param2="4051" param3="6600" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023281" param1="1" param2="4051" param3="6700" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023291" param1="1" param2="4051" param3="6800" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023301" param1="1" param2="4051" param3="6900" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023311" param1="1" param2="4051" param3="7000" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023321" param1="1" param2="4051" param3="7100" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023331" param1="1" param2="4051" param3="7200" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023341" param1="1" param2="4051" param3="7300" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023351" param1="1" param2="4051" param3="7400" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023361" param1="1" param2="4051" param3="7500" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023371" param1="1" param2="4051" param3="7600" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023381" param1="1" param2="4051" param3="7700" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023391" param1="1" param2="4051" param3="7800" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023401" param1="1" param2="4051" param3="7900" remarks="防御-伤害减免" type="0"/>
+ <cell id="10023012" param1="1" param2="4026" param3="-3000" remarks="防御-物攻降低" type="0"/>
+ <cell id="10022011" param1="1" param2="4007" param3="200" remarks="移动速度" type="0"/>
+ <cell id="10022021" param1="1" param2="4007" param3="220" remarks="移动速度" type="0"/>
+ <cell id="10022031" param1="1" param2="4007" param3="240" remarks="移动速度" type="0"/>
+ <cell id="10022041" param1="1" param2="4007" param3="260" remarks="移动速度" type="0"/>
+ <cell id="10022051" param1="1" param2="4007" param3="280" remarks="移动速度" type="0"/>
+ <cell id="10022061" param1="1" param2="4007" param3="300" remarks="移动速度" type="0"/>
+ <cell id="10022071" param1="1" param2="4007" param3="320" remarks="移动速度" type="0"/>
+ <cell id="10022081" param1="1" param2="4007" param3="340" remarks="移动速度" type="0"/>
+ <cell id="10022091" param1="1" param2="4007" param3="360" remarks="移动速度" type="0"/>
+ <cell id="10022101" param1="1" param2="4007" param3="380" remarks="移动速度" type="0"/>
+ <cell id="10019011" param1="1" param2="4026" param3="-1500" remarks="灾厄爆发-物攻" type="0"/>
+ <cell id="10019012" param1="1" param2="4050" param3="-1500" remarks="灾厄爆发-法伤减免率" type="0"/>
+ <cell id="1001801" param1="1" param2="4051" param3="7500" remarks="能量壁障-伪法力盾" type="0"/>
+ <cell id="10017011" param1="1" param2="4002" param3="1500" remarks="武神呐喊-最大血量加成" type="0"/>
+ <cell id="10017012" param1="1" param2="4025" param3="100" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017022" param1="1" param2="4025" param3="150" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017032" param1="1" param2="4025" param3="200" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017042" param1="1" param2="4025" param3="250" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017052" param1="1" param2="4025" param3="300" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017062" param1="1" param2="4025" param3="350" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017072" param1="1" param2="4025" param3="400" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017082" param1="1" param2="4025" param3="450" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017092" param1="1" param2="4025" param3="500" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017102" param1="1" param2="4025" param3="550" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017112" param1="1" param2="4025" param3="600" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017122" param1="1" param2="4025" param3="650" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017132" param1="1" param2="4025" param3="700" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017142" param1="1" param2="4025" param3="750" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017152" param1="1" param2="4025" param3="800" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017162" param1="1" param2="4025" param3="850" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017172" param1="1" param2="4025" param3="900" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017182" param1="1" param2="4025" param3="950" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017192" param1="1" param2="4025" param3="1000" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017202" param1="1" param2="4025" param3="1050" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017212" param1="1" param2="4025" param3="1100" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017222" param1="1" param2="4025" param3="1150" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017232" param1="1" param2="4025" param3="1200" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017242" param1="1" param2="4025" param3="1250" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017252" param1="1" param2="4025" param3="1300" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017262" param1="1" param2="4025" param3="1350" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017272" param1="1" param2="4025" param3="1400" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017282" param1="1" param2="4025" param3="1450" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017292" param1="1" param2="4025" param3="1500" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017302" param1="1" param2="4025" param3="1550" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017312" param1="1" param2="4025" param3="1600" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017322" param1="1" param2="4025" param3="1650" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017332" param1="1" param2="4025" param3="1700" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017342" param1="1" param2="4025" param3="1750" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017352" param1="1" param2="4025" param3="1800" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017362" param1="1" param2="4025" param3="1850" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017372" param1="1" param2="4025" param3="1900" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017382" param1="1" param2="4025" param3="1950" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017392" param1="1" param2="4025" param3="2000" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10017402" param1="1" param2="4025" param3="2050" remarks="武神呐喊-物攻加成" type="0"/>
+ <cell id="10016011" param1="1" param2="2" param3="0" remarks="屠龙斩-眩晕" type="1"/>
+ <cell id="10016012" param1="1" param2="3" param3="0" remarks="屠龙斩-眩晕" type="1"/>
+ <cell id="10016013" param1="1" param2="4" param3="0" remarks="屠龙斩-眩晕" type="1"/>
+ <cell id="10016014" param1="1" param2="4049" param3="-1500" remarks="屠龙斩-受到物伤加成" type="0"/>
+ <cell id="10015011" param1="1" param2="2" param3="0" remarks="精神冲击-眩晕" type="1"/>
+ <cell id="10015012" param1="1" param2="3" param3="0" remarks="精神冲击-眩晕" type="1"/>
+ <cell id="10015013" param1="1" param2="4" param3="0" remarks="精神冲击-眩晕" type="1"/>
+ <cell id="10014011" param1="1" param2="3" param3="0" remarks="沉默" type="1"/>
+ <cell id="10007011" param1="1" param2="2" param3="0" remarks="斗魂击-眩晕-禁移动" type="1"/>
+ <cell id="10007012" param1="1" param2="3" param3="0" remarks="斗魂击-眩晕-禁技能" type="1"/>
+ <cell id="10007013" param1="1" param2="4" param3="0" remarks="斗魂击-眩晕-禁物品" type="1"/>
+ <cell id="10005011" param1="1" param2="4008" param3="-3000" remarks="竭心毒牙-减速" type="0"/>
+ <cell id="10002011" param1="1" param2="4043" param3="500" remarks="武神祝祭-暴击率" type="0"/>
+ <cell id="10002012" param1="1" param2="4044" param3="2000" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002022" param1="1" param2="4044" param3="2200" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002032" param1="1" param2="4044" param3="2400" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002042" param1="1" param2="4044" param3="2600" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002052" param1="1" param2="4044" param3="2800" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002062" param1="1" param2="4044" param3="3000" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002072" param1="1" param2="4044" param3="3200" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002082" param1="1" param2="4044" param3="3400" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002092" param1="1" param2="4044" param3="3600" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002102" param1="1" param2="4044" param3="3800" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002112" param1="1" param2="4044" param3="4000" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002122" param1="1" param2="4044" param3="4200" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002132" param1="1" param2="4044" param3="4400" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002142" param1="1" param2="4044" param3="4600" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002152" param1="1" param2="4044" param3="4800" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002162" param1="1" param2="4044" param3="5000" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002172" param1="1" param2="4044" param3="5200" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002182" param1="1" param2="4044" param3="5400" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002192" param1="1" param2="4044" param3="5600" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002202" param1="1" param2="4044" param3="5800" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002212" param1="1" param2="4044" param3="6000" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002222" param1="1" param2="4044" param3="6200" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002232" param1="1" param2="4044" param3="6400" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002242" param1="1" param2="4044" param3="6600" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002252" param1="1" param2="4044" param3="6800" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002262" param1="1" param2="4044" param3="7000" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002272" param1="1" param2="4044" param3="7200" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002282" param1="1" param2="4044" param3="7400" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002292" param1="1" param2="4044" param3="7600" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002302" param1="1" param2="4044" param3="7800" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002312" param1="1" param2="4044" param3="8000" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002322" param1="1" param2="4044" param3="8200" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002332" param1="1" param2="4044" param3="8400" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002342" param1="1" param2="4044" param3="8600" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002352" param1="1" param2="4044" param3="8800" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002362" param1="1" param2="4044" param3="9000" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002372" param1="1" param2="4044" param3="9200" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002382" param1="1" param2="4044" param3="9400" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002392" param1="1" param2="4044" param3="9600" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="10002402" param1="1" param2="4044" param3="9800" remarks="武神祝祭-暴击效果" type="0"/>
+ <cell id="500011" param1="1" param2="4043" param3="1000" remarks="魔剑buff狂暴-暴击率" type="0"/>
+ <cell id="500012" param1="1" param2="4044" param3="5000" remarks="魔剑buff狂暴-暴击效果" type="0"/>
+ <cell id="500021" param1="1" param2="4008" param3="-2500" remarks="魔剑buff虚弱-减速" type="0"/>
+ <cell id="500022" param1="1" param2="4029" param3="-2500" remarks="魔剑buff虚弱-减物防比" type="0"/>
+ <cell id="500023" param1="1" param2="4035" param3="-2500" remarks="魔剑buff虚弱-减法防比" type="0"/>
+ <cell id="500031" param1="1" param2="4039" param3="1000" remarks="魔剑buff迅捷-闪避率" type="0"/>
+ <cell id="500032" param1="1" param2="4008" param3="1500" remarks="魔剑buff迅捷-移动速度" type="0"/>
+ <cell id="500041" param1="1" param2="2" param3="0" remarks="魔剑buff定身-禁移动" type="1"/>
+ <cell id="500051" param1="1" param2="4026" param3="1000" remarks="魔剑buff强力-物理攻击加成比" type="0"/>
+ <cell id="500052" param1="1" param2="4032" param3="1000" remarks="魔剑buff强力-魔法攻击加成比" type="0"/>
+ <cell id="500053" param1="1" param2="4051" param3="1000" remarks="魔剑buff强力-伤害减免" type="0"/>
+ <cell id="500061" param1="1" param2="2" param3="0" remarks="碎地狂雷-眩晕-禁移动" type="1"/>
+ <cell id="500062" param1="1" param2="3" param3="0" remarks="碎地狂雷-眩晕-禁技能" type="1"/>
+ <cell id="500063" param1="1" param2="4" param3="0" remarks="碎地狂雷-眩晕-禁物品" type="1"/>
+ <cell id="8000101" param1="1" param2="4009" param3="20" remarks="//体质加成值" type="0"/>
+ <cell id="8000102" param1="1" param2="4012" param3="20" remarks="//力量加成值" type="0"/>
+ <cell id="8000103" param1="1" param2="4015" param3="20" remarks="//智力加成值" type="0"/>
+ <cell id="8000104" param1="1" param2="4018" param3="20" remarks="//敏捷加成值" type="0"/>
+ <cell id="8000105" param1="1" param2="4021" param3="20" remarks="//精神加成值" type="0"/>
+ <cell id="8000106" param1="1" param2="7000" param3="3000" remarks="//最大经验加成比(万分之)" type="0"/>
+ <cell id="8000107" param1="1" param2="7001" param3="3000" remarks="//最大打坐灵气加成比(万分之)" type="0"/>
+ <cell id="8000201" param1="1" param2="4009" param3="40" remarks="//体质加成值" type="0"/>
+ <cell id="8000202" param1="1" param2="4012" param3="40" remarks="//力量加成值" type="0"/>
+ <cell id="8000203" param1="1" param2="4015" param3="40" remarks="//智力加成值" type="0"/>
+ <cell id="8000204" param1="1" param2="4018" param3="40" remarks="//敏捷加成值" type="0"/>
+ <cell id="8000205" param1="1" param2="4021" param3="40" remarks="//精神加成值" type="0"/>
+ <cell id="8000206" param1="1" param2="7000" param3="6000" remarks="//最大经验加成比(万分之)" type="0"/>
+ <cell id="8000207" param1="1" param2="7001" param3="6000" remarks="//最大打坐灵气加成比(万分之)" type="0"/>
+ <cell id="8000301" param1="1" param2="4009" param3="80" remarks="//体质加成值" type="0"/>
+ <cell id="8000302" param1="1" param2="4012" param3="80" remarks="//力量加成值" type="0"/>
+ <cell id="8000303" param1="1" param2="4015" param3="80" remarks="//智力加成值" type="0"/>
+ <cell id="8000304" param1="1" param2="4018" param3="80" remarks="//敏捷加成值" type="0"/>
+ <cell id="8000305" param1="1" param2="4021" param3="80" remarks="//精神加成值" type="0"/>
+ <cell id="8000306" param1="1" param2="7000" param3="10000" remarks="//最大经验加成比(万分之)" type="0"/>
+ <cell id="8000307" param1="1" param2="7001" param3="10000" remarks="//最大打坐灵气加成比(万分之)" type="0"/>
+ <cell id="1" param1="1" param2="4012" param3="10000" remarks="//力量加成值" type="0"/>
+ <cell id="2" param1="1" param2="4024" param3="10000" remarks="//物理攻击加成值" type="0"/>
+ <cell id="3" param1="1" param2="4030" param3="10000" remarks="//魔法攻击加成值" type="0"/>
+ <cell id="4" param1="1" param2="4015" param3="10000" remarks="//智力加成值" type="0"/>
+ <cell id="5" param1="1" param2="4006" param3="10000" remarks="（2）移动速度加成值" type="0"/>
+ <cell id="6" param1="1" param2="4027" param3="10000" remarks="（4）物理防御加成值" type="0"/>
+ <cell id="7" param1="1" param2="4034" param3="10000" remarks="（6）魔法防御加成值" type="0"/>
+ <cell id="600011" param1="1" param2="7000" param3="5000" remarks="//最大经验加成比(万分之)" type="0"/>
+ <cell id="600021" param1="1" param2="7000" param3="10000" remarks="//最大经验加成比(万分之)" type="0"/>
+ <cell id="600031" param1="1" param2="7000" param3="20000" remarks="//最大经验加成比(万分之)" type="0"/>
+ <cell id="600041" param1="1" param2="7000" param3="30000" remarks="//最大经验加成比(万分之)" type="0"/>
+ <cell id="600051" param1="1" param2="7000" param3="40000" remarks="//最大经验加成比(万分之)" type="0"/>
+ <cell id="600061" param1="1" param2="7000" param3="90000" remarks="//最大经验加成比(万分之)" type="0"/>
+ <cell id="600012" param1="1" param2="7001" param3="5000" remarks="//最大打坐灵气加成比(万分之)" type="0"/>
+ <cell id="600022" param1="1" param2="7001" param3="10000" remarks="//最大打坐灵气加成比(万分之)" type="0"/>
+ <cell id="600032" param1="1" param2="7001" param3="20000" remarks="//最大打坐灵气加成比(万分之)" type="0"/>
+ <cell id="600042" param1="1" param2="7001" param3="30000" remarks="//最大打坐灵气加成比(万分之)" type="0"/>
+ <cell id="600052" param1="1" param2="7001" param3="40000" remarks="//最大打坐灵气加成比(万分之)" type="0"/>
+ <cell id="600062" param1="1" param2="7001" param3="90000" remarks="//最大打坐灵气加成比(万分之)" type="0"/>
+ <cell id="10000" param1="1" param2="4024" param3="500" remarks="//物理攻击加成值" type="0"/>
+ <cell id="10001" param1="1" param2="4024" param3="1000" remarks="//物理攻击加成值" type="0"/>
+ <cell id="10002" param1="1" param2="4024" param3="2000" remarks="//物理攻击加成值" type="0"/>
+ <cell id="10003" param1="1" param2="4024" param3="2500" remarks="//物理攻击加成值" type="0"/>
+ <cell id="10111" param1="1" param2="4002" param3="500" remarks="（2）生命上限增加5%" type="0"/>
+ <cell id="10112" param1="1" param2="4026" param3="500" remarks="（4）物理攻击增加5%" type="0"/>
+ <cell id="10113" param1="1" param2="4051" param3="500" remarks="（6）受到伤害减免5%" type="0"/>
+ <cell id="10121" param1="1" param2="4002" param3="600" remarks="（2）生命上限增加6%" type="0"/>
+ <cell id="10122" param1="1" param2="4026" param3="600" remarks="（4）物理攻击增加6%" type="0"/>
+ <cell id="10123" param1="1" param2="4051" param3="1000" remarks="（6）受到伤害减免10%" type="0"/>
+ <cell id="10131" param1="1" param2="4002" param3="700" remarks="（2）生命上限增加7%" type="0"/>
+ <cell id="10132" param1="1" param2="4026" param3="700" remarks="（4）物理攻击增加7%" type="0"/>
+ <cell id="10133" param1="1" param2="4051" param3="1500" remarks="（6）受到伤害减免15%" type="0"/>
+ <cell id="11111" param1="1" param2="4002" param3="500" remarks="（2）生命上限增加5%" type="0"/>
+ <cell id="11112" param1="1" param2="4026" param3="500" remarks="（4）物理攻击增加5%" type="0"/>
+ <cell id="11113" param1="1" param2="4051" param3="500" remarks="（6）受到伤害减免5%" type="0"/>
+ <cell id="11121" param1="1" param2="4002" param3="600" remarks="（2）生命上限增加6%" type="0"/>
+ <cell id="11122" param1="1" param2="4026" param3="600" remarks="（4）物理攻击增加6%" type="0"/>
+ <cell id="11123" param1="1" param2="4051" param3="1000" remarks="（6）受到伤害减免10%" type="0"/>
+ <cell id="11131" param1="1" param2="4002" param3="700" remarks="（2）生命上限增加7%" type="0"/>
+ <cell id="11132" param1="1" param2="4026" param3="700" remarks="（4）物理攻击增加7%" type="0"/>
+ <cell id="11133" param1="1" param2="4051" param3="1500" remarks="（6）受到伤害减免15%" type="0"/>
+ <cell id="12111" param1="1" param2="4002" param3="500" remarks="（2）生命上限增加5%" type="0"/>
+ <cell id="12112" param1="1" param2="4032" param3="500" remarks="（4）魔法攻击增加5%" type="0"/>
+ <cell id="12113" param1="1" param2="4051" param3="500" remarks="（6）受到伤害减免5%" type="0"/>
+ <cell id="12121" param1="1" param2="4002" param3="600" remarks="（2）生命上限增加6%" type="0"/>
+ <cell id="12122" param1="1" param2="4032" param3="600" remarks="（4）魔法攻击增加6%" type="0"/>
+ <cell id="12123" param1="1" param2="4051" param3="1000" remarks="（6）受到伤害减免10%" type="0"/>
+ <cell id="12131" param1="1" param2="4002" param3="700" remarks="（2）生命上限增加7%" type="0"/>
+ <cell id="12132" param1="1" param2="4032" param3="700" remarks="（4）魔法攻击增加7%" type="0"/>
+ <cell id="12133" param1="1" param2="4051" param3="1500" remarks="（6）受到伤害减免15%" type="0"/>
+ <cell id="10211" param1="1" param2="4056" param3="1000" remarks="（2）幻化能量上限增加10%" type="0"/>
+ <cell id="10212" param1="1" param2="4059" param3="1000" remarks="（4）幻化能量回复速度增加10%" type="0"/>
+ <cell id="10221" param1="1" param2="4056" param3="1500" remarks="（2）幻化能量上限增加15%" type="0"/>
+ <cell id="10222" param1="1" param2="4059" param3="1500" remarks="（4）幻化能量回复速度增加15%" type="0"/>
+ <cell id="10231" param1="1" param2="4056" param3="2000" remarks="（2）幻化能量上限增加20%" type="0"/>
+ <cell id="10232" param1="1" param2="4059" param3="2000" remarks="（4）幻化能量回复速度增加20%" type="0"/>
+ <cell id="11211" param1="1" param2="4056" param3="1000" remarks="（2）幻化能量上限增加10%" type="0"/>
+ <cell id="11212" param1="1" param2="4059" param3="1000" remarks="（4）幻化能量回复速度增加10%" type="0"/>
+ <cell id="11221" param1="1" param2="4056" param3="1500" remarks="（2）幻化能量上限增加15%" type="0"/>
+ <cell id="11222" param1="1" param2="4059" param3="1500" remarks="（4）幻化能量回复速度增加15%" type="0"/>
+ <cell id="11231" param1="1" param2="4056" param3="2000" remarks="（2）幻化能量上限增加20%" type="0"/>
+ <cell id="11232" param1="1" param2="4059" param3="2000" remarks="（4）幻化能量回复速度增加20%" type="0"/>
+ <cell id="12211" param1="1" param2="4056" param3="1000" remarks="（2）幻化能量上限增加10%" type="0"/>
+ <cell id="12212" param1="1" param2="4059" param3="1000" remarks="（4）幻化能量回复速度增加10%" type="0"/>
+ <cell id="12221" param1="1" param2="4056" param3="1500" remarks="（2）幻化能量上限增加15%" type="0"/>
+ <cell id="12222" param1="1" param2="4059" param3="1500" remarks="（4）幻化能量回复速度增加15%" type="0"/>
+ <cell id="12231" param1="1" param2="4056" param3="2000" remarks="（2）幻化能量上限增加20%" type="0"/>
+ <cell id="12232" param1="1" param2="4059" param3="2000" remarks="（4）幻化能量回复速度增加20%" type="0"/>
+</data>

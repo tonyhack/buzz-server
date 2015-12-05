@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="string_id name desc">
+ <cell desc="您成功通过竞价购买到%s寄卖的%s%s个，花费：%s钻石" name="以竞价方式购买道具成功" string_id="BID_ITEM_SUCCESS"/>
+ <cell desc="您成功通过一口价购买到%s寄卖的%s%s个，花费：%s钻石" name="以一口价方式购买道具成功" string_id="BUYOUT_ITEM_SUCCESS"/>
+ <cell desc="您拍卖的%s个%s成功以竞价方式卖出，卖出价格：%s钻石，扣除成交手续费(%s%)：%s钻石，实际获得：%s钻石" name="以竞价方式出售道具成功" string_id="SELL_ITEM_BID_SUCCESS"/>
+ <cell desc="您拍卖的%s个%s成功以一口价方式卖出，卖出价格：%s钻石，扣除成交手续费(%s%)：%s钻石，实际获得：%s钻石" name="以一口价方式出售道具成功" string_id="SELL_ITEM_BUYOUT_SUCCESS"/>
+ <cell desc="您成功对%s寄卖的%s个%s进行了出价，出价金额：%s钻石" name="竞价道具" string_id="BID_ITEM"/>
+ <cell desc="您对%s寄卖的%s个%s的出价被超过了，返还竞拍金额：%s钻石" name="竞价被超过" string_id="OUTBIDDED"/>
+</data>

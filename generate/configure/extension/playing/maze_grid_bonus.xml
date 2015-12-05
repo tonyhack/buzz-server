@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="grid_id bonus_id name desc odds type id min_number max_number log_desc">
+ <cell bonus_id="1" desc="随机获得一定数量的金币" grid_id="2" id="1" log_desc="触发天使奖励  获得  &lt;font color='#ff8c05'&gt;%s金币&lt;/font&gt;" max_number="100" min_number="10" name="天使奖励1" odds="2000" type="1"/>
+ <cell bonus_id="2" desc="随机获得一定数量的经验" grid_id="2" id="2" log_desc="触发天使奖励  获得  &lt;font color='#ff8c05'&gt;%s经验&lt;/font&gt;" max_number="100" min_number="10" name="天使奖励2" odds="2000" type="1"/>
+ <cell bonus_id="3" desc="随机获得一定数量的灵气" grid_id="2" id="4" log_desc="触发天使奖励  获得  &lt;font color='#ff8c05'&gt;%s灵气&lt;/font&gt;" max_number="100" min_number="10" name="天使奖励3" odds="2000" type="1"/>
+ <cell bonus_id="4" desc="随机获得一定数量的行动次数" grid_id="2" id="0" log_desc="触发天使奖励  获得  &lt;font color='#ff8c05'&gt;%s点行动点数&lt;/font&gt;" max_number="5" min_number="1" name="天使奖励4" odds="2000" type="4"/>
+ <cell bonus_id="5" desc="获得一个buff" grid_id="2" id="50001" log_desc="触发恶魔惩罚  获得  buff" max_number="0" min_number="0" name="天使奖励5" odds="1000" type="3"/>
+ <cell bonus_id="6" desc="获得一个buff" grid_id="2" id="50003" log_desc="触发恶魔惩罚  获得  buff" max_number="0" min_number="0" name="天使奖励6" odds="1000" type="3"/>
+ <cell bonus_id="1" desc="倒退1：回到行动前所在位置" grid_id="3" id="0" log_desc="触发恶魔惩罚  回到行动前所在位置" max_number="0" min_number="0" name="恶魔惩罚1" odds="2000" type="6"/>
+ <cell bonus_id="2" desc="倒退2：执行2次倒退1" grid_id="3" id="0" log_desc="触发恶魔惩罚  后退2步" max_number="0" min_number="0" name="恶魔惩罚2" odds="2000" type="7"/>
+ <cell bonus_id="3" desc="回到起点" grid_id="3" id="0" log_desc="触发恶魔惩罚  回到起点" max_number="0" min_number="0" name="恶魔惩罚3" odds="2000" type="8"/>
+ <cell bonus_id="4" desc="行动次数-1" grid_id="3" id="0" log_desc="触发恶魔惩罚  行动次数-1" max_number="1" min_number="1" name="恶魔惩罚4" odds="2000" type="5"/>
+ <cell bonus_id="5" desc="行动次数-2" grid_id="3" id="0" log_desc="触发恶魔惩罚  行动次数-2" max_number="2" min_number="2" name="恶魔惩罚5" odds="2000" type="5"/>
+ <cell bonus_id="1" desc="随机获得1-3个强化石" grid_id="4" id="144301001" log_desc="触发神秘宝箱  获得  &lt;font color='#ff8c05'&gt;强化石*%s&lt;/font&gt;" max_number="3" min_number="1" name="神秘宝箱1" odds="2000" type="2"/>
+ <cell bonus_id="2" desc="获得一个英灵进阶石" grid_id="4" id="144309001" log_desc="触发神秘宝箱  获得  &lt;font color='#ff8c05'&gt;英灵进阶石*%s&lt;/font&gt;" max_number="1" min_number="1" name="神秘宝箱2" odds="2000" type="2"/>
+ <cell bonus_id="3" desc="获得一个宝藏奇遇任务道具" grid_id="4" id="123305101" log_desc="触发神秘宝箱  获得  &lt;font color='#ff8c05'&gt;奇遇卷轴-藏宝*%s&lt;/font&gt;" max_number="1" min_number="1" name="神秘宝箱3" odds="2000" type="2"/>
+ <cell bonus_id="4" desc="获得一个悬赏奇遇任务道具" grid_id="4" id="123305201" log_desc="触发神秘宝箱  获得  &lt;font color='#ff8c05'&gt;奇遇卷轴-悬赏*%s&lt;/font&gt;" max_number="1" min_number="1" name="神秘宝箱4" odds="2000" type="2"/>
+ <cell bonus_id="5" desc="获得一个英魂奇遇任务道具" grid_id="4" id="123305301" log_desc="触发神秘宝箱  获得  &lt;font color='#ff8c05'&gt;奇遇卷轴-英魂*%s&lt;/font&gt;" max_number="1" min_number="1" name="神秘宝箱5" odds="2000" type="2"/>
+</data>

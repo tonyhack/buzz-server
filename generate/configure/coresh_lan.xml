@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UFT-8" ?>
+
+<configure>
+
+  <!-- 核心外壳配置.
+        coresh: 主标签.
+          +-message: 通信消息相关定义.
+          | +-max_protocol_size: 协议最大长度(表示加密、压缩、加头后的长度).
+          | +-max_message_size: 消息的最大长度(表示逻辑消息的长度).
+          +-message_queue: 消息队列定义.
+          | +-initial_size: 初始长度，也就是环形队列的长度，应该为n*(max_message_size+sizeof(size_t)).
+          +-thread: 线程定义.
+          | +-network_number: 网络线程个数，在使用coresh架构的服务器和客户端中，是规定逻辑单线程的，网络的线程个数
+          |                   在这里定义。
+          |                   注：如果服务器为逻辑多线程(即不使用coresh架构)，这里的网络线程数其实就是逻辑线程的个数.
+          +-packet: 打包定义.
+            +-compress: 压缩类型(0: 不压缩, ).
+            +-encode: 加密类型(0: 不加密, ).
+  -->
+  <coresh>
+    <message max_protocol_size="40960" max_message_size="40900"/>
+    <message_queue initial_size="40910"/>
+    <connection pool_initial_number="20" extend_number="5"/>
+    <thread network_number="1"/>
+    <packet compress="0" encode="0"/>
+  </coresh>
+
+</configure>
+

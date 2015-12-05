@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="sort id reward1 reward2 reward3 reward4 reward5 vip_reward1 vip_reward2 vip_reward3 vip_reward4 vip_reward5">
+ <cell id="2" reward1="2:3:10:1" reward2="1:144314001:2:1" reward3="1:144301001:5:1" reward4="" reward5="" sort="1" vip_reward1="1:144314001:2:1" vip_reward2="1:144301001:5:1" vip_reward3="" vip_reward4="" vip_reward5=""/>
+ <cell id="5" reward1="2:3:20:1" reward2="1:144314001:5:1" reward3="1:144301001:10:1" reward4="1:113103003:1:1" reward5="" sort="2" vip_reward1="1:144314001:5:1" vip_reward2="1:144301001:10:1" vip_reward3="1:144303001:10:1" vip_reward4="" vip_reward5=""/>
+ <cell id="10" reward1="2:3:50:1" reward2="1:144314001:10:1" reward3="1:144301001:15:1" reward4="1:113103003:1:1" reward5="" sort="3" vip_reward1="1:144314001:10:1" vip_reward2="1:144301001:15:1" vip_reward3="1:144305001:10:1" vip_reward4="" vip_reward5=""/>
+ <cell id="17" reward1="2:3:100:1" reward2="1:144309001:2:1" reward3="1:144301001:20:1" reward4="1:113103003:1:1" reward5="" sort="4" vip_reward1="1:144309001:2:1" vip_reward2="1:144301001:20:1" vip_reward3="1:144407001:5:1" vip_reward4="" vip_reward5=""/>
+ <cell id="26" reward1="2:3:200:1" reward2="1:144301001:1:1" reward3="1:144301001:30:1" reward4="1:144309002:2:1" reward5="1:113103005:1:1" sort="5" vip_reward1="1:144301001:1:1" vip_reward2="1:144301001:30:1" vip_reward3="1:144309002:2:1" vip_reward4="1:144308001:5:1" vip_reward5=""/>
+</data>

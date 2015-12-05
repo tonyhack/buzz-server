@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UFT-8" ?>
+
+<!--
+  map: 地图配置, id: 地图ID, file: 地图障碍配置
+    revive: 复活配置, duration: 死亡后等待复活的时间, width/height: 复活范围, x/y: 左上角坐标
+    npc: npc配置, id: npc的ID, width/height: npc的活动范围, num: npc的个数, reborn: 重生时间(暂时使用npc表中的重生时间)
+        morning:早上多少分钟 daytime:白天多少分钟 evening:傍晚多少分钟 night:晚上多少分钟
+        morning_aoi daytime_aoi evening_aoi night_aoi:视野百分比
+        rookie_protect: 1为新手保护 0非新手保护
+        ban_change_pk_mode: 1禁止切换PK模式 0非禁止
+        die_protect: 1死亡保护 0死亡非保护
+        punish_for_pk: 1PK惩罚 0PK不惩罚    zazen_add:打坐额外收益 100=100%
+        revive_stay: 1可死亡原地复活 0不可以
+-->
+<map id="1007" file="extension/scenes/1007-map.xml" morning="20" daytime="40" evening="20" night="40" morning_aoi="80" daytime_aoi="100" evening_aoi="80" night_aoi="50" rookie_protect="1" ban_change_pk_mode="0" die_protect="1" punish_for_pk="1" revive_stay="1" zazen_add="0">
+
+  <npc id="9012" width="0" height="0" x="4" y="54" num="1" reborn="4" dir="6"/><!--传送门-->
+  <npc id="9013" width="0" height="0" x="78" y="4" num="1" reborn="4" dir="6"/><!--传送门-->
+  
+  <npc id="10182" width="0" height="0" x="22" y="46" num="1" reborn="2" dir="7"/><!--任务NPC[斗骑博德恩]-->
+  <npc id="10162" width="0" height="0" x="59" y="61" num="1" reborn="2" dir="1"/><!--任务NPC[游猎艾米丽]-->
+  <npc id="10202" width="0" height="0" x="92" y="71" num="1" reborn="2" dir="2"/><!--任务NPC[凯瑟琳]-->
+  <npc id="10291" width="0" height="0" x="128" y="63" num="1" reborn="2" dir="1"/><!--任务NPC[丰饶之神弗雷]-->
+  <npc id="10194" width="0" height="0" x="92" y="27" num="1" reborn="2" dir="7"/><!--任务NPC[雅典娜]-->
+  <npc id="3008" width="0" height="0" x="11" y="16" num="1" reborn="3" dir="2"/><!--采集点[辎重车]-->
+  <npc id="3008" width="0" height="0" x="15" y="16" num="1" reborn="3" dir="2"/><!--采集点[辎重车]-->
+  <npc id="3008" width="0" height="0" x="21" y="15" num="1" reborn="3" dir="2"/><!--采集点[辎重车]-->
+  <npc id="3205" width="0" height="0" x="21" y="83" num="1" reborn="1" dir="2"/><!--怪物[邪法石柱]-->
+  <npc id="3205" width="0" height="0" x="26" y="84" num="1" reborn="1" dir="2"/><!--怪物[邪法石柱]-->
+  <npc id="3205" width="0" height="0" x="28" y="86" num="1" reborn="1" dir="2"/><!--怪物[邪法石柱]-->
+  <npc id="3205" width="0" height="0" x="23" y="80" num="1" reborn="1" dir="2"/><!--怪物[邪法石柱]-->
+  <npc id="3205" width="0" height="0" x="17" y="83" num="1" reborn="1" dir="2"/><!--怪物[邪法石柱]-->
+  <npc id="3205" width="0" height="0" x="23" y="84" num="1" reborn="1" dir="2"/><!--怪物[邪法石柱]-->
+  <npc id="3205" width="0" height="0" x="23" y="79" num="1" reborn="1" dir="2"/><!--怪物[邪法石柱]-->
+  <npc id="3205" width="0" height="0" x="27" y="81" num="1" reborn="1" dir="2"/><!--怪物[邪法石柱]-->
+  <npc id="3009" width="0" height="0" x="132" y="72" num="1" reborn="3" dir="2"/><!--采集点[紫沁花]-->
+  <npc id="3009" width="0" height="0" x="128" y="73" num="1" reborn="3" dir="2"/><!--采集点[紫沁花]-->
+  <npc id="3009" width="0" height="0" x="126" y="76" num="1" reborn="3" dir="2"/><!--采集点[紫沁花]-->
+  <npc id="3009" width="0" height="0" x="132" y="69" num="1" reborn="3" dir="2"/><!--采集点[紫沁花]-->
+  <npc id="3009" width="0" height="0" x="128" y="69" num="1" reborn="3" dir="2"/><!--采集点[紫沁花]-->
+  <npc id="3009" width="0" height="0" x="129" y="74" num="1" reborn="3" dir="2"/><!--采集点[紫沁花]-->
+  <npc id="3009" width="0" height="0" x="129" y="76" num="1" reborn="3" dir="2"/><!--采集点[紫沁花]-->
+  <npc id="3009" width="0" height="0" x="131" y="78" num="1" reborn="3" dir="2"/><!--采集点[紫沁花]-->
+  <npc id="3009" width="0" height="0" x="124" y="79" num="1" reborn="3" dir="2"/><!--采集点[紫沁花]-->
+  <npc id="21020" width="7" height="7" x="27" y="24" num="10" reborn="1" dir="8"/><!--怪物[西莱特]-->
+  <npc id="21020" width="7" height="7" x="40" y="35" num="10" reborn="1" dir="8"/><!--怪物[西莱特]-->
+  <npc id="21020" width="10" height="10" x="66" y="40" num="15" reborn="1" dir="8"/><!--怪物[西莱特]-->
+  <npc id="21120" width="0" height="0" x="22" y="23" num="1" reborn="1" dir="8"/><!--怪物[西莱特族长]-->
+  <npc id="21021" width="10" height="10" x="36" y="79" num="15" reborn="1" dir="8"/><!--怪物[石灵]-->
+  <npc id="21021" width="10" height="10" x="51" y="82" num="15" reborn="1" dir="8"/><!--怪物[石灵]-->
+  <npc id="21023" width="10" height="10" x="110" y="70" num="15" reborn="1" dir="8"/><!--怪物[独眼巨人]-->
+  <npc id="21023" width="10" height="10" x="112" y="79" num="15" reborn="1" dir="8"/><!--怪物[独眼巨人]-->
+  <npc id="21022" width="10" height="10" x="127" y="19" num="20" reborn="1" dir="8"/><!--怪物[冥鸦]-->
+  <npc id="23005" width="0" height="0" x="139" y="47" num="1" reborn="1" dir="8"/><!--怪物[漆黑之翼]-->
+
+
+
+
+  
+  <revive duration="60" camp="0" map="1002" width="10" height="10" x="42" y="61"/>
+  <default  x="4" y="54"/>
+</map>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="group level spend_item spend_number">
+ <cell group="1" level="1" spend_item="144309001" spend_number="3"/>
+ <cell group="1" level="2" spend_item="144309001" spend_number="5"/>
+ <cell group="1" level="3" spend_item="144309001" spend_number="10"/>
+ <cell group="2" level="1" spend_item="144309002" spend_number="5"/>
+ <cell group="2" level="2" spend_item="144309002" spend_number="10"/>
+ <cell group="2" level="3" spend_item="144309002" spend_number="20"/>
+</data>

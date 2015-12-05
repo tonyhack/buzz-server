@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="string_id name desc">
+ <cell desc="军团由%s建立" name="创建公会" string_id="CREATE_GUILD"/>
+ <cell desc="%s加入了军团, 我们现在又多了一份力量" name="加入公会" string_id="JOIN_GUILD"/>
+ <cell desc="由于某些显而易见或难以告人的原因，%s离开了军团" name="离开公会" string_id="LEAVE_GUILD"/>
+ <cell desc="%s任命%s为%s" name="任命" string_id="SET_MEMBER_POSITION"/>
+ <cell desc="%s解除了%s的%s职务" name="解除任命" string_id="RESET_MEMBER_POSITION"/>
+ <cell desc="%s放弃了%s职务" name="放弃职位" string_id="GIVE_UP_POSITION"/>
+ <cell desc="军团长由%s变更为%s，我们希望新的领袖能够做的更好" name="放弃会长职位" string_id="GIVE_UP_LEADER_POSITION"/>
+ <cell desc="军团升到了第%s级，我们现在更强大了" name="公会升级" string_id="GUILD_UPGRADE"/>
+ <cell desc="军团商店升到了第%s级，我们的后备物质更丰富了" name="公会商店升级" string_id="GUILD_SHOP_UPGRADE"/>
+ <cell desc="军团学院升到了第%s级，我们将学习更先进的技术从而进一步提高我们各方面的能力" name="公会学院升级" string_id="GUILD_COLLEGE_UPGRADE"/>
+ <cell desc="军团军营升到了第%s级，我们将能够占领更多的领地" name="公会军营升级" string_id="GUILD_BARRACK_UPGRADE"/>
+</data>

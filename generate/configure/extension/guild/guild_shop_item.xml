@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="item_id required_guild_shop_level required_guild_attribute_sum spend_contribution spend_freedom_dollars">
+ <cell item_id="144301001" required_guild_attribute_sum="0" required_guild_shop_level="1" spend_contribution="1" spend_freedom_dollars="0"/>
+ <cell item_id="144303001" required_guild_attribute_sum="7" required_guild_shop_level="2" spend_contribution="0" spend_freedom_dollars="1"/>
+ <cell item_id="144404001" required_guild_attribute_sum="0" required_guild_shop_level="2" spend_contribution="1" spend_freedom_dollars="1"/>
+</data>

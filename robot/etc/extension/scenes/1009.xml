@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UFT-8" ?>
+
+<!--
+  map: 地图配置, id: 地图ID, file: 地图障碍配置
+    revive: 复活配置, duration: 死亡后等待复活的时间, width/height: 复活范围, x/y: 左上角坐标
+    npc: npc配置, id: npc的ID, width/height: npc的活动范围, num: npc的个数, reborn: 重生时间(暂时使用npc表中的重生时间)
+        morning:早上多少分钟 daytime:白天多少分钟 evening:傍晚多少分钟 night:晚上多少分钟
+        morning_aoi daytime_aoi evening_aoi night_aoi:视野百分比
+        rookie_protect: 1为新手保护 0非新手保护
+        ban_change_pk_mode: 1禁止切换PK模式 0非禁止
+        die_protect: 1死亡保护 0死亡非保护
+        punish_for_pk: 1PK惩罚 0PK不惩罚    zazen_add:打坐额外收益 100=100%
+        revive_stay: 1可死亡原地复活 0不可以
+-->
+<map id="1009" file="extension/scenes/1009-map.xml" morning="20" daytime="40" evening="20" night="40" morning_aoi="80" daytime_aoi="100" evening_aoi="80" night_aoi="50" rookie_protect="1" ban_change_pk_mode="0" die_protect="1" punish_for_pk="1" revive_stay="1" zazen_add="0">
+
+  <npc id="9016" width="0" height="0" x="5" y="75" num="1" reborn="4" dir="6"/><!--传送门-->
+  <!--<npc id="9033" width="0" height="0" x="144" y="66" num="1" reborn="4" dir="6"/><!--传送门-->
+
+  <npc id="10183" width="0" height="0" x="36" y="72" num="1" reborn="2" dir="2"/><!--任务NPC[斗骑博德恩]-->
+  <npc id="10272" width="0" height="0" x="80" y="54" num="1" reborn="2" dir="2"/><!--任务NPC[法莲娜]-->
+  <npc id="10163" width="0" height="0" x="103" y="60" num="1" reborn="2" dir="5"/><!--任务NPC[游猎艾米丽]-->
+  <npc id="10152" width="0" height="0" x="56" y="15" num="1" reborn="2" dir="7"/><!--任务NPC[驭灵斯坦雷]-->
+  <npc id="10143" width="0" height="0" x="43" y="7" num="1" reborn="2" dir="7"/><!--任务NPC[大神官]-->
+  <npc id="10107" width="0" height="0" x="71" y="17" num="1" reborn="2" dir="7"/><!--任务NPC[娜米亚]-->
+  <npc id="10195" width="0" height="0" x="98" y="20" num="1" reborn="2" dir="7"/><!--任务NPC[雅典娜]-->
+  <npc id="3013" width="0" height="0" x="111" y="84" num="1" reborn="3" dir="2"/><!--采集点[赤茫草]-->
+  <npc id="3013" width="0" height="0" x="96" y="80" num="1" reborn="3" dir="2"/><!--采集点[赤茫草]-->
+  <npc id="3013" width="0" height="0" x="105" y="85" num="1" reborn="3" dir="2"/><!--采集点[赤茫草]-->
+  <npc id="3013" width="0" height="0" x="98" y="77" num="1" reborn="3" dir="2"/><!--采集点[赤茫草]-->
+  <npc id="3013" width="0" height="0" x="100" y="80" num="1" reborn="3" dir="2"/><!--采集点[赤茫草]-->
+  <npc id="3013" width="0" height="0" x="98" y="82" num="1" reborn="3" dir="2"/><!--采集点[赤茫草]-->
+  <npc id="3013" width="0" height="0" x="101" y="82" num="1" reborn="3" dir="2"/><!--采集点[赤茫草]-->
+  <npc id="3013" width="0" height="0" x="106" y="81" num="1" reborn="3" dir="2"/><!--采集点[赤茫草]-->
+  <npc id="3013" width="0" height="0" x="103" y="79" num="1" reborn="3" dir="2"/><!--采集点[赤茫草]-->
+  <npc id="3016" width="0" height="0" x="27" y="16" num="1" reborn="3" dir="2"/><!--采集点[伤兵]-->
+  <npc id="3016" width="0" height="0" x="24" y="19" num="1" reborn="3" dir="2"/><!--采集点[伤兵]-->
+  <npc id="3016" width="0" height="0" x="34" y="20" num="1" reborn="3" dir="2"/><!--采集点[伤兵]-->
+  <npc id="3016" width="0" height="0" x="31" y="17" num="1" reborn="3" dir="2"/><!--采集点[伤兵]-->
+  <npc id="3016" width="0" height="0" x="27" y="17" num="1" reborn="3" dir="2"/><!--采集点[伤兵]-->
+  <npc id="3016" width="0" height="0" x="26" y="20" num="1" reborn="3" dir="2"/><!--采集点[伤兵]-->
+  <npc id="3016" width="0" height="0" x="28" y="21" num="1" reborn="3" dir="2"/><!--采集点[伤兵]-->
+  <npc id="3016" width="0" height="0" x="20" y="16" num="1" reborn="3" dir="2"/><!--采集点[伤兵]-->
+  <npc id="3016" width="0" height="0" x="18" y="18" num="1" reborn="3" dir="2"/><!--采集点[伤兵]-->
+  <npc id="3014" width="0" height="0" x="44" y="14" num="1" reborn="3" dir="2"/><!--采集点[酒桶]-->
+  <npc id="3014" width="0" height="0" x="41" y="15" num="1" reborn="3" dir="2"/><!--采集点[酒桶]-->
+  <npc id="3014" width="0" height="0" x="40" y="18" num="1" reborn="3" dir="2"/><!--采集点[酒桶]-->
+  <npc id="3014" width="0" height="0" x="43" y="19" num="1" reborn="3" dir="2"/><!--采集点[酒桶]-->
+  <npc id="3014" width="0" height="0" x="46" y="16" num="1" reborn="3" dir="2"/><!--采集点[酒桶]-->
+  <npc id="3014" width="0" height="0" x="48" y="16" num="1" reborn="3" dir="2"/><!--采集点[酒桶]-->
+  <npc id="3014" width="0" height="0" x="48" y="18" num="1" reborn="3" dir="2"/><!--采集点[酒桶]-->
+  <npc id="3014" width="0" height="0" x="47" y="20" num="1" reborn="3" dir="2"/><!--采集点[酒桶]-->
+  <npc id="3014" width="0" height="0" x="49" y="20" num="1" reborn="3" dir="2"/><!--采集点[酒桶]-->
+  <npc id="3015" width="0" height="0" x="87" y="20" num="1" reborn="3" dir="2"/><!--采集点[摩比斯原石]-->
+  <npc id="3015" width="0" height="0" x="91" y="23" num="1" reborn="3" dir="2"/><!--采集点[摩比斯原石]-->
+  <npc id="3015" width="0" height="0" x="90" y="28" num="1" reborn="3" dir="2"/><!--采集点[摩比斯原石]-->
+  <npc id="3015" width="0" height="0" x="90" y="19" num="1" reborn="3" dir="2"/><!--采集点[摩比斯原石]-->
+  <npc id="3015" width="0" height="0" x="86" y="22" num="1" reborn="3" dir="2"/><!--采集点[摩比斯原石]-->
+  <npc id="3015" width="0" height="0" x="84" y="17" num="1" reborn="3" dir="2"/><!--采集点[摩比斯原石]-->
+  <npc id="3015" width="0" height="0" x="89" y="16" num="1" reborn="3" dir="2"/><!--采集点[摩比斯原石]-->
+  <npc id="3015" width="0" height="0" x="92" y="25" num="1" reborn="3" dir="2"/><!--采集点[摩比斯原石]-->
+  <npc id="3015" width="0" height="0" x="93" y="28" num="1" reborn="3" dir="2"/><!--采集点[摩比斯原石]-->
+  <npc id="21012" width="10" height="10" x="35" y="50" num="15" reborn="1" dir="8"/><!--怪物[蜥蜴弓箭手]-->
+  <npc id="21012" width="10" height="10" x="60" y="45" num="15" reborn="1" dir="8"/><!--怪物[蜥蜴弓箭手]-->
+  <npc id="21012" width="10" height="10" x="30" y="30" num="15" reborn="1" dir="8"/><!--怪物[蜥蜴弓箭手]-->
+  <npc id="21031" width="10" height="10" x="55" y="75" num="15" reborn="1" dir="8"/><!--怪物[半人马]-->
+  <npc id="21031" width="10" height="10" x="75" y="80" num="15" reborn="1" dir="8"/><!--怪物[半人马]-->
+  <npc id="21030" width="10" height="10" x="120" y="80" num="15" reborn="1" dir="8"/><!--怪物[豪猪猛士]-->
+  <npc id="21030" width="10" height="10" x="135" y="70" num="15" reborn="1" dir="8"/><!--怪物[豪猪猛士]-->
+  <npc id="21030" width="10" height="10" x="120" y="60" num="15" reborn="1" dir="8"/><!--怪物[豪猪猛士]-->
+  <npc id="21013" width="10" height="10" x="120" y="23" num="15" reborn="1" dir="8"/><!--怪物[蜥蜴战士]-->
+  <npc id="21013" width="10" height="10" x="77" y="32" num="15" reborn="1" dir="8"/><!--怪物[蜥蜴战士]-->
+  <npc id="23007" width="0" height="0" x="118" y="10" num="1" reborn="1" dir="8"/><!--怪物[神威龙皇]-->
+
+
+
+  
+  <revive duration="60" camp="0" map="1002" width="10" height="10" x="42" y="61"/>
+  <default x="5" y="75"/>
+</map>

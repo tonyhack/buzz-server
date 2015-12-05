@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="id server_define remarks">
+ <cell id="0" remarks="//道具合成" server_define="ITEM_COMPOSE"/>
+ <cell id="1" remarks="//装备强化" server_define="EQUIP_INTENSIFY"/>
+ <cell id="2" remarks="//宝石模块开启" server_define="GEM_MODULE"/>
+ <cell id="3" remarks="//宝石槽2个开启" server_define="GEM_SLOT_2"/>
+ <cell id="4" remarks="//宝石槽3个开启" server_define="GEM_SLOT_3"/>
+ <cell id="5" remarks="//宝石槽4个开启" server_define="GEM_SLOT_4"/>
+ <cell id="6" remarks="//宝石槽5个开启" server_define="GEM_SLOT_5"/>
+ <cell id="7" remarks="//宝石槽6个开启" server_define="GEM_SLOT_6"/>
+ <cell id="8" remarks="//宝石槽7个开启" server_define="GEM_SLOT_7"/>
+ <cell id="9" remarks="//宝石槽8个开启" server_define="GEM_SLOT_8"/>
+ <cell id="10" remarks="//宝石槽9个开启" server_define="GEM_SLOT_9"/>
+ <cell id="11" remarks="//英灵模块开启" server_define="SOUL_MODULE"/>
+ <cell id="12" remarks="//英灵祭坛开启" server_define="SOUL_ALTAR"/>
+ <cell id="13" remarks="//幻化槽设置开启" server_define="SOUL_SETING"/>
+ <cell id="14" remarks="//魔剑模块开启" server_define="SWORD_MODULE"/>
+ <cell id="15" remarks="//贵族模块开启" server_define="NOBLE_MODULE"/>
+ <cell id="16" remarks="//元素模块开启" server_define="ELEMENT_MODULE"/>
+ <cell id="17" remarks="//精灵模块开启" server_define="SPIRIT_MODULE"/>
+ <cell id="18" remarks="//精灵进阶开启" server_define="SPIRIT_UPGRADE"/>
+ <cell id="19" remarks="//精灵翅膀外观开启" server_define="SPIRIT_WING_FACADE"/>
+ <cell id="20" remarks="//邮件模块开启" server_define="MAIL_MODULE"/>
+ <cell id="21" remarks="//好友模块开启" server_define="CONTACTS_MODULE"/>
+ <cell id="22" remarks="//家园模块开启" server_define="HOMELAND_MODULE"/>
+ <cell id="23" remarks="//家园金矿开启" server_define="HOMELAND_GOLDMINE"/>
+ <cell id="24" remarks="//家园神秘之源开启" server_define="HOMELAND_POOL"/>
+ <cell id="25" remarks="//家园祈福堂开启" server_define="HOMELAND_CHURCH"/>
+ <cell id="26" remarks="//家园神树开启" server_define="HOMELAND_TREE"/>
+ <cell id="27" remarks="//家园炮塔开启" server_define="HOMELAND_TOWER"/>
+ <cell id="28" remarks="//家园军团据点开启" server_define="HOMELAND_STRONGHOLD"/>
+ <cell id="29" remarks="//组队模块开启" server_define="TEAM_MODULE"/>
+ <cell id="30" remarks="//公会模块开启" server_define="GUILD_MODULE"/>
+ <cell id="31" remarks="//循环任务功能开启" server_define="TASK_CIRCLE"/>
+ <cell id="32" remarks="//职业设置功能开启" server_define="VOCATION_SET"/>
+ <cell id="33" remarks="//拍卖行功能开启" server_define="AUCTION_MODULE"/>
+ <cell id="34" remarks="//地宫开启" server_define="MAZE_MODULE"/>
+ <cell id="35" remarks="//激斗开启" server_define="PLAYING_MODULE"/>
+ <cell id="36" remarks="//组队副本开启" server_define="MULTI_PLAYING"/>
+</data>

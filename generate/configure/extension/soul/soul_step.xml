@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="group level step spend_nimbus odds attrs star_name">
+ <cell attrs="" group="1" level="1" odds="10000" spend_nimbus="360" star_name="" step="0"/>
+ <cell attrs="0:24+1:8+2:2+3:3+4:2+5:3+6:1+7:1+8:1" group="1" level="1" odds="9000" spend_nimbus="900" star_name="守护星一" step="1"/>
+ <cell attrs="0:34+1:11+2:3+3:4+4:3+5:4+6:2+7:2+8:1" group="1" level="1" odds="8000" spend_nimbus="1440" star_name="守护星二" step="2"/>
+ <cell attrs="0:43+1:14+2:4+3:5+4:4+5:5+6:2+7:2+8:2" group="1" level="1" odds="7000" spend_nimbus="1980" star_name="守护星三" step="3"/>
+ <cell attrs="0:53+1:17+2:5+3:6+4:5+5:6+6:2+7:2+8:2" group="1" level="1" odds="6000" spend_nimbus="2520" star_name="守护星四" step="4"/>
+ <cell attrs="0:62+1:20+2:6+3:7+4:6+5:7+6:3+7:3+8:3" group="1" level="1" odds="5000" spend_nimbus="3060" star_name="守护星五" step="5"/>
+ <cell attrs="0:72+1:23+2:7+3:8+4:7+5:8+6:3+7:3+8:3" group="1" level="1" odds="0" spend_nimbus="0" star_name="守护星六" step="6"/>
+ <cell attrs="" group="1" level="2" odds="9000" spend_nimbus="1800" star_name="" step="0"/>
+ <cell attrs="0:48+1:15+2:5+3:5+4:5+5:5+6:2+7:2+8:2" group="1" level="2" odds="8000" spend_nimbus="2520" star_name="守护星一" step="1"/>
+ <cell attrs="0:58+1:18+2:6+3:6+4:6+5:6+6:3+7:3+8:3" group="1" level="2" odds="7000" spend_nimbus="3240" star_name="守护星二" step="2"/>
+ <cell attrs="0:67+1:21+2:7+3:8+4:7+5:8+6:3+7:3+8:3" group="1" level="2" odds="6000" spend_nimbus="3960" star_name="守护星三" step="3"/>
+ <cell attrs="0:77+1:24+2:8+3:9+4:8+5:9+6:4+7:4+8:3" group="1" level="2" odds="5000" spend_nimbus="4680" star_name="守护星四" step="4"/>
+ <cell attrs="0:86+1:27+2:9+3:10+4:9+5:10+6:4+7:4+8:4" group="1" level="2" odds="4000" spend_nimbus="5400" star_name="守护星五" step="5"/>
+ <cell attrs="0:96+1:30+2:10+3:11+4:10+5:11+6:4+7:4+8:4" group="1" level="2" odds="0" spend_nimbus="3600" star_name="守护星六" step="6"/>
+ <cell attrs="" group="1" level="3" odds="8000" spend_nimbus="3600" star_name="" step="0"/>
+ <cell attrs="0:72+1:23+2:7+3:8+4:7+5:8+6:3+7:3+8:3" group="1" level="3" odds="7000" spend_nimbus="4680" star_name="守护星一" step="1"/>
+ <cell attrs="0:82+1:26+2:8+3:9+4:8+5:9+6:4+7:4+8:4" group="1" level="3" odds="6000" spend_nimbus="5760" star_name="守护星二" step="2"/>
+ <cell attrs="0:91+1:29+2:9+3:10+4:9+5:10+6:4+7:4+8:4" group="1" level="3" odds="5000" spend_nimbus="6840" star_name="守护星三" step="3"/>
+ <cell attrs="0:101+1:32+2:10+3:11+4:10+5:11+6:5+7:5+8:4" group="1" level="3" odds="4000" spend_nimbus="7920" star_name="守护星四" step="4"/>
+ <cell attrs="0:110+1:35+2:11+3:12+4:11+5:12+6:5+7:5+8:5" group="1" level="3" odds="3000" spend_nimbus="9000" star_name="守护星五" step="5"/>
+ <cell attrs="0:120+1:38+2:12+3:14+4:12+5:14+6:6+7:6+8:5" group="1" level="3" odds="0" spend_nimbus="0" star_name="守护星六" step="6"/>
+ <cell attrs="" group="2" level="1" odds="10000" spend_nimbus="300" star_name="" step="0"/>
+ <cell attrs="0:19+1:6+2:2+3:2+4:2+5:2+6:1+7:1+8:1" group="2" level="1" odds="9000" spend_nimbus="750" star_name="守护星一" step="1"/>
+ <cell attrs="0:27+1:8+2:3+3:3+4:3+5:3+6:1+7:1+8:1" group="2" level="1" odds="8000" spend_nimbus="1200" star_name="守护星二" step="2"/>
+ <cell attrs="0:35+1:11+2:3+3:4+4:3+5:4+6:2+7:2+8:2" group="2" level="1" odds="7000" spend_nimbus="1650" star_name="守护星三" step="3"/>
+ <cell attrs="0:42+1:13+2:4+3:5+4:4+5:5+6:2+7:2+8:2" group="2" level="1" odds="6000" spend_nimbus="2100" star_name="守护星四" step="4"/>
+ <cell attrs="0:50+1:16+2:5+3:6+4:5+5:6+6:2+7:2+8:2" group="2" level="1" odds="5000" spend_nimbus="2550" star_name="守护星五" step="5"/>
+ <cell attrs="0:58+1:18+2:6+3:6+4:6+5:6+6:3+7:3+8:3" group="2" level="1" odds="0" spend_nimbus="0" star_name="守护星六" step="6"/>
+ <cell attrs="" group="2" level="2" odds="9000" spend_nimbus="1500" star_name="" step="0"/>
+ <cell attrs="0:38+1:12+2:4+3:4+4:4+5:4+6:2+7:2+8:2" group="2" level="2" odds="8000" spend_nimbus="2100" star_name="守护星一" step="1"/>
+ <cell attrs="0:46+1:14+2:5+3:5+4:5+5:5+6:2+7:2+8:2" group="2" level="2" odds="7000" spend_nimbus="2700" star_name="守护星二" step="2"/>
+ <cell attrs="0:54+1:17+2:5+3:6+4:5+5:6+6:2+7:2+8:2" group="2" level="2" odds="6000" spend_nimbus="3300" star_name="守护星三" step="3"/>
+ <cell attrs="0:61+1:19+2:6+3:7+4:6+5:7+6:3+7:3+8:3" group="2" level="2" odds="5000" spend_nimbus="3900" star_name="守护星四" step="4"/>
+ <cell attrs="0:69+1:22+2:7+3:8+4:7+5:8+6:3+7:3+8:3" group="2" level="2" odds="4000" spend_nimbus="4500" star_name="守护星五" step="5"/>
+ <cell attrs="0:77+1:24+2:8+3:9+4:8+5:9+6:4+7:4+8:3" group="2" level="2" odds="0" spend_nimbus="3000" star_name="守护星六" step="6"/>
+ <cell attrs="" group="2" level="3" odds="8000" spend_nimbus="3000" star_name="" step="0"/>
+ <cell attrs="0:58+1:18+2:6+3:6+4:6+5:6+6:3+7:3+8:3" group="2" level="3" odds="7000" spend_nimbus="3900" star_name="守护星一" step="1"/>
+ <cell attrs="0:65+1:20+2:7+3:7+4:7+5:7+6:3+7:3+8:3" group="2" level="3" odds="6000" spend_nimbus="4800" star_name="守护星二" step="2"/>
+ <cell attrs="0:73+1:23+2:7+3:8+4:7+5:8+6:3+7:3+8:3" group="2" level="3" odds="5000" spend_nimbus="5700" star_name="守护星三" step="3"/>
+ <cell attrs="0:81+1:25+2:8+3:9+4:8+5:9+6:4+7:4+8:4" group="2" level="3" odds="4000" spend_nimbus="6600" star_name="守护星四" step="4"/>
+ <cell attrs="0:88+1:28+2:9+3:10+4:9+5:10+6:4+7:4+8:4" group="2" level="3" odds="3000" spend_nimbus="7500" star_name="守护星五" step="5"/>
+ <cell attrs="0:96+1:30+2:10+3:11+4:10+5:11+6:4+7:4+8:4" group="2" level="3" odds="0" spend_nimbus="0" star_name="守护星六" step="6"/>
+</data>

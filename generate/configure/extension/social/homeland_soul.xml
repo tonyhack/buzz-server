@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="id name type hp_base hp_growth attack_base attack_growth dodge_percent crit_percent crit_effect special_skill_odds special_skill_hurt_coe model_type">
+ <cell attack_base="120" attack_growth="24" crit_effect="15000" crit_percent="1500" dodge_percent="1000" hp_base="520" hp_growth="104" id="1" model_type="00001" name="战士玩家" special_skill_hurt_coe="500" special_skill_odds="0" type="0"/>
+ <cell attack_base="135" attack_growth="27" crit_effect="15000" crit_percent="2500" dodge_percent="2000" hp_base="400" hp_growth="80" id="2" model_type="00002" name="弓手玩家" special_skill_hurt_coe="500" special_skill_odds="0" type="1"/>
+ <cell attack_base="145" attack_growth="29" crit_effect="15000" crit_percent="2000" dodge_percent="1000" hp_base="410" hp_growth="82" id="3" model_type="00003" name="法师玩家" special_skill_hurt_coe="500" special_skill_odds="0" type="2"/>
+ <cell attack_base="120" attack_growth="24" crit_effect="15000" crit_percent="1500" dodge_percent="1000" hp_base="520" hp_growth="104" id="75000045" model_type="75045" name="波塞冬" special_skill_hurt_coe="4000" special_skill_odds="2500" type="0"/>
+ <cell attack_base="145" attack_growth="29" crit_effect="15000" crit_percent="2000" dodge_percent="1000" hp_base="410" hp_growth="82" id="75000044" model_type="75044" name="哈迪斯" special_skill_hurt_coe="5000" special_skill_odds="2500" type="2"/>
+ <cell attack_base="135" attack_growth="27" crit_effect="15000" crit_percent="2500" dodge_percent="2000" hp_base="400" hp_growth="80" id="75000043" model_type="75043" name="阿耳忒弥斯" special_skill_hurt_coe="6000" special_skill_odds="2500" type="1"/>
+ <cell attack_base="120" attack_growth="24" crit_effect="15000" crit_percent="1500" dodge_percent="1000" hp_base="520" hp_growth="24" id="75000042" model_type="75045" name="阿瑞斯" special_skill_hurt_coe="4000" special_skill_odds="2500" type="0"/>
+ <cell attack_base="120" attack_growth="24" crit_effect="15000" crit_percent="1500" dodge_percent="1000" hp_base="520" hp_growth="24" id="75000041" model_type="75045" name="索尔" special_skill_hurt_coe="4000" special_skill_odds="2500" type="0"/>
+ <cell attack_base="135" attack_growth="27" crit_effect="15000" crit_percent="2000" dodge_percent="1000" hp_base="410" hp_growth="82" id="75000040" model_type="75044" name="阿佛洛狄德" special_skill_hurt_coe="5000" special_skill_odds="2500" type="2"/>
+ <cell attack_base="145" attack_growth="29" crit_effect="15000" crit_percent="2500" dodge_percent="2000" hp_base="400" hp_growth="80" id="75000039" model_type="75043" name="弗蕾亚" special_skill_hurt_coe="6000" special_skill_odds="2500" type="1"/>
+ <cell attack_base="145" attack_growth="29" crit_effect="15000" crit_percent="2500" dodge_percent="2000" hp_base="400" hp_growth="80" id="75000038" model_type="75043" name="霍尔德尔" special_skill_hurt_coe="6000" special_skill_odds="2500" type="1"/>
+ <cell attack_base="135" attack_growth="27" crit_effect="15000" crit_percent="2000" dodge_percent="1000" hp_base="410" hp_growth="82" id="75000037" model_type="75044" name="巴尔德尔" special_skill_hurt_coe="5000" special_skill_odds="2500" type="2"/>
+</data>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="id name required_guild_level spend_gold">
+ <cell id="1" name="副本一组" required_guild_level="1" spend_gold="1"/>
+ <cell id="2" name="副本二组" required_guild_level="2" spend_gold="2"/>
+ <cell id="3" name="副本三组" required_guild_level="3" spend_gold="3"/>
+ <cell id="4" name="副本四组" required_guild_level="4" spend_gold="4"/>
+ <cell id="5" name="副本五组" required_guild_level="5" spend_gold="5"/>
+ <cell id="6" name="副本六组" required_guild_level="6" spend_gold="6"/>
+</data>

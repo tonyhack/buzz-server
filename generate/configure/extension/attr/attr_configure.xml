@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configure>
+
+  <attr_bonus file="extension/attr/attr_bonus.xml"/>
+  <noble file="extension/attr/noble.xml"/>
+  <sword sword="extension/attr/sword.xml" level="extension/attr/sword_level.xml"/>
+  <element file="extension/attr/element.xml"/>
+  <rune file="extension/attr/rune.xml"/>
+  <spirit file="extension/attr/spirit.xml"/>
+  <spirit_facade file="extension/attr/spirit_facade.xml"/>
+  <legendary_weapon file="extension/attr/legendary_weapon.xml"/>
+
+</configure>

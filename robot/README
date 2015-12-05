@@ -1,0 +1,67 @@
+buzz-cpp-robot
+===============
+
+buzz proj c++ robot
+
+Platform
+--------
+only work under linux
+
+Dependency
+----------
+* Required
+    apache thrift
+    boost (required by thrift)
+
+Build
+-----
+* sync protocol and etc file (optional)
+    make sync
+
+* debug version:
+    make dep-debug
+    make
+
+* release version:
+    make dep-release
+    make release
+
+Tools
+-----
+* tools/sync_buzz_protocol.sh 
+    sync protocol from server code base,
+    you should change the $buzz_root and $buzz_robot_root in this file
+
+* tools/sync_buzz_etc.sh
+    sync etc file from server code base,
+    you should change the $buzz_root and $buzz_robot_root in this file
+
+* tools/generate_actor_xml.sh
+    generate etc/actor.xml with "robot" prefix and number postfix
+
+* etc/config.sh
+    simply copy etc/example/*.xml to etc/
+
+Run
+---
+    cd bin/
+    ./buzzrobot
+
+Commandline Options
+-------------------
+    -S 
+        enable stderr log, useful for debug
+    -L <log_level>
+        set log level, default is 0(TRACE),
+        you should use -L1 to forbid too many logs in large test
+    -l <log_file>
+        set log file path, default is current work directory
+    -c <config_dir>
+        set config directory, default is ../etc/, then ./etc/
+
+Robot Command
+-------------
+use help(h) for command help
+
+    robot> h
+

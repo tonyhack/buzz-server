@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="id item item_num tab_id integral_num">
+ <cell id="1" integral_num="1" item="144391001" item_num="1" tab_id="1"/>
+ <cell id="10" integral_num="10" item="144391001" item_num="10" tab_id="1"/>
+ <cell id="50" integral_num="50" item="144391001" item_num="50" tab_id="1"/>
+ <cell id="1" integral_num="1" item="144392001" item_num="1" tab_id="2"/>
+ <cell id="10" integral_num="10" item="144392001" item_num="10" tab_id="2"/>
+ <cell id="50" integral_num="50" item="144392001" item_num="50" tab_id="2"/>
+</data>

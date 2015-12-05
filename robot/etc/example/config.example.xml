@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <login_server_addr   addr="192.168.0.2" port="15000"/>
+    <gateway_server_addr addr="192.168.0.2" port="9000"/>
+    <actor file="actor.xml"/>
+    <action file="action/action.xml"/>
+    <misc file="misc.xml"/>
+    <scene file="extension/scenes/scenes.xml"/>
+    <skill file="extension/skills/skill.xml"/>
+</config>
+

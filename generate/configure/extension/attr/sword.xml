@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="step attr_bonus_id name appear max_level active_hours target_type buff buff_odds buff_cooling material material_number gold lucky max_lucky lucky_coe upgrade_odds">
+ <cell active_hours="140" appear="4001" attr_bonus_id="20001" buff="0" buff_cooling="0" buff_odds="0" gold="100" lucky="2" lucky_coe="6000" material="144506001" material_number="1" max_level="50" max_lucky="20" name="狂寂冰雷" step="1" target_type="1" upgrade_odds="1"/>
+ <cell active_hours="0" appear="4002" attr_bonus_id="20002" buff="50001" buff_cooling="50001" buff_odds="1000" gold="150" lucky="2" lucky_coe="7000" material="144407001" material_number="2" max_level="70" max_lucky="60" name="鲜血玫瑰" step="2" target_type="0" upgrade_odds="1"/>
+ <cell active_hours="0" appear="4003" attr_bonus_id="20003" buff="50002" buff_cooling="50002" buff_odds="1000" gold="200" lucky="3" lucky_coe="7400" material="144407001" material_number="3" max_level="90" max_lucky="120" name="碎裂焚星" step="3" target_type="1" upgrade_odds="1"/>
+ <cell active_hours="0" appear="4004" attr_bonus_id="20004" buff="50003" buff_cooling="50003" buff_odds="1000" gold="250" lucky="3" lucky_coe="7800" material="144407001" material_number="4" max_level="100" max_lucky="220" name="流光掠影" step="4" target_type="0" upgrade_odds="1"/>
+ <cell active_hours="0" appear="4005" attr_bonus_id="20005" buff="50004" buff_cooling="50004" buff_odds="1000" gold="300" lucky="3" lucky_coe="8200" material="144407001" material_number="5" max_level="100" max_lucky="380" name="天火流星" step="5" target_type="1" upgrade_odds="1"/>
+ <cell active_hours="0" appear="4006" attr_bonus_id="20006" buff="50005" buff_cooling="50005" buff_odds="1000" gold="350" lucky="3" lucky_coe="8600" material="144407001" material_number="6" max_level="110" max_lucky="720" name="圣羽神翼" step="6" target_type="0" upgrade_odds="1"/>
+ <cell active_hours="0" appear="4007" attr_bonus_id="20007" buff="50006" buff_cooling="50006" buff_odds="1000" gold="0" lucky="0" lucky_coe="0" material="144407001" material_number="0" max_level="110" max_lucky="0" name="紫幽魔惧" step="7" target_type="1" upgrade_odds="0"/>
+</data>

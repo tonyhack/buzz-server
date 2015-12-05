@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="level max_members maintenance_fee maintenance_fee_limit spend_gold spend_light_crystal spend_dark_crystal spend_holy_crystal max_shop_level max_college_level max_barrack_level">
+ <cell level="1" maintenance_fee="1" maintenance_fee_limit="3" max_barrack_level="1" max_college_level="1" max_members="30" max_shop_level="1" spend_dark_crystal="5" spend_gold="20" spend_holy_crystal="5" spend_light_crystal="5"/>
+ <cell level="2" maintenance_fee="2" maintenance_fee_limit="6" max_barrack_level="2" max_college_level="2" max_members="34" max_shop_level="2" spend_dark_crystal="15" spend_gold="50" spend_holy_crystal="15" spend_light_crystal="15"/>
+ <cell level="3" maintenance_fee="3" maintenance_fee_limit="9" max_barrack_level="3" max_college_level="3" max_members="38" max_shop_level="3" spend_dark_crystal="50" spend_gold="100" spend_holy_crystal="50" spend_light_crystal="50"/>
+ <cell level="4" maintenance_fee="5" maintenance_fee_limit="15" max_barrack_level="4" max_college_level="4" max_members="42" max_shop_level="4" spend_dark_crystal="100" spend_gold="200" spend_holy_crystal="100" spend_light_crystal="100"/>
+ <cell level="5" maintenance_fee="7" maintenance_fee_limit="21" max_barrack_level="5" max_college_level="5" max_members="46" max_shop_level="5" spend_dark_crystal="500" spend_gold="500" spend_holy_crystal="500" spend_light_crystal="500"/>
+ <cell level="6" maintenance_fee="10" maintenance_fee_limit="30" max_barrack_level="6" max_college_level="6" max_members="50" max_shop_level="6" spend_dark_crystal="2000" spend_gold="1000" spend_holy_crystal="2000" spend_light_crystal="2000"/>
+</data>

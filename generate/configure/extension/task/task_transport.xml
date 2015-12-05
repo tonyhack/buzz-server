@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="id npc_id odds success_awards rob_awards failure_awards force_success_spend">
+ <cell failure_awards="2:1:420000:0+2:2:700000:0+2:4:35000:0" force_success_spend="50" id="2" npc_id="201102" odds="5000" rob_awards="2:1:180000:0+2:2:300000:0+2:4:15000:0" success_awards="2:1:600000:0+2:2:1000000:0+2:4:50000:0"/>
+ <cell failure_awards="2:1:840000:0+2:2:1400000:0+2:4:35000:0+1:40:1:1" force_success_spend="100" id="3" npc_id="201103" odds="2500" rob_awards="2:1:1200000:0+2:2:360000:0+2:4:15000:0" success_awards="2:1:1200000:0+2:2:2000000:0+2:4:50000:0+1:40:1:1"/>
+ <cell failure_awards="2:1:210000:0+2:2:350000:0+2:4:14000:0" force_success_spend="20" id="1" npc_id="201101" odds="1000" rob_awards="2:1:90000:0+2:2:150000:0+2:4:6000:0" success_awards="2:1:300000:0+2:2:500000:0+2:4:20000:0"/>
+ <cell failure_awards="2:1:1680000:0+2:2:3500000:0+2:4:70000:0+1:40:2:1" force_success_spend="150" id="4" npc_id="201104" odds="1000" rob_awards="2:1:720000:0+2:2:1500000:0+2:4:30000:0" success_awards="2:1:2400000:0+2:2:5000000:0+2:4:100000:0+1:40:2:1"/>
+ <cell failure_awards="2:1:3500000:0+2:2:5600000:0+2:4:105000:0+1:40:3:1" force_success_spend="200" id="5" npc_id="201105" odds="500" rob_awards="2:1:1500000:0+2:2:2400000:0+2:4:45000:0" success_awards="2:1:5000000:0+2:2:8000000:0+2:4:150000:0+1:40:3:1"/>
+</data>

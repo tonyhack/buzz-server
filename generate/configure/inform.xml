@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="note1 note2 string_id channel scope desc">
+ <cell channel="1" desc="%b1| 创建了 %b2| 军团，一支新的力量由此诞生了！" note1="军团" note2="军团成功创建" scope="世界." string_id="GUILD_CREATE"/>
+ <cell channel="3+5" desc="%b1| 拒绝加入军团。" note1="军团" note2="邀请某人加入军团，但被拒绝" scope="个人." string_id="GUILD_REFUSE_INVITE"/>
+ <cell channel="3+5" desc="%b2| 军团拒绝了你的申请。" note1="军团" note2="申请加入某军团，但被拒绝" scope="个人." string_id="GUILD_REFUSE_JOIN"/>
+ <cell channel="7" desc="%b1| 加入了军团, 我们现在又多了一份力量。" note1="军团" note2="有人加入军团" scope="军团" string_id="GUILD_JOIN"/>
+ <cell channel="7" desc="由于某些显而易见或难以告人的原因， %b1| 离开了军团。" note1="军团" note2="有人离开军团" scope="军团" string_id="GUILD_LEAVE"/>
+ <cell channel="7" desc="%b1| 任命 %b1| 为 %s8| 。" note1="军团" note2="职位任命成功" scope="军团" string_id="GUILD_SET_MEMBER_POSITION"/>
+ <cell channel="7" desc="%b1| 解除了 %b1| 的 %s8| 职务。" note1="军团" note2="职位解除成功" scope="军团" string_id="GUILD_RESET_MEMBER_POSITION"/>
+ <cell channel="7" desc="%b1| 放弃了 %s8| 职务。" note1="军团" note2="辞职" scope="军团" string_id="GUILD_GIVE_UP_POSITION"/>
+ <cell channel="7" desc="军团长由 %b1| 变更为 %b1| ，我们期望新的领袖能做的更好。" note1="军团" note2="军团长变更" scope="军团" string_id="GUILD_GIVE_UP_LEADER_POSITION"/>
+ <cell channel="7" desc="军团升到了第 %s| 级，我们现在更强大了。" note1="军团" note2="军团升级" scope="军团" string_id="GUILD_UPGRADE"/>
+ <cell channel="7" desc="军团商店升到了第 %s| 级，我们的后备物质更丰富了。" note1="军团" note2="商店升级" scope="军团" string_id="GUILD_SHOP_UPGRADE"/>
+ <cell channel="7" desc="军团学院升到了第 %s| 级，我们将学习更先进的技术从而进一步提高我们各方面的能力" note1="军团" note2="学院升级" scope="军团" string_id="GUILD_COLLEGE_UPGRADE"/>
+ <cell channel="7" desc="军团军营升到了第 %s| 级，我们将能够占领更多的领地。" note1="军团" note2="军营升级" scope="军团" string_id="GUILD_BARRACK_UPGRADE"/>
+ <cell channel="7" desc="%b1| 向军团捐献了%s9| * %s|，获得贡献：%s| 。" note1="军团" note2="向军团捐赠" scope="军团" string_id="GUILD_DONATE"/>
+ <cell channel="3+5" desc="你创建了军团。" note1="军团" note2="军团成功创建" scope="个人." string_id="CLIENT_CREAT_CORPS"/>
+ <cell channel="3+5" desc="你成为了 %s8| 。" note1="军团" note2="职位任命成功，被任命的人收到提示" scope="个人." string_id="CLIENT_GUIDE_RECEIVE_POSITION"/>
+ <cell channel="3+5" desc="你的军团职位已取消。" note1="军团" note2="辞职或被解除职位后，职位发生变更的人收到提示（辞去军团长时除外）" scope="个人." string_id="CLIENT_GUIDE_POSITION_CHANGE"/>
+ <cell channel="3+5" desc="军团长转让成功。" note1="军团" note2="成功转让军团长时，转让者收到提示" scope="个人." string_id="CLIENT_GUIDE_LEADER_CHANGE"/>
+ <cell channel="1" desc="军团 %b2| 通过全体成员的奋斗，成功升到了第 %s| 级！" note1="军团" note2="军团升到3级或3更高的等级" scope="世界." string_id="GUILD_HIGH_LEVEL"/>
+ <cell channel="9" desc="军团人数已经满了。" note1="军团" note2="邀请某人加入、同意加入邀请、批准加入申请时，军团人数满了。操作者收到提示" scope="个人." string_id="CLIENT_GUIDE_MEMBER_FULL"/>
+ <cell channel="9" desc="军团已经解散了。" note1="军团" note2="同意某个军团的加入邀请时，军团解散了" scope="个人." string_id="CLIENT_GUIDE_DISMISS"/>
+ <cell channel="3" desc="已发出军团邀请。" note1="军团" note2="向某人发出进入军团的邀请时" scope="个人." string_id="CLIENT_GUIDE_INVITE"/>
+ <cell channel="9" desc="请输入对方的名称。" note1="军团" note2="邀请某人加入军团，但还未输入对方名称" scope="个人." string_id="CLIENT_GUIDE_ERROR_0"/>
+ <cell channel="9" desc="不能邀请自己。" note1="军团" note2="邀请自己加入自己的军团" scope="个人." string_id="CLIENT_GUIDE_ERROR_1"/>
+ <cell channel="9" desc="你的权限不够。" note1="军团" note2="邀请某人加入军团，但自己没有权限" scope="个人." string_id="CLIENT_GUIDE_ERROR_2"/>
+ <cell channel="9" desc="没有在线上找到该玩家。" note1="军团" note2="邀请某人加入军团，但对方当前不在线，或者不存在该玩家" scope="个人." string_id="CLIENT_GUIDE_ERROR_3"/>
+ <cell channel="9" desc="对方已加入我们军团了。" note1="军团" note2="邀请自己军团的成员加入军团" scope="个人." string_id="CLIENT_GUIDE_ERROR_4"/>
+ <cell channel="9" desc="对方已加入其它军团。" note1="军团" note2="邀请其他军团的成员加入军团" scope="个人." string_id="CLIENT_GUIDE_ERROR_5"/>
+ <cell channel="9" desc="对方等级不足30，无法加入军团。" note1="军团" note2="邀请等级不足30的玩家加入军团" scope="个人." string_id="CLIENT_GUIDE_ERROR_6"/>
+ <cell channel="9" desc="现在的时间段内无法祈祷。" note1="军团" note2="在禁止进行神像祈祷的时间段内进行祈祷" scope="个人." string_id="CLIENT_GUIDE_JOSS_TIME_ERROR"/>
+ <cell channel="9" desc="已经获得所有祝福了。" note1="军团" note2="已激活所有可用祝福后，继续祈祷" scope="个人." string_id="CLIENT_GUIDE_JOSS_FULL"/>
+ <cell channel="9" desc="贡献度不足。" note1="军团" note2="祈祷时，贡献度不足" scope="个人." string_id="CLIENT_GUIDE_JOSS_LACK_CONTRIBUDTE"/>
+ <cell channel="9" desc="只有军团剩下最后一个成员时，军团长才能离开。" note1="军团" note2="军团长尝试离开军团，但军团中还有其他成员" scope="个人." string_id="CLIENT_GUIDE_LEADER_LEAVE"/>
+ <cell channel="3+5" desc="军团已经解散。" note1="军团" note2="军团长成功解散军团" scope="个人." string_id="CLIENT_GUIDE_DISMISS"/>
+ <cell channel="3+5" desc="你已离开军团。" note1="军团" note2="除军团长外，其他成员成功主动离开军团。" scope="个人." string_id="CLIENT_GUIDE_LEAVE"/>
+ <cell channel="3+5" desc="你已被逐出军团。" note1="军团" note2="成员被踢出军团" scope="个人." string_id="CLIENT_GUIDE_BE_KICK"/>
+ <cell channel="9" desc="你已经加入军团了。" note1="军团" note2="点击“申请加入”按钮，但自己已经有军团了" scope="个人." string_id="CLIENT_GUIDE_ERROR_13"/>
+ <cell channel="9" desc="等级不足30，无法加入军团。" note1="军团" note2="点击“申请加入”按钮，但自己还未满30级" scope="个人." string_id="CLIENT_GUIDE_ERROR_12"/>
+ <cell channel="9" desc="请勿重复提出加入申请。" note1="军团" note2="点击“申请加入”按钮，但之前已对该军团提出了申请" scope="个人." string_id="CLIENT_GUIDE_ERROR_11"/>
+ <cell channel="9" desc="只能同时对3个军团提出加入申请。" note1="军团" note2="点击“申请加入”按钮，但当前已有3个申请正在受理中。" scope="个人." string_id="CLIENT_GUIDE_ERROR_7"/>
+ <cell channel="9" desc="军团已经解散了。" note1="军团" note2="点击“申请加入”按钮，但军团不存在。" scope="个人." string_id="CLIENT_GUIDE_ERROR_8"/>
+ <cell channel="9" desc="该军团拒绝加入申请。" note1="军团" note2="点击“申请加入”按钮，但该军团禁止提交加入申请。" scope="个人." string_id="CLIENT_GUIDE_ERROR_9"/>
+ <cell channel="9" desc="加入申请已发出。" note1="军团" note2="点击“申请加入”按钮，申请成功发出。" scope="个人." string_id="CLIENT_GUIDE_ERROR_10"/>
+ <cell channel="9" desc="军团人数已经满了。" note1="军团" note2="点击“申请加入”按钮，但军团人数已满。" scope="个人." string_id="CLIENT_GUIDE_MEMBER_FULL"/>
+ <cell channel="9" desc="角色等级不够。" note1="角色属性界面" note2="装备需求等级高于角色等级" scope="个人." string_id="CLIENT_NOT_ENOUGH_EQUIP_LEVEL"/>
+ <cell channel="9" desc="背包空间不足，请清理后再尝试。" note1="角色属性界面" note2="卸下装备时，包裹满了" scope="个人." string_id="CLIENT_BAG_FULL"/>
+ <cell channel="9" desc="该职业无法使用此装备。" note1="角色属性界面" note2="更换装备时，当前职业和装备需求的职业不匹配" scope="个人." string_id=""/>
+ <cell channel="4+6" desc="你死亡了。" note1="死亡和复活" note2="玩家被怪物或其他玩家之外的事物杀死" scope="个人." string_id="CLIENT_YOU_ARE_KILLED"/>
+ <cell channel="9" desc="钻石不足，无法购买复活石。" note1="死亡和复活" note2="使用原地复活时，复活道具不足，但勾选了自动购买，可钻石也不足" scope="个人." string_id="CLIENT_CANT_BUY_FUHUOSHI"/>
+ <cell channel="9" desc="复活石不够。" note1="死亡和复活" note2="使用原地复活时，复活道具不足，同时未勾选自动购买" scope="个人." string_id="CLIENT_NOT_ENOUGH_FUHUOSHI"/>
+ <cell channel="4+6" desc="你被 %s1| 杀死了。" note1="死亡和复活" note2="玩家被怪物杀死" scope="个人." string_id="SKILL_KILLED_BY_NPC"/>
+ <cell channel="4+6" desc="你被 %b1| 杀害了。" note1="死亡和复活" note2="玩家被某人杀死时" scope="个人." string_id="SKILL_KILLED_BY_ACTOR"/>
+ <cell channel="9" desc="目前无法变更精灵形态。" note1="精灵" note2="在战斗中变更精灵形态" scope="个人." string_id="CLIENT_CANT_CHANGE_RIDE"/>
+ <cell channel="9" desc="你还未开启此功能。" note1="精灵" note2="在未开启该系统时试图打开精灵界面" scope="个人." string_id="CLIENT_NOT_OPEN_FUNCTION"/>
+ <cell channel="9" desc="这个精灵外形已经有了。" note1="精灵" note2="试图获得一个已经拥有的精灵外形时" scope="个人." string_id=""/>
+ <cell channel="1+7" desc="%b1| 通过不懈地努力，终于将精灵提升到第 %s| 阶，战斗力获得极大提升。%u1|" note1="精灵" note2="精灵升到6/7/8/9级时" scope="世界." string_id=""/>
+ <cell channel="1+7" desc="%b1| 通过不懈地努力，终于将精灵提升到最高阶 %s| ，战斗力获得极大提升。%u1|" note1="精灵" note2="精灵升到顶级时" scope="世界" string_id="ATTR_SPIRIT_TOP_LEVEL"/>
+ <cell channel="9" desc="不能将两个同类型符文镶嵌在同一个职业的符文槽中。" note1="精灵符文" note2="尝试在同一组符文槽中放入两个同类型的符文" scope="个人." string_id="CLIENT_CANT_RIDE_RUNE"/>
+ <cell channel="3+5" desc="背包满了,符文融合停止。符文融合成功 %s| 次，失败 %s| 次。" note1="精灵符文" note2="由于包裹满了导致符文融合中断时" scope="个人." string_id="CLIENT_RUNE_COMMPOSE_BAG_FULL"/>
+ <cell channel="3+5" desc="符文融合结束。符文融合成功 %s| 次，失败 %s| 次。" note1="精灵符文" note2="符文融合完成时" scope="个人." string_id="CLIENT_RUNE_COMMPOSE_SUCCESS"/>
+ <cell channel="9" desc="符文已经达到最高等级了。" note1="精灵符文" note2="试图融合已经满级的符文" scope="个人." string_id="CLIENT_RIDERUNE_MAX_COMPSIE"/>
+ <cell channel="9" desc="至少需要3个符文才能进行融合。" note1="精灵符文" note2="符文融合时，作为素材的符文不足3个" scope="个人." string_id="CLIENT_RIDERUNE_ERROR_1"/>
+ <cell channel="9" desc="请把符文拖到符文槽中。" note1="精灵符文" note2="符文界面开启后，在符文道具上点“镶嵌”" scope="个人." string_id="CLIENT_RIDERUNE_ERROR_2"/>
+ <cell channel="9" desc="你还未开启此功能。" note1="精灵符文" note2="在未开启该系统时试图打开符文界面" scope="个人." string_id="CLIENT_NOT_OPEN_FUNCTION"/>
+ <cell channel="9" desc="背包空间不足，请清理后再尝试。" note1="精灵符文" note2="尝试卸下符文，但背包已满时" scope="个人." string_id="CLIENT_BAG_FULL"/>
+ <cell channel="9" desc="目前无法变更技能设置。" note1="职业设置界面" note2="除战斗和幻化外，在禁止开启职业设置的场景中尝试变更技能设置" scope="个人." string_id=""/>
+ <cell channel="9" desc="幻化中无法变更技能设置。" note1="职业设置界面" note2="在幻化中尝试变更技能设置" scope="个人." string_id="CLIENT_HUANHUA_CANT_CHANGE_SKILL"/>
+ <cell channel="9" desc="战斗中无法变更技能设置。" note1="职业设置界面" note2="在战斗中尝试变更技能设置" scope="个人." string_id="CLIENT_BATTLE_CANT_CHANGE_SKILL"/>
+ <cell channel="9" desc="目前无法开启职业设置界面。" note1="职业设置界面" note2="除战斗和幻化外，在禁止开启职业设置的场景中尝试打开职业设置界面" scope="个人." string_id=""/>
+ <cell channel="9" desc="幻化中无法开启职业设置界面。" note1="职业设置界面" note2="在幻化中尝试打开职业设置界面" scope="个人." string_id="CLIENT_HUANHUA_CANT_OPEN_VOCATION"/>
+ <cell channel="9" desc="战斗中无法开启职业设置界面。" note1="职业设置界面" note2="在战斗中尝试打开职业设置界面" scope="个人." string_id="CLIENT_BATTLE_CANT_OPEN_VOCATION"/>
+ <cell channel="9" desc="该技能只能放到幻化栏。" note1="职业设置界面" note2="将幻化技放到非幻化栏里" scope="个人." string_id="CLIENT_SPIRIT_ERROR_1"/>
+ <cell channel="9" desc="该技能不能放进幻化栏。" note1="职业设置界面" note2="将普通技放到幻化栏里" scope="个人." string_id="CLIENT_SPIRIT_ERROR_2"/>
+ <cell channel="9" desc="你还未开启此功能。" note1="职业设置界面" note2="在未开启该系统时试图打开职业设置界面" scope="个人." string_id="CLIENT_NOT_OPEN_FUNCTION"/>
+ <cell channel="9" desc="英灵已经解锁过了。" note1="英灵" note2="尝试解锁一个已经拥有的英灵时" scope="个人." string_id=""/>
+ <cell channel="3+5" desc="解锁英灵 %s5| 。" note1="英灵" note2="成功解锁英灵" scope="个人." string_id="CLIENT_UNLOCK_SOUL"/>
+ <cell channel="1+7" desc="%b1| 通过不懈地努力，终于将英灵 %s5| 提升到第 %s| 级，战斗力获得极大提升。%u2|" note1="英灵" note2="英灵升到3级时" scope="世界" string_id="SOUL_TOP_LEVEL"/>
+ <cell channel="9" desc="灵气不足，无法激活守护星。" note1="英灵" note2="点击可激活的守护星，但资源不足" scope="个人." string_id="CLIENT_SOUL_STEP_LACK_SP"/>
+ <cell channel="3+5" desc="守护星激活成功。" note1="英灵" note2="点击可激活的守护星，成功激活" scope="个人." string_id="CLIENT_SOUL_STEP_ACTIVE_SUCCESS"/>
+ <cell channel="3+5" desc="守护星激活失败。" note1="英灵" note2="点击可激活的守护星，激活失败" scope="个人." string_id="CLIENT_SOUL_STEP_ACTIVE_FAIL"/>
+ <cell channel="3+5" desc="英灵阶级提升成功。" note1="英灵" note2="点击升阶按钮，成功提高英灵阶级" scope="个人." string_id="CLIENT_SOUL_UPGRADE_LEVEL"/>
+ <cell channel="3+5" desc="技能升级成功。" note1="英灵" note2="点击技能升级按钮，技能升级成功" scope="个人." string_id="CLIENT_SKILL_UPGRADE_LEVEL"/>
+ <cell channel="9" desc="该道具不可强化。" note1="装备强化" note2="在强化界面中，单击“不可强化”的装备时显示" scope="个人." string_id="CLIENT_EQU_CANT_STRENGTH"/>
+ <cell channel="9" desc="该道具不可强化。" note1="装备强化" note2="在包裹界面中，对“不可强化”的装备按下强化按钮" scope="个人." string_id="CLIENT_EQU_CANT_STRENGTH"/>
+ <cell channel="9" desc="该道具不可强化。" note1="装备强化" note2="试图将“不可强化”的装备拖到强化栏里" scope="个人." string_id="CLIENT_EQU_CANT_STRENGTH"/>
+ <cell channel="1+7" desc="%b1| 通过不懈努力将 %s3| 强化到了 %s| 星，战力获得大量提升。%u8|" note1="装备强化" note2="任意装备第一次强化到7、8、9这3个星级时显示" scope="世界." string_id="EQUIPMENT_INTENSIFY_HIGH_LEVEL"/>
+ <cell channel="1+7" desc="%b1| 通过不懈努力将 %s3| 强化到了满星，战力获得极大提升。%u8|" note1="装备强化" note2="任意装备强化10星时显示" scope="世界." string_id="EQUIPMENT_INTENSIFY_TOP_LEVEL"/>
+ <cell channel="9" desc="您的金币不足，操作无法完成。" note1="装备强化" note2="强化时金币不足时出现" scope="个人." string_id="CLIENT_NOT_ENOUGH_COIN"/>
+ <cell channel="9" desc="装备强化失败。" note1="装备强化" note2="装备强化失败时" scope="个人." string_id="CLIENT_EQU_STRENGTH_FAIL"/>
+ <cell channel="9" desc="该道具不可进阶。" note1="装备进阶" note2="在进阶界面中，单击“不可进阶”的装备时显示" scope="个人." string_id="CLIENT_EQU_CANT_UPGRADE"/>
+ <cell channel="9" desc="该道具不可进阶。" note1="装备进阶" note2="在包裹界面中，对“不可进阶”的装备按下进阶按钮" scope="个人." string_id="CLIENT_EQU_CANT_UPGRADE"/>
+ <cell channel="9" desc="该道具不可进阶。" note1="装备进阶" note2="试图将“不可进阶”的装备拖到进阶栏里" scope="个人." string_id="CLIENT_EQU_CANT_UPGRADE"/>
+ <cell channel="1+7" desc="%b1| 通过不懈努力将 %s3| 进阶到了 %s3| ，战力获得大量提升。%u9|" note1="装备进阶" note2="任意装备进阶成功后显示" scope="世界." string_id="EQUIPMENT_UPGRADE"/>
+ <cell channel="9" desc="您的金币不足，操作无法完成。" note1="装备进阶" note2="进阶时金币不足时出现" scope="个人." string_id="CLIENT_NOT_ENOUGH_COIN"/>
+ <cell channel="9" desc="装备进阶失败。" note1="装备进阶" note2="进阶失败时" scope="个人." string_id="CLIENT_EQU_UPGRADE_FAIL"/>
+ <cell channel="9" desc="该道具不可洗练。" note1="装备洗练" note2="在洗炼界面中，单击“不可洗炼”的装备时显示" scope="个人." string_id="CLIENT_EQU_CANT_CLEANUP"/>
+ <cell channel="9" desc="该道具不可洗练。" note1="装备洗练" note2="在包裹界面中，对“不可洗练”的装备按下洗练按钮" scope="个人." string_id="CLIENT_EQU_CANT_CLEANUP"/>
+ <cell channel="9" desc="该道具不可洗练。" note1="装备洗练" note2="试图将“不可洗练”的装备拖到洗练栏里" scope="个人." string_id="CLIENT_EQU_CANT_CLEANUP"/>
+ <cell channel="1+7" desc="%b1| 通过不懈努力将 %s3| 的附加属性全部洗炼成了 %s6| 。%u10|" note1="装备洗炼" note2="紫色品质以上任意装备将所有品质附加属性洗炼成相同属性后显示" scope="世界." string_id="EQUIPMENT_REFINE"/>
+ <cell channel="9" desc="您的金币不足，操作无法完成。" note1="装备洗炼" note2="洗炼时金币不足时出现" scope="个人." string_id="CLIENT_NOT_ENOUGH_COIN"/>
+ <cell channel="9" desc="您的金币不足，操作无法完成。" note1="神武" note2="金币不足时" scope="个人." string_id="CLIENT_NOT_ENOUGH_COIN"/>
+ <cell channel="1+7" desc="%b1| 成功激活了神武，战力获得大量提升。%u12|" note1="神武" note2="购买神武开启神武功能后" scope="世界." string_id="ATTR_SWORD_ENABLE_FUNC"/>
+ <cell channel="7" desc="%b1| 通过不懈努力将神武进阶到了 %s11| ，战力获得大量提升。%u13|" note1="神武" note2="每次成功进阶神武后" scope="世界" string_id="ATTR_SWORD_UPGRADE_LEVEL"/>
+ <cell channel="1+7" desc="%b1| 通过不懈努力将神武进阶到了顶级：%s11| ，战力获得极大提升。%u13|" note1="神武" note2="成功进阶最高阶神武后显示" scope="世界." string_id="ATTR_SWORD_TOP_LEVEL"/>
+ <cell channel="9" desc="神武进阶失败。" note1="神武" note2="进阶失败时" scope="个人." string_id="CLIENT_SWORD_UPGRADE_FAILD"/>
+ <cell channel="9" desc="背包里没有该物品。" note1="道具快捷栏" note2="使用快捷栏内的道具，但背包里已经没有该道具了" scope="个人." string_id="CLIENT_HAD_NOT_FAST_MEDICINE"/>
+ <cell channel="9" desc="金币不足委托费支付失败，不可上架。" note1="拍卖行" note2="商品上架时，委托费不足" scope="个人." string_id="CLIENT_AUCTION_LACK_FEE"/>
+ <cell channel="9" desc="起拍价低于商品拍卖底价，不可上架。" note1="拍卖行" note2="商品上架时，竞拍价格低于商品拍卖底价时" scope="个人." string_id="CLIENT_AUCTION_BUYPRICE_ERROR"/>
+ <cell channel="9" desc="一口价低于商品拍卖底价，不可上架。" note1="拍卖行" note2="商品上架时，一口价价格低于商品拍卖底价时" scope="个人." string_id="CLIENT_AUCTION_BUYOUTPRICE_ERROR"/>
+ <cell channel="9" desc="背包空间不足，不可取回。" note1="拍卖行" note2="将下架的商品取回时，背包满了" scope="个人." string_id="CLIENT_AUCTION_BAG_FULL"/>
+ <cell channel="9" desc="上架空间不足，不可上架。" note1="拍卖行" note2="商品上架时，上架商品数满了" scope="个人." string_id="CLIENT_AUCTION_MAX_SELL"/>
+ <cell channel="9" desc="背包空间不足，不可取回。" note1="拍卖行" note2="取回竞拍成功的道具时，背包满了" scope="个人." string_id="CLIENT_AUCTION_BAG_FULL"/>
+ <cell channel="9" desc="当前竞拍商品数量已达上限，不可竞拍。" note1="拍卖行" note2="对商品第一次出价进行竞拍时，当前正在竞拍的条目数和竞拍成功的条目数之和到达上限" scope="个人." string_id="CLIENT_AUCTION_MAX_BUY"/>
+ <cell channel="9" desc="出价过低，当前竞拍价已更新。" note1="拍卖行" note2="出价按钮单击时如出价价格小于当前实际竞拍价格时出现" scope="个人." string_id="CLIENT_AUCTION_OUTBIDDED"/>
+ <cell channel="9" desc="竞拍商品已售出，出价失败。" note1="拍卖行" note2="出价按钮单击时相应的拍卖品已卖出或下架" scope="个人." string_id="CLIENT_AUCTION_ITEM_NOT_EXIST"/>
+ <cell channel="9" desc="出价成功。" note1="拍卖行" note2="竞价出价成功" scope="个人." string_id="CLIENT_AUCTION_BUY_SUCCESS"/>
+ <cell channel="3+5" desc="您对 %s3| 的出价被超出。" note1="拍卖行" note2="玩家的出价被其他玩家超过" scope="个人." string_id="CLIENT_AUCTION_OUTBIDDED_HISTORY"/>
+ <cell channel="3+5" desc="恭喜您成功拍得 %s| 个 %s3| 。" note1="拍卖行" note2="竞拍胜利时" scope="个人." string_id="CLIENT_AUCTION_BID_SUCCESS_HISTORY"/>
+ <cell channel="3+5" desc="恭喜您成功购得 %s| 个 %s3| 。" note1="拍卖行" note2="一口价购买后" scope="个人." string_id="CLIENT_AUCTION_BUYOUT_SUCCESS_HISTORY"/>
+ <cell channel="3+5" desc="恭喜您成功卖出 %s| 个 %s3| 。" note1="拍卖行" note2="拍卖成功时" scope="个人." string_id="CLIENT_AUCTION_SELL_ITEM_SUCCESS_HISTORY"/>
+ <cell channel="9" desc="该物品不能在PVP中使用。" note1="道具" note2="在PVP状态中使用禁止在PVP时使用的道具" scope="个人." string_id="CLIENT_NOT_USE_ITEM_PVP"/>
+ <cell channel="9" desc="该物品不能在战斗中使用。" note1="道具" note2="在战斗状态中使用禁止在战斗时使用的道具" scope="个人." string_id="CLIENT_NOT_USE_ITEM_BATTLE"/>
+ <cell channel="9" desc="该技能不能在战斗中使用。" note1="技能" note2="在战斗状态中使用禁止在战斗中使用的技能" scope="个人." string_id="CLIENT_NOT_USE_SKILL_PVP"/>
+ <cell channel="9" desc="该技能不能在非战斗时使用。" note1="技能" note2="在非战斗状态中使用禁止在非战斗中使用的技能" scope="个人." string_id="CLIENT_NOT_USE_SKILL_BATTLE"/>
+ <cell channel="9" desc="您的好友已达上限，无法再添加。" note1="好友" note2="好友人数已满" scope="个人." string_id="CLIENT_FRIEND_ADD_FULL"/>
+ <cell channel="9" desc="您的仇人已达上限，无法再添加。" note1="好友" note2="仇人人数已满" scope="个人." string_id="CLIENT_ENEMY_ADD_FULL"/>
+ <cell channel="9" desc="您的黑名单已达上限，无法再添加。" note1="好友" note2="黑名单人数已满" scope="个人." string_id="CLIENT_BLACK_ADD_FULL"/>
+ <cell channel="9" desc="联系人已存在，无法重复添加。" note1="好友" note2="黑名单人数已满" scope="个人." string_id="CLIENT_BLACK_FRIEND_EXIXT"/>
+ <cell channel="9" desc="名称输入错误，请重新输入。" note1="好友" note2="人物名称输入错误" scope="个人." string_id="CLIENT_FRIEND_NAME_ERROR"/>
+ <cell channel="3+5" desc="恭喜您升为 %s19| VIP。服务延长 %s| 天，总剩余 %s| 天。" note1="vip" note2="使用VIP卡后延长VIP时间，并提高VIP等级" scope="个人." string_id=""/>
+ <cell channel="3+5" desc="您的VIP服务延长 %s| 天，总剩余 %s| 天。" note1="vip" note2="使用VIP卡后延长VIP时间" scope="个人." string_id=""/>
+ <cell channel="3+5" desc="恭喜您升为 VIP等级 VIP。服务剩余 %s| 天。" note1="vip" note2="不是VIP时使用VIP卡" scope="个人." string_id=""/>
+ <cell channel="9" desc="背包空间不足，请清理后再尝试。" note1="vip" note2="领取VIP礼包时，背包空间不足。" scope="个人." string_id=""/>
+ <cell channel="9" desc="VIP服务已到期。" note1="vip" note2="领取VIP礼包时，VIP已到期。" scope="个人." string_id=""/>
+ <cell channel="1" desc="恭喜 %b1| 开通了 %s19| VIP。" note1="vip" note2="当玩家VIP等级提升到帝王时" scope="世界." string_id=""/>
+ <cell channel="9" desc="此功能目前版本未开放，敬请期待。" note1="其他" note2="欲打开目前版本未开放的界面，或使用未开放的功能时" scope="个人." string_id=""/>
+ <cell channel="5" desc="获得 %c1| * %s| 。" note1="道具" note2="以拾取以外的方式获得道具。" scope="个人." string_id=""/>
+ <cell channel="5" desc="获得 %s20| * %s| 。" note1="道具" note2="获得金币、礼券、钻石、经验值、灵气、贡献度、军功。（击杀获得经验、拾取获得资源除外）" scope="个人." string_id=""/>
+ <cell channel="5" desc="消耗 %c1| * %s| 。" note1="道具" note2="道具由于使用而被直接消耗（装备到身上不算，因为它没有被消耗。）" scope="个人." string_id=""/>
+ <cell channel="5" desc="丢弃 %c1| * %s| 。" note1="道具" note2="丢弃道具" scope="个人." string_id=""/>
+ <cell channel="5" desc="花费 %s20| * %s| 。" note1="道具" note2="由和商店贸易导致资源被消耗" scope="个人." string_id=""/>
+ <cell channel="3" desc="任务名:条件标签(X/N)。" note1="任务" note2="主线任务和历险任务:任务条件次数增加时" scope="个人." string_id=""/>
+ <cell channel="3" desc="任务名:已完成。" note1="任务" note2="主线任务和历险任务:任务条件完成,可交付时" scope="个人." string_id=""/>
+ <cell channel="3" desc="条件标签(X/N)。" note1="任务" note2="循环任务:任务条件次数增加时" scope="个人." string_id=""/>
+ <cell channel="3" desc="循环任务第 %s| 环已完成。" note1="任务" note2="循环任务:任务条件达成时" scope="个人." string_id=""/>
+ <cell channel="3" desc="条件标签(X/N)。" note1="任务" note2="奇遇任务:任务条件次数增加时" scope="个人." string_id=""/>
+ <cell channel="3" desc="奇遇任务已完成。" note1="任务" note2="奇遇任务:任务条件达成时" scope="个人." string_id=""/>
+ <cell channel="3" desc="任务已放弃。" note1="任务" note2="放弃主线任务和历险任务时" scope="个人." string_id=""/>
+ <cell channel="3" desc="任务已放弃。" note1="任务" note2="放弃奇遇任务时" scope="个人." string_id=""/>
+ <cell channel="5" desc="钻石不足，操作无法完成。" note1="任务-循环任务" note2="点击刷新循环任务条件按钮,礼金和钻石都不足时" scope="个人." string_id=""/>
+ <cell channel="5" desc="钻石不足，操作无法完成。" note1="任务-循环任务" note2="点击完成本环按钮时,钻石不足时" scope="个人." string_id=""/>
+ <cell channel="5" desc="钻石不足，操作无法完成。" note1="任务-循环任务" note2="点击一键完成本轮按钮时,钻石不足时" scope="个人." string_id=""/>
+ <cell channel="5" desc="背包空间不足，请清理后再尝试。" note1="任务-循环任务" note2="点击一键完成本轮按钮时,背包空间不足时" scope="个人." string_id=""/>
+ <cell channel="5" desc="钻石不足，操作无法完成。" note1="任务-奇遇任务" note2="点击立即完成按钮时,钻石不足时" scope="个人." string_id="CLINET_NOT_ENOUGH_ZUANSHI"/>
+ <cell channel="5" desc="背包空间不足，请清理后再尝试。" note1="任务-奇遇任务" note2="点击立即完成按钮时,背包空间不足时" scope="个人." string_id=""/>
+ <cell channel="7" desc="%b1| 一键完成了整轮循环任务，快速获得了大量经验值。%u3|" note1="任务-循环任务" note2="一键完成整环任务时，发送公告" scope="世界" string_id=""/>
+ <cell channel="1+7" desc="恭喜 %b1| 获得了爵位“ %s4| ”。%u5|" note1="爵位" note2="激活第1个爵位（购买）" scope="世界." string_id="ATTR_NOBLE_ENABLE_FUNC"/>
+ <cell channel="1+7" desc="%b1| 通过不懈努力，终于获得了爵位“ %s4| ”，战斗力获得极大提升。%u5|" note1="爵位" note2="成功激活新爵位时（除最后一个爵位外）" scope="世界." string_id=""/>
+ <cell channel="1+7" desc="%b1| 通过不懈努力，终于获得了最高爵位“ %s4| ”，战斗力获得极大提升。%u5|" note1="爵位" note2="激活最后1个爵位（王）" scope="世界." string_id="ATTR_NOBLE_TOP_LEVEL"/>
+ <cell channel="9" desc="灵气不足，无法提升。" note1="爵位" note2="灵气不足" scope="个人." string_id="CLIENT_NOBLE_ERROR_1"/>
+ <cell channel="9" desc="金币不足，无法提升。" note1="爵位" note2="金币不足时" scope="个人." string_id="CLIENT_NOBLE_ERROR_2"/>
+ <cell channel="9" desc="道具不足，无法进阶。" note1="爵位" note2="进阶石不足" scope="个人." string_id="CLIENT_NOBLE_ERROR_3"/>
+ <cell channel="3+5" desc="爵位进阶成功。" note1="爵位" note2="当前爵位进阶成功" scope="个人." string_id="CLIENT_NOBLE_ERROR_4"/>
+ <cell channel="9" desc="背包空间不足，请清理后再尝试。" note1="背包" note2="背包空间不足" scope="个人." string_id="CLIENT_BAG_FULL"/>
+ <cell channel="3+5" desc="背包栏位开启成功。" note1="背包" note2="背包空间栏位开启成功" scope="个人." string_id="CLIENT_BAG_EXT_SUCCESS"/>
+ <cell channel="9" desc="背包空间不足，请清理后再尝试。" note1="背包" note2="购买道具时，背包满了" scope="个人." string_id="CLIENT_BAG_FULL"/>
+ <cell channel="9" desc="礼金不足，无法购买。" note1="背包" note2="购买道具时，礼金不足" scope="个人." string_id="CLIENT_NOT_ENOUGH_DOLLERS_BIND"/>
+ <cell channel="9" desc="仓库空间不足，请清理后再尝试" note1="仓库" note2="仓库空间不足" scope="个人." string_id="CLIENT_WAREHOUSE_FULL"/>
+ <cell channel="3+5" desc="仓库栏位开启成功。" note1="仓库" note2="背包仓库栏位开启成功" scope="个人." string_id="CLIENT_WAREHOUSE_EXT_SUCCESS"/>
+ <cell channel="5" desc="成功领取奖励。" note1="每日签到" note2="领取奖励成功" scope="个人." string_id=""/>
+ <cell channel="9" desc="背包空间不足，请清理后再尝试。" note1="每日签到" note2="领取奖励失败" scope="个人." string_id=""/>
+ <cell channel="9" desc="您目前还不是VIP，无法领取奖励。" note1="每日签到" note2="不是VIP，点击领取奖励" scope="个人." string_id=""/>
+ <cell channel="5" desc="成功领取奖励。" note1="在线奖励" note2="领取奖励成功" scope="个人." string_id=""/>
+ <cell channel="9" desc="您的礼金不足，无法购买。" note1="商城" note2="礼金不足" scope="个人." string_id="CLIENT_NOT_ENOUGH_DOLLERS_BIND"/>
+ <cell channel="9" desc="等级不足，无法进入该场景。" note1="当前场景" note2="等级不足" scope="个人." string_id=""/>
+ <cell channel="9" desc="请输入邮件主题。" note1="邮件" note2="主题输入错误" scope="个人." string_id=""/>
+ <cell channel="9" desc="未找到收件人，请确认是否正确。" note1="邮件" note2="收件人错误" scope="个人." string_id=""/>
+ <cell channel="3+5" desc="邮件发送成功。" note1="邮件" note2="邮件发送成功" scope="个人." string_id="CLIENT_MAIL_POST_SUCCESS"/>
+ <cell channel="3" desc="申请组队消息已发送，请等待……" note1="组队" note2="发送申请组队消息" scope="个人." string_id="CLIENT_TEAM_REQUST_JOIN"/>
+ <cell channel="3" desc="邀请组队消息已发送，请等待……" note1="组队" note2="发送邀请组队消息" scope="个人." string_id="CLIENT_TEAM_YAOQING_JOIN"/>
+ <cell channel="3+5" desc="成功加入队伍。" note1="组队" note2="成功进入队伍" scope="个人." string_id=""/>
+ <cell channel="3+5" desc="队伍已满，无法加入。" note1="组队" note2="队伍已满" scope="个人." string_id=""/>
+ <cell channel="3+5" desc="对方拒绝您加入队伍的请求。" note1="组队" note2="玩家A刷新到玩家B的队伍并申请加入，但B拒绝了" scope="个人." string_id="CLIENT_TEAM_JOIN_FAIL"/>
+ <cell channel="3" desc="已存在相同种类星魂，镶嵌失败。" note1="星魂" note2="当拖动摆放的星魂所加成的属性种类与某个星魂槽内已镶嵌的星魂所加成的属性种类相同" scope="个人." string_id=""/>
+ <cell channel="9" desc="该星魂槽未开启。" note1="星魂" note2="对【星魂仓库】中的任意星魂图标执行拖动摆放操作拖动摆放到任意‘未开启’状态的星魂槽内" scope="个人." string_id=""/>
+ <cell channel="1+7" desc="%b1| 鸿运高照，在七星聚魂中获得 %s21| 。%u6|" note1="星魂" note2="七星聚魂获得橙色星魂时显示" scope="世界." string_id="GEM_GET_ORANGE_GEM"/>
+ <cell channel="1+7" desc="%b1| 通过不懈努力将 %s21| 升级到了第 %s| 级，战力获得大量提升。%u7|" note1="星魂" note2="任意星魂升级到6、7、8、9这4个等级时显示" scope="世界." string_id="GEM_HIGH_LEVEL"/>
+ <cell channel="1+7" desc="恭喜 %b1| 成功将 %s21| 升级到了顶级,战力获得大量提升。%u7|" note1="星魂" note2="任意星魂升级10级时显示" scope="世界." string_id="GEM_TOP_LEVEL"/>
+ <cell channel="3+5" desc="成功拆解 %s| 级 %s21| ，获得星魂碎片 %s| 个。" note1="星魂" note2="拆解任意星魂后" scope="个人." string_id=""/>
+ <cell channel="9" desc="只能镶嵌一个同类型的星魂。" note1="星魂" note2="向星魂槽内放入第二个同类型的星魂时" scope="个人." string_id="GEM_SAME_TYPE"/>
+ <cell channel="9" desc="礼金不足，无法购买。" note1="快速购买" note2="勾选自动礼金购买后，礼金不足" scope="个人." string_id=""/>
+ <cell channel="9" desc="背包空间不足，无法购买。" note1="快速购买" note2="背包空间不足时" scope="个人." string_id=""/>
+ <cell channel="9" desc="神威不足，操作无法完成。" note1="法阵" note2="神威不足时" scope="个人." string_id="CLIENT_WAR_SOUL_NOT_ENOUGH"/>
+ <cell channel="7" desc="%b1| 成功激活了法阵 %s10| ，战力获得大量提升。%u11|" note1="法阵" note2="激活任意法阵（7个附星全部激活）后（除最后一个法阵除外）" scope="世界" string_id="ATTR_ELEMENT_UPGRADE"/>
+ <cell channel="1+7" desc="%b1| 通过不懈努力将所有法阵全部激活，战斗力获得极大提升。%u11|" note1="法阵" note2="成功激活冥法阵（冥法阵的7个附星全部激活）后" scope="世界." string_id="ATTR_ELEMENT_TOP_LEVEL"/>
+ <cell channel="9" desc="等级不够，无法进入此场景。" note1="世界地图" note2="点击世界地图上的场景，但自身等级不够" scope="个人." string_id=""/>
+ <cell channel="9" desc="背包空间不足，请清理后再尝试。" note1="成就" note2="领取奖励时背包空间不足" scope="个人." string_id=""/>
+ <cell channel="9" desc="背包空间不足，无法领取。" note1="声望" note2="领取声望奖励时，背包空间不够" scope="个人." string_id=""/>
+ <cell channel="9" desc="钻石不足，无法立即完成。" note1="声望" note2="点击立刻完成按钮时，钻石不够" scope="个人." string_id=""/>
+ <cell channel="9" desc="背包空间不足，无法领取。" note1="声望" note2="领取声望奖励时，背包空间不够" scope="个人." string_id=""/>
+ <cell channel="9" desc="钻石不足，无法立即完成。" note1="声望" note2="点击立刻完成按钮时，钻石不够" scope="个人." string_id=""/>
+ <cell channel="6" desc="获得经验值 %s| 。" note1="战斗" note2="击杀目标获得经验值。" scope="个人." string_id="CLIENT_ADD_EXP"/>
+ <cell channel="6" desc="拾取了 %c1| * %s| 。" note1="战斗" note2="成功捡起地上的道具。" scope="个人." string_id=""/>
+ <cell channel="6" desc="这件道具不属于你。" note1="战斗" note2="试图拾取还在拾取保护中的他人的道具。" scope="个人." string_id=""/>
+ <cell channel="6" desc="获得 %s20|：%s| 。" note1="战斗" note2="成功捡起地上的金币、礼券。" scope="个人." string_id=""/>
+ <cell channel="4" desc="获得负面效果：%s16| 。" note1="战斗" note2="获得DEBUFF。" scope="个人." string_id="CLIENT_GET_DEBUFF"/>
+ <cell channel="4" desc="警告：生命值不足10%，请尽快回复！" note1="战斗" note2="血量小于等于10%时，每15秒提示一次" scope="个人." string_id="CLIENT_WARN_NOT_ENOUGH_HP"/>
+ <cell channel="4" desc="技能消耗不足。" note1="技能" note2="当前魔法值或生命值小于技能施放所需" scope="个人." string_id="CLIENT_USE_SKILL_ERROR_1"/>
+ <cell channel="4" desc="该技能只能对 %s7| 施放。" note1="技能" note2="对当前目标施放技能时,实体对像类型检测未通过,技能施放失败" scope="个人." string_id="CLIENT_USE_SKILL_ERROR_2"/>
+ <cell channel="4" desc="目标已死亡。" note1="技能" note2="对当前目标施放技能时,目标存亡状态未通过,技能施放失败" scope="个人." string_id="CLIENT_USE_SKILL_ERROR_3"/>
+ <cell channel="4" desc="你不能对该目标施放此技能。" note1="技能" note2="对当前目标施放技能时,阵营检测未通过,技能施放失败" scope="个人." string_id="CLIENT_USE_SKILL_ERROR_4"/>
+ <cell channel="4" desc="你不能对该目标施放此技能。" note1="技能" note2="对当前目标施放技能时,技能作用类型检测未通过,技能施放失败" scope="个人." string_id="CLIENT_USE_SKILL_ERROR_5"/>
+ <cell channel="4" desc="你处于和平状态。" note1="技能" note2="PK模式为和平时,对玩家施放减益技能,技能施放失败" scope="个人." string_id="CLIENT_USE_SKILL_ERROR_6"/>
+ <cell channel="4" desc="当前区域禁止PK。" note1="技能" note2="PK开,当前区域禁止PK时,对玩家施放减益技能,技能施放失败" scope="个人." string_id="CLIENT_USE_SKILL_ERROR_7"/>
+ <cell channel="4" desc="无法攻击新手玩家。" note1="技能" note2="PK开,对处于新手保护等级内的玩家施放减益技能,技能施放失败" scope="个人." string_id=""/>
+ <cell channel="4" desc="目标处于PK保护状态。" note1="技能" note2="PK开,对处于PK保护BUFF下的玩家施放减益技能,技能施放失败" scope="个人." string_id=""/>
+ <cell channel="4" desc="无法攻击同队伍的成员。" note1="技能" note2="欲攻击同队伍的成员，但当前攻击模式不正确" scope="个人." string_id="CLIENT_USE_SKILL_ERROR_10"/>
+ <cell channel="4" desc="无法攻击同军团的成员。" note1="技能" note2="欲攻击同军团的成员，但当前攻击模式不正确" scope="个人." string_id="CLIENT_USE_SKILL_ERROR_11"/>
+ <cell channel="4" desc="无法攻击非红名玩家。" note1="技能" note2="欲攻击非红名的玩家，但当前攻击模式不正确" scope="个人." string_id="CLIENT_USE_SKILL_ERROR_12"/>
+ <cell channel="9" desc="当前场景无法更改攻击方式。" note1="PVP" note2="在禁止切换攻击方式的场景中变更攻击方式" scope="个人." string_id="CLIENT_CANT_CHANGE_PK_MODE"/>
+ <cell channel="9" desc="新手保护期间无法更改攻击方式。" note1="PVP" note2="在新手保护期间变更攻击方式" scope="个人." string_id=""/>
+ <cell channel="9" desc="不能攻击新手。" note1="PVP" note2="对处于新手保护的玩家使用恶意技能" scope="个人." string_id=""/>
+ <cell channel="9" desc="对方处于PK保护中。" note1="PVP" note2="对处于PK保护的玩家使用恶意技能" scope="个人." string_id=""/>
+ <cell channel="4+6" desc="你杀死了 %b1| 。" note1="PVP" note2="玩家杀死某人时" scope="个人." string_id="SKILL_KILL_ACTOR"/>
+ <cell channel="9" desc="角色已死亡，无法出征。" note1="剧情战役副本" note2="角色处于死亡状态时尝试对任意剧情战役进行出征时" scope="个人." string_id="CLIENT_DUNGEON_ERROR_1"/>
+ <cell channel="9" desc="有奖励还未领取，不可出征。" note1="剧情战役副本" note2="有剧情战役副本奖励未领取时尝试对任意剧情战役进行出征时" scope="个人." string_id="CLIENT_DUNGEON_ERROR_2"/>
+ <cell channel="9" desc="背包空间不足，请清理后再尝试。" note1="剧情战役副本" note2="单击【一键领取所有奖励】按钮进行领取剧情战役通关奖励时背包满了" scope="个人." string_id="CLIENT_BAG_FULL"/>
+ <cell channel="1+7" desc="恭喜 %b1| 以神一样的速度五星通关了 %s12| ，成为该战役当前五星最速通关者。%u14|" note1="剧情战役副本" note2="任意剧情战役副本最速五星通关拥有者变更时" scope="世界." string_id=""/>
+ <cell channel="9" desc="角色已死亡，无法挑战。" note1="神之试炼副本" note2="角色处于死亡状态时，点击【挑战】按钮" scope="个人." string_id="CLIENT_DUNGEON_ERROR_5"/>
+ <cell channel="9" desc="有奖励未领取，不可出征。" note1="神之试炼副本" note2="有神之试练副本奖励未领取时尝试对任意神之试练进行挑战时" scope="个人." string_id="CLIENT_DUNGEON_ERROR_6"/>
+ <cell channel="7" desc="%b1| 成功战胜了神之试练的 %s1| ，获得大量神威。%u15|" note1="神之试练副本" note2="任意神之试练boss首次击杀时显示（单个玩家第一次击杀，不是全服首杀）" scope="世界" string_id=""/>
+ <cell channel="1" desc="超神！恭喜 %b1| 完整所有神之试练！%u15|" note1="神之试练副本" note2="神之试练boss哈迪斯被首次击杀时显示（单个玩家第一次击杀，不是全服首杀）" scope="世界." string_id=""/>
+ <cell channel="2+8" desc="世界BOSS %s| 已在 %s18| 出现。" note1="世界BOSS" note2="当世界BOSS被刷新时，播放提示" scope="世界." string_id="CLIENT_BOSS_SUMMON"/>
+ <cell channel="4" desc="您说话太快了。" note1="聊天框" note2="聊天速度过快" scope="个人." string_id="CLIENT_SAY_QUICKLY"/>
+ <cell channel="4" desc="私聊对象不在线，无法发送信息" note1="聊天框" note2="私聊对象不在线" scope="个人." string_id=""/>
+ <cell channel="9" desc="背包空间不足，请清理后再尝试。" note1="英灵祭坛" note2="收取英灵卡时，背包满了" scope="个人." string_id=""/>
+ <cell channel="9" desc="钻石不够。" note1="英灵祭坛" note2="收取需要钻石的英灵卡时，钻石不足" scope="个人." string_id=""/>
+ <cell channel="3+5" desc="获得英灵卡：%c1| 。" note1="英灵祭坛" note2="成功收取英灵卡" scope="个人." string_id=""/>
+ <cell channel="9" desc="该玩家支援人数已满。" note1="家园" note2="尝试支援其他玩家时，但那个玩家的可支援位已满" scope="个人." string_id=""/>
+ <cell channel="9" desc="今日掠夺次数已用尽。" note1="家园" note2="当单击掠夺按钮时玩家当天掠夺次数已达上限时出现" scope="个人." string_id="CLIENT_HOMELAND_LVEDUO_MAX_NUM"/>
+ <cell channel="9" desc="掠夺冷却中，请稍候再试。" note1="家园" note2="家园掠夺冷却时间显示时单击掠夺按钮" scope="个人." string_id="CLIENT_HOMELAND_LVEDUO_COOLING"/>
+ <cell channel="3+5" desc="征收成功，获得金币 %s| 。" note1="家园" note2="神殿征收成功后" scope="个人." string_id="CLIENT_HOMELAND_TEMPLE_HARVEST"/>
+ <cell channel="3+5" desc="强征成功，获得金币 %s| 。" note1="家园" note2="神殿强征成功后" scope="个人." string_id="CLIENT_HOMELAND_TEMPLE_FORCEHARVEST"/>
+ <cell channel="3+5" desc="领取 %s15| ，获得 奖励内容 %s| 。" note1="家园" note2="" scope="个人." string_id=""/>
+ <cell channel="3+5" desc="成功领取经验 %s| ,灵气 %s|  。" note1="家园" note2="神秘之源UI内单击领取按钮成功领取后" scope="个人." string_id="CLIENT_HOMELAND_POOL_HARVEST"/>
+ <cell channel="3+5" desc="成功领取经验 %s| ,灵气 %s|  。" note1="家园" note2="神秘之源UI内单击双倍领取按钮成功领取后" scope="个人." string_id="CLIENT_HOMELAND_POOL_DOUBLE_HARVEST"/>
+ <cell channel="3+5" desc="神树浇水成功，浇水进度 + %s| 。" note1="家园" note2="帮自己浇水后" scope="个人." string_id="CHILENT_HOMELAND_TREE_WATER"/>
+ <cell channel="3+5" desc="神树摘取成功，获得礼金 %s| 。" note1="家园" note2="自己的神树摘取后" scope="个人." string_id=""/>
+ <cell channel="3+5" desc="神树抢摘成功，获得礼金 %s| 。" note1="家园" note2="对好友的神树进行抢收后" scope="个人." string_id=""/>
+ <cell channel="3+5" desc="好友神树浇水成功，获得礼金 %s| 。" note1="家园" note2="当天前50次帮好友浇水成功后" scope="个人." string_id=""/>
+ <cell channel="3+5" desc="金矿收获成功，获得金币 %s| 。" note1="家园" note2="金矿收获后" scope="个人." string_id="CLIENT_HOMELAND_GOLDMINE_HARVEST"/>
+ <cell channel="3+5" desc="家园掠夺 %s13| ，获得金币 %s| 。" note1="家园" note2="家园掠夺成功后" scope="个人." string_id=""/>
+ <cell channel="3+5" desc="%s22| 等级提升到 %s| 级 。" note1="家园" note2="家园中任意建筑升级后" scope="个人." string_id="CLIENT_HOMELAND_UPGRADE"/>
+ <cell channel="3+5" desc="%b1| 的英灵 %s5| 开始守护你的家园。" note1="家园" note2="军团据点内有英灵入住时" scope="个人." string_id="CLIENT_HOMELADN_FALG_SUPPORTED"/>
+ <cell channel="3+5" desc="%b1| 的英灵 %s5| 完成守护离开了你的家园。" note1="家园" note2="军团据点内有英灵离开时" scope="个人." string_id="CLIENT_HOMELADN_FALG_SUPPORTED_AWAY"/>
+ <cell channel="2+8" desc="领地争夺战将于 %s17| 开始，请诸位做好准备。" note1="领地争夺战" note2="活动开始前1小时。每10分钟播放一次，共5次。" scope="世界." string_id=""/>
+ <cell channel="2+8" desc="请注意，领地争夺战已开始。" note1="领地争夺战" note2="活动开始。" scope="世界." string_id=""/>
+ <cell channel="7" desc="我方位于 %s18| 的旗帜正在遭受攻击！" note1="领地争夺战" note2="我方旗帜受到攻击，且在之前30秒内未受到过攻击时。" scope="军团" string_id=""/>
+ <cell channel="7" desc="军团 %b2| 位于 %s18| 的旗帜被 %b1| 摧毁了。" note1="领地争夺战" note2="旗帜被击破。" scope="世界" string_id=""/>
+ <cell channel="2+8" desc="领地争夺战将于15分钟后结束。" note1="领地争夺战" note2="活动结束前15分钟。" scope="世界." string_id=""/>
+ <cell channel="8" desc="领地争夺战将于10分钟后结束。" note1="领地争夺战" note2="活动结束前10分钟。" scope="世界" string_id=""/>
+ <cell channel="8" desc="领地争夺战将于5分钟后结束。" note1="领地争夺战" note2="活动结束前5分钟。" scope="世界" string_id=""/>
+ <cell channel="8" desc="领地争夺战将于3分钟后结束。" note1="领地争夺战" note2="活动结束前3分钟。" scope="世界" string_id=""/>
+ <cell channel="8" desc="领地争夺战将于2分钟后结束。" note1="领地争夺战" note2="活动结束前2分钟。" scope="世界" string_id=""/>
+ <cell channel="8" desc="领地争夺战将于1分钟后结束。" note1="领地争夺战" note2="活动结束前1分钟。" scope="世界" string_id=""/>
+ <cell channel="2+8" desc="领地争夺战已经结束。" note1="领地争夺战" note2="活动结束。" scope="世界." string_id=""/>
+ <cell channel="7" desc="位于 %s18| 的 %s| 级旗帜耐久过低，请注意支援。" note1="领地争夺战" note2="旗帜HP从大于等于30%的状态变为小于30%，且最近5分钟内未发生过相同的事情。" scope="军团" string_id=""/>
+ <cell channel="7" desc="位于 %s18| 的 %s| 级旗帜即将被摧毁，请火速救援！" note1="领地争夺战" note2="旗帜HP从大于等于10%的状态变为小于10%，且最近5分钟内未发生过相同的事情。" scope="军团" string_id=""/>
+ <cell channel="9" desc="在 %s| 秒内无法插旗。" note1="领地争夺战" note2="玩家试图在旗座上插旗，但根据插旗优先权规则，暂时他还不能插旗时" scope="个人." string_id=""/>
+ <cell channel="9" desc="没有空闲的 %s| 级旗帜。" note1="领地争夺战" note2="插旗时，旗帜用光了" scope="个人." string_id=""/>
+ <cell channel="9" desc="只能同时有一个人在插旗。" note1="领地争夺战" note2="插旗时，有其他人正在插旗" scope="个人." string_id=""/>
+ <cell channel="9" desc="旗座上已经有旗了。" note1="领地争夺战" note2="插旗时，旗座上已经有旗了" scope="个人." string_id=""/>
+ <cell channel="9" desc="只能在领地争夺战进行时插旗。" note1="领地争夺战" note2="插旗时，领地争夺战已经结束" scope="个人." string_id=""/>
+ <cell channel="9" desc="你没有安插军团旗帜的权限。" note1="领地争夺战" note2="插旗者没有插旗的权限" scope="个人." string_id=""/>
+ <cell channel="9" desc="旗座已经是空的了。" note1="领地争夺战" note2="拔旗时，旗座已经空了" scope="个人." string_id=""/>
+ <cell channel="9" desc="只能拔除自己军团的旗帜。" note1="领地争夺战" note2="尝试拔除其他军团的旗帜" scope="个人." string_id=""/>
+ <cell channel="9" desc="不健康游戏时间内无法提交任务。" note1="防沉迷" note2="需要防沉迷的玩家，累计在线300分钟以上时，提交任务时报错" scope="个人." string_id=""/>
+</data>

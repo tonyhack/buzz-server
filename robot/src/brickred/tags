@@ -1,0 +1,1120 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ArgumentVector	command_line_option.h	/^    typedef std::vector<std::string> ArgumentVector;$/;"	t	class:brickred::CommandLineOption
+BASE_DEBUG	base_logger.h	43;"	d
+BASE_ERROR	base_logger.h	49;"	d
+BASE_WARNING	base_logger.h	46;"	d
+BRICKRED_BASE_LOGGER_H	base_logger.h	2;"	d
+BRICKRED_BIND_FREE_FUNC	function.h	6;"	d
+BRICKRED_BIND_MEM_FUNC	function.h	9;"	d
+BRICKRED_BIND_TEMPLATE_MEM_FUNC	function.h	12;"	d
+BRICKRED_CLASS_UTIL_H	class_util.h	2;"	d
+BRICKRED_CODEC_BASE64_H	codec/base64.h	2;"	d
+BRICKRED_CODEC_SHA1_H	codec/sha1.h	2;"	d
+BRICKRED_COMMAND_LINE_OPTION_H	command_line_option.h	2;"	d
+BRICKRED_CONCURRENT_QUEUE_H	concurrent_queue.h	2;"	d
+BRICKRED_CONDITION_VARIABLE_H	condition_variable.h	2;"	d
+BRICKRED_DYNAMIC_BUFFER_H	dynamic_buffer.h	2;"	d
+BRICKRED_EXCEPTION_H	exception.h	2;"	d
+BRICKRED_FUNCTION_H	function.h	2;"	d
+BRICKRED_IO_DEVICE_H	io_device.h	2;"	d
+BRICKRED_IO_SERVICE_H	io_service.h	2;"	d
+BRICKRED_LOG_ASYNC_SINK_H	log_async_sink.h	2;"	d
+BRICKRED_LOG_CORE_H	log_core.h	2;"	d
+BRICKRED_LOG_FILE_SINK_H	log_file_sink.h	2;"	d
+BRICKRED_LOG_SINK_H	log_sink.h	2;"	d
+BRICKRED_LOG_STDERR_SINK_H	log_stderr_sink.h	2;"	d
+BRICKRED_MESSAGE_QUEUE_H	message_queue.h	2;"	d
+BRICKRED_MUTEX_H	mutex.h	2;"	d
+BRICKRED_NONCOPYABLE	class_util.h	4;"	d
+BRICKRED_OBJECT_POOL_H	object_pool.h	2;"	d
+BRICKRED_PROTOCOL_HTTP_MESSAGE_H	protocol/http_message.h	2;"	d
+BRICKRED_PROTOCOL_HTTP_PROTOCOL_H	protocol/http_protocol.h	2;"	d
+BRICKRED_PROTOCOL_HTTP_REQUEST_H	protocol/http_request.h	2;"	d
+BRICKRED_PROTOCOL_HTTP_RESPONSE_H	protocol/http_response.h	2;"	d
+BRICKRED_PROTOCOL_WEB_SOCKET_PROTOCOL_H	protocol/web_socket_protocol.h	2;"	d
+BRICKRED_RANDOM_H	random.h	2;"	d
+BRICKRED_SAFE_BOOL_TYPE	class_util.h	45;"	d
+BRICKRED_SELF_PIPE_H	self_pipe.h	2;"	d
+BRICKRED_SINGLETON	class_util.h	8;"	d
+BRICKRED_SINGLETON2	class_util.h	22;"	d
+BRICKRED_SINGLETON2_IMPL	class_util.h	42;"	d
+BRICKRED_SOCKET_ADDRESS_H	socket_address.h	2;"	d
+BRICKRED_STRING_UTIL_H	string_util.h	2;"	d
+BRICKRED_TCP_SERVICE_H	tcp_service.h	2;"	d
+BRICKRED_TCP_SOCKET_H	tcp_socket.h	2;"	d
+BRICKRED_THREAD_H	thread.h	2;"	d
+BRICKRED_TIMER_HEAP_H	timer_heap.h	2;"	d
+BRICKRED_TIMESTAMP_H	timestamp.h	2;"	d
+BRICKRED_UNIQUE_PTR_H	unique_ptr.h	2;"	d
+BaseLogger	base_logger.cc	/^BaseLogger::BaseLogger() : log_func_(defaultLogFunc)$/;"	f	class:brickred::BaseLogger
+BaseLogger	base_logger.h	/^class BaseLogger {$/;"	c	namespace:brickred
+CLOSED	protocol/web_socket_protocol.h	/^            CLOSED,$/;"	e	enum:brickred::protocol::WebSocketProtocol::Status::type
+CONNECTED	protocol/web_socket_protocol.h	/^            CONNECTED,$/;"	e	enum:brickred::protocol::WebSocketProtocol::Status::type
+CONNECTED	tcp_service.cc	/^            CONNECTED,$/;"	e	enum:brickred::TcpConnection::Status::type	file:
+CONNECTING	tcp_service.cc	/^            CONNECTING,$/;"	e	enum:brickred::TcpConnection::Status::type	file:
+CONNECTION_ESTABLISHED	protocol/web_socket_protocol.h	/^            CONNECTION_ESTABLISHED,$/;"	e	enum:brickred::protocol::WebSocketProtocol::RetCode::type
+CaseInsensitiveLess	string_util.h	/^struct CaseInsensitiveLess {$/;"	s	namespace:brickred::string_util
+CommandLineOption	command_line_option.cc	/^CommandLineOption::CommandLineOption()$/;"	f	class:brickred::CommandLineOption
+CommandLineOption	command_line_option.h	/^class CommandLineOption {$/;"	c	namespace:brickred
+ConcurrentQueue	concurrent_queue.h	/^    ConcurrentQueue(size_t max_size = 0) :$/;"	f	class:brickred::ConcurrentQueue
+ConcurrentQueue	concurrent_queue.h	/^class ConcurrentQueue {$/;"	c	namespace:brickred
+ConditionVariable	condition_variable.cc	/^ConditionVariable::ConditionVariable() :$/;"	f	class:brickred::ConditionVariable
+ConditionVariable	condition_variable.h	/^class ConditionVariable {$/;"	c	namespace:brickred
+ConstMemberFunctionFactory0	function.h	/^class ConstMemberFunctionFactory0 {$/;"	c	namespace:brickred
+ConstMemberFunctionFactory1	function.h	/^class ConstMemberFunctionFactory1 {$/;"	c	namespace:brickred
+ConstMemberFunctionFactory2	function.h	/^class ConstMemberFunctionFactory2 {$/;"	c	namespace:brickred
+ConstMemberFunctionFactory3	function.h	/^class ConstMemberFunctionFactory3 {$/;"	c	namespace:brickred
+ConstMemberFunctionFactory4	function.h	/^class ConstMemberFunctionFactory4 {$/;"	c	namespace:brickred
+ConstMemberFunctionFactory5	function.h	/^class ConstMemberFunctionFactory5 {$/;"	c	namespace:brickred
+ConstMemberFunctionFactory6	function.h	/^class ConstMemberFunctionFactory6 {$/;"	c	namespace:brickred
+ConstMemberFunctionFactory7	function.h	/^class ConstMemberFunctionFactory7 {$/;"	c	namespace:brickred
+ConstMemberFunctionFactory8	function.h	/^class ConstMemberFunctionFactory8 {$/;"	c	namespace:brickred
+ConstMemberFunctionFactory9	function.h	/^class ConstMemberFunctionFactory9 {$/;"	c	namespace:brickred
+Context	tcp_service.cc	/^    typedef TcpService::Context Context;$/;"	t	class:brickred::TcpService::Impl	file:
+Context	tcp_service.h	/^        Context() {}$/;"	f	class:brickred::TcpService::Context
+Context	tcp_service.h	/^    class Context {$/;"	c	class:brickred::TcpService
+ContextMap	tcp_service.cc	/^    typedef __gnu_cxx::hash_map<SocketId, Context *> ContextMap;$/;"	t	class:brickred::TcpService::Impl	file:
+DEBUG	base_logger.h	/^            DEBUG = 0,$/;"	e	enum:brickred::BaseLogger::LogLevel::type
+DETACHED	protocol/web_socket_protocol.h	/^            DETACHED,$/;"	e	enum:brickred::protocol::WebSocketProtocol::Status::type
+DescriptorId	io_device.h	/^    typedef int DescriptorId;$/;"	t	class:brickred::IODevice
+DynamicBuffer	dynamic_buffer.cc	/^DynamicBuffer::DynamicBuffer(size_t init_size, size_t expand_size) :$/;"	f	class:brickred::DynamicBuffer
+DynamicBuffer	dynamic_buffer.h	/^class DynamicBuffer {$/;"	c	namespace:brickred
+ERROR	base_logger.h	/^            ERROR,$/;"	e	enum:brickred::BaseLogger::LogLevel::type
+ERROR	protocol/http_protocol.h	/^            ERROR = -1,$/;"	e	enum:brickred::protocol::HttpProtocol::RetCode::type
+ERROR	protocol/web_socket_protocol.h	/^            ERROR = -1,$/;"	e	enum:brickred::protocol::WebSocketProtocol::RetCode::type
+ErrorCallback	io_device.h	/^    typedef Function<void (IODevice *)> ErrorCallback;$/;"	t	class:brickred::IODevice
+ErrorCallback	tcp_service.cc	/^    typedef TcpService::ErrorCallback ErrorCallback;$/;"	t	class:brickred::TcpService::Impl	file:
+ErrorCallback	tcp_service.h	/^            ErrorCallback;$/;"	t	class:brickred::TcpService
+EventVector	io_service.cc	/^    typedef std::vector<struct epoll_event> EventVector;$/;"	t	class:brickred::IOService::Impl	file:
+FINISHED	protocol/http_protocol.h	/^            FINISHED,$/;"	e	enum:brickred::protocol::HttpProtocol::Status::type
+FINISHED	protocol/web_socket_protocol.h	/^            FINISHED,$/;"	e	enum:brickred::protocol::WebSocketProtocol::Status::type
+FreeFunctionFactory0	function.h	/^class FreeFunctionFactory0 {$/;"	c	namespace:brickred
+FreeFunctionFactory1	function.h	/^class FreeFunctionFactory1 {$/;"	c	namespace:brickred
+FreeFunctionFactory2	function.h	/^class FreeFunctionFactory2 {$/;"	c	namespace:brickred
+FreeFunctionFactory3	function.h	/^class FreeFunctionFactory3 {$/;"	c	namespace:brickred
+FreeFunctionFactory4	function.h	/^class FreeFunctionFactory4 {$/;"	c	namespace:brickred
+FreeFunctionFactory5	function.h	/^class FreeFunctionFactory5 {$/;"	c	namespace:brickred
+FreeFunctionFactory6	function.h	/^class FreeFunctionFactory6 {$/;"	c	namespace:brickred
+FreeFunctionFactory7	function.h	/^class FreeFunctionFactory7 {$/;"	c	namespace:brickred
+FreeFunctionFactory8	function.h	/^class FreeFunctionFactory8 {$/;"	c	namespace:brickred
+FreeFunctionFactory9	function.h	/^class FreeFunctionFactory9 {$/;"	c	namespace:brickred
+Function	function.h	/^    Function() :$/;"	f	class:brickred::Function
+Function	function.h	/^    Function(FunctionType func, const void *obj) :$/;"	f	class:brickred::Function
+Function	function.h	/^    Function(NullFunction) :$/;"	f	class:brickred::Function
+Function	function.h	/^    Function(const Function &rhs) :$/;"	f	class:brickred::Function
+Function	function.h	/^class Function<R ()> {$/;"	c	namespace:brickred
+Function	function.h	/^class Function<R (P1)> {$/;"	c	namespace:brickred
+Function	function.h	/^class Function<R (P1, P2)> {$/;"	c	namespace:brickred
+Function	function.h	/^class Function<R (P1, P2, P3)> {$/;"	c	namespace:brickred
+Function	function.h	/^class Function<R (P1, P2, P3, P4)> {$/;"	c	namespace:brickred
+Function	function.h	/^class Function<R (P1, P2, P3, P4, P5)> {$/;"	c	namespace:brickred
+Function	function.h	/^class Function<R (P1, P2, P3, P4, P5, P6)> {$/;"	c	namespace:brickred
+Function	function.h	/^class Function<R (P1, P2, P3, P4, P5, P6, P7)> {$/;"	c	namespace:brickred
+Function	function.h	/^class Function<R (P1, P2, P3, P4, P5, P6, P7, P8)> {$/;"	c	namespace:brickred
+Function	function.h	/^class Function<R (P1, P2, P3, P4, P5, P6, P7, P8, P9)> {$/;"	c	namespace:brickred
+FunctionType	function.h	/^    typedef R (*FunctionType)(const void *);$/;"	t	class:brickred::Function
+FunctionType	function.h	/^    typedef R (*FunctionType)(const void *, P1);$/;"	t	class:brickred::Function
+FunctionType	function.h	/^    typedef R (*FunctionType)(const void *, P1, P2);$/;"	t	class:brickred::Function
+FunctionType	function.h	/^    typedef R (*FunctionType)(const void *, P1, P2, P3);$/;"	t	class:brickred::Function
+FunctionType	function.h	/^    typedef R (*FunctionType)(const void *, P1, P2, P3, P4);$/;"	t	class:brickred::Function
+FunctionType	function.h	/^    typedef R (*FunctionType)(const void *, P1, P2, P3, P4, P5);$/;"	t	class:brickred::Function
+FunctionType	function.h	/^    typedef R (*FunctionType)(const void *, P1, P2, P3, P4, P5, P6);$/;"	t	class:brickred::Function
+FunctionType	function.h	/^    typedef R (*FunctionType)(const void *, P1, P2, P3, P4, P5, P6, P7);$/;"	t	class:brickred::Function
+FunctionType	function.h	/^    typedef R (*FunctionType)(const void *, P1, P2, P3, P4, P5, P6, P7, P8);$/;"	t	class:brickred::Function
+FunctionType	function.h	/^    typedef R (*FunctionType)(const void *, P1, P2, P3, P4, P5, P6, P7, P8, P9);$/;"	t	class:brickred::Function
+GET	protocol/http_request.h	/^            GET,$/;"	e	enum:brickred::protocol::HttpRequest::Method::type
+HTTP_1_0	protocol/http_message.h	/^            HTTP_1_0,$/;"	e	enum:brickred::protocol::HttpMessage::Version::type
+HTTP_1_1	protocol/http_message.h	/^            HTTP_1_1$/;"	e	enum:brickred::protocol::HttpMessage::Version::type
+Hash	string_util.h	/^struct Hash {$/;"	s	namespace:brickred::string_util
+HeaderMap	protocol/http_message.h	/^                     string_util::CaseInsensitiveLess> HeaderMap;$/;"	t	class:brickred::protocol::HttpMessage
+HeaderMap	protocol/web_socket_protocol.cc	/^    typedef WebSocketProtocol::HeaderMap HeaderMap;$/;"	t	class:brickred::protocol::WebSocketProtocol::Impl	file:
+HeaderMap	protocol/web_socket_protocol.h	/^                     string_util::CaseInsensitiveLess> HeaderMap;$/;"	t	class:brickred::protocol::WebSocketProtocol
+HttpMessage	protocol/http_message.cc	/^HttpMessage::HttpMessage() :$/;"	f	class:brickred::protocol::HttpMessage
+HttpMessage	protocol/http_message.h	/^class HttpMessage {$/;"	c	namespace:brickred::protocol
+HttpProtocol	protocol/http_protocol.cc	/^HttpProtocol::HttpProtocol() :$/;"	f	class:brickred::protocol::HttpProtocol
+HttpProtocol	protocol/http_protocol.h	/^class HttpProtocol {$/;"	c	namespace:brickred::protocol
+HttpRequest	protocol/http_request.cc	/^HttpRequest::HttpRequest() :$/;"	f	class:brickred::protocol::HttpRequest
+HttpRequest	protocol/http_request.h	/^class HttpRequest : public HttpMessage {$/;"	c	namespace:brickred::protocol
+HttpResponse	protocol/http_response.cc	/^HttpResponse::HttpResponse() :$/;"	f	class:brickred::protocol::HttpResponse
+HttpResponse	protocol/http_response.h	/^class HttpResponse : public HttpMessage {$/;"	c	namespace:brickred::protocol
+IODevice	io_device.cc	/^IODevice::IODevice() : io_service_(NULL), id_(0), fd_(-1)$/;"	f	class:brickred::IODevice
+IODevice	io_device.h	/^class IODevice {$/;"	c	namespace:brickred
+IODeviceSet	io_service.cc	/^    typedef __gnu_cxx::hash_set<intptr_t> IODeviceSet;$/;"	t	class:brickred::IOService::Impl	file:
+IOService	io_service.cc	/^IOService::IOService() :$/;"	f	class:brickred::IOService
+IOService	io_service.h	/^class IOService {$/;"	c	namespace:brickred
+IP_V4	socket_address.h	/^            IP_V4,$/;"	e	enum:brickred::SocketAddress::Protocol::type
+IP_V6	socket_address.h	/^            IP_V6$/;"	e	enum:brickred::SocketAddress::Protocol::type
+Impl	condition_variable.cc	/^ConditionVariable::Impl::Impl()$/;"	f	class:brickred::ConditionVariable::Impl
+Impl	condition_variable.cc	/^class ConditionVariable::Impl {$/;"	c	class:brickred::ConditionVariable	file:
+Impl	io_service.cc	/^IOService::Impl::Impl() : epoll_fd_(-1), events_(32)$/;"	f	class:brickred::IOService::Impl
+Impl	io_service.cc	/^class IOService::Impl {$/;"	c	class:brickred::IOService	file:
+Impl	log_async_sink.cc	/^LogAsyncSink::Impl::Impl(LogSink *adapted_sink, size_t queue_size) :$/;"	f	class:brickred::LogAsyncSink::Impl
+Impl	log_async_sink.cc	/^class LogAsyncSink::Impl {$/;"	c	class:brickred::LogAsyncSink	file:
+Impl	log_core.cc	/^LogCore::Impl::Impl() :$/;"	f	class:brickred::LogCore::Impl
+Impl	log_core.cc	/^class LogCore::Impl {$/;"	c	class:brickred::LogCore	file:
+Impl	log_file_sink.cc	/^LogFileSink::Impl::Impl(const std::string &file_path) :$/;"	f	class:brickred::LogFileSink::Impl
+Impl	log_file_sink.cc	/^class LogFileSink::Impl {$/;"	c	class:brickred::LogFileSink	file:
+Impl	mutex.cc	/^Mutex::Impl::Impl()$/;"	f	class:brickred::Mutex::Impl
+Impl	mutex.cc	/^class Mutex::Impl {$/;"	c	class:brickred::Mutex	file:
+Impl	protocol/http_protocol.cc	/^HttpProtocol::Impl::Impl() :$/;"	f	class:brickred::protocol::HttpProtocol::Impl
+Impl	protocol/http_protocol.cc	/^class HttpProtocol::Impl {$/;"	c	class:brickred::protocol::HttpProtocol	file:
+Impl	protocol/web_socket_protocol.cc	/^WebSocketProtocol::Impl::Impl() :$/;"	f	class:brickred::protocol::WebSocketProtocol::Impl
+Impl	protocol/web_socket_protocol.cc	/^class WebSocketProtocol::Impl {$/;"	c	class:brickred::protocol::WebSocketProtocol	file:
+Impl	random.cc	/^Random::Impl::Impl()$/;"	f	class:brickred::Random::Impl
+Impl	random.cc	/^Random::Impl::Impl(uint32_t key[], size_t key_length)$/;"	f	class:brickred::Random::Impl
+Impl	random.cc	/^Random::Impl::Impl(uint32_t s)$/;"	f	class:brickred::Random::Impl
+Impl	random.cc	/^class Random::Impl {$/;"	c	class:brickred::Random	file:
+Impl	socket_address.cc	/^SocketAddress::Impl::Impl() :$/;"	f	class:brickred::SocketAddress::Impl
+Impl	socket_address.cc	/^SocketAddress::Impl::Impl(const std::string &ip, uint16_t port) :$/;"	f	class:brickred::SocketAddress::Impl
+Impl	socket_address.cc	/^class SocketAddress::Impl {$/;"	c	class:brickred::SocketAddress	file:
+Impl	tcp_service.cc	/^TcpService::Impl::Impl(TcpService *thiz, IOService &io_service) :$/;"	f	class:brickred::TcpService::Impl
+Impl	tcp_service.cc	/^class TcpService::Impl {$/;"	c	class:brickred::TcpService	file:
+Impl	thread.cc	/^Thread::Impl::Impl() :$/;"	f	class:brickred::Thread::Impl
+Impl	thread.cc	/^class Thread::Impl {$/;"	c	class:brickred::Thread	file:
+Impl	timer_heap.cc	/^TimerHeap::Impl::Impl()$/;"	f	class:brickred::TimerHeap::Impl
+Impl	timer_heap.cc	/^class TimerHeap::Impl {$/;"	c	class:brickred::TimerHeap	file:
+LOG_BUFFER_SIZE	log_core.cc	12;"	d	file:
+LOWER_MASK	random.cc	/^    static const uint32_t LOWER_MASK = 0x7fffffff;$/;"	m	class:brickred::Random::Impl	file:
+LockGuard	mutex.h	/^    explicit LockGuard(Mutex &m) : mutex_(m) { mutex_.lock(); }$/;"	f	class:brickred::LockGuard
+LockGuard	mutex.h	/^class LockGuard {$/;"	c	namespace:brickred
+LogAsyncSink	log_async_sink.cc	/^LogAsyncSink::LogAsyncSink(LogSink *adapted_sink, size_t queue_size) :$/;"	f	class:brickred::LogAsyncSink
+LogAsyncSink	log_async_sink.h	/^class LogAsyncSink : public LogSink {$/;"	c	namespace:brickred
+LogCore	log_core.cc	/^LogCore::LogCore() :$/;"	f	class:brickred::LogCore
+LogCore	log_core.h	/^class LogCore {$/;"	c	namespace:brickred
+LogFileSink	log_file_sink.cc	/^LogFileSink::LogFileSink(const std::string &file_path) :$/;"	f	class:brickred::LogFileSink
+LogFileSink	log_file_sink.h	/^class LogFileSink : public LogSink {$/;"	c	namespace:brickred
+LogFormatter	log_core.cc	/^    typedef LogCore::LogFormatter LogFormatter;$/;"	t	class:brickred::LogCore::Impl	file:
+LogFormatter	log_core.cc	/^    typedef LogCore::LogFormatter LogFormatter;$/;"	t	class:brickred::Logger	file:
+LogFormatter	log_core.h	/^    typedef size_t (*LogFormatter)($/;"	t	class:brickred::LogCore
+LogFunc	base_logger.h	/^    typedef void (*LogFunc)($/;"	t	class:brickred::BaseLogger
+LogLevel	base_logger.h	/^    struct LogLevel {$/;"	s	class:brickred::BaseLogger
+LogLevelVector	log_core.cc	/^    typedef std::vector<int> LogLevelVector;$/;"	t	class:brickred::Logger	file:
+LogSink	log_sink.h	/^    LogSink() {}$/;"	f	class:brickred::LogSink
+LogSink	log_sink.h	/^class LogSink {$/;"	c	namespace:brickred
+LogSinkVector	log_core.cc	/^    typedef std::vector<LogSink *> LogSinkVector;$/;"	t	class:brickred::Logger	file:
+LogStderrSink	log_stderr_sink.cc	/^LogStderrSink::LogStderrSink()$/;"	f	class:brickred::LogStderrSink
+LogStderrSink	log_stderr_sink.h	/^class LogStderrSink : public LogSink {$/;"	c	namespace:brickred
+Logger	log_core.cc	/^Logger::Logger(LogFormatter formatter) : formatter_(formatter)$/;"	f	class:brickred::Logger
+Logger	log_core.cc	/^class Logger {$/;"	c	namespace:brickred	file:
+LoggerVector	log_core.cc	/^    typedef std::vector<Logger *> LoggerVector;$/;"	t	class:brickred::LogCore::Impl	file:
+M	random.cc	/^    static const int M = 397;$/;"	m	class:brickred::Random::Impl	file:
+MATRIX_A	random.cc	/^    static const uint32_t MATRIX_A = 0x9908b0df;$/;"	m	class:brickred::Random::Impl	file:
+MAX	base_logger.h	/^            MAX$/;"	e	enum:brickred::BaseLogger::LogLevel::type
+MAX	protocol/http_protocol.h	/^            MAX$/;"	e	enum:brickred::protocol::HttpProtocol::Status::type
+MAX	protocol/web_socket_protocol.h	/^            MAX$/;"	e	enum:brickred::protocol::WebSocketProtocol::Status::type
+MAX_EPOLL_TIMEOUT_MSEC	io_service.cc	22;"	d	file:
+MAX_LOGGER_COUNT	log_core.cc	11;"	d	file:
+MESSAGE_READY	protocol/http_protocol.h	/^            MESSAGE_READY = 1$/;"	e	enum:brickred::protocol::HttpProtocol::RetCode::type
+MESSAGE_READY	protocol/web_socket_protocol.h	/^            MESSAGE_READY,$/;"	e	enum:brickred::protocol::WebSocketProtocol::RetCode::type
+MIN	base_logger.h	/^            MIN = 0,$/;"	e	enum:brickred::BaseLogger::LogLevel::type
+MemberFunctionFactory0	function.h	/^class MemberFunctionFactory0 {$/;"	c	namespace:brickred
+MemberFunctionFactory1	function.h	/^class MemberFunctionFactory1 {$/;"	c	namespace:brickred
+MemberFunctionFactory2	function.h	/^class MemberFunctionFactory2 {$/;"	c	namespace:brickred
+MemberFunctionFactory3	function.h	/^class MemberFunctionFactory3 {$/;"	c	namespace:brickred
+MemberFunctionFactory4	function.h	/^class MemberFunctionFactory4 {$/;"	c	namespace:brickred
+MemberFunctionFactory5	function.h	/^class MemberFunctionFactory5 {$/;"	c	namespace:brickred
+MemberFunctionFactory6	function.h	/^class MemberFunctionFactory6 {$/;"	c	namespace:brickred
+MemberFunctionFactory7	function.h	/^class MemberFunctionFactory7 {$/;"	c	namespace:brickred
+MemberFunctionFactory8	function.h	/^class MemberFunctionFactory8 {$/;"	c	namespace:brickred
+MemberFunctionFactory9	function.h	/^class MemberFunctionFactory9 {$/;"	c	namespace:brickred
+MessageQueue	message_queue.h	/^    explicit MessageQueue(IOService &io_service, size_t max_size = 0) :$/;"	f	class:brickred::MessageQueue
+MessageQueue	message_queue.h	/^class MessageQueue {$/;"	c	namespace:brickred
+MessageType	protocol/http_message.h	/^    struct MessageType {$/;"	s	class:brickred::protocol::HttpMessage
+Method	protocol/http_request.h	/^    struct Method {$/;"	s	class:brickred::protocol::HttpRequest
+MethodEnumToStr	protocol/http_request.cc	/^const std::string &HttpRequest::MethodEnumToStr(Method::type method_enum)$/;"	f	class:brickred::protocol::HttpRequest
+MethodStrToEnum	protocol/http_request.cc	/^HttpRequest::Method::type HttpRequest::MethodStrToEnum($/;"	f	class:brickred::protocol::HttpRequest
+Mutex	mutex.cc	/^Mutex::Mutex() :$/;"	f	class:brickred::Mutex
+Mutex	mutex.h	/^class Mutex {$/;"	c	namespace:brickred
+N	random.cc	/^    static const int N = 624;$/;"	m	class:brickred::Random::Impl	file:
+NONE	command_line_option.h	/^            NONE = 0,$/;"	e	enum:brickred::CommandLineOption::ParameterType::type
+NativeAddress	socket_address.cc	/^    } NativeAddress;$/;"	t	class:brickred::SocketAddress::Impl	typeref:union:brickred::SocketAddress::Impl::native_address_tag	file:
+NewConnectionCallback	tcp_service.cc	/^    typedef TcpService::NewConnectionCallback NewConnectionCallback;$/;"	t	class:brickred::TcpService::Impl	file:
+NewConnectionCallback	tcp_service.h	/^            NewConnectionCallback;$/;"	t	class:brickred::TcpService
+NullFunction	function.h	/^class NullFunction {};$/;"	c	namespace:brickred
+ObjectPool	object_pool.h	/^    ObjectPool() {}$/;"	f	class:brickred::ObjectPool
+ObjectPool	object_pool.h	/^class ObjectPool {$/;"	c	namespace:brickred
+OptionParameterTypeMap	command_line_option.h	/^    typedef std::map<std::string, ParameterType::type> OptionParameterTypeMap;$/;"	t	class:brickred::CommandLineOption
+OptionParametersMap	command_line_option.h	/^    typedef std::map<std::string, ParameterVector> OptionParametersMap;$/;"	t	class:brickred::CommandLineOption
+PEER_CLOSED	protocol/web_socket_protocol.h	/^            PEER_CLOSED,$/;"	e	enum:brickred::protocol::WebSocketProtocol::RetCode::type
+PEER_CLOSED	tcp_service.cc	/^            PEER_CLOSED,$/;"	e	enum:brickred::TcpConnection::Status::type	file:
+PENDING_ERROR	protocol/http_protocol.h	/^            PENDING_ERROR,$/;"	e	enum:brickred::protocol::HttpProtocol::Status::type
+PENDING_ERROR	protocol/web_socket_protocol.h	/^            PENDING_ERROR,$/;"	e	enum:brickred::protocol::WebSocketProtocol::Status::type
+PENDING_ERROR	tcp_service.cc	/^            PENDING_ERROR$/;"	e	enum:brickred::TcpConnection::Status::type	file:
+PING_FRAME	protocol/web_socket_protocol.h	/^            PING_FRAME,$/;"	e	enum:brickred::protocol::WebSocketProtocol::RetCode::type
+PONG_FRAME	protocol/web_socket_protocol.h	/^            PONG_FRAME,$/;"	e	enum:brickred::protocol::WebSocketProtocol::RetCode::type
+POST	protocol/http_request.h	/^            POST$/;"	e	enum:brickred::protocol::HttpRequest::Method::type
+ParameterType	command_line_option.h	/^    struct ParameterType {$/;"	s	class:brickred::CommandLineOption
+ParameterVector	command_line_option.h	/^    typedef std::vector<std::string> ParameterVector;$/;"	t	class:brickred::CommandLineOption
+PeerCloseCallback	tcp_service.cc	/^    typedef TcpService::PeerCloseCallback PeerCloseCallback;$/;"	t	class:brickred::TcpService::Impl	file:
+PeerCloseCallback	tcp_service.h	/^            PeerCloseCallback;$/;"	t	class:brickred::TcpService
+Protocol	socket_address.cc	/^    typedef SocketAddress::Protocol Protocol;$/;"	t	class:brickred::SocketAddress::Impl	file:
+Protocol	socket_address.h	/^    struct Protocol {$/;"	s	class:brickred::SocketAddress
+R	function.h	/^inline ConstMemberFunctionFactory0<R, T> _getFunctionFactory(R (T::*)() const)$/;"	f	namespace:brickred
+R	function.h	/^inline ConstMemberFunctionFactory1<R, T, P1> _getFunctionFactory(R (T::*)(P1) const)$/;"	f	namespace:brickred
+R	function.h	/^inline ConstMemberFunctionFactory2<R, T, P1, P2> _getFunctionFactory(R (T::*)(P1, P2) const)$/;"	f	namespace:brickred
+R	function.h	/^inline ConstMemberFunctionFactory3<R, T, P1, P2, P3> _getFunctionFactory(R (T::*)(P1, P2, P3) const)$/;"	f	namespace:brickred
+R	function.h	/^inline ConstMemberFunctionFactory4<R, T, P1, P2, P3, P4> _getFunctionFactory(R (T::*)(P1, P2, P3, P4) const)$/;"	f	namespace:brickred
+R	function.h	/^inline ConstMemberFunctionFactory5<R, T, P1, P2, P3, P4, P5> _getFunctionFactory(R (T::*)(P1, P2, P3, P4, P5) const)$/;"	f	namespace:brickred
+R	function.h	/^inline ConstMemberFunctionFactory6<R, T, P1, P2, P3, P4, P5, P6> _getFunctionFactory(R (T::*)(P1, P2, P3, P4, P5, P6) const)$/;"	f	namespace:brickred
+R	function.h	/^inline ConstMemberFunctionFactory7<R, T, P1, P2, P3, P4, P5, P6, P7> _getFunctionFactory(R (T::*)(P1, P2, P3, P4, P5, P6, P7) const)$/;"	f	namespace:brickred
+R	function.h	/^inline ConstMemberFunctionFactory8<R, T, P1, P2, P3, P4, P5, P6, P7, P8> _getFunctionFactory(R (T::*)(P1, P2, P3, P4, P5, P6, P7, P8) const)$/;"	f	namespace:brickred
+R	function.h	/^inline ConstMemberFunctionFactory9<R, T, P1, P2, P3, P4, P5, P6, P7, P8, P9> _getFunctionFactory(R (T::*)(P1, P2, P3, P4, P5, P6, P7, P8, P9) const)$/;"	f	namespace:brickred
+R	function.h	/^inline MemberFunctionFactory0<R, T> _getFunctionFactory(R (T::*)())$/;"	f	namespace:brickred
+R	function.h	/^inline MemberFunctionFactory1<R, T, P1> _getFunctionFactory(R (T::*)(P1))$/;"	f	namespace:brickred
+R	function.h	/^inline MemberFunctionFactory2<R, T, P1, P2> _getFunctionFactory(R (T::*)(P1, P2))$/;"	f	namespace:brickred
+R	function.h	/^inline MemberFunctionFactory3<R, T, P1, P2, P3> _getFunctionFactory(R (T::*)(P1, P2, P3))$/;"	f	namespace:brickred
+R	function.h	/^inline MemberFunctionFactory4<R, T, P1, P2, P3, P4> _getFunctionFactory(R (T::*)(P1, P2, P3, P4))$/;"	f	namespace:brickred
+R	function.h	/^inline MemberFunctionFactory5<R, T, P1, P2, P3, P4, P5> _getFunctionFactory(R (T::*)(P1, P2, P3, P4, P5))$/;"	f	namespace:brickred
+R	function.h	/^inline MemberFunctionFactory6<R, T, P1, P2, P3, P4, P5, P6> _getFunctionFactory(R (T::*)(P1, P2, P3, P4, P5, P6))$/;"	f	namespace:brickred
+R	function.h	/^inline MemberFunctionFactory7<R, T, P1, P2, P3, P4, P5, P6, P7> _getFunctionFactory(R (T::*)(P1, P2, P3, P4, P5, P6, P7))$/;"	f	namespace:brickred
+R	function.h	/^inline MemberFunctionFactory8<R, T, P1, P2, P3, P4, P5, P6, P7, P8> _getFunctionFactory(R (T::*)(P1, P2, P3, P4, P5, P6, P7, P8))$/;"	f	namespace:brickred
+R	function.h	/^inline MemberFunctionFactory9<R, T, P1, P2, P3, P4, P5, P6, P7, P8, P9> _getFunctionFactory(R (T::*)(P1, P2, P3, P4, P5, P6, P7, P8, P9))$/;"	f	namespace:brickred
+READING_BODY	protocol/http_protocol.h	/^            READING_BODY,$/;"	e	enum:brickred::protocol::HttpProtocol::Status::type
+READING_HEADER	protocol/http_protocol.h	/^            READING_HEADER,$/;"	e	enum:brickred::protocol::HttpProtocol::Status::type
+READING_START_LINE	protocol/http_protocol.h	/^            READING_START_LINE = 0,$/;"	e	enum:brickred::protocol::HttpProtocol::Status::type
+REQUEST	protocol/http_message.h	/^            REQUEST,$/;"	e	enum:brickred::protocol::HttpMessage::MessageType::type
+REQUIRED	command_line_option.h	/^            REQUIRED$/;"	e	enum:brickred::CommandLineOption::ParameterType::type
+RESPONSE	protocol/http_message.h	/^            RESPONSE$/;"	e	enum:brickred::protocol::HttpMessage::MessageType::type
+ROTL32	codec/sha1.cc	33;"	d	file:
+ROTL32	codec/sha1.cc	81;"	d	file:
+Random	random.cc	/^Random::Random() :$/;"	f	class:brickred::Random
+Random	random.cc	/^Random::Random(uint32_t key[], size_t key_length) :$/;"	f	class:brickred::Random
+Random	random.cc	/^Random::Random(uint32_t s) :$/;"	f	class:brickred::Random
+Random	random.h	/^class Random {$/;"	c	namespace:brickred
+ReadCallback	io_device.h	/^    typedef Function<void (IODevice *)> ReadCallback;$/;"	t	class:brickred::IODevice
+RecvMessageCallback	message_queue.h	/^    typedef Function<void (MessageQueue *)> RecvMessageCallback;$/;"	t	class:brickred::MessageQueue
+RecvMessageCallback	tcp_service.cc	/^    typedef TcpService::RecvMessageCallback RecvMessageCallback;$/;"	t	class:brickred::TcpService::Impl	file:
+RecvMessageCallback	tcp_service.h	/^            RecvMessageCallback;$/;"	t	class:brickred::TcpService
+RetCode	protocol/http_protocol.cc	/^    typedef HttpProtocol::RetCode RetCode;$/;"	t	class:brickred::protocol::HttpProtocol::Impl	file:
+RetCode	protocol/http_protocol.h	/^    struct RetCode {$/;"	s	class:brickred::protocol::HttpProtocol
+RetCode	protocol/web_socket_protocol.cc	/^    typedef WebSocketProtocol::RetCode RetCode;$/;"	t	class:brickred::protocol::WebSocketProtocol::Impl	file:
+RetCode	protocol/web_socket_protocol.h	/^    struct RetCode {$/;"	s	class:brickred::protocol::WebSocketProtocol
+SelfPipe	self_pipe.cc	/^SelfPipe::SelfPipe() : fd1_(-1)$/;"	f	class:brickred::SelfPipe
+SelfPipe	self_pipe.h	/^class SelfPipe : public IODevice {$/;"	c	namespace:brickred
+SendCompleteCallback	tcp_service.cc	/^    typedef TcpService::SendCompleteCallback SendCompleteCallback;$/;"	t	class:brickred::TcpConnection	file:
+SendCompleteCallback	tcp_service.cc	/^    typedef TcpService::SendCompleteCallback SendCompleteCallback;$/;"	t	class:brickred::TcpService::Impl	file:
+SendCompleteCallback	tcp_service.h	/^            SendCompleteCallback;$/;"	t	class:brickred::TcpService
+Sha1	codec/sha1.cc	/^Sha1::Sha1()$/;"	f	class:brickred::codec::Sha1
+Sha1	codec/sha1.h	/^class Sha1 {$/;"	c	namespace:brickred::codec
+SocketAddress	socket_address.cc	/^SocketAddress::SocketAddress() :$/;"	f	class:brickred::SocketAddress
+SocketAddress	socket_address.cc	/^SocketAddress::SocketAddress(const SocketAddress &copy) :$/;"	f	class:brickred::SocketAddress
+SocketAddress	socket_address.cc	/^SocketAddress::SocketAddress(const std::string &ip, uint16_t port) :$/;"	f	class:brickred::SocketAddress
+SocketAddress	socket_address.h	/^class SocketAddress {$/;"	c	namespace:brickred
+SocketId	tcp_service.cc	/^    typedef TcpService::SocketId SocketId;$/;"	t	class:brickred::TcpService::Impl	file:
+SocketId	tcp_service.h	/^    typedef int64_t SocketId;$/;"	t	class:brickred::TcpService
+SocketIdAllocator	tcp_service.cc	/^    SocketIdAllocator() : value_(0) {}$/;"	f	class:brickred::SocketIdAllocator
+SocketIdAllocator	tcp_service.cc	/^class SocketIdAllocator {$/;"	c	namespace:brickred	file:
+SocketId_TimerId_Map	tcp_service.cc	/^    typedef __gnu_cxx::hash_map<SocketId, TimerId> SocketId_TimerId_Map;$/;"	t	class:brickred::TcpService::Impl	file:
+Status	protocol/http_protocol.cc	/^    typedef HttpProtocol::Status Status;$/;"	t	class:brickred::protocol::HttpProtocol::Impl	file:
+Status	protocol/http_protocol.h	/^    struct Status {$/;"	s	class:brickred::protocol::HttpProtocol
+Status	protocol/web_socket_protocol.cc	/^    typedef WebSocketProtocol::Status Status;$/;"	t	class:brickred::protocol::WebSocketProtocol::Impl	file:
+Status	protocol/web_socket_protocol.h	/^    struct Status {$/;"	s	class:brickred::protocol::WebSocketProtocol
+Status	tcp_service.cc	/^    struct Status {$/;"	s	class:brickred::TcpConnection	file:
+StatusHandler	protocol/http_protocol.cc	/^    typedef int (HttpProtocol::Impl::*StatusHandler)(DynamicBuffer *);$/;"	t	class:brickred::protocol::HttpProtocol::Impl	file:
+StatusHandler	protocol/web_socket_protocol.cc	/^    typedef int (WebSocketProtocol::Impl::*StatusHandler)(DynamicBuffer *);$/;"	t	class:brickred::protocol::WebSocketProtocol::Impl	file:
+SystemErrorException	exception.h	/^    SystemErrorException(const std::string &what_arg) :$/;"	f	class:brickred::SystemErrorException
+SystemErrorException	exception.h	/^class SystemErrorException : public std::runtime_error {$/;"	c	namespace:brickred
+TcpConnection	tcp_service.cc	/^TcpConnection::TcpConnection(TcpSocket *socket,$/;"	f	class:brickred::TcpConnection
+TcpConnection	tcp_service.cc	/^class TcpConnection {$/;"	c	namespace:brickred	file:
+TcpConnectionMap	tcp_service.cc	/^    typedef __gnu_cxx::hash_map<SocketId, TcpConnection *> TcpConnectionMap;$/;"	t	class:brickred::TcpService::Impl	file:
+TcpService	tcp_service.cc	/^TcpService::TcpService(IOService &io_service) :$/;"	f	class:brickred::TcpService
+TcpService	tcp_service.h	/^class TcpService {$/;"	c	namespace:brickred
+TcpSocket	tcp_socket.cc	/^TcpSocket::TcpSocket()$/;"	f	class:brickred::TcpSocket
+TcpSocket	tcp_socket.h	/^class TcpSocket : public IODevice {$/;"	c	namespace:brickred
+TcpSocketMap	tcp_service.cc	/^    typedef __gnu_cxx::hash_map<SocketId, TcpSocket *> TcpSocketMap;$/;"	t	class:brickred::TcpService::Impl	file:
+Thread	thread.cc	/^Thread::Thread() :$/;"	f	class:brickred::Thread
+Thread	thread.h	/^class Thread {$/;"	c	namespace:brickred
+ThreadFunc	thread.h	/^    typedef Function<void ()> ThreadFunc;$/;"	t	class:brickred::Thread
+ThreadGuard	thread.h	/^    explicit ThreadGuard(Thread &t) : thread_(t) {}$/;"	f	class:brickred::ThreadGuard
+ThreadGuard	thread.h	/^class ThreadGuard {$/;"	c	namespace:brickred
+Timer	timer_heap.cc	/^Timer::Timer(TimerId id, const Timestamp &timestamp, int timeout,$/;"	f	class:brickred::Timer
+Timer	timer_heap.cc	/^class Timer {$/;"	c	namespace:brickred	file:
+TimerCallback	io_service.cc	/^    typedef IOService::TimerCallback TimerCallback;$/;"	t	class:brickred::IOService::Impl	file:
+TimerCallback	io_service.h	/^    typedef Function<void (TimerId)> TimerCallback;$/;"	t	class:brickred::IOService
+TimerCallback	timer_heap.cc	/^    typedef TimerHeap::TimerCallback TimerCallback;$/;"	t	class:brickred::Timer	file:
+TimerCallback	timer_heap.cc	/^    typedef TimerHeap::TimerCallback TimerCallback;$/;"	t	class:brickred::TimerHeap::Impl	file:
+TimerCallback	timer_heap.h	/^    typedef Function<void (TimerId)> TimerCallback;$/;"	t	class:brickred::TimerHeap
+TimerHeap	timer_heap.cc	/^TimerHeap::TimerHeap() :$/;"	f	class:brickred::TimerHeap
+TimerHeap	timer_heap.h	/^class TimerHeap {$/;"	c	namespace:brickred
+TimerId	io_service.cc	/^    typedef IOService::TimerId TimerId;$/;"	t	class:brickred::IOService::Impl	file:
+TimerId	io_service.h	/^    typedef int64_t TimerId;$/;"	t	class:brickred::IOService
+TimerId	tcp_service.cc	/^    typedef IOService::TimerId TimerId;$/;"	t	class:brickred::TcpService::Impl	file:
+TimerId	timer_heap.cc	/^    typedef TimerHeap::TimerId TimerId;$/;"	t	class:brickred::Timer	file:
+TimerId	timer_heap.cc	/^    typedef TimerHeap::TimerId TimerId;$/;"	t	class:brickred::TimerHeap::Impl	file:
+TimerId	timer_heap.h	/^    typedef int64_t TimerId;$/;"	t	class:brickred::TimerHeap
+TimerIdAllocator	timer_heap.cc	/^    TimerIdAllocator() : value_(0) {}$/;"	f	class:brickred::TimerIdAllocator
+TimerIdAllocator	timer_heap.cc	/^class TimerIdAllocator {$/;"	c	namespace:brickred	file:
+TimerId_SocketId_Map	tcp_service.cc	/^    typedef __gnu_cxx::hash_map<TimerId, SocketId> TimerId_SocketId_Map;$/;"	t	class:brickred::TcpService::Impl	file:
+TimerMap	timer_heap.cc	/^    typedef __gnu_cxx::hash_map<TimerId, Timer *> TimerMap;$/;"	t	class:brickred::TimerHeap::Impl	file:
+TimerVector	timer_heap.cc	/^    typedef std::vector<Timer *> TimerVector;$/;"	t	class:brickred::TimerHeap::Impl	file:
+Timestamp	timestamp.cc	/^Timestamp::Timestamp() :$/;"	f	class:brickred::Timestamp
+Timestamp	timestamp.h	/^class Timestamp {$/;"	c	namespace:brickred
+UNKNOWN	protocol/http_message.h	/^            UNKNOWN  = 0,$/;"	e	enum:brickred::protocol::HttpMessage::Version::type
+UNKNOWN	protocol/http_message.h	/^            UNKNOWN = 0,$/;"	e	enum:brickred::protocol::HttpMessage::MessageType::type
+UNKNOWN	protocol/http_request.h	/^            UNKNOWN = 0,$/;"	e	enum:brickred::protocol::HttpRequest::Method::type
+UNKNOWN	socket_address.h	/^            UNKNOWN = 0,$/;"	e	enum:brickred::SocketAddress::Protocol::type
+UPPER_MASK	random.cc	/^    static const uint32_t UPPER_MASK = 0x80000000;$/;"	m	class:brickred::Random::Impl	file:
+UniquePtr	unique_ptr.h	/^    explicit UniquePtr(T *p = 0) : px_(p) {}$/;"	f	class:brickred::UniquePtr
+UniquePtr	unique_ptr.h	/^class UniquePtr {$/;"	c	namespace:brickred
+Version	protocol/http_message.h	/^    struct Version {$/;"	s	class:brickred::protocol::HttpMessage
+VersionEnumToStr	protocol/http_message.cc	/^const std::string &HttpMessage::VersionEnumToStr(Version::type version_enum)$/;"	f	class:brickred::protocol::HttpMessage
+VersionStrToEnum	protocol/http_message.cc	/^HttpMessage::Version::type HttpMessage::VersionStrToEnum($/;"	f	class:brickred::protocol::HttpMessage
+WAITING_HANDSHAKE_REQUEST	protocol/web_socket_protocol.h	/^            WAITING_HANDSHAKE_REQUEST,$/;"	e	enum:brickred::protocol::WebSocketProtocol::Status::type
+WAITING_HANDSHAKE_RESPONSE	protocol/web_socket_protocol.h	/^            WAITING_HANDSHAKE_RESPONSE,$/;"	e	enum:brickred::protocol::WebSocketProtocol::Status::type
+WAITING_MORE_DATA	protocol/http_protocol.h	/^            WAITING_MORE_DATA = 0,$/;"	e	enum:brickred::protocol::HttpProtocol::RetCode::type
+WAITING_MORE_DATA	protocol/web_socket_protocol.h	/^            WAITING_MORE_DATA = 0,$/;"	e	enum:brickred::protocol::WebSocketProtocol::RetCode::type
+WARNING	base_logger.h	/^            WARNING,$/;"	e	enum:brickred::BaseLogger::LogLevel::type
+WebSocketProtocol	protocol/web_socket_protocol.cc	/^WebSocketProtocol::WebSocketProtocol() :$/;"	f	class:brickred::protocol::WebSocketProtocol
+WebSocketProtocol	protocol/web_socket_protocol.h	/^class WebSocketProtocol {$/;"	c	namespace:brickred::protocol
+WriteCallback	io_device.h	/^    typedef Function<void (IODevice *)> WriteCallback;$/;"	t	class:brickred::IODevice
+_getFunctionFactory	function.h	/^inline FreeFunctionFactory0<R> _getFunctionFactory(R (*)())$/;"	f	namespace:brickred
+_getFunctionFactory	function.h	/^inline FreeFunctionFactory1<R, P1> _getFunctionFactory(R (*)(P1))$/;"	f	namespace:brickred
+_getFunctionFactory	function.h	/^inline FreeFunctionFactory2<R, P1, P2> _getFunctionFactory(R (*)(P1, P2))$/;"	f	namespace:brickred
+_getFunctionFactory	function.h	/^inline FreeFunctionFactory3<R, P1, P2, P3> _getFunctionFactory(R (*)(P1, P2, P3))$/;"	f	namespace:brickred
+_getFunctionFactory	function.h	/^inline FreeFunctionFactory4<R, P1, P2, P3, P4> _getFunctionFactory(R (*)(P1, P2, P3, P4))$/;"	f	namespace:brickred
+_getFunctionFactory	function.h	/^inline FreeFunctionFactory5<R, P1, P2, P3, P4, P5> _getFunctionFactory(R (*)(P1, P2, P3, P4, P5))$/;"	f	namespace:brickred
+_getFunctionFactory	function.h	/^inline FreeFunctionFactory6<R, P1, P2, P3, P4, P5, P6> _getFunctionFactory(R (*)(P1, P2, P3, P4, P5, P6))$/;"	f	namespace:brickred
+_getFunctionFactory	function.h	/^inline FreeFunctionFactory7<R, P1, P2, P3, P4, P5, P6, P7> _getFunctionFactory(R (*)(P1, P2, P3, P4, P5, P6, P7))$/;"	f	namespace:brickred
+_getFunctionFactory	function.h	/^inline FreeFunctionFactory8<R, P1, P2, P3, P4, P5, P6, P7, P8> _getFunctionFactory(R (*)(P1, P2, P3, P4, P5, P6, P7, P8))$/;"	f	namespace:brickred
+_getFunctionFactory	function.h	/^inline FreeFunctionFactory9<R, P1, P2, P3, P4, P5, P6, P7, P8, P9> _getFunctionFactory(R (*)(P1, P2, P3, P4, P5, P6, P7, P8, P9))$/;"	f	namespace:brickred
+accept	tcp_socket.cc	/^bool TcpSocket::accept(TcpSocket *peer)$/;"	f	class:brickred::TcpSocket
+acceptNonblock	tcp_socket.cc	/^bool TcpSocket::acceptNonblock(TcpSocket *peer)$/;"	f	class:brickred::TcpSocket
+activeOpen	tcp_socket.cc	/^bool TcpSocket::activeOpen(const SocketAddress &remote_addr)$/;"	f	class:brickred::TcpSocket
+activeOpenNonblock	tcp_socket.cc	/^bool TcpSocket::activeOpenNonblock(const SocketAddress &remote_addr)$/;"	f	class:brickred::TcpSocket
+actual_file_path_	log_file_sink.cc	/^    std::string actual_file_path_;$/;"	m	class:brickred::LogFileSink::Impl	file:
+adapted_sink_	log_async_sink.cc	/^    LogSink *adapted_sink_;$/;"	m	class:brickred::LogAsyncSink::Impl	file:
+addAsyncConnectTimer	tcp_service.cc	/^void TcpService::Impl::addAsyncConnectTimer(SocketId socket_id, int timeout_ms)$/;"	f	class:brickred::TcpService::Impl
+addIODevice	io_service.cc	/^bool IOService::Impl::addIODevice(IODevice *io_device)$/;"	f	class:brickred::IOService::Impl
+addIODevice	io_service.cc	/^bool IOService::addIODevice(IODevice *io_device)$/;"	f	class:brickred::IOService
+addOption	command_line_option.cc	/^void CommandLineOption::addOption(const std::string &opt,$/;"	f	class:brickred::CommandLineOption
+addSink	log_core.cc	/^bool LogCore::Impl::addSink(int logger_id, LogSink *sink, int level_filter)$/;"	f	class:brickred::LogCore::Impl
+addSink	log_core.cc	/^bool LogCore::addSink(int logger_id, LogSink *sink, int level_filter)$/;"	f	class:brickred::LogCore
+addSink	log_core.cc	/^bool Logger::addSink(LogSink *sink, int level_filter)$/;"	f	class:brickred::Logger
+addTimer	timer_heap.cc	/^TimerHeap::Impl::TimerId TimerHeap::Impl::addTimer(const Timestamp &now,$/;"	f	class:brickred::TimerHeap::Impl
+addTimer	timer_heap.cc	/^TimerHeap::TimerId TimerHeap::addTimer(const Timestamp &now,$/;"	f	class:brickred::TimerHeap
+asyncConnect	tcp_service.cc	/^TcpService::Impl::SocketId TcpService::Impl::asyncConnect($/;"	f	class:brickred::TcpService::Impl
+asyncConnect	tcp_service.cc	/^TcpService::SocketId TcpService::asyncConnect($/;"	f	class:brickred::TcpService
+async_connect_sockets_	tcp_service.cc	/^    TimerId_SocketId_Map async_connect_sockets_;$/;"	m	class:brickred::TcpService::Impl	file:
+async_connect_timers_	tcp_service.cc	/^    SocketId_TimerId_Map async_connect_timers_;$/;"	m	class:brickred::TcpService::Impl	file:
+attachIOService	io_device.cc	/^bool IODevice::attachIOService(IOService &io_service)$/;"	f	class:brickred::IODevice
+base64Decode	codec/base64.cc	/^int base64Decode(const char *in, size_t in_size,$/;"	f	namespace:brickred::codec
+base64Decode	codec/base64.cc	/^std::string base64Decode(const char *buffer, size_t size)$/;"	f	namespace:brickred::codec
+base64Decode	codec/base64.cc	/^std::string base64Decode(const std::string &str)$/;"	f	namespace:brickred::codec
+base64Encode	codec/base64.cc	/^int base64Encode(const char *in, size_t in_size,$/;"	f	namespace:brickred::codec
+base64Encode	codec/base64.cc	/^std::string base64Encode(const char *buffer, size_t size)$/;"	f	namespace:brickred::codec
+base64Encode	codec/base64.cc	/^std::string base64Encode(const std::string &str)$/;"	f	namespace:brickred::codec
+bind	function.h	/^    inline static Function<R ()> bind()$/;"	f	class:brickred::FreeFunctionFactory0
+bind	function.h	/^    inline static Function<R ()> bind(T *o)$/;"	f	class:brickred::MemberFunctionFactory0
+bind	function.h	/^    inline static Function<R ()> bind(const T *o)$/;"	f	class:brickred::ConstMemberFunctionFactory0
+bind	function.h	/^    inline static Function<R (P1)> bind()$/;"	f	class:brickred::FreeFunctionFactory1
+bind	function.h	/^    inline static Function<R (P1)> bind(T *o)$/;"	f	class:brickred::MemberFunctionFactory1
+bind	function.h	/^    inline static Function<R (P1)> bind(const T *o)$/;"	f	class:brickred::ConstMemberFunctionFactory1
+bind	function.h	/^    inline static Function<R (P1, P2)> bind()$/;"	f	class:brickred::FreeFunctionFactory2
+bind	function.h	/^    inline static Function<R (P1, P2)> bind(T *o)$/;"	f	class:brickred::MemberFunctionFactory2
+bind	function.h	/^    inline static Function<R (P1, P2)> bind(const T *o)$/;"	f	class:brickred::ConstMemberFunctionFactory2
+bind	function.h	/^    inline static Function<R (P1, P2, P3)> bind()$/;"	f	class:brickred::FreeFunctionFactory3
+bind	function.h	/^    inline static Function<R (P1, P2, P3)> bind(T *o)$/;"	f	class:brickred::MemberFunctionFactory3
+bind	function.h	/^    inline static Function<R (P1, P2, P3)> bind(const T *o)$/;"	f	class:brickred::ConstMemberFunctionFactory3
+bind	function.h	/^    inline static Function<R (P1, P2, P3, P4)> bind()$/;"	f	class:brickred::FreeFunctionFactory4
+bind	function.h	/^    inline static Function<R (P1, P2, P3, P4)> bind(T *o)$/;"	f	class:brickred::MemberFunctionFactory4
+bind	function.h	/^    inline static Function<R (P1, P2, P3, P4)> bind(const T *o)$/;"	f	class:brickred::ConstMemberFunctionFactory4
+bind	function.h	/^    inline static Function<R (P1, P2, P3, P4, P5)> bind()$/;"	f	class:brickred::FreeFunctionFactory5
+bind	function.h	/^    inline static Function<R (P1, P2, P3, P4, P5)> bind(T *o)$/;"	f	class:brickred::MemberFunctionFactory5
+bind	function.h	/^    inline static Function<R (P1, P2, P3, P4, P5)> bind(const T *o)$/;"	f	class:brickred::ConstMemberFunctionFactory5
+bind	function.h	/^    inline static Function<R (P1, P2, P3, P4, P5, P6)> bind()$/;"	f	class:brickred::FreeFunctionFactory6
+bind	function.h	/^    inline static Function<R (P1, P2, P3, P4, P5, P6)> bind(T *o)$/;"	f	class:brickred::MemberFunctionFactory6
+bind	function.h	/^    inline static Function<R (P1, P2, P3, P4, P5, P6)> bind(const T *o)$/;"	f	class:brickred::ConstMemberFunctionFactory6
+bind	function.h	/^    inline static Function<R (P1, P2, P3, P4, P5, P6, P7)> bind()$/;"	f	class:brickred::FreeFunctionFactory7
+bind	function.h	/^    inline static Function<R (P1, P2, P3, P4, P5, P6, P7)> bind(T *o)$/;"	f	class:brickred::MemberFunctionFactory7
+bind	function.h	/^    inline static Function<R (P1, P2, P3, P4, P5, P6, P7)> bind(const T *o)$/;"	f	class:brickred::ConstMemberFunctionFactory7
+bind	function.h	/^    inline static Function<R (P1, P2, P3, P4, P5, P6, P7, P8)> bind()$/;"	f	class:brickred::FreeFunctionFactory8
+bind	function.h	/^    inline static Function<R (P1, P2, P3, P4, P5, P6, P7, P8)> bind(T *o)$/;"	f	class:brickred::MemberFunctionFactory8
+bind	function.h	/^    inline static Function<R (P1, P2, P3, P4, P5, P6, P7, P8)> bind(const T *o)$/;"	f	class:brickred::ConstMemberFunctionFactory8
+bind	function.h	/^    inline static Function<R (P1, P2, P3, P4, P5, P6, P7, P8, P9)> bind()$/;"	f	class:brickred::FreeFunctionFactory9
+bind	function.h	/^    inline static Function<R (P1, P2, P3, P4, P5, P6, P7, P8, P9)> bind(T *o)$/;"	f	class:brickred::MemberFunctionFactory9
+bind	function.h	/^    inline static Function<R (P1, P2, P3, P4, P5, P6, P7, P8, P9)> bind(const T *o)$/;"	f	class:brickred::ConstMemberFunctionFactory9
+bind	tcp_socket.cc	/^bool TcpSocket::bind(const SocketAddress &addr)$/;"	f	class:brickred::TcpSocket
+body_	protocol/http_message.h	/^    std::string body_;$/;"	m	class:brickred::protocol::HttpMessage
+brickred	base_logger.cc	/^namespace brickred {$/;"	n	file:
+brickred	base_logger.h	/^namespace brickred {$/;"	n
+brickred	codec/base64.cc	/^namespace brickred {$/;"	n	file:
+brickred	codec/base64.h	/^namespace brickred {$/;"	n
+brickred	codec/sha1.cc	/^namespace brickred {$/;"	n	file:
+brickred	codec/sha1.h	/^namespace brickred {$/;"	n
+brickred	command_line_option.cc	/^namespace brickred {$/;"	n	file:
+brickred	command_line_option.h	/^namespace brickred {$/;"	n
+brickred	concurrent_queue.h	/^namespace brickred {$/;"	n
+brickred	condition_variable.cc	/^namespace brickred {$/;"	n	file:
+brickred	condition_variable.h	/^namespace brickred {$/;"	n
+brickred	dynamic_buffer.cc	/^namespace brickred {$/;"	n	file:
+brickred	dynamic_buffer.h	/^namespace brickred {$/;"	n
+brickred	exception.h	/^namespace brickred {$/;"	n
+brickred	function.h	/^namespace brickred {$/;"	n
+brickred	io_device.cc	/^namespace brickred {$/;"	n	file:
+brickred	io_device.h	/^namespace brickred {$/;"	n
+brickred	io_service.cc	/^namespace brickred {$/;"	n	file:
+brickred	io_service.h	/^namespace brickred {$/;"	n
+brickred	log_async_sink.cc	/^namespace brickred {$/;"	n	file:
+brickred	log_async_sink.h	/^namespace brickred {$/;"	n
+brickred	log_core.cc	/^namespace brickred {$/;"	n	file:
+brickred	log_core.h	/^namespace brickred {$/;"	n
+brickred	log_file_sink.cc	/^namespace brickred {$/;"	n	file:
+brickred	log_file_sink.h	/^namespace brickred {$/;"	n
+brickred	log_sink.h	/^namespace brickred {$/;"	n
+brickred	log_stderr_sink.cc	/^namespace brickred {$/;"	n	file:
+brickred	log_stderr_sink.h	/^namespace brickred {$/;"	n
+brickred	message_queue.h	/^namespace brickred {$/;"	n
+brickred	mutex.cc	/^namespace brickred {$/;"	n	file:
+brickred	mutex.h	/^namespace brickred {$/;"	n
+brickred	object_pool.h	/^namespace brickred {$/;"	n
+brickred	protocol/http_message.cc	/^namespace brickred {$/;"	n	file:
+brickred	protocol/http_message.h	/^namespace brickred {$/;"	n
+brickred	protocol/http_protocol.cc	/^namespace brickred {$/;"	n	file:
+brickred	protocol/http_protocol.h	/^namespace brickred {$/;"	n
+brickred	protocol/http_request.cc	/^namespace brickred {$/;"	n	file:
+brickred	protocol/http_request.h	/^namespace brickred {$/;"	n
+brickred	protocol/http_response.cc	/^namespace brickred {$/;"	n	file:
+brickred	protocol/http_response.h	/^namespace brickred {$/;"	n
+brickred	protocol/web_socket_protocol.cc	/^namespace brickred {$/;"	n	file:
+brickred	protocol/web_socket_protocol.h	/^namespace brickred {$/;"	n
+brickred	random.cc	/^namespace brickred {$/;"	n	file:
+brickred	random.h	/^namespace brickred {$/;"	n
+brickred	self_pipe.cc	/^namespace brickred {$/;"	n	file:
+brickred	self_pipe.h	/^namespace brickred {$/;"	n
+brickred	socket_address.cc	/^namespace brickred {$/;"	n	file:
+brickred	socket_address.h	/^namespace brickred {$/;"	n
+brickred	string_util.cc	/^namespace brickred {$/;"	n	file:
+brickred	string_util.h	/^namespace brickred {$/;"	n
+brickred	tcp_service.cc	/^namespace brickred {$/;"	n	file:
+brickred	tcp_service.h	/^namespace brickred {$/;"	n
+brickred	tcp_socket.cc	/^namespace brickred {$/;"	n	file:
+brickred	tcp_socket.h	/^namespace brickred {$/;"	n
+brickred	thread.cc	/^namespace brickred {$/;"	n	file:
+brickred	thread.h	/^namespace brickred {$/;"	n
+brickred	timer_heap.cc	/^namespace brickred {$/;"	n	file:
+brickred	timer_heap.h	/^namespace brickred {$/;"	n
+brickred	timestamp.cc	/^namespace brickred {$/;"	n	file:
+brickred	timestamp.h	/^namespace brickred {$/;"	n
+brickred	unique_ptr.h	/^namespace brickred {$/;"	n
+buffer_	dynamic_buffer.h	/^    std::vector<char> buffer_;$/;"	m	class:brickred::DynamicBuffer
+buildAsyncConnectSocket	tcp_service.cc	/^TcpService::Impl::SocketId TcpService::Impl::buildAsyncConnectSocket($/;"	f	class:brickred::TcpService::Impl
+buildConnectedSocket	tcp_service.cc	/^TcpService::Impl::SocketId TcpService::Impl::buildConnectedSocket($/;"	f	class:brickred::TcpService::Impl
+buildListenSocket	tcp_service.cc	/^TcpService::Impl::SocketId TcpService::Impl::buildListenSocket($/;"	f	class:brickred::TcpService::Impl
+call_times_	timer_heap.cc	/^    int call_times_;$/;"	m	class:brickred::Timer	file:
+capacity	dynamic_buffer.cc	/^size_t DynamicBuffer::capacity() const$/;"	f	class:brickred::DynamicBuffer
+checkHandshakeRequestValid	protocol/web_socket_protocol.cc	/^static bool checkHandshakeRequestValid(const HttpRequest &request)$/;"	f	namespace:brickred::protocol
+checkHandshakeResponseValid	protocol/web_socket_protocol.cc	/^static bool checkHandshakeResponseValid( const HttpResponse &response,$/;"	f	namespace:brickred::protocol
+checkIODeviceExist	io_service.cc	/^bool IOService::Impl::checkIODeviceExist(IODevice *io_device) const$/;"	f	class:brickred::IOService::Impl
+checkTimeout	timer_heap.cc	/^void TimerHeap::Impl::checkTimeout(const Timestamp &now)$/;"	f	class:brickred::TimerHeap::Impl
+checkTimeout	timer_heap.cc	/^void TimerHeap::checkTimeout(const Timestamp &now)$/;"	f	class:brickred::TimerHeap
+chunk_buffer_	protocol/http_protocol.cc	/^    DynamicBuffer *chunk_buffer_;$/;"	m	class:brickred::protocol::HttpProtocol::Impl	file:
+clear	dynamic_buffer.cc	/^void DynamicBuffer::clear()$/;"	f	class:brickred::DynamicBuffer
+close	self_pipe.cc	/^void SelfPipe::close()$/;"	f	class:brickred::SelfPipe
+close	tcp_socket.cc	/^void TcpSocket::close()$/;"	f	class:brickred::TcpSocket
+closeSocket	tcp_service.cc	/^void TcpService::Impl::closeSocket(SocketId socket_id)$/;"	f	class:brickred::TcpService::Impl
+closeSocket	tcp_service.cc	/^void TcpService::closeSocket(SocketId socket_id)$/;"	f	class:brickred::TcpService
+close_frame_sent_	protocol/web_socket_protocol.cc	/^    bool close_frame_sent_;$/;"	m	class:brickred::protocol::WebSocketProtocol::Impl	file:
+codec	codec/base64.cc	/^namespace codec {$/;"	n	namespace:brickred	file:
+codec	codec/base64.h	/^namespace codec {$/;"	n	namespace:brickred
+codec	codec/sha1.cc	/^namespace codec {$/;"	n	namespace:brickred	file:
+codec	codec/sha1.h	/^namespace codec {$/;"	n	namespace:brickred
+cond_	condition_variable.cc	/^    pthread_cond_t cond_;$/;"	m	class:brickred::ConditionVariable::Impl	file:
+conn_read_buffer_expand_size_	tcp_service.cc	/^    size_t conn_read_buffer_expand_size_;$/;"	m	class:brickred::TcpService::Impl	file:
+conn_read_buffer_init_size_	tcp_service.cc	/^    size_t conn_read_buffer_init_size_;$/;"	m	class:brickred::TcpService::Impl	file:
+conn_read_buffer_max_size_	tcp_service.cc	/^    size_t conn_read_buffer_max_size_;$/;"	m	class:brickred::TcpService::Impl	file:
+conn_write_buffer_expand_size_	tcp_service.cc	/^    size_t conn_write_buffer_expand_size_;$/;"	m	class:brickred::TcpService::Impl	file:
+conn_write_buffer_init_size_	tcp_service.cc	/^    size_t conn_write_buffer_init_size_;$/;"	m	class:brickred::TcpService::Impl	file:
+connect	tcp_service.cc	/^TcpService::Impl::SocketId TcpService::Impl::connect(const SocketAddress &addr)$/;"	f	class:brickred::TcpService::Impl
+connect	tcp_service.cc	/^TcpService::SocketId TcpService::connect(const SocketAddress &addr)$/;"	f	class:brickred::TcpService
+connect	tcp_socket.cc	/^bool TcpSocket::connect(const SocketAddress &addr)$/;"	f	class:brickred::TcpSocket
+connections_	tcp_service.cc	/^    TcpConnectionMap connections_;$/;"	m	class:brickred::TcpService::Impl	file:
+contexts_	tcp_service.cc	/^    ContextMap contexts_;$/;"	m	class:brickred::TcpService::Impl	file:
+data_mutex_	concurrent_queue.h	/^    Mutex data_mutex_;$/;"	m	class:brickred::ConcurrentQueue
+data_mutex_	thread.cc	/^    Mutex data_mutex_;$/;"	m	class:brickred::Thread::Impl	file:
+decCallTimes	timer_heap.cc	/^    void decCallTimes() { --call_times_; }$/;"	f	class:brickred::Timer
+defaultLogFunc	base_logger.cc	/^static void defaultLogFunc(int level, const char *format, va_list args) {$/;"	f	namespace:brickred
+detach	thread.cc	/^void Thread::Impl::detach()$/;"	f	class:brickred::Thread::Impl
+detach	thread.cc	/^void Thread::detach()$/;"	f	class:brickred::Thread
+detachIOService	io_device.cc	/^void IODevice::detachIOService()$/;"	f	class:brickred::IODevice
+digest	codec/sha1.cc	/^std::string Sha1::digest()$/;"	f	class:brickred::codec::Sha1
+digest	codec/sha1.cc	/^void Sha1::digest(char hash[20])$/;"	f	class:brickred::codec::Sha1
+discardableBytes	dynamic_buffer.cc	/^size_t DynamicBuffer::discardableBytes() const$/;"	f	class:brickred::DynamicBuffer
+distanceMillisecond	timestamp.cc	/^int64_t Timestamp::distanceMillisecond(const Timestamp &other) const$/;"	f	class:brickred::Timestamp
+distanceSecond	timestamp.cc	/^int64_t Timestamp::distanceSecond(const Timestamp &other) const$/;"	f	class:brickred::Timestamp
+done_	thread.cc	/^    bool done_;$/;"	m	class:brickred::Thread::Impl	file:
+done_cond_	thread.cc	/^    ConditionVariable done_cond_;$/;"	m	class:brickred::Thread::Impl	file:
+empty	concurrent_queue.h	/^    bool empty()$/;"	f	class:brickred::ConcurrentQueue
+epoll_fd_	io_service.cc	/^    int epoll_fd_;$/;"	m	class:brickred::IOService::Impl	file:
+error_cb_	io_device.h	/^    ErrorCallback error_cb_;$/;"	m	class:brickred::IODevice
+error_cb_	tcp_service.cc	/^    ErrorCallback error_cb_;$/;"	m	class:brickred::TcpService::Impl	file:
+events_	io_service.cc	/^    EventVector events_;$/;"	m	class:brickred::IOService::Impl	file:
+expand_size_	dynamic_buffer.h	/^    size_t expand_size_;$/;"	m	class:brickred::DynamicBuffer
+fd1_	self_pipe.h	/^    DescriptorId fd1_;$/;"	m	class:brickred::SelfPipe
+fd_	io_device.h	/^    DescriptorId fd_;$/;"	m	class:brickred::IODevice
+file_path_	log_file_sink.cc	/^    std::string file_path_;$/;"	m	class:brickred::LogFileSink::Impl	file:
+find	string_util.cc	/^const char *find(const char *str, size_t str_len, const char *keyword)$/;"	f	namespace:brickred::string_util
+format	timestamp.cc	/^size_t Timestamp::format(char *buffer, size_t size,$/;"	f	class:brickred::Timestamp
+formatter_	log_core.cc	/^    LogFormatter formatter_;$/;"	m	class:brickred::Logger	file:
+fp_	log_file_sink.cc	/^    FILE *fp_;$/;"	m	class:brickred::LogFileSink::Impl	file:
+full	concurrent_queue.h	/^    bool full()$/;"	f	class:brickred::ConcurrentQueue
+fullNoLock	concurrent_queue.h	/^    bool fullNoLock() const$/;"	f	class:brickred::ConcurrentQueue
+func_	function.h	/^    FunctionType func_;$/;"	m	class:brickred::Function
+get	unique_ptr.h	/^    T *get() const { return px_; }$/;"	f	class:brickred::UniquePtr
+getAddressByDomain	socket_address.cc	/^bool SocketAddress::getAddressByDomain(const std::string &domain,$/;"	f	class:brickred::SocketAddress
+getBody	protocol/http_message.h	/^    const std::string &getBody() const { return body_; }$/;"	f	class:brickred::protocol::HttpMessage
+getCallTimes	timer_heap.cc	/^    int getCallTimes() const { return call_times_; }$/;"	f	class:brickred::Timer
+getCallback	timer_heap.cc	/^    TimerCallback getCallback() const { return timer_cb_; }$/;"	f	class:brickred::Timer
+getContext	tcp_service.cc	/^TcpService::Context *TcpService::getContext(SocketId socket_id) const$/;"	f	class:brickred::TcpService
+getContext	tcp_service.cc	/^TcpService::Impl::Context *TcpService::Impl::getContext($/;"	f	class:brickred::TcpService::Impl
+getDescriptor	io_device.h	/^    DescriptorId getDescriptor() const { return fd_; }$/;"	f	class:brickred::IODevice
+getErrorCallback	io_device.h	/^    const ErrorCallback &getErrorCallback() const { return error_cb_; }$/;"	f	class:brickred::IODevice
+getHeader	protocol/http_message.cc	/^const std::string &HttpMessage::getHeader(const std::string &key) const$/;"	f	class:brickred::protocol::HttpMessage
+getHeaders	protocol/http_message.h	/^    const HeaderMap &getHeaders() const { return headers_; }$/;"	f	class:brickred::protocol::HttpMessage
+getHeapPos	timer_heap.cc	/^    int getHeapPos() const { return heap_pos_; }$/;"	f	class:brickred::Timer
+getIOService	message_queue.h	/^    IOService *getIOService() const$/;"	f	class:brickred::MessageQueue
+getIOService	tcp_service.cc	/^IOService *TcpService::Impl::getIOService() const$/;"	f	class:brickred::TcpService::Impl
+getIOService	tcp_service.cc	/^IOService *TcpService::getIOService() const$/;"	f	class:brickred::TcpService
+getId	io_device.h	/^    int64_t getId() const { return id_; }$/;"	f	class:brickred::IODevice
+getId	tcp_service.cc	/^    int64_t getId(int fd = 0)$/;"	f	class:brickred::SocketIdAllocator
+getId	timer_heap.cc	/^    TimerId getId() const { return id_; }$/;"	f	class:brickred::Timer
+getId	timer_heap.cc	/^    int64_t getId()$/;"	f	class:brickred::TimerIdAllocator
+getIp	socket_address.cc	/^    const std::string &getIp() const { return ip_; }$/;"	f	class:brickred::SocketAddress::Impl
+getIp	socket_address.cc	/^const std::string &SocketAddress::getIp() const$/;"	f	class:brickred::SocketAddress
+getLeftArguments	command_line_option.h	/^    const ArgumentVector &getLeftArguments() const { return left_args_; }$/;"	f	class:brickred::CommandLineOption
+getLocalAddress	tcp_service.cc	/^bool TcpService::Impl::getLocalAddress(SocketId socket_id,$/;"	f	class:brickred::TcpService::Impl
+getLocalAddress	tcp_service.cc	/^bool TcpService::getLocalAddress(SocketId socket_id, SocketAddress *addr) const$/;"	f	class:brickred::TcpService
+getLocalAddress	tcp_socket.cc	/^bool TcpSocket::getLocalAddress(SocketAddress *addr) const$/;"	f	class:brickred::TcpSocket
+getMessageType	protocol/http_message.h	/^    MessageType::type getMessageType() const { return message_type_; }$/;"	f	class:brickred::protocol::HttpMessage
+getMethod	protocol/http_request.h	/^    Method::type getMethod() const { return method_; }$/;"	f	class:brickred::protocol::HttpRequest
+getMilliSecond	timestamp.h	/^    int64_t getMilliSecond() const { return nanosecond_ \/ 1000000; }$/;"	f	class:brickred::Timestamp
+getNativeAddress	socket_address.cc	/^const void *SocketAddress::Impl::getNativeAddress() const$/;"	f	class:brickred::SocketAddress::Impl
+getNativeAddress	socket_address.cc	/^const void *SocketAddress::getNativeAddress() const$/;"	f	class:brickred::SocketAddress
+getNativeAddressSize	socket_address.cc	/^    size_t getNativeAddressSize() const { return native_addr_size_; }$/;"	f	class:brickred::SocketAddress::Impl
+getNativeAddressSize	socket_address.cc	/^size_t SocketAddress::getNativeAddressSize() const$/;"	f	class:brickred::SocketAddress
+getNextTimeoutMillisecond	timer_heap.cc	/^int64_t TimerHeap::Impl::getNextTimeoutMillisecond(const Timestamp &now) const$/;"	f	class:brickred::TimerHeap::Impl
+getNextTimeoutMillisecond	timer_heap.cc	/^int64_t TimerHeap::getNextTimeoutMillisecond(const Timestamp &now) const$/;"	f	class:brickred::TimerHeap
+getObject	object_pool.h	/^    T *getObject()$/;"	f	class:brickred::ObjectPool
+getParameter	command_line_option.cc	/^const std::string &CommandLineOption::getParameter($/;"	f	class:brickred::CommandLineOption
+getParameters	command_line_option.cc	/^const CommandLineOption::ParameterVector &CommandLineOption::getParameters($/;"	f	class:brickred::CommandLineOption
+getPeerAddress	tcp_service.cc	/^bool TcpService::Impl::getPeerAddress(SocketId socket_id,$/;"	f	class:brickred::TcpService::Impl
+getPeerAddress	tcp_service.cc	/^bool TcpService::getPeerAddress(SocketId socket_id, SocketAddress *addr) const$/;"	f	class:brickred::TcpService
+getPeerAddress	tcp_socket.cc	/^bool TcpSocket::getPeerAddress(SocketAddress *addr) const$/;"	f	class:brickred::TcpSocket
+getPort	socket_address.cc	/^    uint16_t getPort() const { return port_; }$/;"	f	class:brickred::SocketAddress::Impl
+getPort	socket_address.cc	/^uint16_t SocketAddress::getPort() const$/;"	f	class:brickred::SocketAddress
+getProtocol	socket_address.cc	/^SocketAddress::Impl::Protocol::type SocketAddress::Impl::getProtocol() const$/;"	f	class:brickred::SocketAddress::Impl
+getProtocol	socket_address.cc	/^SocketAddress::Protocol::type SocketAddress::getProtocol() const$/;"	f	class:brickred::SocketAddress
+getReadBuffer	tcp_service.cc	/^    DynamicBuffer &getReadBuffer() { return read_buffer_; }$/;"	f	class:brickred::TcpConnection
+getReadCallback	io_device.h	/^    const ReadCallback &getReadCallback() const { return read_cb_; }$/;"	f	class:brickred::IODevice
+getReasonPhrase	protocol/http_response.h	/^    const std::string &getReasonPhrase() const { return reason_phrase_; }$/;"	f	class:brickred::protocol::HttpResponse
+getRequestUri	protocol/http_request.h	/^    const std::string &getRequestUri() const { return request_uri_; }$/;"	f	class:brickred::protocol::HttpRequest
+getSecond	timestamp.h	/^    time_t getSecond() const { return second_; }$/;"	f	class:brickred::Timestamp
+getSendCompleteCallback	tcp_service.cc	/^    const SendCompleteCallback &getSendCompleteCallback() const {$/;"	f	class:brickred::TcpConnection
+getSocket	tcp_service.cc	/^    TcpSocket *getSocket() { return socket_; }$/;"	f	class:brickred::TcpConnection
+getSocketError	tcp_socket.cc	/^int TcpSocket::getSocketError()$/;"	f	class:brickred::TcpSocket
+getStatus	protocol/http_protocol.cc	/^    Status::type getStatus() const { return status_; }$/;"	f	class:brickred::protocol::HttpProtocol::Impl
+getStatus	protocol/http_protocol.cc	/^HttpProtocol::Status::type HttpProtocol::getStatus() const$/;"	f	class:brickred::protocol::HttpProtocol
+getStatus	protocol/web_socket_protocol.cc	/^    Status::type getStatus() const { return status_; }$/;"	f	class:brickred::protocol::WebSocketProtocol::Impl
+getStatus	protocol/web_socket_protocol.cc	/^WebSocketProtocol::Status::type WebSocketProtocol::getStatus() const$/;"	f	class:brickred::protocol::WebSocketProtocol
+getStatus	tcp_service.cc	/^    Status::type getStatus() const { return status_; }$/;"	f	class:brickred::TcpConnection
+getStatusCode	protocol/http_response.h	/^    int getStatusCode() const { return status_code_; }$/;"	f	class:brickred::protocol::HttpResponse
+getTimeout	timer_heap.cc	/^    int getTimeout() const { return timeout_; }$/;"	f	class:brickred::Timer
+getTimestamp	timer_heap.cc	/^    Timestamp &getTimestamp() { return timestamp_; }$/;"	f	class:brickred::Timer
+getTimestamp	timer_heap.cc	/^    const Timestamp &getTimestamp() const { return timestamp_; }$/;"	f	class:brickred::Timer
+getVersion	protocol/http_message.h	/^    Version::type getVersion() const { return version_; }$/;"	f	class:brickred::protocol::HttpMessage
+getWriteBuffer	tcp_service.cc	/^    DynamicBuffer &getWriteBuffer() { return write_buffer_; }$/;"	f	class:brickred::TcpConnection
+getWriteCallback	io_device.h	/^    const WriteCallback &getWriteCallback() const { return write_cb_; }$/;"	f	class:brickred::IODevice
+handshake_headers_	protocol/web_socket_protocol.cc	/^    HeaderMap handshake_headers_;$/;"	m	class:brickred::protocol::WebSocketProtocol::Impl	file:
+hasHeader	protocol/http_message.cc	/^bool HttpMessage::hasHeader(const std::string &key) const$/;"	f	class:brickred::protocol::HttpMessage
+hasOption	command_line_option.cc	/^bool CommandLineOption::hasOption(const std::string &opt) const$/;"	f	class:brickred::CommandLineOption
+hash_	codec/sha1.h	/^    uint32_t hash_[5];$/;"	m	class:brickred::codec::Sha1
+headerContain	protocol/http_message.cc	/^bool HttpMessage::headerContain(const std::string &key,$/;"	f	class:brickred::protocol::HttpMessage
+headerEqual	protocol/http_message.cc	/^bool HttpMessage::headerEqual(const std::string &key,$/;"	f	class:brickred::protocol::HttpMessage
+headers_	protocol/http_message.h	/^    HeaderMap headers_;$/;"	m	class:brickred::protocol::HttpMessage
+heap_pos_	timer_heap.cc	/^    int heap_pos_;$/;"	m	class:brickred::Timer	file:
+http_protocol_	protocol/web_socket_protocol.cc	/^    HttpProtocol http_protocol_;$/;"	m	class:brickred::protocol::WebSocketProtocol::Impl	file:
+id_	io_device.h	/^    int64_t id_;$/;"	m	class:brickred::IODevice
+id_	timer_heap.cc	/^    TimerId id_;$/;"	m	class:brickred::Timer	file:
+io_service_	io_device.h	/^    IOService *io_service_;$/;"	m	class:brickred::IODevice
+io_service_	message_queue.h	/^    IOService *io_service_;$/;"	m	class:brickred::MessageQueue
+io_service_	tcp_service.cc	/^    IOService *io_service_;$/;"	m	class:brickred::TcpService::Impl	file:
+ipV4BinToText	socket_address.cc	/^std::string SocketAddress::ipV4BinToText(uint32_t binary)$/;"	f	class:brickred::SocketAddress
+ipV4BinToText	socket_address.cc	/^void SocketAddress::ipV4BinToText(uint32_t binary, std::string *text)$/;"	f	class:brickred::SocketAddress
+ipV4TextToBin	socket_address.cc	/^bool SocketAddress::ipV4TextToBin(const std::string &text, uint32_t *binary)$/;"	f	class:brickred::SocketAddress
+ipV6BinToText	socket_address.cc	/^std::string SocketAddress::ipV6BinToText(const uint8_t binary[16])$/;"	f	class:brickred::SocketAddress
+ipV6BinToText	socket_address.cc	/^void SocketAddress::ipV6BinToText(const uint8_t binary[16], std::string *text)$/;"	f	class:brickred::SocketAddress
+ipV6TextToBin	socket_address.cc	/^bool SocketAddress::ipV6TextToBin(const std::string &text, uint8_t binary[16])$/;"	f	class:brickred::SocketAddress
+ip_	socket_address.cc	/^    std::string ip_;$/;"	m	class:brickred::SocketAddress::Impl	file:
+ipv4_addr_	socket_address.cc	/^        struct sockaddr_in ipv4_addr_;$/;"	m	union:brickred::SocketAddress::Impl::native_address_tag	typeref:struct:brickred::SocketAddress::Impl::native_address_tag::sockaddr_in	file:
+ipv6_addr_	socket_address.cc	/^        struct sockaddr_in6 ipv6_addr_;$/;"	m	union:brickred::SocketAddress::Impl::native_address_tag	typeref:struct:brickred::SocketAddress::Impl::native_address_tag::sockaddr_in6	file:
+isBounded	concurrent_queue.h	/^    bool isBounded() const$/;"	f	class:brickred::ConcurrentQueue
+isConnectionKeepAlive	protocol/http_message.cc	/^bool HttpMessage::isConnectionKeepAlive() const$/;"	f	class:brickred::protocol::HttpMessage
+isLongOption	command_line_option.cc	/^static bool isLongOption(const std::string &arg)$/;"	f	namespace:brickred
+isOption	command_line_option.cc	/^static bool isOption(const std::string &arg)$/;"	f	namespace:brickred
+is_bounded_	concurrent_queue.h	/^    bool is_bounded_;$/;"	m	class:brickred::ConcurrentQueue
+is_client_	protocol/web_socket_protocol.cc	/^    bool is_client_;$/;"	m	class:brickred::protocol::WebSocketProtocol::Impl	file:
+join	thread.cc	/^void Thread::Impl::join()$/;"	f	class:brickred::Thread::Impl
+join	thread.cc	/^void Thread::join()$/;"	f	class:brickred::Thread
+join_started_	thread.cc	/^    bool join_started_;$/;"	m	class:brickred::Thread::Impl	file:
+joinable	thread.cc	/^bool Thread::Impl::joinable()$/;"	f	class:brickred::Thread::Impl
+joinable	thread.cc	/^bool Thread::joinable()$/;"	f	class:brickred::Thread
+joined_	thread.cc	/^    bool joined_;$/;"	m	class:brickred::Thread::Impl	file:
+last_op_code_	protocol/web_socket_protocol.cc	/^    int last_op_code_;$/;"	m	class:brickred::protocol::WebSocketProtocol::Impl	file:
+left_args_	command_line_option.h	/^    ArgumentVector left_args_;$/;"	m	class:brickred::CommandLineOption
+listen	tcp_service.cc	/^TcpService::Impl::SocketId TcpService::Impl::listen(const SocketAddress &addr)$/;"	f	class:brickred::TcpService::Impl
+listen	tcp_service.cc	/^TcpService::SocketId TcpService::listen(const SocketAddress &addr)$/;"	f	class:brickred::TcpService
+listen	tcp_socket.cc	/^bool TcpSocket::listen(int backlog)$/;"	f	class:brickred::TcpSocket
+lock	mutex.cc	/^void Mutex::Impl::lock()$/;"	f	class:brickred::Mutex::Impl
+lock	mutex.cc	/^void Mutex::lock()$/;"	f	class:brickred::Mutex
+log	base_logger.cc	/^void BaseLogger::log(int level, const char *format, ...)$/;"	f	class:brickred::BaseLogger
+log	log_async_sink.cc	/^void LogAsyncSink::Impl::log(const char *buffer, size_t size)$/;"	f	class:brickred::LogAsyncSink::Impl
+log	log_async_sink.cc	/^void LogAsyncSink::log(const char *buffer, size_t size)$/;"	f	class:brickred::LogAsyncSink
+log	log_core.cc	/^void LogCore::Impl::log(int logger_id, int level, const char *filename,$/;"	f	class:brickred::LogCore::Impl
+log	log_core.cc	/^void LogCore::log(int logger_id, int level, const char *filename,$/;"	f	class:brickred::LogCore
+log	log_core.cc	/^void Logger::log(int level, const char *filename, int line,$/;"	f	class:brickred::Logger
+log	log_file_sink.cc	/^void LogFileSink::Impl::log(const char *buffer, size_t size)$/;"	f	class:brickred::LogFileSink::Impl
+log	log_file_sink.cc	/^void LogFileSink::log(const char *buffer, size_t size)$/;"	f	class:brickred::LogFileSink
+log	log_stderr_sink.cc	/^void LogStderrSink::log(const char *buffer, size_t size)$/;"	f	class:brickred::LogStderrSink
+logThreadFunc	log_async_sink.cc	/^void LogAsyncSink::Impl::logThreadFunc()$/;"	f	class:brickred::LogAsyncSink::Impl
+log_func_	base_logger.h	/^    LogFunc log_func_;$/;"	m	class:brickred::BaseLogger
+log_thread_	log_async_sink.cc	/^    Thread log_thread_;$/;"	m	class:brickred::LogAsyncSink::Impl	file:
+loggers_	log_core.cc	/^    LoggerVector loggers_;$/;"	m	class:brickred::LogCore::Impl	file:
+loop	io_service.cc	/^void IOService::Impl::loop()$/;"	f	class:brickred::IOService::Impl
+loop	io_service.cc	/^void IOService::loop()$/;"	f	class:brickred::IOService
+ltrim	string_util.cc	/^std::string ltrim(const std::string &str, const char *ws)$/;"	f	namespace:brickred::string_util
+maxSize	concurrent_queue.h	/^    size_t maxSize() const$/;"	f	class:brickred::ConcurrentQueue
+max_size_	concurrent_queue.h	/^    size_t max_size_;$/;"	m	class:brickred::ConcurrentQueue
+message_	protocol/http_protocol.cc	/^    HttpMessage *message_;$/;"	m	class:brickred::protocol::HttpProtocol::Impl	file:
+message_	protocol/web_socket_protocol.cc	/^    DynamicBuffer message_;$/;"	m	class:brickred::protocol::WebSocketProtocol::Impl	file:
+message_size_	codec/sha1.h	/^    uint64_t message_size_;$/;"	m	class:brickred::codec::Sha1
+message_type_	protocol/http_message.h	/^    MessageType::type message_type_;$/;"	m	class:brickred::protocol::HttpMessage
+method_	protocol/http_request.h	/^    Method::type method_;$/;"	m	class:brickred::protocol::HttpRequest
+minHeapErase	timer_heap.cc	/^void TimerHeap::Impl::minHeapErase(Timer *timer)$/;"	f	class:brickred::TimerHeap::Impl
+minHeapInsert	timer_heap.cc	/^void TimerHeap::Impl::minHeapInsert(Timer *timer)$/;"	f	class:brickred::TimerHeap::Impl
+minHeapReserve	timer_heap.cc	/^void TimerHeap::Impl::minHeapReserve()$/;"	f	class:brickred::TimerHeap::Impl
+minHeapTop	timer_heap.cc	/^Timer *TimerHeap::Impl::minHeapTop() const$/;"	f	class:brickred::TimerHeap::Impl
+mt_	random.cc	/^    uint32_t mt_[N];$/;"	m	class:brickred::Random::Impl	file:
+mti_	random.cc	/^    int mti_;$/;"	m	class:brickred::Random::Impl	file:
+mutex_	mutex.cc	/^    pthread_mutex_t mutex_;$/;"	m	class:brickred::Mutex::Impl	file:
+mutex_	mutex.h	/^    Mutex &mutex_;$/;"	m	class:brickred::LockGuard
+nanosecond_	timestamp.h	/^    int64_t nanosecond_;$/;"	m	class:brickred::Timestamp
+nativeHandle	condition_variable.cc	/^void *ConditionVariable::Impl::nativeHandle()$/;"	f	class:brickred::ConditionVariable::Impl
+nativeHandle	condition_variable.cc	/^void *ConditionVariable::nativeHandle()$/;"	f	class:brickred::ConditionVariable
+nativeHandle	mutex.cc	/^void *Mutex::Impl::nativeHandle()$/;"	f	class:brickred::Mutex::Impl
+nativeHandle	mutex.cc	/^void *Mutex::nativeHandle()$/;"	f	class:brickred::Mutex
+native_addr_	socket_address.cc	/^    mutable NativeAddress native_addr_;$/;"	m	class:brickred::SocketAddress::Impl	file:
+native_addr_size_	socket_address.cc	/^    mutable size_t native_addr_size_;$/;"	m	class:brickred::SocketAddress::Impl	file:
+native_address_tag	socket_address.cc	/^    typedef union native_address_tag {$/;"	u	class:brickred::SocketAddress::Impl	file:
+new_conn_cb_	tcp_service.cc	/^    NewConnectionCallback new_conn_cb_;$/;"	m	class:brickred::TcpService::Impl	file:
+nextDouble	random.cc	/^double Random::Impl::nextDouble()$/;"	f	class:brickred::Random::Impl
+nextDouble	random.cc	/^double Random::nextDouble()$/;"	f	class:brickred::Random
+nextInt	random.cc	/^uint32_t Random::Impl::nextInt()$/;"	f	class:brickred::Random::Impl
+nextInt	random.cc	/^uint32_t Random::Impl::nextInt(uint32_t max)$/;"	f	class:brickred::Random::Impl
+nextInt	random.cc	/^uint32_t Random::nextInt()$/;"	f	class:brickred::Random
+nextInt	random.cc	/^uint32_t Random::nextInt(uint32_t max)$/;"	f	class:brickred::Random
+not_empty_cond_	concurrent_queue.h	/^    ConditionVariable not_empty_cond_;$/;"	m	class:brickred::ConcurrentQueue
+not_full_cond_	concurrent_queue.h	/^    ConditionVariable not_full_cond_;$/;"	m	class:brickred::ConcurrentQueue
+notifyAll	condition_variable.cc	/^void ConditionVariable::Impl::notifyAll()$/;"	f	class:brickred::ConditionVariable::Impl
+notifyAll	condition_variable.cc	/^void ConditionVariable::notifyAll()$/;"	f	class:brickred::ConditionVariable
+notifyOne	condition_variable.cc	/^void ConditionVariable::Impl::notifyOne()$/;"	f	class:brickred::ConditionVariable::Impl
+notifyOne	condition_variable.cc	/^void ConditionVariable::notifyOne()$/;"	f	class:brickred::ConditionVariable
+obj_	function.h	/^    const void *obj_;$/;"	m	class:brickred::Function
+onAsyncConnectSocketWrite	tcp_service.cc	/^void TcpService::Impl::onAsyncConnectSocketWrite(IODevice *io_device)$/;"	f	class:brickred::TcpService::Impl
+onAsyncConnectTimeout	tcp_service.cc	/^void TcpService::Impl::onAsyncConnectTimeout(TimerId timer_id)$/;"	f	class:brickred::TcpService::Impl
+onListenSocketRead	tcp_service.cc	/^void TcpService::Impl::onListenSocketRead(IODevice *io_device)$/;"	f	class:brickred::TcpService::Impl
+onSocketError	tcp_service.cc	/^void TcpService::Impl::onSocketError(IODevice *io_device)$/;"	f	class:brickred::TcpService::Impl
+onSocketRead	tcp_service.cc	/^void TcpService::Impl::onSocketRead(IODevice *io_device)$/;"	f	class:brickred::TcpService::Impl
+onSocketWrite	tcp_service.cc	/^void TcpService::Impl::onSocketWrite(IODevice *io_device)$/;"	f	class:brickred::TcpService::Impl
+open	self_pipe.cc	/^bool SelfPipe::open()$/;"	f	class:brickred::SelfPipe
+open	tcp_socket.cc	/^bool TcpSocket::open(SocketAddress::Protocol::type protocol)$/;"	f	class:brickred::TcpSocket
+openFile	log_file_sink.cc	/^bool LogFileSink::Impl::openFile()$/;"	f	class:brickred::LogFileSink::Impl
+openFile	log_file_sink.cc	/^bool LogFileSink::openFile()$/;"	f	class:brickred::LogFileSink
+operator ()	function.h	/^    inline R operator()() const$/;"	f	class:brickred::Function
+operator ()	function.h	/^    inline R operator()(P1 a1) const$/;"	f	class:brickred::Function
+operator ()	function.h	/^    inline R operator()(P1 a1, P2 a2) const$/;"	f	class:brickred::Function
+operator ()	function.h	/^    inline R operator()(P1 a1, P2 a2, P3 a3) const$/;"	f	class:brickred::Function
+operator ()	function.h	/^    inline R operator()(P1 a1, P2 a2, P3 a3, P4 a4) const$/;"	f	class:brickred::Function
+operator ()	function.h	/^    inline R operator()(P1 a1, P2 a2, P3 a3, P4 a4, P5 a5) const$/;"	f	class:brickred::Function
+operator ()	function.h	/^    inline R operator()(P1 a1, P2 a2, P3 a3, P4 a4, P5 a5, P6 a6) const$/;"	f	class:brickred::Function
+operator ()	function.h	/^    inline R operator()(P1 a1, P2 a2, P3 a3, P4 a4, P5 a5, P6 a6, P7 a7) const$/;"	f	class:brickred::Function
+operator ()	function.h	/^    inline R operator()(P1 a1, P2 a2, P3 a3, P4 a4, P5 a5, P6 a6, P7 a7, P8 a8) const$/;"	f	class:brickred::Function
+operator ()	function.h	/^    inline R operator()(P1 a1, P2 a2, P3 a3, P4 a4, P5 a5, P6 a6, P7 a7, P8 a8, P9 a9) const$/;"	f	class:brickred::Function
+operator ()	string_util.cc	/^bool CaseInsensitiveLess::operator()(const std::string &lhs,$/;"	f	class:brickred::string_util::CaseInsensitiveLess
+operator ()	string_util.cc	/^size_t Hash::operator()(const std::string &str) const$/;"	f	class:brickred::string_util::Hash
+operator *	unique_ptr.h	/^    T &operator*() const { return *px_; }$/;"	f	class:brickred::UniquePtr
+operator +	timestamp.cc	/^Timestamp Timestamp::operator+(int64_t millisecond) const$/;"	f	class:brickred::Timestamp
+operator +=	timestamp.cc	/^Timestamp &Timestamp::operator+=(int64_t millisecond)$/;"	f	class:brickred::Timestamp
+operator ->	unique_ptr.h	/^    T *operator->() const { return px_; }$/;"	f	class:brickred::UniquePtr
+operator <	timestamp.cc	/^bool Timestamp::operator<(const Timestamp &other) const$/;"	f	class:brickred::Timestamp
+operator =	function.h	/^    Function &operator=(NullFunction)$/;"	f	class:brickred::Function
+operator =	function.h	/^    Function &operator=(const Function &rhs)$/;"	f	class:brickred::Function
+operator =	socket_address.cc	/^SocketAddress &SocketAddress::operator=(const SocketAddress &rhs)$/;"	f	class:brickred::SocketAddress
+operator SafeBoolType	function.h	/^    operator SafeBoolType() const$/;"	f	class:brickred::Function
+operator SafeBoolType	unique_ptr.h	/^    operator SafeBoolType() const$/;"	f	class:brickred::UniquePtr
+option_params_	command_line_option.h	/^    OptionParametersMap option_params_;$/;"	m	class:brickred::CommandLineOption
+option_types_	command_line_option.h	/^    OptionParameterTypeMap option_types_;$/;"	m	class:brickred::CommandLineOption
+parse	command_line_option.cc	/^bool CommandLineOption::parse(int argc, char *argv[])$/;"	f	class:brickred::CommandLineOption
+passiveOpen	tcp_socket.cc	/^bool TcpSocket::passiveOpen(const SocketAddress &local_addr)$/;"	f	class:brickred::TcpSocket
+passiveOpenNonblock	tcp_socket.cc	/^bool TcpSocket::passiveOpenNonblock(const SocketAddress &local_addr)$/;"	f	class:brickred::TcpSocket
+peer_close_cb_	tcp_service.cc	/^    PeerCloseCallback peer_close_cb_;$/;"	m	class:brickred::TcpService::Impl	file:
+pimpl_	condition_variable.h	/^    UniquePtr<Impl> pimpl_;$/;"	m	class:brickred::ConditionVariable
+pimpl_	io_service.h	/^    UniquePtr<Impl> pimpl_;$/;"	m	class:brickred::IOService
+pimpl_	log_async_sink.h	/^    UniquePtr<Impl> pimpl_;$/;"	m	class:brickred::LogAsyncSink
+pimpl_	log_core.h	/^    UniquePtr<Impl> pimpl_;$/;"	m	class:brickred::LogCore
+pimpl_	log_file_sink.h	/^    UniquePtr<Impl> pimpl_;$/;"	m	class:brickred::LogFileSink
+pimpl_	mutex.h	/^    UniquePtr<Impl> pimpl_;$/;"	m	class:brickred::Mutex
+pimpl_	protocol/http_protocol.h	/^    UniquePtr<Impl> pimpl_;$/;"	m	class:brickred::protocol::HttpProtocol
+pimpl_	protocol/web_socket_protocol.h	/^    UniquePtr<Impl> pimpl_;$/;"	m	class:brickred::protocol::WebSocketProtocol
+pimpl_	random.h	/^    UniquePtr<Impl> pimpl_;$/;"	m	class:brickred::Random
+pimpl_	socket_address.h	/^    UniquePtr<Impl> pimpl_;$/;"	m	class:brickred::SocketAddress
+pimpl_	tcp_service.h	/^    UniquePtr<Impl> pimpl_;$/;"	m	class:brickred::TcpService
+pimpl_	thread.h	/^    UniquePtr<Impl> pimpl_;$/;"	m	class:brickred::Thread
+pimpl_	timer_heap.h	/^    UniquePtr<Impl> pimpl_;$/;"	m	class:brickred::TimerHeap
+pipeReadCallback	message_queue.h	/^    void pipeReadCallback(IODevice *io_device)$/;"	f	class:brickred::MessageQueue
+pipe_	message_queue.h	/^    SelfPipe pipe_;$/;"	m	class:brickred::MessageQueue
+pool_	log_async_sink.cc	/^    ObjectPool<DynamicBuffer> pool_;$/;"	m	class:brickred::LogAsyncSink::Impl	file:
+pool_mutex_	log_async_sink.cc	/^    Mutex pool_mutex_;$/;"	m	class:brickred::LogAsyncSink::Impl	file:
+pop	concurrent_queue.h	/^    void pop(T &item)$/;"	f	class:brickred::ConcurrentQueue
+pop	message_queue.h	/^    bool pop(T &item)$/;"	f	class:brickred::MessageQueue
+popIfNotEmpty	concurrent_queue.h	/^    bool popIfNotEmpty(T &item)$/;"	f	class:brickred::ConcurrentQueue
+port_	socket_address.cc	/^    uint16_t port_;$/;"	m	class:brickred::SocketAddress::Impl	file:
+processLongOption	command_line_option.cc	/^static int processLongOption($/;"	f	namespace:brickred
+processShortOption	command_line_option.cc	/^static int processShortOption($/;"	f	namespace:brickred
+protocol	protocol/http_message.cc	/^namespace protocol {$/;"	n	namespace:brickred	file:
+protocol	protocol/http_message.h	/^namespace protocol {$/;"	n	namespace:brickred
+protocol	protocol/http_protocol.cc	/^namespace protocol {$/;"	n	namespace:brickred	file:
+protocol	protocol/http_protocol.h	/^namespace protocol {$/;"	n	namespace:brickred
+protocol	protocol/http_request.cc	/^namespace protocol {$/;"	n	namespace:brickred	file:
+protocol	protocol/http_request.h	/^namespace protocol {$/;"	n	namespace:brickred
+protocol	protocol/http_response.cc	/^namespace protocol {$/;"	n	namespace:brickred	file:
+protocol	protocol/http_response.h	/^namespace protocol {$/;"	n	namespace:brickred
+protocol	protocol/web_socket_protocol.cc	/^namespace protocol {$/;"	n	namespace:brickred	file:
+protocol	protocol/web_socket_protocol.h	/^namespace protocol {$/;"	n	namespace:brickred
+protocol_	socket_address.cc	/^    mutable Protocol::type protocol_;$/;"	m	class:brickred::SocketAddress::Impl	file:
+push	concurrent_queue.h	/^    void push(const T &item)$/;"	f	class:brickred::ConcurrentQueue
+push	message_queue.h	/^    void push(const T &item)$/;"	f	class:brickred::MessageQueue
+pushIfNotFull	concurrent_queue.h	/^    bool pushIfNotFull(const T &item)$/;"	f	class:brickred::ConcurrentQueue
+px_	unique_ptr.h	/^    T *px_;$/;"	m	class:brickred::UniquePtr
+queue_	concurrent_queue.h	/^    std::queue<T> queue_;$/;"	m	class:brickred::ConcurrentQueue
+queue_	log_async_sink.cc	/^    ConcurrentQueue<DynamicBuffer *> queue_;$/;"	m	class:brickred::LogAsyncSink::Impl	file:
+queue_	message_queue.h	/^    ConcurrentQueue<T> queue_;$/;"	m	class:brickred::MessageQueue
+quit	io_service.cc	/^void IOService::Impl::quit()$/;"	f	class:brickred::IOService::Impl
+quit	io_service.cc	/^void IOService::quit()$/;"	f	class:brickred::IOService
+quit_	io_service.cc	/^    bool quit_;$/;"	m	class:brickred::IOService::Impl	file:
+random_generator_	protocol/web_socket_protocol.cc	/^    Random *random_generator_;$/;"	m	class:brickred::protocol::WebSocketProtocol::Impl	file:
+read	dynamic_buffer.cc	/^void DynamicBuffer::read(size_t size)$/;"	f	class:brickred::DynamicBuffer
+read	io_device.cc	/^int IODevice::read(char *buffer, size_t size)$/;"	f	class:brickred::IODevice
+read	self_pipe.cc	/^int SelfPipe::read(char *buffer, size_t size)$/;"	f	class:brickred::SelfPipe
+readBegin	dynamic_buffer.cc	/^const char *DynamicBuffer::readBegin() const$/;"	f	class:brickred::DynamicBuffer
+readBody	protocol/http_protocol.cc	/^int HttpProtocol::Impl::readBody(DynamicBuffer *buffer)$/;"	f	class:brickred::protocol::HttpProtocol::Impl
+readFrame	protocol/web_socket_protocol.cc	/^int WebSocketProtocol::Impl::readFrame(DynamicBuffer *buffer)$/;"	f	class:brickred::protocol::WebSocketProtocol::Impl
+readHandshakeRequest	protocol/web_socket_protocol.cc	/^int WebSocketProtocol::Impl::readHandshakeRequest(DynamicBuffer *buffer)$/;"	f	class:brickred::protocol::WebSocketProtocol::Impl
+readHandshakeResponse	protocol/web_socket_protocol.cc	/^int WebSocketProtocol::Impl::readHandshakeResponse(DynamicBuffer *buffer)$/;"	f	class:brickred::protocol::WebSocketProtocol::Impl
+readHeader	protocol/http_protocol.cc	/^int HttpProtocol::Impl::readHeader(DynamicBuffer *buffer)$/;"	f	class:brickred::protocol::HttpProtocol::Impl
+readStartLine	protocol/http_protocol.cc	/^int HttpProtocol::Impl::readStartLine(DynamicBuffer *buffer)$/;"	f	class:brickred::protocol::HttpProtocol::Impl
+read_buffer_	tcp_service.cc	/^    DynamicBuffer read_buffer_;$/;"	m	class:brickred::TcpConnection	file:
+read_cb_	io_device.h	/^    ReadCallback read_cb_;$/;"	m	class:brickred::IODevice
+read_index_	dynamic_buffer.h	/^    size_t read_index_;$/;"	m	class:brickred::DynamicBuffer
+readableBytes	dynamic_buffer.cc	/^size_t DynamicBuffer::readableBytes() const$/;"	f	class:brickred::DynamicBuffer
+readableBytes	tcp_socket.cc	/^int TcpSocket::readableBytes() const$/;"	f	class:brickred::TcpSocket
+reason_phrase_	protocol/http_response.h	/^    std::string reason_phrase_;$/;"	m	class:brickred::protocol::HttpResponse
+recv	tcp_socket.cc	/^int TcpSocket::recv(char *buffer, size_t size)$/;"	f	class:brickred::TcpSocket
+recvMessage	protocol/http_protocol.cc	/^HttpProtocol::Impl::RetCode::type HttpProtocol::Impl::recvMessage($/;"	f	class:brickred::protocol::HttpProtocol::Impl
+recvMessage	protocol/http_protocol.cc	/^HttpProtocol::RetCode::type HttpProtocol::recvMessage(DynamicBuffer *buffer)$/;"	f	class:brickred::protocol::HttpProtocol
+recvMessage	protocol/web_socket_protocol.cc	/^WebSocketProtocol::RetCode::type WebSocketProtocol::Impl::recvMessage($/;"	f	class:brickred::protocol::WebSocketProtocol::Impl
+recvMessage	protocol/web_socket_protocol.cc	/^WebSocketProtocol::RetCode::type WebSocketProtocol::recvMessage($/;"	f	class:brickred::protocol::WebSocketProtocol
+recv_message_cb_	message_queue.h	/^    RecvMessageCallback recv_message_cb_;$/;"	m	class:brickred::MessageQueue
+recv_message_cb_	tcp_service.cc	/^    RecvMessageCallback recv_message_cb_;$/;"	m	class:brickred::TcpService::Impl	file:
+registerLogger	log_core.cc	/^bool LogCore::Impl::registerLogger(int logger_id, LogFormatter formatter)$/;"	f	class:brickred::LogCore::Impl
+registerLogger	log_core.cc	/^bool LogCore::registerLogger(int logger_id, LogFormatter formatter)$/;"	f	class:brickred::LogCore
+release	unique_ptr.h	/^    T *release()$/;"	f	class:brickred::UniquePtr
+removeAsyncConnectTimer	tcp_service.cc	/^void TcpService::Impl::removeAsyncConnectTimer(SocketId socket_id)$/;"	f	class:brickred::TcpService::Impl
+removeHeader	protocol/http_message.cc	/^void HttpMessage::removeHeader(const std::string &key)$/;"	f	class:brickred::protocol::HttpMessage
+removeIODevice	io_service.cc	/^bool IOService::Impl::removeIODevice(IODevice *io_device)$/;"	f	class:brickred::IOService::Impl
+removeIODevice	io_service.cc	/^bool IOService::removeIODevice(IODevice *io_device)$/;"	f	class:brickred::IOService
+removeLogger	log_core.cc	/^void LogCore::Impl::removeLogger(int logger_id)$/;"	f	class:brickred::LogCore::Impl
+removeLogger	log_core.cc	/^void LogCore::removeLogger(int logger_id)$/;"	f	class:brickred::LogCore
+removeTimer	timer_heap.cc	/^void TimerHeap::Impl::removeTimer(TimerId timer_id)$/;"	f	class:brickred::TimerHeap::Impl
+removeTimer	timer_heap.cc	/^void TimerHeap::removeTimer(TimerId timer_id)$/;"	f	class:brickred::TimerHeap
+removed_io_devices_	io_service.cc	/^    IODeviceSet removed_io_devices_;$/;"	m	class:brickred::IOService::Impl	file:
+request_uri_	protocol/http_request.h	/^    std::string request_uri_;$/;"	m	class:brickred::protocol::HttpRequest
+reserveWritableBytes	dynamic_buffer.cc	/^void DynamicBuffer::reserveWritableBytes(size_t size)$/;"	f	class:brickred::DynamicBuffer
+reset	codec/sha1.cc	/^void Sha1::reset()$/;"	f	class:brickred::codec::Sha1
+reset	protocol/http_protocol.cc	/^void HttpProtocol::Impl::reset()$/;"	f	class:brickred::protocol::HttpProtocol::Impl
+reset	protocol/http_protocol.cc	/^void HttpProtocol::reset()$/;"	f	class:brickred::protocol::HttpProtocol
+reset	unique_ptr.h	/^    void reset(T *p = 0)$/;"	f	class:brickred::UniquePtr
+ret_code_	protocol/web_socket_protocol.cc	/^    RetCode::type ret_code_;$/;"	m	class:brickred::protocol::WebSocketProtocol::Impl	file:
+retrieveMessage	protocol/web_socket_protocol.cc	/^bool WebSocketProtocol::Impl::retrieveMessage(DynamicBuffer *message)$/;"	f	class:brickred::protocol::WebSocketProtocol::Impl
+retrieveMessage	protocol/web_socket_protocol.cc	/^bool WebSocketProtocol::retrieveMessage(DynamicBuffer *message)$/;"	f	class:brickred::protocol::WebSocketProtocol
+retrieveRequest	protocol/http_protocol.cc	/^bool HttpProtocol::Impl::retrieveRequest(HttpRequest *request)$/;"	f	class:brickred::protocol::HttpProtocol::Impl
+retrieveRequest	protocol/http_protocol.cc	/^bool HttpProtocol::retrieveRequest(HttpRequest *request)$/;"	f	class:brickred::protocol::HttpProtocol
+retrieveResponse	protocol/http_protocol.cc	/^bool HttpProtocol::Impl::retrieveResponse(HttpResponse *response)$/;"	f	class:brickred::protocol::HttpProtocol::Impl
+retrieveResponse	protocol/http_protocol.cc	/^bool HttpProtocol::retrieveResponse(HttpResponse *response)$/;"	f	class:brickred::protocol::HttpProtocol
+returnObject	object_pool.h	/^    void returnObject(T *obj)$/;"	f	class:brickred::ObjectPool
+reused_object_list_	object_pool.h	/^    std::vector<T *> reused_object_list_;$/;"	m	class:brickred::ObjectPool
+rtrim	string_util.cc	/^std::string rtrim(const std::string &str, const char *ws)$/;"	f	namespace:brickred::string_util
+run	thread.cc	/^void Thread::Impl::run()$/;"	f	class:brickred::Thread::Impl
+s_cstr_empty_string	command_line_option.cc	/^static const std::string s_cstr_empty_string;$/;"	m	namespace:brickred	file:
+s_cstr_empty_string	protocol/http_message.cc	/^static const std::string s_cstr_empty_string;$/;"	m	namespace:brickred::protocol	file:
+s_decode_table	codec/base64.cc	/^static const char s_decode_table[] = {$/;"	m	namespace:brickred::codec	file:
+s_empty_params	command_line_option.cc	/^static const CommandLineOption::ParameterVector s_empty_params;$/;"	m	namespace:brickred	file:
+s_encode_table	codec/base64.cc	/^static const char s_encode_table[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"$/;"	m	namespace:brickred::codec	file:
+s_status_handler_	protocol/http_protocol.cc	/^    static StatusHandler s_status_handler_[Status::MAX];$/;"	m	class:brickred::protocol::HttpProtocol::Impl	file:
+s_status_handler_	protocol/http_protocol.cc	/^HttpProtocol::Impl::StatusHandler HttpProtocol::Impl::s_status_handler_[] = {$/;"	m	class:brickred::protocol::HttpProtocol::Impl	file:
+s_status_handler_	protocol/web_socket_protocol.cc	/^    static StatusHandler s_status_handler_[Status::MAX];$/;"	m	class:brickred::protocol::WebSocketProtocol::Impl	file:
+s_status_handler_	protocol/web_socket_protocol.cc	/^WebSocketProtocol::Impl::s_status_handler_[] = {$/;"	m	class:brickred::protocol::WebSocketProtocol::Impl	file:
+second_	timestamp.h	/^    time_t second_;$/;"	m	class:brickred::Timestamp
+seed	random.cc	/^void Random::Impl::seed(uint32_t key[], size_t key_length)$/;"	f	class:brickred::Random::Impl
+seed	random.cc	/^void Random::Impl::seed(uint32_t s)$/;"	f	class:brickred::Random::Impl
+seed	random.cc	/^void Random::seed(uint32_t key[], size_t key_length)$/;"	f	class:brickred::Random
+seed	random.cc	/^void Random::seed(uint32_t s)$/;"	f	class:brickred::Random
+send	tcp_socket.cc	/^int TcpSocket::send(const char *buffer, size_t size)$/;"	f	class:brickred::TcpSocket
+sendCloseFrame	protocol/web_socket_protocol.cc	/^bool WebSocketProtocol::Impl::sendCloseFrame()$/;"	f	class:brickred::protocol::WebSocketProtocol::Impl
+sendCloseFrame	protocol/web_socket_protocol.cc	/^bool WebSocketProtocol::sendCloseFrame()$/;"	f	class:brickred::protocol::WebSocketProtocol
+sendCompleteCloseCallback	tcp_service.cc	/^void TcpService::Impl::sendCompleteCloseCallback(TcpService *service,$/;"	f	class:brickred::TcpService::Impl
+sendErrorResponse	protocol/web_socket_protocol.cc	/^static void sendErrorResponse(TcpService *tcp_service,$/;"	f	namespace:brickred::protocol
+sendHandshakeResponse	protocol/web_socket_protocol.cc	/^static bool sendHandshakeResponse(TcpService *tcp_service,$/;"	f	namespace:brickred::protocol
+sendMessage	protocol/web_socket_protocol.cc	/^bool WebSocketProtocol::Impl::sendMessage(const char *buffer, size_t size)$/;"	f	class:brickred::protocol::WebSocketProtocol::Impl
+sendMessage	protocol/web_socket_protocol.cc	/^bool WebSocketProtocol::sendMessage(const char *buffer, size_t size)$/;"	f	class:brickred::protocol::WebSocketProtocol
+sendMessage	tcp_service.cc	/^bool TcpService::Impl::sendMessage(SocketId socket_id,$/;"	f	class:brickred::TcpService::Impl
+sendMessage	tcp_service.cc	/^bool TcpService::sendMessage(SocketId socket_id,$/;"	f	class:brickred::TcpService
+sendMessageThenClose	tcp_service.cc	/^bool TcpService::Impl::sendMessageThenClose(SocketId socket_id,$/;"	f	class:brickred::TcpService::Impl
+sendMessageThenClose	tcp_service.cc	/^bool TcpService::sendMessageThenClose(SocketId socket_id,$/;"	f	class:brickred::TcpService
+sendPingFrame	protocol/web_socket_protocol.cc	/^bool WebSocketProtocol::Impl::sendPingFrame()$/;"	f	class:brickred::protocol::WebSocketProtocol::Impl
+sendPingFrame	protocol/web_socket_protocol.cc	/^bool WebSocketProtocol::sendPingFrame()$/;"	f	class:brickred::protocol::WebSocketProtocol
+sendPongFrame	protocol/web_socket_protocol.cc	/^bool WebSocketProtocol::Impl::sendPongFrame()$/;"	f	class:brickred::protocol::WebSocketProtocol::Impl
+send_complete_cb_	tcp_service.cc	/^    SendCompleteCallback send_complete_cb_;$/;"	m	class:brickred::TcpConnection	file:
+setBody	protocol/http_message.cc	/^void HttpMessage::setBody(const char *buffer, size_t size)$/;"	f	class:brickred::protocol::HttpMessage
+setBody	protocol/http_message.cc	/^void HttpMessage::setBody(const std::string &body)$/;"	f	class:brickred::protocol::HttpMessage
+setCloseOnExec	io_device.cc	/^bool IODevice::setCloseOnExec()$/;"	f	class:brickred::IODevice
+setCloseOnExec	self_pipe.cc	/^bool SelfPipe::setCloseOnExec()$/;"	f	class:brickred::SelfPipe
+setConnectionClose	protocol/http_message.cc	/^void HttpMessage::setConnectionClose()$/;"	f	class:brickred::protocol::HttpMessage
+setConnectionKeepAlive	protocol/http_message.cc	/^void HttpMessage::setConnectionKeepAlive()$/;"	f	class:brickred::protocol::HttpMessage
+setContext	tcp_service.cc	/^bool TcpService::Impl::setContext(SocketId socket_id, Context *context)$/;"	f	class:brickred::TcpService::Impl
+setContext	tcp_service.cc	/^bool TcpService::setContext(SocketId socket_id, Context *context)$/;"	f	class:brickred::TcpService
+setDate	protocol/http_message.cc	/^void HttpMessage::setDate(time_t now)$/;"	f	class:brickred::protocol::HttpMessage
+setDescriptor	io_device.h	/^    void setDescriptor(DescriptorId fd) { fd_ = fd; }$/;"	f	class:brickred::IODevice
+setErrorCallback	io_device.cc	/^void IODevice::setErrorCallback(const ErrorCallback &error_cb)$/;"	f	class:brickred::IODevice
+setErrorCallback	tcp_service.cc	/^void TcpService::Impl::setErrorCallback($/;"	f	class:brickred::TcpService::Impl
+setErrorCallback	tcp_service.cc	/^void TcpService::setErrorCallback($/;"	f	class:brickred::TcpService
+setHandshakeHeader	protocol/web_socket_protocol.cc	/^void WebSocketProtocol::Impl::setHandshakeHeader(const std::string &key,$/;"	f	class:brickred::protocol::WebSocketProtocol::Impl
+setHandshakeHeader	protocol/web_socket_protocol.cc	/^void WebSocketProtocol::setHandshakeHeader(const std::string &key,$/;"	f	class:brickred::protocol::WebSocketProtocol
+setHeader	protocol/http_message.cc	/^void HttpMessage::setHeader(const std::string &key, const std::string &value)$/;"	f	class:brickred::protocol::HttpMessage
+setHeapPos	timer_heap.cc	/^    void setHeapPos(int heap_pos) { heap_pos_ = heap_pos; }$/;"	f	class:brickred::Timer
+setId	io_device.h	/^    void setId(int64_t id) { id_ = id; }$/;"	f	class:brickred::IODevice
+setIp	socket_address.cc	/^void SocketAddress::Impl::setIp(const std::string &ip)$/;"	f	class:brickred::SocketAddress::Impl
+setIp	socket_address.cc	/^void SocketAddress::setIp(const std::string &ip)$/;"	f	class:brickred::SocketAddress
+setLogFunc	base_logger.cc	/^void BaseLogger::setLogFunc(LogFunc log_func)$/;"	f	class:brickred::BaseLogger
+setMethod	protocol/http_request.cc	/^void HttpRequest::setMethod(Method::type method)$/;"	f	class:brickred::protocol::HttpRequest
+setNativeAddress	socket_address.cc	/^bool SocketAddress::Impl::setNativeAddress(const void *native_addr)$/;"	f	class:brickred::SocketAddress::Impl
+setNativeAddress	socket_address.cc	/^bool SocketAddress::setNativeAddress(const void *native_addr)$/;"	f	class:brickred::SocketAddress
+setNewConnectionCallback	tcp_service.cc	/^void TcpService::Impl::setNewConnectionCallback($/;"	f	class:brickred::TcpService::Impl
+setNewConnectionCallback	tcp_service.cc	/^void TcpService::setNewConnectionCallback($/;"	f	class:brickred::TcpService
+setNonblock	io_device.cc	/^bool IODevice::setNonblock()$/;"	f	class:brickred::IODevice
+setNonblock	self_pipe.cc	/^bool SelfPipe::setNonblock()$/;"	f	class:brickred::SelfPipe
+setNow	timestamp.cc	/^void Timestamp::setNow()$/;"	f	class:brickred::Timestamp
+setPeerCloseCallback	tcp_service.cc	/^void TcpService::Impl::setPeerCloseCallback($/;"	f	class:brickred::TcpService::Impl
+setPeerCloseCallback	tcp_service.cc	/^void TcpService::setPeerCloseCallback($/;"	f	class:brickred::TcpService
+setPort	socket_address.cc	/^void SocketAddress::Impl::setPort(uint16_t port)$/;"	f	class:brickred::SocketAddress::Impl
+setPort	socket_address.cc	/^void SocketAddress::setPort(uint16_t port)$/;"	f	class:brickred::SocketAddress
+setReadCallback	io_device.cc	/^void IODevice::setReadCallback(const ReadCallback &read_cb)$/;"	f	class:brickred::IODevice
+setReasonPhrase	protocol/http_response.cc	/^void HttpResponse::setReasonPhrase(const std::string &reason_phrase)$/;"	f	class:brickred::protocol::HttpResponse
+setRecvBufferExpandSize	tcp_service.cc	/^void TcpService::Impl::setRecvBufferExpandSize(size_t size)$/;"	f	class:brickred::TcpService::Impl
+setRecvBufferExpandSize	tcp_service.cc	/^void TcpService::setRecvBufferExpandSize(size_t size)$/;"	f	class:brickred::TcpService
+setRecvBufferInitSize	tcp_service.cc	/^void TcpService::Impl::setRecvBufferInitSize(size_t size)$/;"	f	class:brickred::TcpService::Impl
+setRecvBufferInitSize	tcp_service.cc	/^void TcpService::setRecvBufferInitSize(size_t size)$/;"	f	class:brickred::TcpService
+setRecvBufferMaxSize	tcp_service.cc	/^void TcpService::Impl::setRecvBufferMaxSize(size_t size)$/;"	f	class:brickred::TcpService::Impl
+setRecvBufferMaxSize	tcp_service.cc	/^void TcpService::setRecvBufferMaxSize(size_t size)$/;"	f	class:brickred::TcpService
+setRecvMessageCallback	message_queue.h	/^    void setRecvMessageCallback(const RecvMessageCallback &recv_message_cb)$/;"	f	class:brickred::MessageQueue
+setRecvMessageCallback	tcp_service.cc	/^void TcpService::Impl::setRecvMessageCallback($/;"	f	class:brickred::TcpService::Impl
+setRecvMessageCallback	tcp_service.cc	/^void TcpService::setRecvMessageCallback($/;"	f	class:brickred::TcpService
+setRequestUri	protocol/http_request.cc	/^void HttpRequest::setRequestUri(const std::string &request_uri)$/;"	f	class:brickred::protocol::HttpRequest
+setReuseAddr	tcp_socket.cc	/^bool TcpSocket::setReuseAddr()$/;"	f	class:brickred::TcpSocket
+setSendBufferExpandSize	tcp_service.cc	/^void TcpService::Impl::setSendBufferExpandSize(size_t size)$/;"	f	class:brickred::TcpService::Impl
+setSendBufferExpandSize	tcp_service.cc	/^void TcpService::setSendBufferExpandSize(size_t size)$/;"	f	class:brickred::TcpService
+setSendBufferInitSize	tcp_service.cc	/^void TcpService::Impl::setSendBufferInitSize(size_t size)$/;"	f	class:brickred::TcpService::Impl
+setSendBufferInitSize	tcp_service.cc	/^void TcpService::setSendBufferInitSize(size_t size)$/;"	f	class:brickred::TcpService
+setSendCompleteCallback	tcp_service.cc	/^    void setSendCompleteCallback($/;"	f	class:brickred::TcpConnection
+setStatus	tcp_service.cc	/^    void setStatus(Status::type status) { status_ = status; }$/;"	f	class:brickred::TcpConnection
+setStatusCode	protocol/http_response.cc	/^void HttpResponse::setStatusCode(int status_code)$/;"	f	class:brickred::protocol::HttpResponse
+setTcpNoDelay	tcp_socket.cc	/^bool TcpSocket::setTcpNoDelay()$/;"	f	class:brickred::TcpSocket
+setVersion	protocol/http_message.cc	/^void HttpMessage::setVersion(Version::type version)$/;"	f	class:brickred::protocol::HttpMessage
+setWriteCallback	io_device.cc	/^void IODevice::setWriteCallback(const WriteCallback &write_cb)$/;"	f	class:brickred::IODevice
+sha1	codec/sha1.cc	/^std::string sha1(const char *buffer, size_t size)$/;"	f	namespace:brickred::codec
+sha1	codec/sha1.cc	/^std::string sha1(const std::string &str)$/;"	f	namespace:brickred::codec
+sha1Binary	codec/sha1.cc	/^std::string sha1Binary(const char *buffer, size_t size)$/;"	f	namespace:brickred::codec
+sha1Binary	codec/sha1.cc	/^std::string sha1Binary(const std::string &str)$/;"	f	namespace:brickred::codec
+sha1Processblock	codec/sha1.cc	/^static void sha1Processblock(uint32_t *hash, const uint8_t *work_block)$/;"	f	namespace:brickred::codec
+sink_level_filters_	log_core.cc	/^    LogLevelVector sink_level_filters_;$/;"	m	class:brickred::Logger	file:
+sinks_	log_core.cc	/^    LogSinkVector sinks_;$/;"	m	class:brickred::Logger	file:
+size	concurrent_queue.h	/^    size_t size()$/;"	f	class:brickred::ConcurrentQueue
+socket_	tcp_service.cc	/^    TcpSocket *socket_;$/;"	m	class:brickred::TcpConnection	file:
+socket_id_	protocol/web_socket_protocol.cc	/^    TcpService::SocketId socket_id_;$/;"	m	class:brickred::protocol::WebSocketProtocol::Impl	file:
+socket_id_allocator_	tcp_service.cc	/^    SocketIdAllocator socket_id_allocator_;$/;"	m	class:brickred::TcpService::Impl	file:
+sockets_	tcp_service.cc	/^    TcpSocketMap sockets_;$/;"	m	class:brickred::TcpService::Impl	file:
+split	string_util.cc	/^void split(const char *str, const char *sep,$/;"	f	namespace:brickred::string_util
+split	string_util.cc	/^void split(const char *str, size_t str_len, const char *sep,$/;"	f	namespace:brickred::string_util
+start	thread.cc	/^void Thread::Impl::start(ThreadFunc thread_func)$/;"	f	class:brickred::Thread::Impl
+start	thread.cc	/^void Thread::start(ThreadFunc thread_func)$/;"	f	class:brickred::Thread
+startAsClient	protocol/web_socket_protocol.cc	/^bool WebSocketProtocol::Impl::startAsClient($/;"	f	class:brickred::protocol::WebSocketProtocol::Impl
+startAsClient	protocol/web_socket_protocol.cc	/^bool WebSocketProtocol::startAsClient($/;"	f	class:brickred::protocol::WebSocketProtocol
+startAsServer	protocol/web_socket_protocol.cc	/^bool WebSocketProtocol::Impl::startAsServer($/;"	f	class:brickred::protocol::WebSocketProtocol::Impl
+startAsServer	protocol/web_socket_protocol.cc	/^bool WebSocketProtocol::startAsServer($/;"	f	class:brickred::protocol::WebSocketProtocol
+startTimer	io_service.cc	/^IOService::Impl::TimerId IOService::Impl::startTimer(int timeout_ms,$/;"	f	class:brickred::IOService::Impl
+startTimer	io_service.cc	/^IOService::TimerId IOService::startTimer(int timeout_ms,$/;"	f	class:brickred::IOService
+started_	thread.cc	/^    bool started_;$/;"	m	class:brickred::Thread::Impl	file:
+status_	protocol/http_protocol.cc	/^    Status::type status_;$/;"	m	class:brickred::protocol::HttpProtocol::Impl	file:
+status_	protocol/web_socket_protocol.cc	/^    Status::type status_;$/;"	m	class:brickred::protocol::WebSocketProtocol::Impl	file:
+status_	tcp_service.cc	/^    Status::type status_;$/;"	m	class:brickred::TcpConnection	file:
+status_code_	protocol/http_response.h	/^    int status_code_;$/;"	m	class:brickred::protocol::HttpResponse
+stopTimer	io_service.cc	/^void IOService::Impl::stopTimer(TimerId timer_id)$/;"	f	class:brickred::IOService::Impl
+stopTimer	io_service.cc	/^void IOService::stopTimer(TimerId timer_id)$/;"	f	class:brickred::IOService
+stricmp	string_util.cc	/^bool stricmp(const std::string &lhs, const std::string &rhs)$/;"	f	namespace:brickred::string_util
+string_util	string_util.cc	/^namespace string_util {$/;"	n	namespace:brickred	file:
+string_util	string_util.h	/^namespace string_util {$/;"	n	namespace:brickred
+swap	dynamic_buffer.cc	/^void DynamicBuffer::swap(DynamicBuffer &other)$/;"	f	class:brickred::DynamicBuffer
+swap	protocol/http_message.cc	/^void HttpMessage::swap(HttpMessage &other)$/;"	f	class:brickred::protocol::HttpMessage
+swap	protocol/http_request.cc	/^void HttpRequest::swap(HttpRequest &other)$/;"	f	class:brickred::protocol::HttpRequest
+swap	protocol/http_response.cc	/^void HttpResponse::swap(HttpResponse &other)$/;"	f	class:brickred::protocol::HttpResponse
+swap	unique_ptr.h	/^    void swap(UniquePtr &b)$/;"	f	class:brickred::UniquePtr
+swap	unique_ptr.h	/^inline void swap(UniquePtr<T> &a, UniquePtr<T> &b)$/;"	f	namespace:brickred
+tcp_service_	protocol/web_socket_protocol.cc	/^    TcpService *tcp_service_;$/;"	m	class:brickred::protocol::WebSocketProtocol::Impl	file:
+thiz_	tcp_service.cc	/^    TcpService *thiz_;$/;"	m	class:brickred::TcpService::Impl	file:
+threadProxy	thread.cc	/^void *Thread::Impl::threadProxy(void *arg)$/;"	f	class:brickred::Thread::Impl
+thread_	thread.h	/^    Thread &thread_;$/;"	m	class:brickred::ThreadGuard
+thread_func_	thread.cc	/^    ThreadFunc thread_func_;$/;"	m	class:brickred::Thread::Impl	file:
+thread_handle_	thread.cc	/^    pthread_t thread_handle_;$/;"	m	class:brickred::Thread::Impl	file:
+timeout_	timer_heap.cc	/^    int timeout_;$/;"	m	class:brickred::Timer	file:
+timer_cb_	timer_heap.cc	/^    TimerCallback timer_cb_;$/;"	m	class:brickred::Timer	file:
+timer_heap_	io_service.cc	/^    TimerHeap timer_heap_;$/;"	m	class:brickred::IOService::Impl	file:
+timer_id_allocator_	timer_heap.cc	/^    TimerIdAllocator timer_id_allocator_;$/;"	m	class:brickred::TimerHeap::Impl	file:
+timer_min_heap_	timer_heap.cc	/^    TimerVector timer_min_heap_;$/;"	m	class:brickred::TimerHeap::Impl	file:
+timers_	timer_heap.cc	/^    TimerMap timers_;$/;"	m	class:brickred::TimerHeap::Impl	file:
+timestamp_	timer_heap.cc	/^    Timestamp timestamp_;$/;"	m	class:brickred::Timer	file:
+toLower	string_util.cc	/^std::string toLower(const std::string &str)$/;"	f	namespace:brickred::string_util
+toString	string_util.cc	/^std::string toString(int i)$/;"	f	namespace:brickred::string_util
+toString	string_util.cc	/^std::string toString(long l)$/;"	f	namespace:brickred::string_util
+toString	string_util.cc	/^std::string toString(long long ll)$/;"	f	namespace:brickred::string_util
+toString	string_util.cc	/^std::string toString(unsigned long long ull)$/;"	f	namespace:brickred::string_util
+toString	string_util.cc	/^std::string toString(unsigned long ul)$/;"	f	namespace:brickred::string_util
+toString	string_util.cc	/^std::string toString(unsigned ui)$/;"	f	namespace:brickred::string_util
+toUpper	string_util.cc	/^std::string toUpper(const std::string &str)$/;"	f	namespace:brickred::string_util
+translateToNativeAddress	socket_address.cc	/^void SocketAddress::Impl::translateToNativeAddress() const$/;"	f	class:brickred::SocketAddress::Impl
+translated_	socket_address.cc	/^    mutable bool translated_;$/;"	m	class:brickred::SocketAddress::Impl	file:
+trim	string_util.cc	/^std::string trim(const std::string &str, const char *ws)$/;"	f	namespace:brickred::string_util
+type	base_logger.h	/^        enum type {$/;"	g	struct:brickred::BaseLogger::LogLevel
+type	command_line_option.h	/^        enum type {$/;"	g	struct:brickred::CommandLineOption::ParameterType
+type	protocol/http_message.h	/^        enum type {$/;"	g	struct:brickred::protocol::HttpMessage::MessageType
+type	protocol/http_message.h	/^        enum type {$/;"	g	struct:brickred::protocol::HttpMessage::Version
+type	protocol/http_protocol.h	/^        enum type {$/;"	g	struct:brickred::protocol::HttpProtocol::RetCode
+type	protocol/http_protocol.h	/^        enum type {$/;"	g	struct:brickred::protocol::HttpProtocol::Status
+type	protocol/http_request.h	/^        enum type {$/;"	g	struct:brickred::protocol::HttpRequest::Method
+type	protocol/web_socket_protocol.h	/^        enum type {$/;"	g	struct:brickred::protocol::WebSocketProtocol::RetCode
+type	protocol/web_socket_protocol.h	/^        enum type {$/;"	g	struct:brickred::protocol::WebSocketProtocol::Status
+type	socket_address.h	/^        enum type {$/;"	g	struct:brickred::SocketAddress::Protocol
+type	tcp_service.cc	/^        enum type {$/;"	g	struct:brickred::TcpConnection::Status	file:
+unlock	mutex.cc	/^void Mutex::Impl::unlock()$/;"	f	class:brickred::Mutex::Impl
+unlock	mutex.cc	/^void Mutex::unlock()$/;"	f	class:brickred::Mutex
+update	codec/sha1.cc	/^void Sha1::update(const char *buffer, size_t size)$/;"	f	class:brickred::codec::Sha1
+updateIODevice	io_service.cc	/^bool IOService::Impl::updateIODevice(IODevice *io_device)$/;"	f	class:brickred::IOService::Impl
+updateIODevice	io_service.cc	/^bool IOService::updateIODevice(IODevice *io_device)$/;"	f	class:brickred::IOService
+value_	tcp_service.cc	/^    int32_t value_;$/;"	m	class:brickred::SocketIdAllocator	file:
+value_	timer_heap.cc	/^    int64_t value_;$/;"	m	class:brickred::TimerIdAllocator	file:
+version_	protocol/http_message.h	/^    Version::type version_;$/;"	m	class:brickred::protocol::HttpMessage
+wait	condition_variable.cc	/^void ConditionVariable::Impl::wait(Mutex &m)$/;"	f	class:brickred::ConditionVariable::Impl
+wait	condition_variable.cc	/^void ConditionVariable::wait(Mutex &m)$/;"	f	class:brickred::ConditionVariable
+work_block_	codec/sha1.h	/^    uint8_t work_block_[64];$/;"	m	class:brickred::codec::Sha1
+wrapper	function.h	/^    static R wrapper(const void *)$/;"	f	class:brickred::FreeFunctionFactory0
+wrapper	function.h	/^    static R wrapper(const void *, P1 a1)$/;"	f	class:brickred::FreeFunctionFactory1
+wrapper	function.h	/^    static R wrapper(const void *, P1 a1, P2 a2)$/;"	f	class:brickred::FreeFunctionFactory2
+wrapper	function.h	/^    static R wrapper(const void *, P1 a1, P2 a2, P3 a3)$/;"	f	class:brickred::FreeFunctionFactory3
+wrapper	function.h	/^    static R wrapper(const void *, P1 a1, P2 a2, P3 a3, P4 a4)$/;"	f	class:brickred::FreeFunctionFactory4
+wrapper	function.h	/^    static R wrapper(const void *, P1 a1, P2 a2, P3 a3, P4 a4, P5 a5)$/;"	f	class:brickred::FreeFunctionFactory5
+wrapper	function.h	/^    static R wrapper(const void *, P1 a1, P2 a2, P3 a3, P4 a4, P5 a5, P6 a6)$/;"	f	class:brickred::FreeFunctionFactory6
+wrapper	function.h	/^    static R wrapper(const void *, P1 a1, P2 a2, P3 a3, P4 a4, P5 a5, P6 a6, P7 a7)$/;"	f	class:brickred::FreeFunctionFactory7
+wrapper	function.h	/^    static R wrapper(const void *, P1 a1, P2 a2, P3 a3, P4 a4, P5 a5, P6 a6, P7 a7, P8 a8)$/;"	f	class:brickred::FreeFunctionFactory8
+wrapper	function.h	/^    static R wrapper(const void *, P1 a1, P2 a2, P3 a3, P4 a4, P5 a5, P6 a6, P7 a7, P8 a8, P9 a9)$/;"	f	class:brickred::FreeFunctionFactory9
+wrapper	function.h	/^    static R wrapper(const void *o)$/;"	f	class:brickred::ConstMemberFunctionFactory0
+wrapper	function.h	/^    static R wrapper(const void *o)$/;"	f	class:brickred::MemberFunctionFactory0
+wrapper	function.h	/^    static R wrapper(const void *o, P1 a1)$/;"	f	class:brickred::ConstMemberFunctionFactory1
+wrapper	function.h	/^    static R wrapper(const void *o, P1 a1)$/;"	f	class:brickred::MemberFunctionFactory1
+wrapper	function.h	/^    static R wrapper(const void *o, P1 a1, P2 a2)$/;"	f	class:brickred::ConstMemberFunctionFactory2
+wrapper	function.h	/^    static R wrapper(const void *o, P1 a1, P2 a2)$/;"	f	class:brickred::MemberFunctionFactory2
+wrapper	function.h	/^    static R wrapper(const void *o, P1 a1, P2 a2, P3 a3)$/;"	f	class:brickred::ConstMemberFunctionFactory3
+wrapper	function.h	/^    static R wrapper(const void *o, P1 a1, P2 a2, P3 a3)$/;"	f	class:brickred::MemberFunctionFactory3
+wrapper	function.h	/^    static R wrapper(const void *o, P1 a1, P2 a2, P3 a3, P4 a4)$/;"	f	class:brickred::ConstMemberFunctionFactory4
+wrapper	function.h	/^    static R wrapper(const void *o, P1 a1, P2 a2, P3 a3, P4 a4)$/;"	f	class:brickred::MemberFunctionFactory4
+wrapper	function.h	/^    static R wrapper(const void *o, P1 a1, P2 a2, P3 a3, P4 a4, P5 a5)$/;"	f	class:brickred::ConstMemberFunctionFactory5
+wrapper	function.h	/^    static R wrapper(const void *o, P1 a1, P2 a2, P3 a3, P4 a4, P5 a5)$/;"	f	class:brickred::MemberFunctionFactory5
+wrapper	function.h	/^    static R wrapper(const void *o, P1 a1, P2 a2, P3 a3, P4 a4, P5 a5, P6 a6)$/;"	f	class:brickred::ConstMemberFunctionFactory6
+wrapper	function.h	/^    static R wrapper(const void *o, P1 a1, P2 a2, P3 a3, P4 a4, P5 a5, P6 a6)$/;"	f	class:brickred::MemberFunctionFactory6
+wrapper	function.h	/^    static R wrapper(const void *o, P1 a1, P2 a2, P3 a3, P4 a4, P5 a5, P6 a6, P7 a7)$/;"	f	class:brickred::ConstMemberFunctionFactory7
+wrapper	function.h	/^    static R wrapper(const void *o, P1 a1, P2 a2, P3 a3, P4 a4, P5 a5, P6 a6, P7 a7)$/;"	f	class:brickred::MemberFunctionFactory7
+wrapper	function.h	/^    static R wrapper(const void *o, P1 a1, P2 a2, P3 a3, P4 a4, P5 a5, P6 a6, P7 a7, P8 a8)$/;"	f	class:brickred::ConstMemberFunctionFactory8
+wrapper	function.h	/^    static R wrapper(const void *o, P1 a1, P2 a2, P3 a3, P4 a4, P5 a5, P6 a6, P7 a7, P8 a8)$/;"	f	class:brickred::MemberFunctionFactory8
+wrapper	function.h	/^    static R wrapper(const void *o, P1 a1, P2 a2, P3 a3, P4 a4, P5 a5, P6 a6, P7 a7, P8 a8, P9 a9)$/;"	f	class:brickred::ConstMemberFunctionFactory9
+wrapper	function.h	/^    static R wrapper(const void *o, P1 a1, P2 a2, P3 a3, P4 a4, P5 a5, P6 a6, P7 a7, P8 a8, P9 a9)$/;"	f	class:brickred::MemberFunctionFactory9
+writableBytes	dynamic_buffer.cc	/^size_t DynamicBuffer::writableBytes() const$/;"	f	class:brickred::DynamicBuffer
+write	dynamic_buffer.cc	/^void DynamicBuffer::write(size_t size)$/;"	f	class:brickred::DynamicBuffer
+write	io_device.cc	/^int IODevice::write(const char *buffer, size_t size)$/;"	f	class:brickred::IODevice
+write	self_pipe.cc	/^int SelfPipe::write(const char *buffer, size_t size)$/;"	f	class:brickred::SelfPipe
+writeBegin	dynamic_buffer.cc	/^char *DynamicBuffer::writeBegin()$/;"	f	class:brickred::DynamicBuffer
+writeMessage	protocol/http_protocol.cc	/^void HttpProtocol::writeMessage(const HttpMessage &message,$/;"	f	class:brickred::protocol::HttpProtocol
+write_buffer_	tcp_service.cc	/^    DynamicBuffer write_buffer_;$/;"	m	class:brickred::TcpConnection	file:
+write_cb_	io_device.h	/^    WriteCallback write_cb_;$/;"	m	class:brickred::IODevice
+write_index_	dynamic_buffer.h	/^    size_t write_index_;$/;"	m	class:brickred::DynamicBuffer
+~BaseLogger	base_logger.cc	/^BaseLogger::~BaseLogger()$/;"	f	class:brickred::BaseLogger
+~CommandLineOption	command_line_option.cc	/^CommandLineOption::~CommandLineOption()$/;"	f	class:brickred::CommandLineOption
+~ConcurrentQueue	concurrent_queue.h	/^    ~ConcurrentQueue() {}$/;"	f	class:brickred::ConcurrentQueue
+~ConditionVariable	condition_variable.cc	/^ConditionVariable::~ConditionVariable()$/;"	f	class:brickred::ConditionVariable
+~Context	tcp_service.cc	/^TcpService::Context::~Context()$/;"	f	class:brickred::TcpService::Context
+~DynamicBuffer	dynamic_buffer.cc	/^DynamicBuffer::~DynamicBuffer()$/;"	f	class:brickred::DynamicBuffer
+~HttpMessage	protocol/http_message.cc	/^HttpMessage::~HttpMessage()$/;"	f	class:brickred::protocol::HttpMessage
+~HttpProtocol	protocol/http_protocol.cc	/^HttpProtocol::~HttpProtocol()$/;"	f	class:brickred::protocol::HttpProtocol
+~HttpRequest	protocol/http_request.cc	/^HttpRequest::~HttpRequest()$/;"	f	class:brickred::protocol::HttpRequest
+~HttpResponse	protocol/http_response.cc	/^HttpResponse::~HttpResponse()$/;"	f	class:brickred::protocol::HttpResponse
+~IODevice	io_device.cc	/^IODevice::~IODevice()$/;"	f	class:brickred::IODevice
+~IOService	io_service.cc	/^IOService::~IOService()$/;"	f	class:brickred::IOService
+~Impl	condition_variable.cc	/^ConditionVariable::Impl::~Impl()$/;"	f	class:brickred::ConditionVariable::Impl
+~Impl	io_service.cc	/^IOService::Impl::~Impl()$/;"	f	class:brickred::IOService::Impl
+~Impl	log_async_sink.cc	/^LogAsyncSink::Impl::~Impl()$/;"	f	class:brickred::LogAsyncSink::Impl
+~Impl	log_core.cc	/^LogCore::Impl::~Impl()$/;"	f	class:brickred::LogCore::Impl
+~Impl	log_file_sink.cc	/^LogFileSink::Impl::~Impl()$/;"	f	class:brickred::LogFileSink::Impl
+~Impl	mutex.cc	/^Mutex::Impl::~Impl()$/;"	f	class:brickred::Mutex::Impl
+~Impl	protocol/http_protocol.cc	/^HttpProtocol::Impl::~Impl()$/;"	f	class:brickred::protocol::HttpProtocol::Impl
+~Impl	protocol/web_socket_protocol.cc	/^WebSocketProtocol::Impl::~Impl()$/;"	f	class:brickred::protocol::WebSocketProtocol::Impl
+~Impl	random.cc	/^Random::Impl::~Impl()$/;"	f	class:brickred::Random::Impl
+~Impl	socket_address.cc	/^SocketAddress::Impl::~Impl()$/;"	f	class:brickred::SocketAddress::Impl
+~Impl	tcp_service.cc	/^TcpService::Impl::~Impl()$/;"	f	class:brickred::TcpService::Impl
+~Impl	thread.cc	/^Thread::Impl::~Impl()$/;"	f	class:brickred::Thread::Impl
+~Impl	timer_heap.cc	/^TimerHeap::Impl::~Impl()$/;"	f	class:brickred::TimerHeap::Impl
+~LockGuard	mutex.h	/^    ~LockGuard() { mutex_.unlock(); }$/;"	f	class:brickred::LockGuard
+~LogAsyncSink	log_async_sink.cc	/^LogAsyncSink::~LogAsyncSink()$/;"	f	class:brickred::LogAsyncSink
+~LogCore	log_core.cc	/^LogCore::~LogCore()$/;"	f	class:brickred::LogCore
+~LogFileSink	log_file_sink.cc	/^LogFileSink::~LogFileSink()$/;"	f	class:brickred::LogFileSink
+~LogSink	log_sink.h	/^    virtual ~LogSink() {}$/;"	f	class:brickred::LogSink
+~LogStderrSink	log_stderr_sink.cc	/^LogStderrSink::~LogStderrSink()$/;"	f	class:brickred::LogStderrSink
+~Logger	log_core.cc	/^Logger::~Logger()$/;"	f	class:brickred::Logger
+~MessageQueue	message_queue.h	/^    ~MessageQueue()$/;"	f	class:brickred::MessageQueue
+~Mutex	mutex.cc	/^Mutex::~Mutex()$/;"	f	class:brickred::Mutex
+~ObjectPool	object_pool.h	/^    ~ObjectPool()$/;"	f	class:brickred::ObjectPool
+~Random	random.cc	/^Random::~Random()$/;"	f	class:brickred::Random
+~SelfPipe	self_pipe.cc	/^SelfPipe::~SelfPipe()$/;"	f	class:brickred::SelfPipe
+~Sha1	codec/sha1.cc	/^Sha1::~Sha1()$/;"	f	class:brickred::codec::Sha1
+~SocketAddress	socket_address.cc	/^SocketAddress::~SocketAddress()$/;"	f	class:brickred::SocketAddress
+~SocketIdAllocator	tcp_service.cc	/^    ~SocketIdAllocator() {}$/;"	f	class:brickred::SocketIdAllocator
+~TcpConnection	tcp_service.cc	/^    ~TcpConnection() {}$/;"	f	class:brickred::TcpConnection
+~TcpService	tcp_service.cc	/^TcpService::~TcpService()$/;"	f	class:brickred::TcpService
+~TcpSocket	tcp_socket.cc	/^TcpSocket::~TcpSocket()$/;"	f	class:brickred::TcpSocket
+~Thread	thread.cc	/^Thread::~Thread()$/;"	f	class:brickred::Thread
+~ThreadGuard	thread.h	/^    ~ThreadGuard()$/;"	f	class:brickred::ThreadGuard
+~Timer	timer_heap.cc	/^    ~Timer() {}$/;"	f	class:brickred::Timer
+~TimerHeap	timer_heap.cc	/^TimerHeap::~TimerHeap()$/;"	f	class:brickred::TimerHeap
+~TimerIdAllocator	timer_heap.cc	/^    ~TimerIdAllocator() {}$/;"	f	class:brickred::TimerIdAllocator
+~Timestamp	timestamp.cc	/^Timestamp::~Timestamp()$/;"	f	class:brickred::Timestamp
+~UniquePtr	unique_ptr.h	/^    ~UniquePtr() { delete px_; }$/;"	f	class:brickred::UniquePtr
+~WebSocketProtocol	protocol/web_socket_protocol.cc	/^WebSocketProtocol::~WebSocketProtocol()$/;"	f	class:brickred::protocol::WebSocketProtocol

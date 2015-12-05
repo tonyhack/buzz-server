@@ -1,0 +1,17 @@
+include "server_type.thrift"
+include "database_storage.thrift"
+
+namespace cpp database.protocol
+
+struct TerminalKey {
+  1 : required server_type.ServerType type_;
+  2 : required i32 id_;
+}
+
+struct AsyncRequestMessage {
+  1 : required database_storage.StorageType type_;
+  2 : required binary message_;
+  3 : required i64 channel_;
+  4 : required TerminalKey terminal_key_;
+}
+

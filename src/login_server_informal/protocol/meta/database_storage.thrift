@@ -1,0 +1,14 @@
+namespace cpp login.protocol
+
+enum StorageType {
+  STORAGE_START = 0,
+
+  STORAGE_CREATE_ACTOR = 0,
+  STORAGE_GAME_ACTOR_CREATE,
+  STORAGE_ACTOR_LOGIN,
+  STORATE_CHECK_ACTOR_EXIST,
+
+  STORAGE_MAX,
+}
+
+

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<action>
+    <rand_sleep min_ms="1000" max_ms="5000"/>
+    <gm command="add_hp 1000"/>
+    <while><cond><true/></cond>
+        <!-- 攻击20次21001 -->
+        <set_var name="i" value="0"/>
+        <while><cond><check_var name="i" op="<" value="20"/></cond>
+            <if><cond><check_var name="_actor_current_hp_" op="<=" value="0"/></cond>
+            <then>
+                <sleep ms="20000"/>
+                <break/>
+            </then>
+            </if>
+            <if><not_cond><in_area x="7" y="56" width="30" height="20"/></not_cond>
+            <then>
+                <rand_move_in_area x="7" y="56" width="30" height="20"/>
+            </then>
+            </if>
+            <gm command="add_hp 1000"/>
+            <attack_monster id="21001"/>
+            <modify_var name="i" op="+" value="1"/>
+            <rand_sleep min_ms="100" max_ms="1000"/>
+        </while>
+        <!-- 攻击20次21002 -->
+        <set_var name="i" value="0"/>
+        <while><cond><check_var name="i" op="<" value="20"/></cond>
+            <if><cond><check_var name="_actor_current_hp_" op="<=" value="0"/></cond>
+            <then>
+                <sleep ms="20000"/>
+                <break/>
+            </then>
+            </if>
+            <if><not_cond><in_area x="110" y="63" width="30" height="20"/></not_cond>
+            <then>
+                <rand_move_in_area x="110" y="63" width="30" height="20"/>
+            </then>
+            </if>
+            <gm command="add_hp 1000"/>
+            <attack_monster id="21002"/>
+            <modify_var name="i" op="+" value="1"/>
+            <rand_sleep min_ms="100" max_ms="1000"/>
+        </while>
+        <!-- 攻击20次21003 -->
+        <set_var name="i" value="0"/>
+        <while><cond><check_var name="i" op="<" value="20"/></cond>
+            <if><cond><check_var name="_actor_current_hp_" op="<=" value="0"/></cond>
+            <then>
+                <sleep ms="20000"/>
+                <break/>
+            </then>
+            </if>
+            <if><not_cond><in_area x="108" y="19" width="50" height="15"/></not_cond>
+            <then>
+                <rand_move_in_area x="108" y="19" width="50" height="15"/>
+            </then>
+            </if>
+            <gm command="add_hp 1000"/>
+            <attack_monster id="21003"/>
+            <modify_var name="i" op="+" value="1"/>
+            <rand_sleep min_ms="100" max_ms="1000"/>
+        </while>
+    </while>
+</action>
+

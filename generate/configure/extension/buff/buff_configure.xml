@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configure>
+
+  <buff file="extension/buff/buff.xml"/>
+  <buff_pool initial="1000" extend="50"/>
+  <buff_condition file="extension/buff/buff_condition.xml"/>
+  <buff_condition_pool initial="2000" extend="50"/>
+
+</configure>
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="level spend_gold lv1 lv2 lv3 banner">
+ <cell banner="0" level="0" lv1="0" lv2="0" lv3="0" spend_gold="0"/>
+ <cell banner="1" level="1" lv1="1" lv2="0" lv3="0" spend_gold="10"/>
+ <cell banner="1" level="2" lv1="2" lv2="0" lv3="0" spend_gold="100"/>
+ <cell banner="2" level="3" lv1="2" lv2="1" lv3="0" spend_gold="1000"/>
+ <cell banner="2" level="4" lv1="2" lv2="2" lv3="0" spend_gold="10000"/>
+ <cell banner="2" level="5" lv1="2" lv2="3" lv3="0" spend_gold="20000"/>
+ <cell banner="3" level="6" lv1="2" lv2="3" lv3="1" spend_gold="50000"/>
+</data>

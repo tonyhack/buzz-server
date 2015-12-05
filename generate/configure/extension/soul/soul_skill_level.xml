@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="level spend_nimbus spend_gold">
+ <cell level="1" spend_gold="500" spend_nimbus="200"/>
+ <cell level="2" spend_gold="625" spend_nimbus="250"/>
+ <cell level="3" spend_gold="750" spend_nimbus="300"/>
+ <cell level="4" spend_gold="875" spend_nimbus="350"/>
+ <cell level="5" spend_gold="1000" spend_nimbus="400"/>
+ <cell level="6" spend_gold="1125" spend_nimbus="450"/>
+ <cell level="7" spend_gold="1250" spend_nimbus="500"/>
+ <cell level="8" spend_gold="1375" spend_nimbus="550"/>
+ <cell level="9" spend_gold="1500" spend_nimbus="600"/>
+ <cell level="10" spend_gold="1625" spend_nimbus="650"/>
+ <cell level="11" spend_gold="1750" spend_nimbus="700"/>
+ <cell level="12" spend_gold="2000" spend_nimbus="800"/>
+ <cell level="13" spend_gold="2250" spend_nimbus="900"/>
+ <cell level="14" spend_gold="2500" spend_nimbus="1000"/>
+ <cell level="15" spend_gold="2750" spend_nimbus="1100"/>
+ <cell level="16" spend_gold="3000" spend_nimbus="1200"/>
+ <cell level="17" spend_gold="3250" spend_nimbus="1300"/>
+ <cell level="18" spend_gold="3500" spend_nimbus="1400"/>
+ <cell level="19" spend_gold="3750" spend_nimbus="1500"/>
+ <cell level="20" spend_gold="4000" spend_nimbus="1600"/>
+ <cell level="21" spend_gold="4250" spend_nimbus="1700"/>
+ <cell level="22" spend_gold="4625" spend_nimbus="1850"/>
+ <cell level="23" spend_gold="5000" spend_nimbus="2000"/>
+ <cell level="24" spend_gold="5375" spend_nimbus="2150"/>
+ <cell level="25" spend_gold="5750" spend_nimbus="2300"/>
+ <cell level="26" spend_gold="6125" spend_nimbus="2450"/>
+ <cell level="27" spend_gold="6500" spend_nimbus="2600"/>
+ <cell level="28" spend_gold="6875" spend_nimbus="2750"/>
+ <cell level="29" spend_gold="7250" spend_nimbus="2900"/>
+ <cell level="30" spend_gold="7625" spend_nimbus="3050"/>
+ <cell level="31" spend_gold="8000" spend_nimbus="3200"/>
+ <cell level="32" spend_gold="8500" spend_nimbus="3400"/>
+ <cell level="33" spend_gold="9000" spend_nimbus="3600"/>
+ <cell level="34" spend_gold="9500" spend_nimbus="3800"/>
+ <cell level="35" spend_gold="10000" spend_nimbus="4000"/>
+ <cell level="36" spend_gold="10500" spend_nimbus="4200"/>
+ <cell level="37" spend_gold="11000" spend_nimbus="4400"/>
+ <cell level="38" spend_gold="11500" spend_nimbus="4600"/>
+ <cell level="39" spend_gold="12000" spend_nimbus="4800"/>
+ <cell level="40" spend_gold="12500" spend_nimbus="5000"/>
+</data>

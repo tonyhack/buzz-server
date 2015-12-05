@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UFT-8" ?>
+
+<data>
+  <!-- hp:血量 physique_coe:体质系数(万分之) strength_coe:力量系数(万分之) -->
+  <hp physique_coe="10000" strength_coe="3000"/>
+  <!-- mp:魔法 intelligence_coe:智力系统(万分之) -->
+  <mp intelligence_coe="125"/>
+  <!-- physical_attrack:物理攻击 strength_coe:力量系数(万分之) -->
+  <physical_attrack strength_coe="100"/>
+  <!-- magic_attrack:魔法攻击 intelligence_coe:智力系统(万分之) -->
+  <magic_attrack intelligence_coe="120"/>
+  <!-- physical_defence:物理防御 strength_coe:力量系数(万分之) physique_coe:体质系数(万分之) -->
+  <physical_defence strength_coe="100" physique_coe="110"/>
+  <!-- magic_defence:魔法防御 intelligence_coe:智力系数(万分之) physique_coe:体质系数(万分之) -->
+  <magic_defence intelligence_coe="120" physique_coe="120"/>
+  <!-- pierce:穿透 dexterity_coe:敏捷系数(万分之) -->
+  <pierce dexterity_coe="115"/>
+  <!-- dodge:闪避 dexterity_coe:敏捷系数(万分之) -->
+  <dodge dexterity_coe="116"/>
+  <!-- crit:暴击 dexterity_coe:敏捷系数(万分之) -->
+  <crit dexterity_coe="117"/>
+  <!-- move_speed:移动速度 value:速度值(单位为移动每格需要毫秒值) min:最小速度值 max:最大速度值 -->
+  <move_speed value="150" min="1000" max="100"/>
+  <!-- 玩家默认技能 axe:近身 shoot:远程 magic:法术 -->
+  <default_skill axe="100" axe_level="1" shoot="200" shoot_level="1" magic="300" magic_level="1"/>
+  <!-- rookie:新手设定 protect_level:新手保护等级 -->
+  <rookie protect_level="1"/>
+  <!-- die:死亡设定 protect_buff_id:死亡保护的buff_id pk_buff_id:PK惩罚添加的buff_id revive_item_id:死亡复活道具id -->
+  <die protect_buff_id="2" pk_buff_id="3" revive_item_id="1"/>
+  <!-- name_color:名字颜色 brown_time:褐名持续时间(秒) -->
+  <name_color brown_time="60"/> 
+  <!-- 英灵石ID -->
+  <soul_stone id="3011001"/>
+  <!-- 容器开格子配置，单个格子消耗 = gold:钻石(人民币) lockedgold:礼券(绑定的人民币) -->
+  <extend_container gold="10" lockedgold="10"/>
+  <!-- 宝石参数 -->
+  <!--   max_storage_capacity: 宝石仓库的栏位数量 -->
+  <!--   max_equip_capacity: 宝石在装备上的栏位数量 -->
+  <!--   shard_item_id: 宝石碎片道具ID -->
+  <gem max_storage_capacity="42" max_equip_capacity="6" shard_item_id="42020001"/>
+  <!-- 联系人参数 -->
+  <!--   max_friend_capacity: 最大好友数量 -->
+  <!--   max_enemy_capacity: 最大仇人数量 -->
+  <!--   max_blacklist_capacity: 最大黑名单数量 -->
+  <!--   max_signature_length: 最大签名长度 -->
+  <contacts max_friend_capacity="50" max_enemy_capacity="30" max_blacklist_capacity="20" max_signature_length="1024"/>
+</data>
+

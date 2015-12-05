@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UFT-8" ?>
+
+<configure>
+
+	<pressure host="192.168.74.129" port="8000" thread_number="2"
+			log_dir="/home/hantao/code/buzz/trunk/generate/work/"
+			core_configure="/home/hantao/code/buzz/trunk/generate/configure/test/chat/core.xml"/>
+
+	<chat chat_frequency="100000">
+	  <node content="This is a talk about pressure test of project-buzz!"/>
+	  <node content="Buddy, you're a boy make a big noise!"/>
+	  <node content="Playing in the streets gonna be a big man someday!"/>
+	  <node content="You got mud on your face!"/>
+	  <node content="You big disgrace!"/>
+	  <node content="Kicking your can all over the place!"/>
+	  <node content="We will, we will rock you!"/>
+	  <node content="Hello world, I'm project buzz, mail to tonyjobmails at gmail dot com!"/>
+	</chat>
+
+	<coresh max_protocol_size="4096" max_message_size="4090" message_queue_initial_size="40908"
+			connection_pool_initial_number="500" connection_pool_extend_number="50"
+			network_thread_number="4" compress_type="0" encode_type="0"/>
+
+</configure>
+

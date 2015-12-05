@@ -1,0 +1,7 @@
+#!/bin/bash
+#find ./ -iname \*.h -exec grep --color -wn -H "$1" \{\} \;
+#find ./ -iname \*.cc -exec grep --color -wn -H "$1" \{\} \;
+#find ./ -iname \*.cpp -exec grep --color -wn -H "$1" \{\} \;
+#find ./ -iname \*.c -exec grep --color -wn -H "$1" \{\} \;
+
+find ./ \( -name \*.cc -o -name \*.h -o -name \*.cpp -o -name \*.thrift \) -exec grep --color -wn -H "$1" \{\} \;

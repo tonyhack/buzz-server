@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UFT-8" ?>
+
+<node desc="" type1="decision" type2="selector" negation="" name="">
+  <node desc="设置回归状态"       type1="decision" type2="sequence" negation="" name="">
+    <node desc="目标是否合法"           type1="behaviour" type2="condition" negation=""     name="target_exist"/>
+    <node desc="目标距离过远"           type1="behaviour" type2="condition" negation=""     name="check_distance"           param1=">="                   param2="15"/>
+    <node desc="非回归状态"             type1="behaviour" type2="condition" negation="true" name="check_back_state"/>
+    <node desc="设置回归状态"           type1="behaviour" type2="action"    negation=""     name="set_back_state"           param1="true"/>
+    <node desc="清除目标"               type1="behaviour" type2="action"    negation=""     name="clear_target"/>
+    <node desc="回血"                   type1="behaviour" type2="action"    negation=""     name="change_attr"              param1="HP"                   param2="0"/>
+  </node>
+  <node desc="设置回归状态"       type1="decision" type2="sequence" negation="" name="">
+    <node desc="在活动范围外"           type1="behaviour" type2="condition" negation=""     name="check_activity_range"     param1=">"                    param2="20"/>
+    <node desc="非回归状态"             type1="behaviour" type2="condition" negation="true" name="check_back_state"/>
+    <node desc="设置回归状态"           type1="behaviour" type2="action"    negation=""     name="set_back_state"           param1="true"/>
+    <node desc="清除目标"               type1="behaviour" type2="action"    negation=""     name="clear_target"/>
+    <node desc="回血"                   type1="behaviour" type2="action"    negation=""     name="change_attr"              param1="HP"                   param2="0"/>
+  </node>
+  <node desc="清除回归状态"       type1="decision" type2="sequence" negation="" name="">
+    <node desc="回归状态中"             type1="behaviour" type2="condition" negation=""     name="check_back_state"/>
+    <node desc="位于出生点"             type1="behaviour" type2="condition" negation=""     name="check_birth_place"/>
+    <node desc="设置回归状态"           type1="behaviour" type2="action"    negation=""     name="set_back_state"           param1="false"/>
+  </node>
+  <node desc="回归"               type1="decision" type2="sequence" negation="" name="">
+    <node desc="回归状态中"             type1="behaviour" type2="condition" negation=""     name="check_back_state"/>
+    <node desc="位于出生点"             type1="behaviour" type2="condition" negation="true" name="check_birth_place"/>
+    <node desc="回归"                   type1="behaviour" type2="action"    negation=""     name="go_back"                  param1="4"/>
+  </node>
+  <node desc="召唤分身"           type1="decision" type2="sequence" negation="" name="">
+    <node desc="目标是否合法"           type1="behaviour" type2="condition" negation=""     name="target_exist"/>
+    <node desc="变量NPC_90002!=1"       type1="behaviour" type2="condition" negation=""     name="check_var"                param1="NPC_90002"            param2="!="               param3="1"/>
+    <node desc="自身血量小于50%"        type1="behaviour" type2="condition" negation=""     name="check_attr"               param1="HP_PERCENT"           param2="<="               param3="50"/>
+    <node desc="设置变量变量NPC_90002"  type1="behaviour" type2="action"    negation=""     name="set_var"                  param1="NPC_90002"            param2="1"/>
+    <node desc="召唤NPC90002"           type1="behaviour" type2="action"    negation=""     name="summon_npc"               param1="90002"                param2="TARGET"           param3="3"/>
+  </node>
+  <node desc="使用技能90001"      type1="decision" type2="sequence" negation="" name="">
+    <node desc="目标是否合法"           type1="behaviour" type2="condition" negation=""     name="target_exist"/>
+    <node desc="攻击间隔1秒"            type1="behaviour" type2="condition" negation=""     name="check_interval_secs"      param1="99"                   param2="1"/>
+    <node desc="技能90001间隔超过10秒"  type1="behaviour" type2="condition" negation=""     name="check_interval_secs"      param1="SKILL_90001"          param2="10"/>
+    <node desc="目标距离是否合法"       type1="behaviour" type2="condition" negation=""     name="check_attack_distance"    param1="0"/>
+    <node desc="释放技能90001"          type1="behaviour" type2="action"    negation=""     name="simple_use_skill"         param1="90001"                param2="SELF_POSITION"/>
+    <node desc="给自己加BUFF901011"     type1="behaviour" type2="action"    negation=""     name="add_buff"                 param1="901011"               param2="SELF"/>
+    <node desc="重置技能90001间隔"      type1="behaviour" type2="action"    negation=""     name="reset_interval_secs"      param1="SKILL_90001"/>
+    <node desc="重置攻击间隔"           type1="behaviour" type2="action"    negation=""     name="reset_interval_secs"      param1="ATTACK_INTERVAL"/>
+  </node>
+  <node desc="攻击"               type1="decision" type2="sequence" negation="" name="">
+    <node desc="目标是否合法"           type1="behaviour" type2="condition" negation=""     name="target_exist"/>
+    <node desc="攻击间隔1秒"            type1="behaviour" type2="condition" negation=""     name="check_interval_secs"      param1="ATTACK_INTERVAL"      param2="1"/>
+    <node desc="目标距离是否合法"       type1="behaviour" type2="condition" negation=""     name="check_attack_distance"    param1="0"/>
+    <node desc="释放技能"               type1="behaviour" type2="action"    negation=""     name="simple_use_skill"         param1="1"/>
+    <node desc="重置攻击间隔"           type1="behaviour" type2="action"    negation=""     name="reset_interval_secs"      param1="ATTACK_INTERVAL"/>
+  </node>
+  <node desc="追逐"               type1="decision" type2="sequence" negation="" name="">
+    <node desc="目标是否合法"           type1="behaviour" type2="condition" negation=""     name="target_exist"/>
+    <node desc="目标距离是否合法"       type1="behaviour" type2="condition" negation="true" name="check_attack_distance"    param1="0"/>
+    <node desc="寻路追逐"               type1="behaviour" type2="action"    negation=""     name="move_target"              param1="50"/>
+  </node>
+  <node desc="仇恨选取目标"       type1="decision" type2="sequence" negation="" name="">
+    <node desc="目标是否合法"           type1="behaviour" type2="condition" negation="true" name="target_exist"/>
+    <node desc="是否有仇恨目标"         type1="behaviour" type2="condition" negation=""     name="check_threat"/>
+    <node desc="选取目标"               type1="behaviour" type2="action"    negation=""     name="choose_target"/>
+  </node>
+  <node desc="搜敌"               type1="decision" type2="sequence" negation="" name="">
+    <node desc="目标是否合法"           type1="behaviour" type2="condition" negation="true" name="target_exist"/>
+    <node desc="随机移动"               type1="behaviour" type2="action"    negation=""     name="random_move"              param1="3000"                 param2="3000"/>
+    <node desc="搜索敌人"               type1="behaviour" type2="action"    negation=""     name="search_target"            param1="actor"/>
+    <node desc="回血"                   type1="behaviour" type2="action"    negation=""     name="change_attr"              param1="HP"                   param2="0"/>
+    <node desc="重置技能90001间隔"      type1="behaviour" type2="action"    negation=""     name="reset_interval_secs"      param1="SKILL_90001"/>
+    <node desc="重置攻击间隔"           type1="behaviour" type2="action"    negation=""     name="reset_interval_secs"      param1="ATTACK_INTERVAL"/>
+  </node>
+</node>
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="task_id npc_id summon_id dialogue_id">
+ <cell dialogue_id="s_15001_1" npc_id="10000" summon_id="5001+18+31" task_id="15001"/>
+ <cell dialogue_id="s_15002_1" npc_id="10000" summon_id="5002+18+31" task_id="15002"/>
+ <cell dialogue_id="s_16001_1" npc_id="10000" summon_id="5003+18+31" task_id="16001"/>
+ <cell dialogue_id="s_16002_1" npc_id="10000" summon_id="5004+18+31" task_id="16002"/>
+ <cell dialogue_id="s_1004_1" npc_id="10031" summon_id="24001+9+45" task_id="1004"/>
+ <cell dialogue_id="s_1007_1" npc_id="10051" summon_id="24002+22+17" task_id="1007"/>
+ <cell dialogue_id="s_1013_1" npc_id="10071" summon_id="24003+95+26" task_id="1013"/>
+ <cell dialogue_id="s_3014_1" npc_id="10102" summon_id="21101+33+56" task_id="3014"/>
+ <cell dialogue_id="s_4015_1" npc_id="10231" summon_id="21102+77+68" task_id="4015"/>
+ <cell dialogue_id="s_5003_1" npc_id="10241" summon_id="21103+22+72" task_id="5003"/>
+ <cell dialogue_id="s_5014_1" npc_id="10251" summon_id="21104+38+10" task_id="5014"/>
+ <cell dialogue_id="s_6005_1" npc_id="10261" summon_id="21105+37+55" task_id="6005"/>
+ <cell dialogue_id="s_6016_1" npc_id="10105" summon_id="21118+120+18" task_id="6016"/>
+ <cell dialogue_id="s_7016_1" npc_id="10291" summon_id="21106+125+62" task_id="7016"/>
+ <cell dialogue_id="s_7021_1" npc_id="10194" summon_id="21122+91+24" task_id="7021"/>
+ <cell dialogue_id="s_9008_1" npc_id="10163" summon_id="21131+104+62" task_id="9008"/>
+ <cell dialogue_id="s_9014_1" npc_id="10152" summon_id="21130+55+21" task_id="9014"/>
+ <cell dialogue_id="s_10008_1" npc_id="10153" summon_id="21134+100+73" task_id="10008"/>
+ <cell dialogue_id="s_10034_1" npc_id="10196" summon_id="21135+130+21" task_id="10034"/>
+ <cell dialogue_id="s_11008_1" npc_id="10164" summon_id="21137+55+46" task_id="11008"/>
+ <cell dialogue_id="s_11015_1" npc_id="10072" summon_id="21139+77+75" task_id="11015"/>
+ <cell dialogue_id="s_11034_1" npc_id="10109" summon_id="21138+135+32" task_id="11034"/>
+ <cell dialogue_id="s_12006_1" npc_id="101010" summon_id="21140+32+70" task_id="12006"/>
+ <cell dialogue_id="s_12031_1" npc_id="10262" summon_id="21142+77+25" task_id="12031"/>
+ <cell dialogue_id="s_12041_1" npc_id="10093" summon_id="21168+125+18" task_id="12041"/>
+ <cell dialogue_id="s_13009_1" npc_id="101011" summon_id="21145+45+70" task_id="13009"/>
+ <cell dialogue_id="s_13035_1" npc_id="10252" summon_id="21146+115+55" task_id="13035"/>
+ <cell dialogue_id="s_13046_1" npc_id="10144" summon_id="21170+104+30" task_id="13046"/>
+</data>

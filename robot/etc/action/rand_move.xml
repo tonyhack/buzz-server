@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<action>
+    <while><cond><true/></cond>
+        <rand_sleep min_ms="1000" max_ms="5000"/>
+        <rand_move/>
+    </while>
+</action>
+

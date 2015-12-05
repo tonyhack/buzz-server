@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="id online_time reward1 reward2 reward3 reward4 reward5 odds">
+ <cell id="1" odds="20:20:20:20:20" online_time="900" reward1="2:1:1000:0" reward2="2:1:2000:0" reward3="2:1:5000:0" reward4="2:1:10000:0" reward5="2:1:20000:0"/>
+ <cell id="2" odds="20:20:20:20:20" online_time="1800" reward1="1:113102001:1:1" reward2="1:113102002:1:1" reward3="1:113102001:1:1" reward4="1:113106001:1:1" reward5="1:113106002:1:1"/>
+ <cell id="3" odds="25:25:20:20:10" online_time="3600" reward1="2:3:5:0" reward2="2:3:10:0" reward3="2:3:15:0" reward4="2:3:20:0" reward5="2:3:50:0"/>
+ <cell id="4" odds="20:20:20:20:20" online_time="7200" reward1="1:144301001:1:1" reward2="1:144314001:1:1" reward3="1:144202001:1:1" reward4="1:144305001:1:1" reward5="1:144303001:1:1"/>
+</data>

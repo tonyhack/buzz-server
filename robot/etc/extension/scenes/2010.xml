@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UFT-8" ?>
+
+<!--
+  map: 地图配置, id: 地图ID, file: 地图障碍配置
+    revive: 复活配置, duration: 死亡后等待复活的时间, width/height: 复活范围, x/y: 左上角坐标
+    npc: npc配置, id: npc的ID, width/height: npc的活动范围, num: npc的个数, reborn: 重生时间(暂时使用npc表中的重生时间)
+        morning:早上多少分钟 daytime:白天多少分钟 evening:傍晚多少分钟 night:晚上多少分钟
+        morning_aoi daytime_aoi evening_aoi night_aoi:视野百分比
+        rookie_protect: 1为新手保护 0非新手保护
+        ban_change_pk_mode: 1禁止切换PK模式 0非禁止
+        die_protect: 1死亡保护 0死亡非保护
+        punish_for_pk: 1PK惩罚 0PK不惩罚    zazen_add:打坐额外收益 100=100%
+        revive_stay: 1可死亡原地复活 0不可以
+-->
+<map id="2010" file="extension/scenes/2010-map.xml" morning="20" daytime="40" evening="20" night="40" morning_aoi="80" daytime_aoi="100" evening_aoi="80" night_aoi="50" rookie_protect="0" ban_change_pk_mode="0" die_protect="1" punish_for_pk="0" revive_stay="1" zazen_add="0">
+
+
+  
+  <revive duration="60" camp="0" map="0" width="2" height="2" x="117" y="22"/>
+  <default x="39" y="36"/>
+</map>

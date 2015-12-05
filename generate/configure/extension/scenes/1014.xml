@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UFT-8" ?>
+
+<!--
+  map: 地图配置, id: 地图ID, file: 地图障碍配置
+    revive: 复活配置, duration: 死亡后等待复活的时间, width/height: 复活范围, x/y: 左上角坐标
+    npc: npc配置, id: npc的ID, width/height: npc的活动范围, num: npc的个数, reborn: 重生时间(暂时使用npc表中的重生时间)
+        morning:早上多少分钟 daytime:白天多少分钟 evening:傍晚多少分钟 night:晚上多少分钟
+        morning_aoi daytime_aoi evening_aoi night_aoi:视野百分比
+        rookie_protect: 1为新手保护 0非新手保护
+        ban_change_pk_mode: 1禁止切换PK模式 0非禁止
+        die_protect: 1死亡保护 0死亡非保护
+        punish_for_pk: 1PK惩罚 0PK不惩罚    zazen_add:打坐额外收益 100=100%
+        revive_stay: 1可死亡原地复活 0不可以
+-->
+<map id="1014" file="extension/scenes/1014-map.xml" morning="20" daytime="40" evening="20" night="40" morning_aoi="80" daytime_aoi="100" evening_aoi="80" night_aoi="50" rookie_protect="1" ban_change_pk_mode="0" die_protect="1" punish_for_pk="1" revive_stay="1" zazen_add="0">
+  <npc id="9027" width="0" height="0" x="8" y="75" num="1" reborn="10" dir="6"/><!--传送门去主城-->
+  <npc id="9028" width="0" height="0" x="143" y="80" num="1" reborn="10" dir="6"/><!--传送门去暗黑神殿-->
+  
+  <npc id="10198" width="0" height="0" x="19" y="73" num="1" reborn="2" dir="1"/><!--任务NPC[智慧女神雅典娜]-->										
+  <npc id="10312" width="0" height="0" x="78" y="54" num="1" reborn="2" dir="2"/><!--任务NPC[黑暗神霍尔德尔]-->										
+  <npc id="10215" width="0" height="0" x="13" y="52" num="1" reborn="2" dir="0"/><!--任务NPC[火神赫淮斯托斯]-->										
+  <npc id="10224" width="0" height="0" x="60" y="8" num="1" reborn="2" dir="2"/><!--任务NPC[冥王哈迪斯]-->										
+  <npc id="10065" width="0" height="0" x="88" y="33" num="1" reborn="2" dir="2"/><!--任务NPC[光明之神巴尔德尔]-->										
+  <npc id="10204" width="0" height="0" x="99" y="7" num="1" reborn="2" dir="7"/><!--任务NPC[女刺客凯瑟琳]-->										
+  <npc id="101012" width="0" height="0" x="140" y="47" num="1" reborn="2" dir="1"/><!--任务NPC[娜米亚安姆萝]-->										
+  <npc id="3026" width="0" height="0" x="34" y="43" num="1" reborn="3" dir="2"/><!--采集点[地狱矿石]-->										
+  <npc id="3026" width="0" height="0" x="34" y="41" num="1" reborn="3" dir="2"/><!--采集点[地狱矿石]-->										
+  <npc id="3026" width="0" height="0" x="35" y="41" num="1" reborn="3" dir="2"/><!--采集点[地狱矿石]-->										
+  <npc id="3026" width="0" height="0" x="33" y="39" num="1" reborn="3" dir="2"/><!--采集点[地狱矿石]-->										
+  <npc id="3026" width="0" height="0" x="34" y="42" num="1" reborn="3" dir="2"/><!--采集点[地狱矿石]-->										
+  <npc id="3026" width="0" height="0" x="32" y="44" num="1" reborn="3" dir="2"/><!--采集点[地狱矿石]-->										
+  <npc id="3026" width="0" height="0" x="35" y="39" num="1" reborn="3" dir="2"/><!--采集点[地狱矿石]-->										
+  <npc id="3026" width="0" height="0" x="30" y="38" num="1" reborn="3" dir="2"/><!--采集点[地狱矿石]-->										
+  <npc id="3026" width="0" height="0" x="33" y="43" num="1" reborn="3" dir="2"/><!--采集点[地狱矿石]-->										
+  <npc id="3027" width="0" height="0" x="9" y="10" num="1" reborn="3" dir="2"/><!--采集点[石榴树]-->										
+  <npc id="3027" width="0" height="0" x="15" y="10" num="1" reborn="3" dir="2"/><!--采集点[石榴树]-->										
+  <npc id="3027" width="0" height="0" x="18" y="11" num="1" reborn="3" dir="2"/><!--采集点[石榴树]-->										
+  <npc id="21047" width="7" height="7" x="38" y="79" num="10" reborn="1" dir="8"/><!--怪物[灼热吞噬者]-->										
+  <npc id="21047" width="7" height="7" x="63" y="67" num="10" reborn="1" dir="8"/><!--怪物[灼热吞噬者]-->										
+  <npc id="21047" width="7" height="7" x="89" y="60" num="10" reborn="1" dir="8"/><!--怪物[灼热吞噬者]-->										
+  <npc id="21048" width="7" height="7" x="110" y="40" num="10" reborn="1" dir="8"/><!--怪物[陨火炎魔]-->										
+  <npc id="21048" width="7" height="7" x="38" y="50" num="10" reborn="1" dir="8"/><!--怪物[陨火炎魔]-->										
+  <npc id="21048" width="7" height="7" x="20" y="28" num="10" reborn="1" dir="8"/><!--怪物[陨火炎魔]-->										
+  <npc id="21049" width="7" height="7" x="63" y="27" num="10" reborn="1" dir="8"/><!--怪物[烈火卫队]-->										
+  <npc id="21049" width="7" height="7" x="36" y="16" num="10" reborn="1" dir="8"/><!--怪物[烈火卫队]-->										
+  <npc id="21049" width="7" height="7" x="59" y="38" num="10" reborn="1" dir="8"/><!--怪物[烈火卫队]-->										
+  <npc id="21050" width="10" height="10" x="123" y="27" num="10" reborn="1" dir="8"/><!--怪物[烈焰骑兵]-->										
+  <npc id="21050" width="7" height="7" x="75" y="13" num="10" reborn="1" dir="8"/><!--怪物[烈焰骑兵]-->										
+  <npc id="21150" width="0" height="0" x="129" y="12" num="1" reborn="1" dir="1"/><!--怪物[烈焰骑兵队长]-->										
+  <npc id="23012" width="0" height="0" x="115" y="67" num="1" reborn="1" dir="6"/><!--怪物[熔岩魔兽阿爵斯]-->										
+
+
+  <revive duration="60" camp="0" map="1002" width="10" height="10" x="42" y="61"/>
+  <default x="28" y="80"/>
+</map>

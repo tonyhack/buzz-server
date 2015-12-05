@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UFT-8" ?>
+
+<data>
+  <cell id="1" desc="单技能不可移动的被动怪" file="extension/ai/1.xml"/>
+  <cell id="2" desc="单技能可移动的被动怪" file="extension/ai/2.xml"/>
+  <cell id="3" desc="单技能不可移动的主动怪" file="extension/ai/3.xml"/>
+  <cell id="4" desc="单技能可移动的主动怪" file="extension/ai/4.xml"/>
+  <cell id="5" desc="每十秒AOE自身8格范围并加眩晕DEBUFF，血量少于百分之二十时召唤分身" file="extension/ai/5.xml"/>
+  <cell id="6" desc="十秒后消失并给目标增加DEBUFF" file="extension/ai/6.xml"/>
+  <cell id="92" desc="单技能可移动的被动怪,追踪范围缩小" file="extension/ai/92.xml"/>
+  <cell id="94" desc="单技能可移动的主动怪,追踪范围缩小" file="extension/ai/94.xml"/>
+  <cell id="90001" desc="Boss90001" file="extension/ai/90001.xml"/>
+  <cell id="90002" desc="Boss90002" file="extension/ai/90002.xml"/>
+  <cell id="900101" desc="Boss900101" file="extension/ai/900101.xml"/>
+  <cell id="900102" desc="Boss900102" file="extension/ai/900102.xml"/>
+  <cell id="900301" desc="Boss900301" file="extension/ai/900301.xml"/>
+  <cell id="900401" desc="Boss900401" file="extension/ai/900401.xml"/>
+  <cell id="900501" desc="Boss900501" file="extension/ai/900501.xml"/>
+  <cell id="999" desc="" file="extension/ai/transport.xml"/>
+</data>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="num span_time buff_id">
+ <cell buff_id="10004" num="10" span_time="20"/>
+ <cell buff_id="10005" num="50" span_time="15"/>
+ <cell buff_id="10006" num="100" span_time="10"/>
+ <cell buff_id="10007" num="200" span_time="5"/>
+ <cell buff_id="10008" num="500" span_time="5"/>
+ <cell buff_id="10009" num="100000" span_time="2"/>
+</data>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="day reward1 reward2 reward3 reward4">
+ <cell day="1" reward1="2:1:5000:0" reward2="2:3:5:0" reward3="" reward4=""/>
+ <cell day="2" reward1="2:1:5000:0" reward2="2:3:5:0" reward3="" reward4=""/>
+ <cell day="3" reward1="2:1:5000:0" reward2="2:3:5:0" reward3="" reward4=""/>
+ <cell day="4" reward1="2:1:5000:0" reward2="2:3:5:0" reward3="" reward4=""/>
+ <cell day="5" reward1="2:1:5000:0" reward2="2:3:5:0" reward3="" reward4=""/>
+ <cell day="6" reward1="2:1:5000:0" reward2="2:3:5:0" reward3="" reward4=""/>
+ <cell day="7" reward1="2:1:5000:0" reward2="2:3:5:0" reward3="" reward4=""/>
+</data>

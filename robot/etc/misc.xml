@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UFT-8" ?>
+
+<data>
+  <!-- 移动速度 -->
+  <!--   min: 最小速度值 -->
+  <!--   max: 最大速度值 -->
+  <move_speed 
+    min="1000"
+    max="100"
+  />
+  <!-- 默认技能 -->
+  <!--   axe: 近身 -->
+  <!--   shoot: 远程 -->
+  <!--   magic: 法术 -->
+  <default_skill
+    axe="100"
+    axe_level="1"
+    shoot="200"
+    shoot_level="1"
+    magic="300"
+    magic_level="1"
+  />
+  <!-- 新手设定 -->
+  <!--   protect_level: 新手保护等级 -->
+  <rookie
+    protect_level="20"
+  />
+  <!-- 死亡设定 -->
+  <!--   protect_buff_id: 死亡保护的buff_id -->
+  <!--   pk_buff_id: PK惩罚添加的buff_id -->
+  <!--   revive_item_id: 死亡复活道具id -->
+  <die
+    protect_buff_id="9001"
+    pk_buff_id="9000"
+    revive_item_id="144314001"
+  />
+  <!-- 名字颜色 -->
+  <!--   brown_time: 褐名持续时间(秒) -->
+  <name_color
+    brown_time="60"
+  /> 
+  <!-- 英灵祭坛 -->
+  <!--   max_free_summon_times: 每日免费召唤次数-->
+  <!--   summon_spend_item_id: 召唤消耗道具ID -->
+  <!--   summon_spend_item_count: 召唤消耗道具数量 -->
+  <!--   second_card_spend_freedom_dollars: 收取第二张英灵卡消耗钻石 -->
+  <!--   third_card_spend_freedom_dollars: 收取第三张英灵卡消耗钻石 -->
+  <!--   drop_group1_id: 掉落组1 ID-->
+  <!--   drop_group2_id: 掉落组2 ID-->
+  <soul_altar
+    max_free_summon_times="2"
+    summon_spend_item_id="144312001"
+    summon_spend_item_count="10"
+    second_card_spend_freedom_dollars="10"
+    third_card_spend_freedom_dollars="20"
+    drop_group1_id="99998"
+    drop_group2_id="99999"
+  />
+  <!-- 容器开格子 -->
+  <!--   gold: 单个格子消耗钻石(人民币) -->
+  <!--   lockedgold: 单个格子消耗礼券(绑定的人民币) -->
+  <extend_container
+    gold="10"
+    lockedgold="10"
+  />
+  <!-- 宝石 -->
+  <!--   max_storage_capacity: 宝石仓库的栏位数量 -->
+  <gem
+    max_storage_capacity="18"
+  />
+  <!-- 道具 -->
+  <!--    max_buyback_capacity 回购列表最大值 -->
+  <!--    packet_min_capacity 背包最小容量 -->
+  <!--    packet_max_capacity 背包最大容量 -->
+  <!--    storage_min_capacity 仓库最小容量 -->
+  <!--    storage_max_capacity 仓库最大容量 -->
+  <!--    treasure_storage_capacity 礼品仓库容量 -->
+  <item
+    max_buyback_capacity="30"
+    packet_min_capacity="40"
+    packet_max_capacity="96"
+    storage_min_capacity="40"
+    storage_max_capacity="96"
+    treasure_storage_capacity="96"
+  />
+  <!-- 联系人 -->
+  <!--   max_friend_capacity: 最大好友数量 -->
+  <!--   max_blacklist_capacity: 最大黑名单数量 -->
+  <!--   max_signature_length: 最大签名长度 -->
+  <!--   recommend_level_range: 推荐等级划分范围 -->
+  <!--   recommend_count: 推荐个数 -->
+  <contacts
+    max_friend_capacity="50"
+    max_blacklist_capacity="20"
+    max_signature_length="1024"
+    recommend_level_range="10"
+    recommend_count="10"
+  />
+  <!-- 仇人 -->
+  <!--   max_capacity: 最大仇人数量 -->
+  <social_enemy
+    max_capacity="30"
+  />
+  <!-- 家园 -->
+  <!--   max_upgrade_cooling: 升级冷却时间上限(单位s) -->
+  <!--   upgrade_cooling_unit: 单位升级冷却时间(单位s) -->
+  <!--   clear_upgrade_cooling_unit_freedom_dollars: 清除单位升级冷却时间消耗的钻石数量 -->
+  <!--   temple_harvest_cooling_unit: 单位神殿收获冷却时间(单位s) -->
+  <!--   clear_temple_harvest_cooling_unit_freedom_dollars: 清除单位神殿收获冷却时间消耗的钻石数量 -->
+  <!--   max_goldmine_rob_times: 金矿掠夺最大次数 -->
+  <!--   goldmine_rob_cooling: 金矿掠夺冷却时间(单位s) -->
+  <!--   max_church_free_pray_times: 祈福堂免费祈福最大次数 -->
+  <!--   max_church_paid_pray_times: 祈福堂钻石祈福最大次数 -->
+  <!--   church_paid_pray_spend_freedom_dollars: 祈福堂钻石祈福消耗的钻石数量 -->
+  <!--   church_refresh_spend_freedom_dollars: 祈福堂刷新消耗的钻石数量 -->
+  <!--   church_vip_refresh_spend_freddom_dollars: 祈福堂高级刷新消耗的钻石数量 -->
+  <!--   max_church_free_refresh_times: 祈福堂免费刷新最大次数 -->
+  <!--   max_tree_assist_water_times: 每天给好友浇水(可获得奖励)的最大次数 -->
+  <!--   tree_assist_water_restrict_dollars_reward: 给好友浇水获得的礼券数量 -->
+  <!--   max_stronghold_support_times: 军团据点支援最大次数 -->
+  <!--   stronghold_support_cooling: 军团据点支援冷却时间(单位s) -->
+  <!--   stronghold_support_guild_contribution_reward: 军团据点支援获得的军团贡献数量 -->
+  <!--   max_invader_capacity: 入侵者最大数量 -->
+  <!--   max_event_capacity: 告示板最大信息数量 -->
+  <!--   max_commander_battle_round: 家园攻防主将战最大回合数 -->
+  <!--   max_soul_battle_round: 家园攻防英灵战最大回合数 -->
+  <!--   max_battle_support_soul: 家园攻防每次参加防御的支援英灵上限 -->
+  <!--   battle_hp_buff_coe: 家园攻防战血量buff系数 -->
+  <!--   battle_attack_buff_coe: 家园攻防战攻击buff系数 -->
+  <homeland
+    max_upgrade_cooling="28800"
+    upgrade_cooling_unit="60"
+    clear_upgrade_cooling_unit_freedom_dollars="10"
+    temple_harvest_cooling_unit="60"
+    clear_temple_harvest_cooling_unit_freedom_dollars="10"
+    max_goldmine_rob_times="5"
+    goldmine_rob_cooling="300"
+    max_church_free_pray_times="3"
+    max_church_paid_pray_times="3"
+    church_paid_pray_spend_freedom_dollars="20"
+    church_refresh_spend_freedom_dollars="5"
+    church_vip_refresh_spend_freddom_dollars="80"
+    max_church_free_refresh_times="1"
+    max_tree_assist_water_times="50"
+    tree_assist_water_restrict_dollars_reward="1"
+    max_stronghold_support_times="5"
+    stronghold_support_cooling="86400"
+    stronghold_support_guild_contribution_reward="10"
+    max_invader_capacity="20"
+    max_event_capacity="50"
+    max_commander_battle_round="100"
+    max_soul_battle_round="30"
+    max_battle_support_soul="3"
+    battle_hp_buff_coe="200"
+    battle_attack_buff_coe="50"
+  />
+  <!-- 公会 -->
+  <!--   max_name_length: 公会名最大长度 -->
+  <!--   create_spend_gold: 创建公会消耗金币 -->
+  <!--   init_gold: 创建公会时的起始公会金币数量(万) -->
+  <!--   max_join_capacity: 最多同时申请的公会数量 -->
+  <!--   max_pending_member_capacity: 最大待审核成员数 -->
+  <!--   max_announcement_length: 公告最大长度 -->
+  <!--   max_event_capacity: 最大事件数量 -->
+  <!--   light_crystal_item_id: 光晶石道具ID -->
+  <!--   dark_crystal_item_id: 暗晶石道具ID -->
+  <!--   holy_crystal_item_id: 圣晶石道具ID -->
+  <!--   gold_unit_contribution:  捐献1万金币得到的贡献值 -->
+  <!--   freedom_dollars_unit_contribution: 捐献1钻石得到的贡献值 -->
+  <!--   freedom_dollars_unit_gold: 捐献1钻石增加的公会金币数量 -->
+  <!--   light_crystal_unit_contribution: 捐献1光晶石得到的贡献值 -->
+  <!--   dark_crystal_unit_contribution: 捐献1暗晶石得到的贡献值 -->
+  <!--   holy_crystal_unit_contribution: 捐献1圣晶石得到的贡献值 -->
+  <!--   clear_buff_time: 清空公会buff的时间(单位s), 例如8:00 = 8 * 60 * 60 = 28800 -->
+  <guild
+    max_name_length="12"
+    create_spend_gold="10000"
+    init_gold="10"
+    max_join_capacity="3"
+    max_pending_member_capacity="30"
+    max_announcement_length="240"
+    max_event_capacity="50"
+    light_crystal_item_id="144311001"
+    dark_crystal_item_id="144311002"
+    holy_crystal_item_id="144311003"
+    gold_unit_contribution="1"
+    freedom_dollars_unit_contribution="10"
+    freedom_dollars_unit_gold="10"
+    light_crystal_unit_contribution="10"
+    dark_crystal_unit_contribution="10"
+    holy_crystal_unit_contribution="10"
+    clear_buff_time="28800"
+  />
+  <!-- 精灵 -->
+  <!--   bar_id: 变换外观进度条ID -->
+  <spirit
+    bar_id="10"
+  />
+  <!-- 掉落 -->
+  <!--   disappear_secs: 掉落道具消失时间(秒) -->
+  <!--   clear_owner_secs: 掉落道具保护时间(秒) -->
+  <!--   pickup_distance: 掉落道具拾取距离(格子) -->
+  <!--   drop_item_owner_max: 场景掉落物最大可拾取人数 -->
+  <drop
+    disappear_secs="30"
+    clear_owner_secs="10"
+    pickup_distance="2"
+    drop_item_owner_max="20"
+  />
+  <!-- 任务 -->
+  <!--    new_actor_task: 新玩家任务(任务ID) -->
+  <!--    summon_radius: 召唤任务中的NPC被杀，所在的范围内的玩家完成此种任务 -->
+  <!--    summon_num: 召唤任务中的NPC被杀，所在的范围内的玩家完成此种任务的最大玩家数 -->
+  <task
+    new_actor_task="1001"
+    summon_radius="12"
+    summon_num="10"
+  />
+  <!-- VIP -->
+  <!--    level_1_itemid: 等级1 勇者 -->
+  <!--    level_2_itemid: 等级2 英雄 -->
+  <!--    level_3_itemid: 等级3 帝王 -->
+  <!--    infinite_num: 次数 -->
+  <vip
+    level_1_itemid="113501001"
+    level_2_itemid="113501002"
+    level_3_itemid="113501003"
+    infinite_num="99999"
+  />
+  <!-- 世界跳转 -->
+  <!--    expend_item_id: 世界跳转消耗的道具ID -->
+  <!--    expend_item_num: 世界跳转消耗的道具数量 -->
+  <world_jump
+    expend_item_id="144312001"
+    expend_item_num="1"
+  />
+  <!-- 拍卖 -->
+  <!--   min_start_bid_price: 最小拍卖起始价格-->
+  <!--   min_buyout_price: 最小一口价-->
+  <!--   min_bid_increment_percent: 最小竞价加价金额(百分之)-->
+  <!--   transaction_fee_percent: 交易手续费(百分之) -->
+  <!--   max_sell_item_capacity: 玩家拍卖道具最大数量 -->
+  <!--   max_buy_item_capacity: 玩家竞拍道具最大数量 -->
+  <!--   max_history_capacity: 历史记录最大数量 -->
+  <!--   item_per_page: 每页道具数量 -->
+  <auction
+    min_start_bid_price="2"
+    min_buyout_price="2"
+    min_bid_increment_percent="5"
+    transaction_fee_percent="5"
+    max_sell_item_capacity="30"
+    max_buy_item_capacity="30"
+    max_history_capacity="30"
+    item_per_page="6"
+    />
+  <!-- 资源 -->
+  <!--   max_nimbus: 灵气上限 -->
+  <resource
+    max_nimbus="999999"
+  />
+  <!-- 福利系统 -->
+  <!--   replenish_checkins_num: 补签到次数 -->
+  <!--   online_time_level1: 在线时长奖励 -->
+  <!--   online_time_award1: 在线时长奖励礼金 -->
+  <!--   online_time_level2: 在线时长奖励 -->
+  <!--   online_time_award2: 在线时长奖励礼金 -->
+  <!--   online_time_award3: 在线时长奖励礼金 -->
+  <!--   max_online_time: 最大在线时长计算奖励 -->
+  <!--   pick_awards_limit_time: 上月奖励最多保留到天数 -->
+  <welfare
+    replenish_checkins_num="0"
+    online_time_level1="30"
+    online_time_award1="20"
+    online_time_level2="60"
+    online_time_award2="40"
+    online_time_award3="60"
+    max_online_time="10"
+    pick_awards_limit_time="10"
+  />
+  <!-- 地宫 -->
+  <!--   max_floor: 最大层数 -->
+  <!--   width: 宽(格子) -->
+  <!--   height: 高(格子) -->
+  <!--   max_action_point: 行动点最大值 -->
+  <!--   action_point_recover_cooling: 行动点回复冷却时间(秒) -->
+  <!--   reset_time: 重置时间(例如周一0点0分0秒为1,0,0,0) -->
+  <!--   gift_item_id: 礼包道具ID -->
+  <maze
+    max_floor="7"
+    width="5"
+    height="5"
+    max_action_point="12"
+    action_point_recover_cooling="3600"
+    reset_time="1,0,0,0"
+    gift_item_id="40"
+  />
+  <!-- 防沉迷 -->
+  <!--   half_income_online_time: 收益减半累计在线时间(秒) -->
+  <!--   zero_income_online_time: 零收益累计在线时间(秒) -->
+  <!--   clear_status_offline_time: 清除防沉迷状态需要累计下线时间(秒) -->
+  <fcm
+    half_income_online_time="10800"
+    zero_income_online_time="18000"
+    clear_status_offline_time="18000"
+  />
+  <!-- 新手任务-->
+  <!-- taskid 此任务完成后 快捷界面变为正常-->
+  <shortcut
+	taskid = "3016"
+  />
+  <!-- 英灵能量 -->
+  <!--   soul_energy_interval_msecs: 英灵能量恢复间隔-->
+  <!--   soul_energy_decrement: 英灵能量单位时间减缩值-->
+  <!--   soul_energy_explosion_buff: 英灵能量爆发BUFF-->
+  <!--   soul_energy_kill_npc_energy: 杀死怪物获得的能量值-->
+  <!--   soul_energy_kill_npc_level_diff: 杀死怪物获得能量值的等级差-->
+  <!--   soul_energy_kill_actor_energy: 杀死玩家获得的能量值-->
+  <!--   soul_energy_kill_actor_level_diff: 杀死玩家获得能量值的等级差-->
+  <soul_energy
+    soul_energy_interval_msecs="1000"
+    soul_energy_decrement="500"
+    soul_energy_explosion_buff="9999"
+    soul_energy_kill_npc_energy="500"
+    soul_energy_kill_npc_level_diff="10"
+    soul_energy_kill_actor_energy="2000"
+    soul_energy_kill_actor_level_diff="10"
+  />
+  <!-- 场景 -->
+  <!--    world_boss_time: 世界boss刷新时间(时间列表，用,分割每个时间点) -->
+  <!--    consecutive_kill_level: 连斩时记录击杀NPC次数时，等级差值之内才记录 -->
+  <scene
+    world_boss_appear_time="10:00:00,14:00:00,18:00:00,22:00:00"
+    consecutive_kill_level="5"
+  />
+  <!-- 护符 -->
+  <!--  hp_talisman_auto_span_time: 血护符自动使用间隔时间-->
+  <!--  mp_talisman_auto_span_time: 蓝护符自动使用间隔时间-->
+  <!--  hp_under_percent: 血护符血量百分比时自动加血-->
+  <!--  mp_under_percent: 蓝护符血量百分比时自动加蓝-->
+  <!--  hp_talisman_max_value: 血护符上限-->
+  <!--  mp_talisman_max_value: 蓝护符上限-->
+  <talisman
+    hp_talisman_auto_span_time="15"
+    mp_talisman_auto_span_time="15"
+    hp_under_percent="50"
+    mp_under_percent="50"
+    hp_talisman_max_value="100000000"
+    mp_talisman_max_value="100000000"
+  />
+  <!-- 打坐 -->
+  <!--   zazen_revenue_time(秒):打坐收益间隔时间 -->
+  <!--   zazen_enter_time(秒):进入打坐状态时间 -->
+  <zazen
+    zazen_revenue_time="6"
+    zazen_enter_time="180"
+  />
+  <!-- 副本 -->
+  <!--   playing_team_ready_secs: 副本组队进入到计时秒数 -->
+  <playing
+    playing_team_ready_secs="5"
+  />
+  <!-- 装备继承 -->
+  <!--   spend_item_id: 消耗道具ID -->
+  <!--   spend_item_count: 消耗道具数量 -->
+  <!--   min_level: 装备最低等级 -->
+  <!--   min_src_quality: 源装备要求最低品质 -->
+  <!--   min_dest_quality: 目标装备要求最低品质 -->
+  <equip_inherit
+    spend_item_id="144310001"
+    spend_item_count="10"
+    min_level="60"
+    min_src_quality="4"
+    min_dest_quality="5"
+  />
+  <!-- 运送 -->
+  <!--   transport_destory_check_sec: 运送销毁检测频率 -->
+  <!--   transport_destory_sec: 运送离开销毁时间 -->
+  <transport
+    transport_destory_check_sec="30"
+    transport_destory_sec="120"
+  />
+  <!-- 运送任务 -->
+  <!--   transport_task_accept_npc: 每日运送接收任务的NPC -->
+  <!--   transport_task_finish_npc: 每日运送完成任务的NPC -->
+  <!--   transport_task_count: 每日运送次数 -->
+  <!--   transport_task_rob_count: 每日运送抢劫次数 -->
+  <!--   transport_refresh_spend_item: 每日运送刷新道具 -->
+  <!--   transport_default_id: 每日运送默认ID -->
+  <transport_task
+    transport_task_accept_npc="10197+1002+95+6"
+    transport_task_finish_npc="10145+1004+13+61"
+    transport_task_count="3"
+    transport_task_rob_count="3"
+    transport_task_refresh_spend_item="144390001"
+    transport_task_default_id="1"
+  />
+</data>
+

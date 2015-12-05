@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configure>
+
+  <guild file="extension/guild/guild.xml"/>
+  <guild_position file="extension/guild/guild_position.xml"/>
+  <guild_logo file="extension/guild/guild_logo.xml"/>
+  <guild_shop file="extension/guild/guild_shop.xml"/>
+  <guild_shop_item file="extension/guild/guild_shop_item.xml"/>
+  <guild_college file="extension/guild/guild_college.xml"/>
+  <guild_skill file="extension/guild/guild_skill.xml"/>
+  <guild_buff file="extension/guild/guild_buff.xml"/>
+  <guild_pray file="extension/guild/guild_pray.xml"/>
+  <guild_barrack file="extension/guild/guild_barrack.xml"/>
+  <guild_playing_group file="extension/guild/guild_playing_group.xml"/>
+  <guild_playing file="extension/guild/guild_playing.xml"/>
+
+</configure>
+

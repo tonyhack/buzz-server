@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="string_id name fight_score">
+ <cell fight_score="600" name="体质" string_id="PHYSIQUE"/>
+ <cell fight_score="600" name="力量" string_id="STRENGTH"/>
+ <cell fight_score="600" name="智力" string_id="INTELLIGENCE"/>
+ <cell fight_score="600" name="敏捷" string_id="AGILE"/>
+ <cell fight_score="600" name="精神" string_id="SPIRIT"/>
+ <cell fight_score="25" name="最大生命值" string_id="MAX_HP"/>
+ <cell fight_score="8" name="最大魔法值" string_id="MAX_MP"/>
+ <cell fight_score="250" name="物理攻击" string_id="PHYSICS_ATTACK"/>
+ <cell fight_score="100" name="物理防御" string_id="PHYSICS_DEFENCE"/>
+ <cell fight_score="250" name="魔法攻击" string_id="MAGIC_ATTACK"/>
+ <cell fight_score="100" name="魔法防御" string_id="MAGIC_DEFENCE"/>
+ <cell fight_score="175" name="闪避等级" string_id="DODGE"/>
+ <cell fight_score="175" name="暴击等级" string_id="CRIT"/>
+ <cell fight_score="200" name="会心等级" string_id="IGNORE_DEFENCE"/>
+ <cell fight_score="1000" name="移动速度" string_id="MOVE_SPEED"/>
+ <cell fight_score="3000" name="闪避几率" string_id="DODGE_PERCENT_ADD_VALUE"/>
+ <cell fight_score="3000" name="暴击几率" string_id="CRIT_PERCENT_ADD_VALUE"/>
+ <cell fight_score="1000" name="暴击效果" string_id="CRIT_EFFECT_PERCENT_ADD_VALUE"/>
+ <cell fight_score="4000" name="会心几率" string_id="IGNORE_DEFENCE_PERCENT_ADD_VALUE"/>
+ <cell fight_score="3000" name="物理伤害减免率" string_id="PHYSICS_HURT_REDUCE_ADD_PERCENT"/>
+ <cell fight_score="3000" name="魔法伤害减免率" string_id="MAGIC_HURT_REDUCE_ADD_PERCENT"/>
+ <cell fight_score="5000" name="伤害减免率" string_id="HURT_REDUCE_ADD_PERCENT"/>
+ <cell fight_score="2000" name="伤害浮动率" string_id="HURT_RANDOM_PERCENT_ADD"/>
+ <cell fight_score="1000" name="治疗加成率" string_id="CURE_PERCENT_ADD"/>
+ <cell fight_score="400" name="技能等级" string_id="SKILL_LEVEL"/>
+</data>

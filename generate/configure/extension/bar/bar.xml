@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="id time events text note">
+ <cell events="2+1+3" id="2" note="" text="吟唱中" time="3000"/>
+ <cell events="0" id="3" note="" text="吟唱中" time="3000"/>
+ <cell events="0" id="4" note="" text="吟唱中" time="3000"/>
+ <cell events="2+1+4" id="5" note="" text="采集中" time="3000"/>
+ <cell events="0" id="6" note="" text="吟唱中" time="3000"/>
+ <cell events="2+1+3" id="7" note="" text="吟唱中" time="3000"/>
+ <cell events="2+1+3" id="8" note="" text="吟唱中" time="3000"/>
+ <cell events="2+1+3" id="9" note="" text="吟唱中" time="3000"/>
+ <cell events="2+3+4" id="10" note="幻兽幻化" text="幻兽幻化中" time="3000"/>
+ <cell events="2+1+3" id="11" note="" text="吟唱中" time="3000"/>
+ <cell events="2+1+3" id="12" note="" text="吟唱中" time="3000"/>
+ <cell events="2+1+3" id="13" note="" text="吟唱中" time="3000"/>
+ <cell events="2+1+3" id="14" note="" text="吟唱中" time="3000"/>
+ <cell events="2+1+3" id="15" note="" text="吟唱中" time="3000"/>
+ <cell events="2+1+3" id="16" note="" text="吟唱中" time="3000"/>
+ <cell events="2+1+3" id="17" note="" text="吟唱中" time="3000"/>
+ <cell events="2+1+3" id="18" note="" text="吟唱中" time="3000"/>
+ <cell events="2+1+3" id="19" note="" text="吟唱中" time="3000"/>
+ <cell events="2+1+3" id="20" note="" text="吟唱中" time="3000"/>
+ <cell events="2+1+3" id="21" note="" text="吟唱中" time="3000"/>
+ <cell events="2+1+3" id="22" note="" text="吟唱中" time="3000"/>
+ <cell events="2+1+3" id="23" note="" text="吟唱中" time="3000"/>
+ <cell events="2+1+4" id="24" note="" text="祭拜中" time="3000"/>
+ <cell events="2+1+4" id="25" note="" text="摧毁中" time="3000"/>
+ <cell events="2+1+4" id="26" note="" text="修复中" time="3000"/>
+ <cell events="2+1+4" id="27" note="" text="抢救中" time="3000"/>
+</data>

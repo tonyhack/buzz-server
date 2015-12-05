@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UFT-8" ?>
+
+<!--
+  map: 地图配置, id: 地图ID, file: 地图障碍配置
+    revive: 复活配置, duration: 死亡后等待复活的时间, width/height: 复活范围, x/y: 左上角坐标
+    npc: npc配置, id: npc的ID, width/height: npc的活动范围, num: npc的个数, reborn: 重生时间(暂时使用npc表中的重生时间)
+        morning:早上多少分钟 daytime:白天多少分钟 evening:傍晚多少分钟 night:晚上多少分钟
+        morning_aoi daytime_aoi evening_aoi night_aoi:视野百分比
+        rookie_protect: 1为新手保护 0非新手保护
+        ban_change_pk_mode: 1禁止切换PK模式 0非禁止
+        die_protect: 1死亡保护 0死亡非保护
+        punish_for_pk: 1PK惩罚 0PK不惩罚    zazen_add:打坐额外收益 100=100%
+        revive_stay: 1可死亡原地复活 0不可以
+-->
+<map id="1014" file="extension/scenes/1014-map.xml" morning="20" daytime="40" evening="20" night="40" morning_aoi="80" daytime_aoi="100" evening_aoi="80" night_aoi="50" rookie_protect="1" ban_change_pk_mode="0" die_protect="1" punish_for_pk="1" revive_stay="1" zazen_add="0">
+  <npc id="9027" width="0" height="0" x="27" y="81" num="1" reborn="10" dir="6"/><!--传送门-->
+  
+  <npc id="21047" width="16" height="10" x="10" y="73" num="7" reborn="1" dir="8"/><!--怪物-->
+  <npc id="21047" width="49" height="27" x="45" y="44" num="17" reborn="1" dir="8"/><!--怪物-->
+  <npc id="21147" width="49" height="27" x="45" y="44" num="1" reborn="1" dir="8"/><!--怪物-->
+  <npc id="21048" width="85" height="20" x="45" y="13" num="25" reborn="1" dir="8"/><!--怪物-->
+  <npc id="21148" width="85" height="20" x="45" y="13" num="1" reborn="1" dir="8"/><!--怪物-->
+  <npc id="21049" width="62" height="19" x="120" y="73" num="17" reborn="1" dir="8"/><!--怪物-->
+  <npc id="21049" width="22" height="15" x="136" y="55" num="7" reborn="1" dir="8"/><!--怪物-->
+  <npc id="21149" width="62" height="19" x="120" y="73" num="1" reborn="1" dir="8"/><!--怪物-->
+  <npc id="21050" width="33" height="30" x="128" y="23" num="23" reborn="1" dir="8"/><!--怪物-->
+  <npc id="21150" width="33" height="30" x="128" y="23" num="1" reborn="1" dir="8"/><!--怪物-->
+
+
+  <revive duration="60" camp="0" map="1002" width="10" height="10" x="42" y="61"/>
+  <default x="28" y="80"/>
+</map>

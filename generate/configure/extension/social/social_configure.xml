@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configure>
+
+  <homeland_temple file="extension/social/homeland_temple.xml"/>
+  <homeland_goldmine file="extension/social/homeland_goldmine.xml"/>
+  <homeland_pool file="extension/social/homeland_pool.xml" />
+  <homeland_church_chest file="extension/social/homeland_church_chest.xml"/>
+  <homeland_church_bonus file="extension/social/homeland_church_bonus.xml"/>
+  <homeland_tree file="extension/social/homeland_tree.xml"/>
+  <homeland_tower file="extension/social/homeland_tower.xml"/>
+  <homeland_stronghold file="extension/social/homeland_stronghold.xml"/>
+  <homeland_soul file="extension/social/homeland_soul.xml"/>
+
+</configure>
+

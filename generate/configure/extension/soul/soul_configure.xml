@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configure>
+
+  <pool soul_initial="5000" soul_extend="50"/>
+  <soul_stone id="3011001"/>
+  <soul file="extension/soul/soul.xml"/>
+  <step file="extension/soul/soul_step.xml"/>
+  <level file="extension/soul/soul_level.xml"/>
+  <skill_level file="extension/soul/soul_skill_level.xml"/>
+
+</configure>
+

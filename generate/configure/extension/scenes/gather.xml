@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="id template_id num buff">
+ <cell buff="0" id="3101" num="1" template_id="144301001"/>
+ <cell buff="0" id="3102" num="1" template_id="144314001"/>
+ <cell buff="4009" id="201001" num="1" template_id="0"/>
+ <cell buff="4012" id="201002" num="1" template_id="0"/>
+ <cell buff="4015" id="201003" num="1" template_id="0"/>
+ <cell buff="4018" id="201004" num="1" template_id="0"/>
+ <cell buff="4021" id="201005" num="1" template_id="0"/>
+ <cell buff="4024" id="201006" num="1" template_id="0"/>
+</data>

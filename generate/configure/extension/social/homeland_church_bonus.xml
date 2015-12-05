@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="chest_id bonus_id name desc odds item_id item_count">
+ <cell bonus_id="1" chest_id="1" desc="普通祈福宝箱奖励1" item_count="3" item_id="101111002" name="普通祈福宝箱奖励1" odds="2500"/>
+ <cell bonus_id="2" chest_id="1" desc="普通祈福宝箱奖励2" item_count="3" item_id="101112002" name="普通祈福宝箱奖励2" odds="2500"/>
+ <cell bonus_id="3" chest_id="1" desc="普通祈福宝箱奖励3" item_count="1" item_id="144202001" name="普通祈福宝箱奖励3" odds="2500"/>
+ <cell bonus_id="4" chest_id="1" desc="普通祈福宝箱奖励4" item_count="1" item_id="144314001" name="普通祈福宝箱奖励4" odds="2500"/>
+ <cell bonus_id="1" chest_id="2" desc="精致祈福宝箱奖励1" item_count="3" item_id="144202001" name="精致祈福宝箱奖励1" odds="2500"/>
+ <cell bonus_id="2" chest_id="2" desc="精致祈福宝箱奖励2" item_count="3" item_id="144314001" name="精致祈福宝箱奖励2" odds="2500"/>
+ <cell bonus_id="3" chest_id="2" desc="精致祈福宝箱奖励3" item_count="1" item_id="144301001" name="精致祈福宝箱奖励3" odds="2500"/>
+ <cell bonus_id="4" chest_id="2" desc="精致祈福宝箱奖励4" item_count="1" item_id="144303001" name="精致祈福宝箱奖励4" odds="2500"/>
+ <cell bonus_id="1" chest_id="3" desc="卓越祈福宝箱奖励1" item_count="3" item_id="144301001" name="卓越祈福宝箱奖励1" odds="2500"/>
+ <cell bonus_id="2" chest_id="3" desc="卓越祈福宝箱奖励2" item_count="3" item_id="144303001" name="卓越祈福宝箱奖励2" odds="2500"/>
+ <cell bonus_id="3" chest_id="3" desc="卓越祈福宝箱奖励3" item_count="1" item_id="144404001" name="卓越祈福宝箱奖励3" odds="2500"/>
+ <cell bonus_id="4" chest_id="3" desc="卓越祈福宝箱奖励4" item_count="1" item_id="144305001" name="卓越祈福宝箱奖励4" odds="2500"/>
+ <cell bonus_id="1" chest_id="4" desc="至尊祈福宝箱奖励1" item_count="3" item_id="144404001" name="至尊祈福宝箱奖励1" odds="2500"/>
+ <cell bonus_id="2" chest_id="4" desc="至尊祈福宝箱奖励2" item_count="3" item_id="144305001" name="至尊祈福宝箱奖励2" odds="2500"/>
+ <cell bonus_id="3" chest_id="4" desc="至尊祈福宝箱奖励3" item_count="1" item_id="144407001" name="至尊祈福宝箱奖励3" odds="2500"/>
+ <cell bonus_id="4" chest_id="4" desc="至尊祈福宝箱奖励4" item_count="1" item_id="144308001" name="至尊祈福宝箱奖励4" odds="2500"/>
+</data>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="id name icon task_id physique_add_value strength_add_value intelligence_add_value agile_add_value spirit_add_value">
+ <cell agile_add_value="5" icon="wz_03.png" id="1" intelligence_add_value="5" name="无序纹章" physique_add_value="5" spirit_add_value="5" strength_add_value="5" task_id="1016"/>
+ <cell agile_add_value="8" icon="wz_01.png" id="2" intelligence_add_value="8" name="绿影纹章" physique_add_value="8" spirit_add_value="8" strength_add_value="8" task_id="3016"/>
+ <cell agile_add_value="11" icon="wz_05.png" id="3" intelligence_add_value="11" name="冷辉纹章" physique_add_value="11" spirit_add_value="11" strength_add_value="11" task_id="4018"/>
+ <cell agile_add_value="14" icon="wz_09.png" id="4" intelligence_add_value="14" name="旭阳纹章" physique_add_value="14" spirit_add_value="14" strength_add_value="14" task_id="5021"/>
+ <cell agile_add_value="17" icon="wz_04.png" id="5" intelligence_add_value="17" name="羽翼纹章" physique_add_value="17" spirit_add_value="17" strength_add_value="17" task_id="8026"/>
+ <cell agile_add_value="20" icon="wz_06.png" id="6" intelligence_add_value="20" name="灼眼纹章" physique_add_value="20" spirit_add_value="20" strength_add_value="20" task_id="9027"/>
+ <cell agile_add_value="23" icon="wz_10.png" id="7" intelligence_add_value="23" name="凛寒纹章" physique_add_value="23" spirit_add_value="23" strength_add_value="23" task_id="12044"/>
+ <cell agile_add_value="26" icon="wz_07.png" id="8" intelligence_add_value="26" name="繁烁纹章" physique_add_value="26" spirit_add_value="26" strength_add_value="26" task_id="13049"/>
+ <cell agile_add_value="29" icon="wz_08.png" id="9" intelligence_add_value="29" name="燎烈纹章" physique_add_value="29" spirit_add_value="29" strength_add_value="29" task_id="25002"/>
+ <cell agile_add_value="32" icon="wz_02.png" id="10" intelligence_add_value="32" name="虚空纹章" physique_add_value="32" spirit_add_value="32" strength_add_value="32" task_id="26002"/>
+</data>

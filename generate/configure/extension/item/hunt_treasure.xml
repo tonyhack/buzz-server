@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="id name position item drop odds integral_type">
+ <cell drop="2222" id="1" integral_type="0" item="27" name="奇迹宝藏" odds="1000" position="1"/>
+ <cell drop="2222" id="1" integral_type="0" item="28" name="奇迹宝藏" odds="1000" position="2"/>
+ <cell drop="2222" id="1" integral_type="0" item="29" name="奇迹宝藏" odds="1000" position="3"/>
+ <cell drop="2222" id="1" integral_type="0" item="30" name="奇迹宝藏" odds="100" position="4"/>
+ <cell drop="2222" id="1" integral_type="0" item="31" name="奇迹宝藏" odds="1000" position="5"/>
+ <cell drop="2222" id="1" integral_type="0" item="32" name="奇迹宝藏" odds="1000" position="6"/>
+ <cell drop="2222" id="1" integral_type="0" item="33" name="奇迹宝藏" odds="1000" position="7"/>
+ <cell drop="2222" id="1" integral_type="0" item="34" name="奇迹宝藏" odds="1000" position="8"/>
+ <cell drop="2222" id="1" integral_type="0" item="35" name="奇迹宝藏" odds="1000" position="9"/>
+ <cell drop="2222" id="1" integral_type="0" item="36" name="奇迹宝藏" odds="900" position="10"/>
+ <cell drop="2222" id="1" integral_type="0" item="37" name="奇迹宝藏" odds="900" position="11"/>
+ <cell drop="2222" id="1" integral_type="0" item="38" name="奇迹宝藏" odds="100" position="12"/>
+ <cell drop="2222" id="2" integral_type="1" item="27" name="传奇宝藏" odds="1000" position="1"/>
+ <cell drop="2222" id="2" integral_type="1" item="28" name="传奇宝藏" odds="1000" position="2"/>
+ <cell drop="2222" id="2" integral_type="1" item="29" name="传奇宝藏" odds="1000" position="3"/>
+ <cell drop="2222" id="2" integral_type="1" item="30" name="传奇宝藏" odds="100" position="4"/>
+ <cell drop="2222" id="2" integral_type="1" item="31" name="传奇宝藏" odds="1000" position="5"/>
+ <cell drop="2222" id="2" integral_type="1" item="32" name="传奇宝藏" odds="1000" position="6"/>
+ <cell drop="2222" id="2" integral_type="1" item="33" name="传奇宝藏" odds="1000" position="7"/>
+ <cell drop="2222" id="2" integral_type="1" item="34" name="传奇宝藏" odds="1000" position="8"/>
+ <cell drop="2222" id="2" integral_type="1" item="35" name="传奇宝藏" odds="1000" position="9"/>
+ <cell drop="2222" id="2" integral_type="1" item="36" name="传奇宝藏" odds="900" position="10"/>
+ <cell drop="2222" id="2" integral_type="1" item="37" name="传奇宝藏" odds="900" position="11"/>
+ <cell drop="2222" id="2" integral_type="1" item="38" name="传奇宝藏" odds="100" position="12"/>
+</data>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UFT-8" ?>
+
+<configure>
+
+  <!-- cooling_pool: 冷却对象池, initial_number: 初始化数量, extend_number: 每次扩展数量 -->
+  <cooling_pool initial_number="5000" extend_number="50"/>
+  <!-- cooling_group_pool: 冷却组对象池, initial_number: 初始化数量, extend_number: 每次扩展数量 -->
+  <cooling_group_pool initial_number="500" extend_number="10"/>
+
+  <cooling file="extension/cooling/cooling.xml"/>
+  <group file="extension/cooling/cooling_group.xml"/>
+
+</configure>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UFT-8" ?>
+
+<configure>
+
+  <item_pool initial_number="5000" extend_number="50"/>
+
+  <random_attribute file="extension/item/equipment_random_attr.xml"/>
+
+  <medicine file="extension/item/medicine.xml"/>
+  <equipment file="extension/item/equipment.xml"/>
+  <card file="extension/item/card.xml"/>
+  <material file="extension/item/material.xml"/>
+  <intensify file="extension/item/intensify.xml"/>
+
+  <refine file="extension/item/equip_refine.xml"/>
+  <refinelock file="extension/item/equip_refine_lock.xml"/>
+  
+  <gem file="extension/item/gem.xml"/>
+  <gem_gathering file="extension/item/gem_gathering.xml"/>
+  
+  <shop file="extension/item/shop.xml"/>
+  
+  <vip_gifts file="extension/item/vip_gifts.xml"/>
+
+  <compose_recipe file="extension/item/compose_recipe.xml"/>
+
+  <suit file="extension/item/suit.xml"/>
+
+  <treasure_spend file="extension/item/treasure_spend.xml"/>
+
+  <hunt_treasure file="extension/item/hunt_treasure.xml"/>
+
+</configure>
+

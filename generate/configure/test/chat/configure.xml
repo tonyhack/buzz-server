@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UFT-8" ?>
+
+<configure>
+
+  <server host="192.168.74.129" port="8000" thread_number="4"
+			log_dir="/home/hantao/code/buzz/trunk/generate/work/"
+			core_configure="/home/hantao/code/buzz/trunk/generate/configure/test/chat/core.xml"/>
+
+	<coresh max_protocol_size="4096" max_message_size="4090" message_queue_initial_size="40908"
+			connection_pool_initial_number="500" connection_pool_extend_number="50"
+			network_thread_number="4" compress_type="0" encode_type="0"/>
+
+</configure>
+

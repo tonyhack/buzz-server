@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="id name desc pray_odds refresh_odds">
+ <cell desc="普通祈福宝箱" id="1" name="普通祈福宝箱" pray_odds="5000" refresh_odds="2500"/>
+ <cell desc="精致祈福宝箱" id="2" name="精致祈福宝箱" pray_odds="3000" refresh_odds="4000"/>
+ <cell desc="卓越祈福宝箱" id="3" name="卓越祈福宝箱" pray_odds="1500" refresh_odds="2500"/>
+ <cell desc="至尊祈福宝箱" id="4" name="至尊祈福宝箱" pray_odds="500" refresh_odds="1000"/>
+</data>

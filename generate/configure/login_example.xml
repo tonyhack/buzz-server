@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UFT-8" ?>
+
+<configure>
+
+  <mysql>
+
+    <zone id="1">
+      <node ip="[mysql_host]" port="3306" user="buzz" passwd="123456" db="buzz-game"/>
+    </zone>
+
+    <center ip="[mysql_host]" port="3306" user="buzz" passwd="123456" db="buzz-center"/>
+
+    <procedure type="0" name="CENTER_CREATE_ACTOR"/>
+    <procedure type="1" name="GAME_CREATE_ACTOR"/>
+    <procedure type="2" name="CENTER_ACTOR_LOGIN"/>
+    <procedure type="3" name="CENTER_CHECK_ACTOR_EXIST"/>
+
+  </mysql>
+
+
+
+  <login_server>
+
+    <host ip="[server_host]" port="15000"/>
+    <gateway ip="[server_host]" port="9000"/>
+    <log value="[generate_directory]/work/"/>
+    <core value="[generate_directory]/configure/core.xml"/>
+    <dirty_word value="[generate_directory]/configure/dirty_word.txt"/>
+
+  </login_server>
+
+</configure>
+

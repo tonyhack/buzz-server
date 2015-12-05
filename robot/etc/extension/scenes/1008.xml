@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UFT-8" ?>
+
+<!--
+  map: 地图配置, id: 地图ID, file: 地图障碍配置
+    revive: 复活配置, duration: 死亡后等待复活的时间, width/height: 复活范围, x/y: 左上角坐标
+    npc: npc配置, id: npc的ID, width/height: npc的活动范围, num: npc的个数, reborn: 重生时间(暂时使用npc表中的重生时间)
+        morning:早上多少分钟 daytime:白天多少分钟 evening:傍晚多少分钟 night:晚上多少分钟
+        morning_aoi daytime_aoi evening_aoi night_aoi:视野百分比
+        rookie_protect: 1为新手保护 0非新手保护
+        ban_change_pk_mode: 1禁止切换PK模式 0非禁止
+        die_protect: 1死亡保护 0死亡非保护
+        punish_for_pk: 1PK惩罚 0PK不惩罚    zazen_add:打坐额外收益 100=100%
+        revive_stay: 1可死亡原地复活 0不可以
+-->
+<map id="1008" file="extension/scenes/1008-map.xml" morning="20" daytime="40" evening="20" night="40" morning_aoi="80" daytime_aoi="100" evening_aoi="80" night_aoi="50" rookie_protect="1" ban_change_pk_mode="0" die_protect="1" punish_for_pk="1" revive_stay="1" zazen_add="0">
+
+  <npc id="9014" width="0" height="0" x="70" y="80" num="1" reborn="4" dir="6"/><!--传送门-->
+  <npc id="9015" width="0" height="0" x="144" y="8" num="1" reborn="4" dir="6"/><!--传送门-->
+  
+  <npc id="10142" width="0" height="0" x="75" y="64" num="1" reborn="2" dir="2"/><!--任务NPC[大神官]-->
+  <npc id="10301" width="0" height="0" x="40" y="62" num="1" reborn="2" dir="4"/><!--任务NPC[战神提尔]-->
+  <npc id="10022" width="0" height="0" x="98" y="66" num="1" reborn="2" dir="7"/><!--任务NPC[雷神]-->
+  <npc id="10213" width="0" height="0" x="113" y="15" num="1" reborn="2" dir="7"/><!--任务NPC[火神]-->
+  <npc id="10032" width="0" height="0" x="91" y="8" num="1" reborn="2" dir="1"/><!--任务NPC[阿瑞斯]-->
+  <npc id="3010" width="0" height="0" x="25" y="80" num="1" reborn="3" dir="2"/><!--采集点[投石车]-->
+  <npc id="3010" width="0" height="0" x="29" y="84" num="1" reborn="3" dir="2"/><!--采集点[投石车]-->
+  <npc id="3010" width="0" height="0" x="33" y="79" num="1" reborn="3" dir="2"/><!--采集点[投石车]-->
+  <npc id="3010" width="0" height="0" x="34" y="81" num="1" reborn="3" dir="2"/><!--采集点[投石车]-->
+  <npc id="3206" width="0" height="0" x="132" y="22" num="1" reborn="1" dir="2"/><!--怪物[军粮]-->
+  <npc id="3206" width="0" height="0" x="135" y="20" num="1" reborn="1" dir="2"/><!--怪物[军粮]-->
+  <npc id="3206" width="0" height="0" x="138" y="18" num="1" reborn="1" dir="2"/><!--怪物[军粮]-->
+  <npc id="3207" width="0" height="0" x="39" y="7" num="1" reborn="1" dir="2"/><!--怪物[军旗]-->
+  <npc id="3207" width="0" height="0" x="40" y="8" num="1" reborn="1" dir="2"/><!--怪物[军旗]-->
+  <npc id="3207" width="0" height="0" x="43" y="9" num="1" reborn="1" dir="2"/><!--怪物[军旗]-->
+  <npc id="21026" width="10" height="10" x="58" y="46" num="15" reborn="1" dir="8"/><!--怪物[食人魔]-->
+  <npc id="21026" width="10" height="10" x="21" y="49" num="15" reborn="1" dir="8"/><!--怪物[食人魔]-->
+  <npc id="21024" width="10" height="10" x="126" y="76" num="15" reborn="1" dir="8"/><!--怪物[魔性之牛]-->
+  <npc id="21024" width="10" height="10" x="115" y="74" num="15" reborn="1" dir="8"/><!--怪物[魔性之牛]-->
+  <npc id="21024" width="10" height="10" x="141" y="74" num="15" reborn="1" dir="8"/><!--怪物[魔性之牛]-->
+  <npc id="21124" width="0" height="0" x="143" y="58" num="1" reborn="1" dir="8"/><!--怪物[暴烈魔牛]-->
+  <npc id="21027" width="10" height="10" x="127" y="25" num="15" reborn="1" dir="8"/><!--怪物[天煞法师]-->
+  <npc id="21027" width="10" height="10" x="103" y="24" num="15" reborn="1" dir="8"/><!--怪物[天煞法师]-->
+  <npc id="21025" width="10" height="10" x="84" y="23" num="15" reborn="1" dir="8"/><!--怪物[血刃军团]-->
+  <npc id="21025" width="10" height="10" x="66" y="15" num="15" reborn="1" dir="8"/><!--怪物[血刃军团]-->
+  <npc id="21125" width="0" height="0" x="30" y="15" num="1" reborn="1" dir="8"/><!--怪物[血刃突击者]-->
+  <npc id="23006" width="0" height="0" x="15" y="5" num="1" reborn="1" dir="8"/><!--怪物[BOSS]-->
+
+
+
+  
+  
+  <revive duration="60" camp="0" map="1002" width="10" height="10" x="42" y="61"/>
+  <default x="71" y="85"/>
+</map>

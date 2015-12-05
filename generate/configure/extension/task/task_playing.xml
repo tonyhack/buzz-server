@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="id map_ids">
+ <cell id="1" map_ids="1+2+3+4+5+6"/>
+ <cell id="2" map_ids="7+8+9+10+11+12+13+14"/>
+ <cell id="3" map_ids="15"/>
+</data>

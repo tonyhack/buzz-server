@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="map_id x y">
+
+ <cell map_id="1001" x="34" y="16"/>
+ <cell map_id="1002" x="7" y="80"/>
+ <cell map_id="1003" x="113" y="7"/>
+ <cell map_id="1004" x="8" y="12"/>
+ <cell map_id="1005" x="17" y="80"/>
+ <cell map_id="1006" x="60" y="5"/>
+ <cell map_id="1007" x="4" y="54"/>
+ <cell map_id="1008" x="70" y="80"/>
+ <cell map_id="1009" x="5" y="75"/>
+ <cell map_id="1010" x="110" y="81"/>
+ <cell map_id="1011" x="142" y="38"/>
+ <cell map_id="1012" x="9" y="83"/>
+ <cell map_id="1013" x="22" y="82"/>
+ <cell map_id="1014" x="27" y="81"/>
+ 
+</data>

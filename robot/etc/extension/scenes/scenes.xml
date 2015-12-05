@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UFT-8" ?>
+
+<configure>
+
+  <!--
+    map_block: 地图障碍信息, file: 配置文件
+  -->
+  <map_block file="extension/scenes/map_text.xml"/>
+  <gather file="extension/scenes/gather.xml"/>
+  <world_jump file="extension/scenes/world_jump.xml"/>
+  <jump file="extension/scenes/jump.xml"/>
+  <consecutive_kill file="extension/scenes/consecutive_kill.xml"/>
+  
+  <!--
+    server: 游戏服务器
+    zone: 配置多个游戏区在同一个台服务器上
+    map: 地图，不同的区的地图可以不相同(使用不同的ID)，也可以相同(用相同的ID)
+  -->
+  <server id="1">
+    <map id="1000"/>
+    <map id="1001"/>
+    <map id="1002"/>
+    <map id="1003"/>
+    <map id="1004"/>
+    <map id="1005"/>
+    <map id="1006"/>
+    <map id="1007"/>
+    <map id="1008"/>
+    <map id="1009"/>
+    <map id="1010"/>
+    <map id="1011"/>
+    <map id="1012"/>
+    <map id="1013"/>
+    <map id="1014"/>
+	<map id="1015"/>
+  </server>
+
+  <server id="2">
+  </server>
+
+  <!--
+    mapinfo: 地图配置, id: 地图的ID, file: 对应的配置文件
+  -->
+  <mapinfo>
+    <map id="1000" file="extension/scenes/1000.xml"/>
+    <map id="1001" file="extension/scenes/1001.xml"/>
+    <map id="1002" file="extension/scenes/1002.xml"/>
+    <map id="1003" file="extension/scenes/1003.xml"/>
+    <map id="1004" file="extension/scenes/1004.xml"/>
+    <map id="1005" file="extension/scenes/1005.xml"/>
+    <map id="1006" file="extension/scenes/1006.xml"/>
+    <map id="1007" file="extension/scenes/1007.xml"/>
+    <map id="1008" file="extension/scenes/1008.xml"/>
+    <map id="1009" file="extension/scenes/1009.xml"/>
+    <map id="1010" file="extension/scenes/1010.xml"/>
+    <map id="1011" file="extension/scenes/1011.xml"/>
+    <map id="1012" file="extension/scenes/1012.xml"/>
+    <map id="1013" file="extension/scenes/1013.xml"/>
+    <map id="1014" file="extension/scenes/1014.xml"/>
+	<map id="1015" file="extension/scenes/1015.xml"/>
+    <map id="2001" file="extension/scenes/2001.xml"/>
+    <map id="2002" file="extension/scenes/2002.xml"/>
+    <map id="2003" file="extension/scenes/2003.xml"/>
+    <map id="2004" file="extension/scenes/2004.xml"/>
+    <map id="2005" file="extension/scenes/2005.xml"/>
+    <map id="2006" file="extension/scenes/2006.xml"/>
+    <map id="2007" file="extension/scenes/2007.xml"/>
+    <map id="2008" file="extension/scenes/2008.xml"/>
+    <map id="2009" file="extension/scenes/2009.xml"/>
+    <map id="2010" file="extension/scenes/2010.xml"/>
+	<map id="2011" file="extension/scenes/2011.xml"/>
+	<map id="2012" file="extension/scenes/2012.xml"/>
+	<map id="2013" file="extension/scenes/2013.xml"/>
+	<map id="2014" file="extension/scenes/2014.xml"/>
+    <map id="2018" file="extension/scenes/2018.xml"/>
+	<map id="2099" file="extension/scenes/2099.xml"/>
+	<map id="2100" file="extension/scenes/2100.xml"/>
+  </mapinfo>
+
+</configure>
+

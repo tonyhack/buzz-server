@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="id max_hp max_mp physical_attack physical_defence magic_attack magic_defence dodge crit ignore_defence">
+ <cell crit="0" dodge="0" id="1" ignore_defence="0" magic_attack="0" magic_defence="0" max_hp="2400" max_mp="0" physical_attack="0" physical_defence="0"/>
+ <cell crit="0" dodge="0" id="2" ignore_defence="0" magic_attack="0" magic_defence="0" max_hp="0" max_mp="0" physical_attack="170" physical_defence="175"/>
+ <cell crit="0" dodge="0" id="3" ignore_defence="0" magic_attack="170" magic_defence="175" max_hp="0" max_mp="0" physical_attack="0" physical_defence="0"/>
+ <cell crit="100" dodge="100" id="4" ignore_defence="0" magic_attack="0" magic_defence="0" max_hp="0" max_mp="0" physical_attack="100" physical_defence="0"/>
+ <cell crit="0" dodge="0" id="5" ignore_defence="125" magic_attack="120" magic_defence="0" max_hp="0" max_mp="625" physical_attack="0" physical_defence="0"/>
+</data>

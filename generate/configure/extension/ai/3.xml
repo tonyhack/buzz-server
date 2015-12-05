@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UFT-8" ?>
+
+<node desc="" type1="decision" type2="selector" negation="" name="">
+  <node desc="攻击"         type1="decision" type2="sequence" negation="" name="">
+    <node desc="目标是否合法"     type1="behaviour" type2="condition" negation=""     name="target_exist"/>
+    <!--<node desc="目标距离是否合法" type1="behaviour" type2="condition" negation=""     name="check_distance" param1="<="    param2="4"/>-->
+    <node desc="目标距离是否合法" type1="behaviour" type2="condition" negation=""     name="check_attack_distance" param1="0"/>
+    <node desc="释放技能"         type1="behaviour" type2="action"    negation=""     name="simple_use_skill"/>
+  </node>
+  <node desc="仇恨选取目标" type1="decision" type2="sequence" negation="" name="">
+    <node desc="目标是否合法"     type1="behaviour" type2="condition" negation="true" name="target_exist"/>
+    <node desc="是否有仇恨目标"   type1="behaviour" type2="condition" negation=""     name="check_threat"/>
+    <node desc="选取目标"         type1="behaviour" type2="action"    negation=""     name="choose_target"/>
+  </node>
+  <node desc="清除目标、搜索敌人" type1="decision" type2="sequence" negation="" name="">
+    <node desc="清除目标"         type1="behaviour" type2="action"    negation=""     name="clear_target"/>
+    <node desc="搜索敌人"         type1="behaviour" type2="action"    negation=""     name="search_target"  param1="actor"/>
+    <node desc="回血"             type1="behaviour" type2="action"    negation=""     name="change_attr"           param1="HP"   param2="0"/>
+  </node>
+</node>
+

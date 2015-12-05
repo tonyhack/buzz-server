@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="id name time fee">
+ <cell fee="10000" id="1" name="6小时" time="60"/>
+ <cell fee="50000" id="2" name="12小时" time="120"/>
+ <cell fee="100000" id="3" name="24小时" time="240"/>
+ <cell fee="150000" id="4" name="36小时" time="260"/>
+ <cell fee="200000" id="5" name="48小时" time="480"/>
+</data>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="id function type param remarks">
+ <cell function="ITEM_COMPOSE" id="0" param="6019" remarks="//道具合成" type="3"/>
+ <cell function="EQUIP_INTENSIFY" id="1" param="6019" remarks="//装备强化" type="3"/>
+ <cell function="GEM_MODULE" id="2" param="8027" remarks="//宝石模块开启" type="3"/>
+ <cell function="GEM_SLOT_2" id="3" param="50" remarks="//宝石槽2个开启" type="1"/>
+ <cell function="GEM_SLOT_3" id="4" param="50" remarks="//宝石槽3个开启" type="1"/>
+ <cell function="GEM_SLOT_4" id="5" param="60" remarks="//宝石槽4个开启" type="1"/>
+ <cell function="GEM_SLOT_5" id="6" param="70" remarks="//宝石槽5个开启" type="1"/>
+ <cell function="GEM_SLOT_6" id="7" param="80" remarks="//宝石槽6个开启" type="1"/>
+ <cell function="GEM_SLOT_7" id="8" param="90" remarks="//宝石槽7个开启" type="1"/>
+ <cell function="GEM_SLOT_8" id="9" param="100" remarks="//宝石槽8个开启" type="1"/>
+ <cell function="GEM_SLOT_9" id="10" param="110" remarks="//宝石槽9个开启" type="1"/>
+ <cell function="SOUL_MODULE" id="11" param="1005" remarks="//英灵模块开启" type="3"/>
+ <cell function="SOUL_ALTAR" id="12" param="40" remarks="//英灵祭坛开启" type="1"/>
+ <cell function="SOUL_SETING" id="13" param="0" remarks="//幻化槽设置开启" type="7"/>
+ <cell function="SWORD_MODULE" id="14" param="60" remarks="//魔剑模块开启" type="4"/>
+ <cell function="NOBLE_MODULE" id="15" param="70" remarks="//贵族模块开启" type="4"/>
+ <cell function="ELEMENT_MODULE" id="16" param="9028" remarks="//元素模块开启" type="3"/>
+ <cell function="SPIRIT_MODULE" id="17" param="2007" remarks="//精灵模块开启" type="3"/>
+ <cell function="SPIRIT_UPGRADE" id="18" param="3018" remarks="//精灵进阶开启" type="3"/>
+ <cell function="SPIRIT_WING_FACADE" id="19" param="2" remarks="//精灵翅膀外观开启" type="5"/>
+ <cell function="MAIL_MODULE" id="20" param="1" remarks="//邮件模块开启" type="1"/>
+ <cell function="CONTACTS_MODULE" id="21" param="1" remarks="//好友模块开启" type="1"/>
+ <cell function="HOMELAND_MODULE" id="22" param="7024" remarks="//家园模块开启" type="3"/>
+ <cell function="HOMELAND_GOLDMINE" id="23" param="10" remarks="//家园金矿开启" type="8"/>
+ <cell function="HOMELAND_POOL" id="24" param="7024" remarks="//家园神秘之源开启" type="3"/>
+ <cell function="HOMELAND_CHURCH" id="25" param="30" remarks="//家园祈福堂开启" type="8"/>
+ <cell function="HOMELAND_TREE" id="26" param="15" remarks="//家园神树开启" type="8"/>
+ <cell function="HOMELAND_TOWER" id="27" param="20" remarks="//家园炮塔开启" type="8"/>
+ <cell function="HOMELAND_STRONGHOLD" id="28" param="25" remarks="//家园军团据点开启" type="8"/>
+ <cell function="TEAM_MODULE" id="29" param="1" remarks="//组队模块开启" type="1"/>
+ <cell function="GUILD_MODULE" id="30" param="4023" remarks="//公会模块开启" type="3"/>
+ <cell function="TASK_CIRCLE" id="31" param="40" remarks="//循环任务功能开启" type="1"/>
+ <cell function="VOCATION_SET" id="32" param="7023" remarks="//职业设置功能开启" type="3"/>
+ <cell function="AUCTION_MODULE" id="33" param="6020" remarks="//拍卖行功能开启" type="3"/>
+ <cell function="MAZE_MODULE" id="34" param="5023" remarks="//地宫开启" type="3"/>
+ <cell function="PLAYING_MODULE" id="35" param="5023" remarks="//激斗开启" type="3"/>
+ <cell function="MULTI_PLAYING" id="36" param="50" remarks="//组队副本开启" type="1"/>
+ <cell function="HUNT_TREASURE" id="37" param="1" remarks="// 寻宝" type="1"/>
+ <cell function="TREASURE" id="38" param="1" remarks="// 藏宝阁" type="1"/>
+</data>

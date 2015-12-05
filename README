@@ -1,0 +1,54 @@
+This project is named "buzz", this is a online-game server.
+
+1. Required packages:
+
+  CMake 2.6
+  g++ 4.x
+  boost >= 1.48
+  mysql++ >= 3.0.9
+  thrift >= thrift-0.8.0
+  mysql >= 5.0.95
+  Linux kernel >= 2.6.18
+
+
+2. Directory description:
+
+  .
+  |- doc    # document directory.
+  |- generate   # generate directory.
+     |- build       # build directory, we use external building by cmake.
+     |- configure   # configure files directory.
+     |- sql         # sql directory, some sql script files.
+     |- work
+  |- src:   # source code directory.
+     |-core               # core source code directory.
+     |-coresh             # core source code shell directory, this make a "multi-thread network, single-thread logic" server model.
+     |-database_server    # database proxy server source code directory.
+     |-entity             # entity define source code directory.
+     |-game_server        # game server source code directory.
+     |-gateway_server     # gateway server source code directory.
+     |-global             # global source code directory.
+     |-schedule_server    # schedule(or center) server source code directory.
+     |-session_server     # session server source code directory.
+     |-test               # test source code directory.
+
+
+3. Build:
+
+  $ cd generate/build
+  $ cmake ../..
+  $ make
+
+  You can build a release/debug version with:
+  $ cmake -DCMAKE_BUILD_TYPE=Debug/Release ../..
+
+
+4. Run:
+
+  First to configure the server in directory "./configure", second do as the follow:
+
+  $ cd generate/work
+  $ ./start.sh
+
+  Maybe you have to run the order - "chmod +x ./start" before to run "start.sh".
+

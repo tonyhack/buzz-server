@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UFT-8" ?>
+
+<configure>
+
+
+
+  <global>
+    <zone id="1"/>
+    <question value="dreamfire"/>
+    <!-- gm_command: 是否开启GM指令(1-开启, 0-关闭) -->
+    <gm_command enable="1"/>
+    <!-- move_check: 是否检查移动频率(1-开启, 0-关闭) -->
+    <move_check enable="0"/>
+    <config_dir value="[generate_directory]/configure/"/>
+    <!-- auto_save: 自动保存间隔, actor: 玩家自动保存间隔 -->
+    <auto_save actor="600"/>
+    <!-- open_service_time: 开服时间 -->
+    <open_service_time value="2014/3/3 4:32:03"/>
+  </global>
+
+  <global_configure>
+    <dirty_word value="dirty_word.txt"/>
+    <misc value="misc.xml"/>
+    <social value="extension/social/social_configure.xml"/>
+    <guild value="extension/guild/guild_configure.xml"/>
+    <playing value="extension/playing/playing_configure.xml"/>
+    <world_boss value="extension/scenes/world_boss.xml"/>
+    <vip value="vip_privilege.xml"/>
+    <auction value="extension/auction/auction_configure.xml"/>
+    <maze value="extension/playing/maze_configure.xml"/>
+  </global_configure>
+
+  <!-- 数据库代理配置
+        database_server: 主标签
+          +-node: 每个node为一台数据库代理，id表示服务器标识.
+          | +-log: 日志文件目录.
+          | +-core: 内核配置文件.
+          | +-coresh: 内核外壳配置文件.
+          | +-db: 数据库连接相关配置.
+          |   +-request_queue_size: 数据库请求为异步操作，使用缓冲队列(环形缓冲+动态缓冲区)，表示环形缓冲区的长度.
+          |   +-request_queue_reduce_waterline: 缓冲队列缩减水位线，动态缓冲区为空时，连续读写N次，进行缩减.
+          |   +-db_thread: 操作数据库的线程个数.
+          +-game_db: 这里配置数据库的信息
+            +-game: 游戏数据库.
+              +-ip: 数据库的ip地址.
+              +-port: 数据库的端口.
+              +-user: 登陆用户名.
+              +-passwd: 登陆密码.
+              +-db: 数据库名称.
+  -->
+  <database_server>
+
+    <node id="1">
+      <host ip="[server_host]" port="8000"/>
+      <log value="[generate_directory]/work/"/>
+      <core value="[generate_directory]/configure/core.xml"/>
+      <coresh value="[generate_directory]/configure/coresh_lan.xml"/>
+      <db request_queue_size="102400" request_queue_reduce_waterline="10000" db_thread="4"/>
+    </node>
+
+    <node id="2">
+      <host ip="[server_host]" port="8001"/>
+      <log value="[generate_directory]/work/"/>
+      <core value="[generate_directory]/configure/core.xml"/>
+      <coresh value="[generate_directory]/configure/coresh_lan.xml"/>
+      <db request_queue_size="102400" request_queue_reduce_waterline="10000" db_thread="4"/>
+    </node>
+
+    <game_db>
+      <game ip="[mysql_host]" port="3306" user="buzz" passwd="123456" db="buzz-game"/>
+      <center ip="[mysql_host]" port="3306" user="buzz" passwd="123456" db="buzz-center"/>
+      <procedure type="0" name="STORAGE_TEST_ECHO"/>
+      <procedure type="1" name="STORAGE_TEST_SUM"/>
+      <procedure type="2" name="CENTER_CHECK_SESSION"/>
+      <procedure type="3" name="CENTER_ACTOR_ONLINE"/>
+      <procedure type="4" name="CENTER_ACTOR_LOGOUT"/>
+      <procedure type="5" name="GAME_WORLD_DATA_SAVE"/>
+      <procedure type="6" name="GAME_ACTOR_LOGIN"/>
+      <procedure type="7" name="GAME_ACTOR_SAVE"/>
+      <procedure type="8" name="GAME_COOLING_LOGIN"/>
+      <procedure type="9" name="GAME_COOLING_SAVE"/>
+      <procedure type="10" name="GAME_SKILL_LOGIN"/>
+      <procedure type="11" name="GAME_SKILL_SAVE"/>
+      <procedure type="12" name="GAME_BUFF_LOGIN"/>
+      <procedure type="13" name="GAME_BUFF_SAVE"/>
+      <procedure type="14" name="GAME_ITEM_ACTOR_LOGIN"/>
+      <procedure type="15" name="GAME_ITEM_ACTOR_SAVE"/>
+      <procedure type="16" name="GAME_ITEM_LOGIN"/>
+      <procedure type="17" name="GAME_ITEM_SAVE"/>
+      <procedure type="18" name="GAME_GEM_LOGIN"/>
+      <procedure type="19" name="GAME_GEM_SAVE"/>
+      <procedure type="20" name="GAME_SOUL_LOGIN"/>
+      <procedure type="21" name="GAME_SOUL_SAVE"/>
+      <procedure type="22" name="GAME_SOUL_ACTOR_LOGIN"/>
+      <procedure type="23" name="GAME_SOUL_ACTOR_SAVE"/>
+      <procedure type="24" name="GAME_TASK_LOGIN"/>
+      <procedure type="25" name="GAME_TASK_SAVE"/>
+      <procedure type="26" name="GAME_TASK_ACTOR_LOGIN"/>
+      <procedure type="27" name="GAME_TASK_ACTOR_SAVE"/>
+      <procedure type="28" name="GAME_ATTR_ACTOR_LOGIN"/>
+      <procedure type="29" name="GAME_ATTR_ACTOR_SAVE"/>
+      <procedure type="30" name="GAME_SPIRIT_FACADE_LOGIN"/>
+      <procedure type="31" name="GAME_SPIRIT_FACADE_SAVE"/>
+      <procedure type="32" name="GAME_MAIL_LOGIN"/>
+      <procedure type="33" name="GAME_MAIL_ADD"/>    
+      <procedure type="34" name="GAME_MAIL_DEL"/>  
+      <procedure type="35" name="GAME_MAIL_AFFIX"/>
+      <procedure type="36" name="GAME_MAIL_READ"/>
+      <procedure type="37" name="GAME_MAIL_AFFIX_STATE"/>
+      <procedure type="38" name="GAME_SOCIAL_ACTOR_LOGIN"/>
+      <procedure type="39" name="GAME_SOCIAL_ACTOR_SAVE"/>
+      <procedure type="40" name="GAME_GUILD_DEL"/>
+      <procedure type="41" name="GAME_GUILD_SAVE"/>
+      <procedure type="42" name="GAME_GUILD_ACTOR_LOGIN"/>
+      <procedure type="43" name="GAME_GUILD_ACTOR_SAVE"/>
+      <procedure type="44" name="GAME_PLAYING_ACTOR_LOGIN"/>
+      <procedure type="45" name="GAME_PLAYING_ACTOR_SAVE"/>
+      <procedure type="46" name="GAME_AUCTION_ACTOR_LOGIN"/>
+      <procedure type="47" name="GAME_AUCTION_ACTOR_SAVE"/>
+      <procedure type="48" name="GAME_AUCTION_TRANSACTION_DEL"/>
+      <procedure type="49" name="GAME_AUCTION_TRANSACTION_SAVE"/>
+      <procedure type="50" name="GAME_ACHIEVE_LOGIN"/>
+      <procedure type="51" name="GAME_ACHIEVE_SAVE"/>
+      <procedure type="52" name="GAME_WELFARE_ACTOR_LOGIN"/>
+      <procedure type="53" name="GAME_WELFARE_ACTOR_SAVE"/>
+    </game_db>
+
+  </database_server>
+
+
+
+  <game_server>
+
+    <according_level value="according_level.xml"/>
+    <vocation_growth value="vocation_growth.xml"/>
+    <attr_convert value="attr_convert.xml"/>
+    <attr_fight_score value="attr_fight_score.xml"/>
+    <npc value="npc_template.xml"/>
+    <item value="extension/item/item.xml"/>
+    <ai value="extension/ai/ai.xml"/>
+    <cooling value="extension/cooling/cooling_configure.xml"/>
+    <effect value="extension/effect/effect.xml"/>
+    <skill value="extension/skills/skill_configure.xml"/>
+    <soul value="extension/soul/soul_configure.xml"/>
+    <scenesinfo value="extension/scenes/scenes.xml"/>
+    <buffinfo value="extension/buff/buff_configure.xml"/>
+    <python value="extension/python/main.py"/>
+    <task value="extension/task/task_configure.xml"/>
+    <attr value="extension/attr/attr_configure.xml"/>
+    <chat value="extension/chat/chat_configure.xml"/>
+    <mail value="extension/mail/mail_configure.xml"/>
+    <team value="extension/team/team_configure.xml"/>
+    <bar value="extension/bar/bar_configure.xml"/>
+    <camp value="camp.xml"/>
+    <functionality value="functionality_open.xml"/>
+    <drop value="drop.xml"/>
+    <sub_drop value="sub_drop.xml"/>
+    <welfare value="extension/welfare/welfare.xml"/>
+
+    <node id="1">
+      <host ip="[server_host]" port="8500"/>
+      <log value="[generate_directory]/work/"/>
+      <core value="[generate_directory]/configure/core.xml"/>
+      <coresh value="[generate_directory]/configure/coresh_lan.xml"/>
+      <user_pool initial_number="500" extend_number="50"/>
+      <npc_pool initial_number="500" extend_number="50"/>
+    </node>
+
+    <node id="2">
+      <host ip="[server_host]" port="8501"/>
+      <log value="[generate_directory]/work/"/>
+      <core value="[generate_directory]/configure/core.xml"/>
+      <coresh value="[generate_directory]/configure/coresh_lan.xml"/>
+      <user_pool initial_number="500" extend_number="50"/>
+      <npc_pool initial_number="500" extend_number="50"/>
+    </node>
+
+  </game_server>
+
+
+
+  <gateway_server>
+
+    <node id="1">
+      <host ip="[server_host]" port="9000"/>
+      <log value="[generate_directory]/work/"/>
+      <core value="[generate_directory]/configure/core.xml"/>
+      <coresh value="[generate_directory]/configure/coresh_wan.xml"/>
+      <user_pool initial_number="200" extend_number="10"/>
+      <max_user value="3000"/>
+    </node>
+
+    <node id="2">
+      <host ip="[server_host]" port="9001"/>
+      <log value="[generate_directory]/work/"/>
+      <core value="[generate_directory]/configure/core.xml"/>
+      <coresh value="[generate_directory]/configure/coresh_wan.xml"/>
+      <user_pool initial_number="200" extend_number="10"/>
+      <max_user value="3000"/>
+    </node>
+
+  </gateway_server>
+
+
+
+  <!-- 调度服务器配置
+        schedule_server: 主标签.
+          +-host: 服务器地址.
+            +-ip: ip地址.
+            +-port: 端口.
+          +-log: 日志文件目录.
+          +-core: 内核配置文件.
+          +-coresh: 内核外壳配置文件.
+          +-db: 数据库连接相关配置.
+  -->
+  <schedule_server>
+
+    <host ip="[server_host]" port="10000"/>
+    <log value="[generate_directory]/work/"/>
+    <core value="[generate_directory]/configure/core.xml"/>
+    <coresh value="[generate_directory]/configure/coresh_lan.xml"/>
+
+  </schedule_server>
+
+
+
+  <session_server>
+
+    <host ip="[server_host]" port="10500"/>
+    <admin_host ip="127.0.0.1" port="10600"/>
+    <log value="[generate_directory]/work/"/>
+    <core value="[generate_directory]/configure/core.xml"/>
+    <coresh value="[generate_directory]/configure/coresh_lan.xml"/>
+    <user_pool initial_number="200" extend_number="10"/>
+    <max_user value="5000"/>
+
+  </session_server>
+
+
+
+</configure>
+

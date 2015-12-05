@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="lock_attr_num spend_diamond">
+ <cell lock_attr_num="1" spend_diamond="10"/>
+ <cell lock_attr_num="2" spend_diamond="50"/>
+ <cell lock_attr_num="3" spend_diamond="200"/>
+ <cell lock_attr_num="4" spend_diamond="1000"/>
+ <cell lock_attr_num="5" spend_diamond="2000"/>
+</data>

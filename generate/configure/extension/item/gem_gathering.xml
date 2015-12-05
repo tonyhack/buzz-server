@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data attr="id name desc spend_gold skip spend_freedom_dollars result_id odds bonus_id bonus_count enter_next_point_odds">
+ <cell bonus_count="100" bonus_id="1" desc="七等星" enter_next_point_odds="5000" id="1" name="七等星" odds="1000" result_id="1" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="2" desc="七等星" enter_next_point_odds="5000" id="1" name="七等星" odds="1000" result_id="2" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="3" desc="七等星" enter_next_point_odds="5000" id="1" name="七等星" odds="7500" result_id="3" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="4" desc="七等星" enter_next_point_odds="5000" id="1" name="七等星" odds="500" result_id="4" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="5" desc="七等星" enter_next_point_odds="5000" id="1" name="七等星" odds="0" result_id="5" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="6" desc="七等星" enter_next_point_odds="5000" id="1" name="七等星" odds="0" result_id="6" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="100" bonus_id="1" desc="六等星" enter_next_point_odds="5000" id="2" name="六等星" odds="1000" result_id="1" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="2" desc="六等星" enter_next_point_odds="5000" id="2" name="六等星" odds="1000" result_id="2" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="3" desc="六等星" enter_next_point_odds="5000" id="2" name="六等星" odds="7000" result_id="3" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="4" desc="六等星" enter_next_point_odds="5000" id="2" name="六等星" odds="1000" result_id="4" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="5" desc="六等星" enter_next_point_odds="5000" id="2" name="六等星" odds="0" result_id="5" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="6" desc="六等星" enter_next_point_odds="5000" id="2" name="六等星" odds="0" result_id="6" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="100" bonus_id="1" desc="五等星" enter_next_point_odds="5000" id="3" name="五等星" odds="1000" result_id="1" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="2" desc="五等星" enter_next_point_odds="5000" id="3" name="五等星" odds="1000" result_id="2" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="3" desc="五等星" enter_next_point_odds="5000" id="3" name="五等星" odds="6500" result_id="3" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="4" desc="五等星" enter_next_point_odds="5000" id="3" name="五等星" odds="1500" result_id="4" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="5" desc="五等星" enter_next_point_odds="5000" id="3" name="五等星" odds="0" result_id="5" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="6" desc="五等星" enter_next_point_odds="5000" id="3" name="五等星" odds="0" result_id="6" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="100" bonus_id="1" desc="四等星" enter_next_point_odds="5000" id="4" name="四等星" odds="500" result_id="1" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="2" desc="四等星" enter_next_point_odds="5000" id="4" name="四等星" odds="500" result_id="2" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="3" desc="四等星" enter_next_point_odds="5000" id="4" name="四等星" odds="6000" result_id="3" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="4" desc="四等星" enter_next_point_odds="5000" id="4" name="四等星" odds="2500" result_id="4" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="5" desc="四等星" enter_next_point_odds="5000" id="4" name="四等星" odds="500" result_id="5" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="6" desc="四等星" enter_next_point_odds="5000" id="4" name="四等星" odds="0" result_id="6" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="100" bonus_id="1" desc="三等星" enter_next_point_odds="4000" id="5" name="三等星" odds="0" result_id="1" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="2" desc="三等星" enter_next_point_odds="4000" id="5" name="三等星" odds="0" result_id="2" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="3" desc="三等星" enter_next_point_odds="4000" id="5" name="三等星" odds="4500" result_id="3" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="4" desc="三等星" enter_next_point_odds="4000" id="5" name="三等星" odds="4000" result_id="4" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="5" desc="三等星" enter_next_point_odds="4000" id="5" name="三等星" odds="1500" result_id="5" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="6" desc="三等星" enter_next_point_odds="4000" id="5" name="三等星" odds="0" result_id="6" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="100" bonus_id="1" desc="二等星" enter_next_point_odds="3000" id="6" name="二等星" odds="0" result_id="1" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="2" desc="二等星" enter_next_point_odds="3000" id="6" name="二等星" odds="0" result_id="2" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="3" desc="二等星" enter_next_point_odds="3000" id="6" name="二等星" odds="2000" result_id="3" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="4" desc="二等星" enter_next_point_odds="3000" id="6" name="二等星" odds="5000" result_id="4" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="5" desc="二等星" enter_next_point_odds="3000" id="6" name="二等星" odds="2500" result_id="5" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="6" desc="二等星" enter_next_point_odds="3000" id="6" name="二等星" odds="500" result_id="6" skip="0" spend_freedom_dollars="0" spend_gold="200"/>
+ <cell bonus_count="100" bonus_id="1" desc="一等星" enter_next_point_odds="10000" id="7" name="一等星" odds="0" result_id="1" skip="1" spend_freedom_dollars="20" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="2" desc="一等星" enter_next_point_odds="10000" id="7" name="一等星" odds="0" result_id="2" skip="1" spend_freedom_dollars="20" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="3" desc="一等星" enter_next_point_odds="10000" id="7" name="一等星" odds="0" result_id="3" skip="1" spend_freedom_dollars="20" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="4" desc="一等星" enter_next_point_odds="10000" id="7" name="一等星" odds="5000" result_id="4" skip="1" spend_freedom_dollars="20" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="5" desc="一等星" enter_next_point_odds="10000" id="7" name="一等星" odds="4000" result_id="5" skip="1" spend_freedom_dollars="20" spend_gold="200"/>
+ <cell bonus_count="1" bonus_id="6" desc="一等星" enter_next_point_odds="10000" id="7" name="一等星" odds="1000" result_id="6" skip="1" spend_freedom_dollars="20" spend_gold="200"/>
+</data>

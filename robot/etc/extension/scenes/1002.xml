@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UFT-8" ?>
+
+<!--
+  map: 地图配置, id: 地图ID, file: 地图障碍配置
+    revive: 复活配置, duration: 死亡后等待复活的时间, width/height: 复活范围, x/y: 左上角坐标
+    npc: npc配置, id: npc的ID, width/height: npc的活动范围, num: npc的个数, reborn: 重生时间(暂时使用npc表中的重生时间)
+        morning:早上多少分钟 daytime:白天多少分钟 evening:傍晚多少分钟 night:晚上多少分钟
+        morning_aoi daytime_aoi evening_aoi night_aoi:视野百分比
+        rookie_protect: 1为新手保护 0非新手保护
+        ban_change_pk_mode: 1禁止切换PK模式 0非禁止
+        die_protect: 1死亡保护 0死亡非保护
+        punish_for_pk: 1PK惩罚 0PK不惩罚    zazen_add:打坐额外收益 100=100%
+        revive_stay: 1可死亡原地复活 0不可以
+-->
+<map id="1002" file="extension/scenes/1002-map.xml" morning="20" daytime="40" evening="20" night="40" morning_aoi="80" daytime_aoi="100" evening_aoi="80" night_aoi="50" rookie_protect="1" ban_change_pk_mode="0" die_protect="1" punish_for_pk="1" revive_stay="1" zazen_add="0">
+ 
+  <npc id="10101" width="0" height="0" x="24" y="7" num="1" reborn="2" dir="7"/><!--任务NPC-->
+  <npc id="10111" width="0" height="0" x="56" y="40" num="1" reborn="2" dir="7"/><!--任务NPC-->
+  <npc id="10121" width="0" height="0" x="61" y="20" num="1" reborn="2" dir="7"/><!--任务NPC-->
+  <npc id="10131" width="0" height="0" x="106" y="30" num="1" reborn="2" dir="7"/><!--任务NPC-->
+  <npc id="10141" width="0" height="0" x="73" y="44" num="1" reborn="2" dir="7"/><!--任务NPC-->
+  <npc id="10197" width="0" height="0" x="95" y="6" num="1" reborn="2" dir="0"/><!--任务NPC-->
+  <npc id="9003" width="0" height="0" x="6" y="4" num="1" reborn="4" dir="0"/><!--传送门-->
+  <npc id="9004" width="0" height="0" x="7" y="80" num="1" reborn="4" dir="0"/><!--传送门-->
+  <npc id="9019" width="0" height="0" x="145" y="77" num="1" reborn="4" dir="0"/><!--传送门-->
+  <npc id="9026" width="0" height="0" x="146" y="30" num="1" reborn="4" dir="0"/><!--传送门-->
+
+
+  
+
+
+
+  
+  <revive duration="60" camp="0" map="1002" width="5" height="5" x="42" y="61"/>
+  <default x="42" y="61"/>
+</map>

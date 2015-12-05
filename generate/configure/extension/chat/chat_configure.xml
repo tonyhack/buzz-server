@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configure>
+
+  <chat_channel file="extension/chat/chat_channel.xml"/>
+
+</configure>

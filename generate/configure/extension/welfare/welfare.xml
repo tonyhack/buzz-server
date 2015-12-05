@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<configure>
+
+  <condition_pool initial_number="5000" extend_number="50"/>
+  <task_pool initial_number="5000" extend_number="50"/>
+
+  <achieve file="extension/welfare/achieve.xml"/>
+  <daily_checkins file="extension/welfare/daily_checkins.xml"/>
+  <checkins file="extension/welfare/checkins.xml"/>
+  <online file="extension/welfare/online.xml"/>
+</configure>
